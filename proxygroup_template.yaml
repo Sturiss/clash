@@ -1,0 +1,36 @@
+proxy-groups:
+- interval: 300
+  name: 自动选择快速节点
+  proxies:
+  - 🇮🇹 意大利1
+  - 🇺🇸 美国1
+  type: url-test
+  url: http://www.gstatic.com/generate_204'
+- name: PROXY
+  proxies:
+  - 自动选择快速节点
+  - 🇮🇹 意大利1
+  - 🇺🇸 美国1
+  type: select
+- name: Final
+  proxies:
+  - DIRECT
+  - PROXY
+  type: select
+- name: Apple
+  proxies:
+  - DIRECT
+  - PROXY
+  type: select
+- name: GlobalMedia
+  proxies:
+  - PROXY
+  - 🇮🇹 意大利1
+  - 🇺🇸 美国1
+  type: select
+- name: HKMTMedia
+  proxies:
+  - DIRECT
+  - 🇮🇹 意大利1
+  - 🇺🇸 美国1
+  type: select
