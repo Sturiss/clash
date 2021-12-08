@@ -1,5 +1,5 @@
 # !/bin/bash
-echo hello >> hello.txt
+#echo hello >> hello.txt
 
 d=`date "+%Y-%m-%d_%H:%M:%S"`
 
