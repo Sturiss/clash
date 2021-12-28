@@ -533,13 +533,13 @@ proxies:
   server: ssr3.ssrsub.com
   type: ss
 - cipher: aes-256-gcm
-  name: 4554_澳大利亚-1.97MB/s(Youtube:不良林)
+  name: 4581_澳大利亚-1.93MB/s(Youtube:不良林)
   password: faBAoD54k87UJG7
   port: '2376'
   server: 172.105.180.227
   type: ss
 - cipher: aes-256-gcm
-  name: 4559_挪威-399.5KB/s(Youtube:不良林)
+  name: 4587_挪威-1.18MB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '5000'
   server: 46.29.218.6
@@ -557,7 +557,7 @@ proxies:
   server: 107.182.234.233
   type: ss
 - cipher: aes-256-gcm
-  name: 4561_印度-1.90MB/s(Youtube:不良林)
+  name: 4583_印度-1.82MB/s(Youtube:不良林)
   password: cdBIDV42DCwnfIN
   port: '8118'
   server: 172.105.35.61
@@ -754,9 +754,27 @@ proxies:
   port: '10055'
   server: 45.140.169.176
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 4584_马来西亚-404.0KB/s(Youtube:不良林)
+  password: w4GUD28Bw9uCMdbc2pqA
+  port: '8389'
+  server: 223.25.246.4
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 4586_越南-2.15MB/s(Youtube:不良林)
+  password: t8BFcaM3GSCw5FHbph27
+  port: '8389'
+  server: 188.214.152.194
+  type: ss
+- cipher: aes-256-gcm
+  name: 4588_挪威-661.3KB/s(Youtube:不良林)
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 46.29.218.6
+  type: ss
 - alterId: 4
   cipher: auto
-  name: 4560_越南-3.10MB/s(Youtube:不良林)
+  name: 4589_越南-2.98MB/s(Youtube:不良林)
   network: ws
   port: 443
   server: 192.186.129.66
@@ -1327,6 +1345,42 @@ proxies:
   uuid: 77cd775c-1c0a-11ec-a1a8-00163c1393a8
   ws-headers:
     host: 137.175.30.251
+- alterId: 4
+  cipher: auto
+  name: 4580_美国-3.18MB/s(Youtube:不良林)
+  network: ws
+  port: 443
+  server: 23.82.136.151
+  tls: 1
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-headers:
+    host: 23.82.136.151
+  ws-path: /ws
+- alterId: 1
+  cipher: auto
+  name: 4582_芬兰-2.47MB/s(Youtube:不良林)
+  network: ws
+  port: 8443
+  server: oz.mooncloud.bike
+  tls: 1
+  type: vmess
+  uuid: 79fedd93-e758-4655-83ed-574f4afe2a04
+  ws-headers:
+    host: oz.mooncloud.bike
+  ws-path: /
+- alterId: 1
+  cipher: auto
+  name: 4585_美国-3.11MB/s(Youtube:不良林)
+  network: ws
+  port: 9999
+  server: 18.218.198.254
+  tls: 0
+  type: vmess
+  uuid: d064d11b-477c-4c5d-a2d8-9fd599ef8e79
+  ws-headers:
+    host: 18.218.198.254
+  ws-path: /
 - name: 4502_美国-1.50MB/s(Youtube:不良林)
   password: 36ebef7d1b1d6205fd0c55f28800e674
   port: '443'
@@ -1443,11 +1497,11 @@ proxy-groups:
   - 4238_比利时-4.05MB/s(Youtube:不良林)
   - 4336_葡萄牙-319.0KB/s(Youtube:不良林)
   - 4262_中国-942.5KB/s(Youtube:不良林)
-  - 4554_澳大利亚-1.97MB/s(Youtube:不良林)
-  - 4559_挪威-399.5KB/s(Youtube:不良林)
+  - 4581_澳大利亚-1.93MB/s(Youtube:不良林)
+  - 4587_挪威-1.18MB/s(Youtube:不良林)
   - 4324_澳大利亚-2.74MB/s(Youtube:不良林)
   - 4329_美国-4.34MB/s(Youtube:不良林)
-  - 4561_印度-1.90MB/s(Youtube:不良林)
+  - 4583_印度-1.82MB/s(Youtube:不良林)
   - 4572_美国-598.7KB/s(Youtube:不良林)
   - 4339_美国-2.14MB/s(Youtube:不良林)
   - 4355_俄罗斯联邦-457.5KB/s(Youtube:不良林)
@@ -1480,7 +1534,10 @@ proxy-groups:
   - 4578_香港-1006.1KB/s(Youtube:不良林)
   - 4579_以色列-2.45MB/s(Youtube:不良林)
   - 4573_俄罗斯联邦-3.49MB/s(Youtube:不良林)
-  - 4560_越南-3.10MB/s(Youtube:不良林)
+  - 4584_马来西亚-404.0KB/s(Youtube:不良林)
+  - 4586_越南-2.15MB/s(Youtube:不良林)
+  - 4588_挪威-661.3KB/s(Youtube:不良林)
+  - 4589_越南-2.98MB/s(Youtube:不良林)
   - 4542_中国-908.3KB/s(Youtube:不良林)
   - 4449_美国-430.8KB/s(Youtube:不良林)
   - 4551_中国-7.15MB/s(Youtube:不良林)
@@ -1529,6 +1586,9 @@ proxy-groups:
   - 4544_美国-750.2KB/s(Youtube:不良林)
   - 4546_美国-321.1KB/s(Youtube:不良林)
   - 4565_美国-1.56MB/s(Youtube:不良林)
+  - 4580_美国-3.18MB/s(Youtube:不良林)
+  - 4582_芬兰-2.47MB/s(Youtube:不良林)
+  - 4585_美国-3.11MB/s(Youtube:不良林)
   - 4502_美国-1.50MB/s(Youtube:不良林)
   - 4523_荷兰-363.5KB/s(Youtube:不良林)
   - 4365_加拿大-318.1KB/s(Youtube:不良林)
@@ -1622,11 +1682,11 @@ proxy-groups:
   - 4238_比利时-4.05MB/s(Youtube:不良林)
   - 4336_葡萄牙-319.0KB/s(Youtube:不良林)
   - 4262_中国-942.5KB/s(Youtube:不良林)
-  - 4554_澳大利亚-1.97MB/s(Youtube:不良林)
-  - 4559_挪威-399.5KB/s(Youtube:不良林)
+  - 4581_澳大利亚-1.93MB/s(Youtube:不良林)
+  - 4587_挪威-1.18MB/s(Youtube:不良林)
   - 4324_澳大利亚-2.74MB/s(Youtube:不良林)
   - 4329_美国-4.34MB/s(Youtube:不良林)
-  - 4561_印度-1.90MB/s(Youtube:不良林)
+  - 4583_印度-1.82MB/s(Youtube:不良林)
   - 4572_美国-598.7KB/s(Youtube:不良林)
   - 4339_美国-2.14MB/s(Youtube:不良林)
   - 4355_俄罗斯联邦-457.5KB/s(Youtube:不良林)
@@ -1659,7 +1719,10 @@ proxy-groups:
   - 4578_香港-1006.1KB/s(Youtube:不良林)
   - 4579_以色列-2.45MB/s(Youtube:不良林)
   - 4573_俄罗斯联邦-3.49MB/s(Youtube:不良林)
-  - 4560_越南-3.10MB/s(Youtube:不良林)
+  - 4584_马来西亚-404.0KB/s(Youtube:不良林)
+  - 4586_越南-2.15MB/s(Youtube:不良林)
+  - 4588_挪威-661.3KB/s(Youtube:不良林)
+  - 4589_越南-2.98MB/s(Youtube:不良林)
   - 4542_中国-908.3KB/s(Youtube:不良林)
   - 4449_美国-430.8KB/s(Youtube:不良林)
   - 4551_中国-7.15MB/s(Youtube:不良林)
@@ -1708,6 +1771,9 @@ proxy-groups:
   - 4544_美国-750.2KB/s(Youtube:不良林)
   - 4546_美国-321.1KB/s(Youtube:不良林)
   - 4565_美国-1.56MB/s(Youtube:不良林)
+  - 4580_美国-3.18MB/s(Youtube:不良林)
+  - 4582_芬兰-2.47MB/s(Youtube:不良林)
+  - 4585_美国-3.11MB/s(Youtube:不良林)
   - 4502_美国-1.50MB/s(Youtube:不良林)
   - 4523_荷兰-363.5KB/s(Youtube:不良林)
   - 4365_加拿大-318.1KB/s(Youtube:不良林)
@@ -1810,11 +1876,11 @@ proxy-groups:
   - 4238_比利时-4.05MB/s(Youtube:不良林)
   - 4336_葡萄牙-319.0KB/s(Youtube:不良林)
   - 4262_中国-942.5KB/s(Youtube:不良林)
-  - 4554_澳大利亚-1.97MB/s(Youtube:不良林)
-  - 4559_挪威-399.5KB/s(Youtube:不良林)
+  - 4581_澳大利亚-1.93MB/s(Youtube:不良林)
+  - 4587_挪威-1.18MB/s(Youtube:不良林)
   - 4324_澳大利亚-2.74MB/s(Youtube:不良林)
   - 4329_美国-4.34MB/s(Youtube:不良林)
-  - 4561_印度-1.90MB/s(Youtube:不良林)
+  - 4583_印度-1.82MB/s(Youtube:不良林)
   - 4572_美国-598.7KB/s(Youtube:不良林)
   - 4339_美国-2.14MB/s(Youtube:不良林)
   - 4355_俄罗斯联邦-457.5KB/s(Youtube:不良林)
@@ -1847,7 +1913,10 @@ proxy-groups:
   - 4578_香港-1006.1KB/s(Youtube:不良林)
   - 4579_以色列-2.45MB/s(Youtube:不良林)
   - 4573_俄罗斯联邦-3.49MB/s(Youtube:不良林)
-  - 4560_越南-3.10MB/s(Youtube:不良林)
+  - 4584_马来西亚-404.0KB/s(Youtube:不良林)
+  - 4586_越南-2.15MB/s(Youtube:不良林)
+  - 4588_挪威-661.3KB/s(Youtube:不良林)
+  - 4589_越南-2.98MB/s(Youtube:不良林)
   - 4542_中国-908.3KB/s(Youtube:不良林)
   - 4449_美国-430.8KB/s(Youtube:不良林)
   - 4551_中国-7.15MB/s(Youtube:不良林)
@@ -1896,6 +1965,9 @@ proxy-groups:
   - 4544_美国-750.2KB/s(Youtube:不良林)
   - 4546_美国-321.1KB/s(Youtube:不良林)
   - 4565_美国-1.56MB/s(Youtube:不良林)
+  - 4580_美国-3.18MB/s(Youtube:不良林)
+  - 4582_芬兰-2.47MB/s(Youtube:不良林)
+  - 4585_美国-3.11MB/s(Youtube:不良林)
   - 4502_美国-1.50MB/s(Youtube:不良林)
   - 4523_荷兰-363.5KB/s(Youtube:不良林)
   - 4365_加拿大-318.1KB/s(Youtube:不良林)
@@ -1988,11 +2060,11 @@ proxy-groups:
   - 4238_比利时-4.05MB/s(Youtube:不良林)
   - 4336_葡萄牙-319.0KB/s(Youtube:不良林)
   - 4262_中国-942.5KB/s(Youtube:不良林)
-  - 4554_澳大利亚-1.97MB/s(Youtube:不良林)
-  - 4559_挪威-399.5KB/s(Youtube:不良林)
+  - 4581_澳大利亚-1.93MB/s(Youtube:不良林)
+  - 4587_挪威-1.18MB/s(Youtube:不良林)
   - 4324_澳大利亚-2.74MB/s(Youtube:不良林)
   - 4329_美国-4.34MB/s(Youtube:不良林)
-  - 4561_印度-1.90MB/s(Youtube:不良林)
+  - 4583_印度-1.82MB/s(Youtube:不良林)
   - 4572_美国-598.7KB/s(Youtube:不良林)
   - 4339_美国-2.14MB/s(Youtube:不良林)
   - 4355_俄罗斯联邦-457.5KB/s(Youtube:不良林)
@@ -2025,7 +2097,10 @@ proxy-groups:
   - 4578_香港-1006.1KB/s(Youtube:不良林)
   - 4579_以色列-2.45MB/s(Youtube:不良林)
   - 4573_俄罗斯联邦-3.49MB/s(Youtube:不良林)
-  - 4560_越南-3.10MB/s(Youtube:不良林)
+  - 4584_马来西亚-404.0KB/s(Youtube:不良林)
+  - 4586_越南-2.15MB/s(Youtube:不良林)
+  - 4588_挪威-661.3KB/s(Youtube:不良林)
+  - 4589_越南-2.98MB/s(Youtube:不良林)
   - 4542_中国-908.3KB/s(Youtube:不良林)
   - 4449_美国-430.8KB/s(Youtube:不良林)
   - 4551_中国-7.15MB/s(Youtube:不良林)
@@ -2074,6 +2149,9 @@ proxy-groups:
   - 4544_美国-750.2KB/s(Youtube:不良林)
   - 4546_美国-321.1KB/s(Youtube:不良林)
   - 4565_美国-1.56MB/s(Youtube:不良林)
+  - 4580_美国-3.18MB/s(Youtube:不良林)
+  - 4582_芬兰-2.47MB/s(Youtube:不良林)
+  - 4585_美国-3.11MB/s(Youtube:不良林)
   - 4502_美国-1.50MB/s(Youtube:不良林)
   - 4523_荷兰-363.5KB/s(Youtube:不良林)
   - 4365_加拿大-318.1KB/s(Youtube:不良林)
