@@ -845,12 +845,6 @@ proxies:
   server: 134.195.196.24
   type: ss
 - cipher: aes-256-gcm
-  name: 4715_加拿大-2.49MB/s(Youtube:不良林)
-  password: kDWvXYZoTBcGkC4
-  port: '8881'
-  server: 198.57.27.172
-  type: ss
-- cipher: aes-256-gcm
   name: 4717_加拿大-1.74MB/s(Youtube:不良林)
   password: PCnnH6SQSnfoS27
   port: '8091'
@@ -969,18 +963,6 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: '5003'
   server: 172.99.190.39
-  type: ss
-- cipher: aes-256-gcm
-  name: 4751_美国-980.5KB/s(Youtube:不良林)
-  password: faBAoD54k87UJG7
-  port: '2375'
-  server: 38.107.226.241
-  type: ss
-- cipher: aes-256-gcm
-  name: 4752_加拿大-2.23MB/s(Youtube:不良林)
-  password: pKEW8JPByTVTLtM
-  port: '443'
-  server: 134.195.196.3
   type: ss
 - cipher: aes-256-gcm
   name: 4754_美国-1.37MB/s(Youtube:不良林)
@@ -1163,34 +1145,70 @@ proxies:
   server: 169.197.141.91
   type: ss
 - cipher: aes-256-gcm
-  name: 4816_英国-1.52MB/s(Youtube:不良林)
+  name: 4820_美国-333.3KB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '5000'
+  server: 167.88.63.61
+  type: ss
+- cipher: aes-256-gcm
+  name: 4821_美国-2.39MB/s(Youtube:不良林)
+  password: faBAoD54k87UJG7
+  port: '2375'
+  server: 38.107.226.241
+  type: ss
+- cipher: aes-256-gcm
+  name: 4822_(已存活1天)加拿大-2.08MB/s(Youtube:不良林)
+  password: pKEW8JPByTVTLtM
+  port: '443'
+  server: 134.195.196.3
+  type: ss
+- cipher: aes-256-gcm
+  name: 4823_加拿大-2.68MB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '5601'
+  server: 198.57.27.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 4824_加拿大-959.5KB/s(Youtube:不良林)
+  password: kDWvXYZoTBcGkC4
+  port: '8881'
+  server: 198.57.27.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 4825_英国-1.02MB/s(Youtube:不良林)
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 172.99.190.186
+  type: ss
+- cipher: aes-256-gcm
+  name: 4826_美国-3.98MB/s(Youtube:不良林)
+  password: FoOiGlkAA9yPEGP
+  port: '7306'
+  server: 38.75.137.66
+  type: ss
+- cipher: aes-256-gcm
+  name: 4827_英国-1.52MB/s(Youtube:不良林)
   password: PCnnH6SQSnfoS27
   port: '8090'
   server: 172.99.190.186
   type: ss
 - cipher: aes-256-gcm
-  name: 4817_英国-2.60MB/s(Youtube:不良林)
+  name: 4828_英国-2.60MB/s(Youtube:不良林)
   password: FoOiGlkAA9yPEGP
   port: '7307'
   server: 172.99.190.186
   type: ss
 - cipher: aes-256-gcm
-  name: 4818_美国-2.08MB/s(Youtube:不良林)
+  name: 4829_美国-2.08MB/s(Youtube:不良林)
   password: FoOiGlkAA9yPEGP
   port: '7306'
   server: 38.107.226.49
   type: ss
 - cipher: aes-256-gcm
-  name: 4819_英国-3.01MB/s(Youtube:不良林)
+  name: 4830_英国-3.01MB/s(Youtube:不良林)
   password: FoOiGlkAA9yPEGP
   port: '7306'
   server: 172.99.190.139
-  type: ss
-- cipher: aes-256-gcm
-  name: 4820_美国-333.3KB/s(Youtube:不良林)
-  password: Y6R9pAtvxxzmGC
-  port: '5000'
-  server: 167.88.63.61
   type: ss
 proxy-groups:
 - interval: 3600
@@ -1330,7 +1348,6 @@ proxy-groups:
   - 4708_挪威-474.0KB/s(Youtube:不良林)
   - 4711_(已存活1天)英国-1.36MB/s(Youtube:不良林)
   - 4713_加拿大-1.79MB/s(Youtube:不良林)
-  - 4715_加拿大-2.49MB/s(Youtube:不良林)
   - 4717_加拿大-1.74MB/s(Youtube:不良林)
   - 4720_美国-1.12MB/s(Youtube:不良林)
   - 4721_加拿大-1.16MB/s(Youtube:不良林)
@@ -1351,8 +1368,6 @@ proxy-groups:
   - 4742_英国-1.95MB/s(Youtube:不良林)
   - 4743_美国-1.30MB/s(Youtube:不良林)
   - 4745_英国-1.73MB/s(Youtube:不良林)
-  - 4751_美国-980.5KB/s(Youtube:不良林)
-  - 4752_加拿大-2.23MB/s(Youtube:不良林)
   - 4754_美国-1.37MB/s(Youtube:不良林)
   - 4755_加拿大-2.95MB/s(Youtube:不良林)
   - 4761_加拿大-584.2KB/s(Youtube:不良林)
@@ -1383,11 +1398,17 @@ proxy-groups:
   - 4813_加拿大-3.13MB/s(Youtube:不良林)
   - 4814_美国-1.28MB/s(Youtube:不良林)
   - 4815_美国-1.60MB/s(Youtube:不良林)
-  - 4816_英国-1.52MB/s(Youtube:不良林)
-  - 4817_英国-2.60MB/s(Youtube:不良林)
-  - 4818_美国-2.08MB/s(Youtube:不良林)
-  - 4819_英国-3.01MB/s(Youtube:不良林)
   - 4820_美国-333.3KB/s(Youtube:不良林)
+  - 4821_美国-2.39MB/s(Youtube:不良林)
+  - 4822_(已存活1天)加拿大-2.08MB/s(Youtube:不良林)
+  - 4823_加拿大-2.68MB/s(Youtube:不良林)
+  - 4824_加拿大-959.5KB/s(Youtube:不良林)
+  - 4825_英国-1.02MB/s(Youtube:不良林)
+  - 4826_美国-3.98MB/s(Youtube:不良林)
+  - 4827_英国-1.52MB/s(Youtube:不良林)
+  - 4828_英国-2.60MB/s(Youtube:不良林)
+  - 4829_美国-2.08MB/s(Youtube:不良林)
+  - 4830_英国-3.01MB/s(Youtube:不良林)
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1527,7 +1548,6 @@ proxy-groups:
   - 4708_挪威-474.0KB/s(Youtube:不良林)
   - 4711_(已存活1天)英国-1.36MB/s(Youtube:不良林)
   - 4713_加拿大-1.79MB/s(Youtube:不良林)
-  - 4715_加拿大-2.49MB/s(Youtube:不良林)
   - 4717_加拿大-1.74MB/s(Youtube:不良林)
   - 4720_美国-1.12MB/s(Youtube:不良林)
   - 4721_加拿大-1.16MB/s(Youtube:不良林)
@@ -1548,8 +1568,6 @@ proxy-groups:
   - 4742_英国-1.95MB/s(Youtube:不良林)
   - 4743_美国-1.30MB/s(Youtube:不良林)
   - 4745_英国-1.73MB/s(Youtube:不良林)
-  - 4751_美国-980.5KB/s(Youtube:不良林)
-  - 4752_加拿大-2.23MB/s(Youtube:不良林)
   - 4754_美国-1.37MB/s(Youtube:不良林)
   - 4755_加拿大-2.95MB/s(Youtube:不良林)
   - 4761_加拿大-584.2KB/s(Youtube:不良林)
@@ -1580,11 +1598,17 @@ proxy-groups:
   - 4813_加拿大-3.13MB/s(Youtube:不良林)
   - 4814_美国-1.28MB/s(Youtube:不良林)
   - 4815_美国-1.60MB/s(Youtube:不良林)
-  - 4816_英国-1.52MB/s(Youtube:不良林)
-  - 4817_英国-2.60MB/s(Youtube:不良林)
-  - 4818_美国-2.08MB/s(Youtube:不良林)
-  - 4819_英国-3.01MB/s(Youtube:不良林)
   - 4820_美国-333.3KB/s(Youtube:不良林)
+  - 4821_美国-2.39MB/s(Youtube:不良林)
+  - 4822_(已存活1天)加拿大-2.08MB/s(Youtube:不良林)
+  - 4823_加拿大-2.68MB/s(Youtube:不良林)
+  - 4824_加拿大-959.5KB/s(Youtube:不良林)
+  - 4825_英国-1.02MB/s(Youtube:不良林)
+  - 4826_美国-3.98MB/s(Youtube:不良林)
+  - 4827_英国-1.52MB/s(Youtube:不良林)
+  - 4828_英国-2.60MB/s(Youtube:不良林)
+  - 4829_美国-2.08MB/s(Youtube:不良林)
+  - 4830_英国-3.01MB/s(Youtube:不良林)
   type: select
 - name: Final
   proxies:
@@ -1733,7 +1757,6 @@ proxy-groups:
   - 4708_挪威-474.0KB/s(Youtube:不良林)
   - 4711_(已存活1天)英国-1.36MB/s(Youtube:不良林)
   - 4713_加拿大-1.79MB/s(Youtube:不良林)
-  - 4715_加拿大-2.49MB/s(Youtube:不良林)
   - 4717_加拿大-1.74MB/s(Youtube:不良林)
   - 4720_美国-1.12MB/s(Youtube:不良林)
   - 4721_加拿大-1.16MB/s(Youtube:不良林)
@@ -1754,8 +1777,6 @@ proxy-groups:
   - 4742_英国-1.95MB/s(Youtube:不良林)
   - 4743_美国-1.30MB/s(Youtube:不良林)
   - 4745_英国-1.73MB/s(Youtube:不良林)
-  - 4751_美国-980.5KB/s(Youtube:不良林)
-  - 4752_加拿大-2.23MB/s(Youtube:不良林)
   - 4754_美国-1.37MB/s(Youtube:不良林)
   - 4755_加拿大-2.95MB/s(Youtube:不良林)
   - 4761_加拿大-584.2KB/s(Youtube:不良林)
@@ -1786,11 +1807,17 @@ proxy-groups:
   - 4813_加拿大-3.13MB/s(Youtube:不良林)
   - 4814_美国-1.28MB/s(Youtube:不良林)
   - 4815_美国-1.60MB/s(Youtube:不良林)
-  - 4816_英国-1.52MB/s(Youtube:不良林)
-  - 4817_英国-2.60MB/s(Youtube:不良林)
-  - 4818_美国-2.08MB/s(Youtube:不良林)
-  - 4819_英国-3.01MB/s(Youtube:不良林)
   - 4820_美国-333.3KB/s(Youtube:不良林)
+  - 4821_美国-2.39MB/s(Youtube:不良林)
+  - 4822_(已存活1天)加拿大-2.08MB/s(Youtube:不良林)
+  - 4823_加拿大-2.68MB/s(Youtube:不良林)
+  - 4824_加拿大-959.5KB/s(Youtube:不良林)
+  - 4825_英国-1.02MB/s(Youtube:不良林)
+  - 4826_美国-3.98MB/s(Youtube:不良林)
+  - 4827_英国-1.52MB/s(Youtube:不良林)
+  - 4828_英国-2.60MB/s(Youtube:不良林)
+  - 4829_美国-2.08MB/s(Youtube:不良林)
+  - 4830_英国-3.01MB/s(Youtube:不良林)
   type: select
 - name: HKMTMedia
   proxies:
@@ -1929,7 +1956,6 @@ proxy-groups:
   - 4708_挪威-474.0KB/s(Youtube:不良林)
   - 4711_(已存活1天)英国-1.36MB/s(Youtube:不良林)
   - 4713_加拿大-1.79MB/s(Youtube:不良林)
-  - 4715_加拿大-2.49MB/s(Youtube:不良林)
   - 4717_加拿大-1.74MB/s(Youtube:不良林)
   - 4720_美国-1.12MB/s(Youtube:不良林)
   - 4721_加拿大-1.16MB/s(Youtube:不良林)
@@ -1950,8 +1976,6 @@ proxy-groups:
   - 4742_英国-1.95MB/s(Youtube:不良林)
   - 4743_美国-1.30MB/s(Youtube:不良林)
   - 4745_英国-1.73MB/s(Youtube:不良林)
-  - 4751_美国-980.5KB/s(Youtube:不良林)
-  - 4752_加拿大-2.23MB/s(Youtube:不良林)
   - 4754_美国-1.37MB/s(Youtube:不良林)
   - 4755_加拿大-2.95MB/s(Youtube:不良林)
   - 4761_加拿大-584.2KB/s(Youtube:不良林)
@@ -1982,11 +2006,17 @@ proxy-groups:
   - 4813_加拿大-3.13MB/s(Youtube:不良林)
   - 4814_美国-1.28MB/s(Youtube:不良林)
   - 4815_美国-1.60MB/s(Youtube:不良林)
-  - 4816_英国-1.52MB/s(Youtube:不良林)
-  - 4817_英国-2.60MB/s(Youtube:不良林)
-  - 4818_美国-2.08MB/s(Youtube:不良林)
-  - 4819_英国-3.01MB/s(Youtube:不良林)
   - 4820_美国-333.3KB/s(Youtube:不良林)
+  - 4821_美国-2.39MB/s(Youtube:不良林)
+  - 4822_(已存活1天)加拿大-2.08MB/s(Youtube:不良林)
+  - 4823_加拿大-2.68MB/s(Youtube:不良林)
+  - 4824_加拿大-959.5KB/s(Youtube:不良林)
+  - 4825_英国-1.02MB/s(Youtube:不良林)
+  - 4826_美国-3.98MB/s(Youtube:不良林)
+  - 4827_英国-1.52MB/s(Youtube:不良林)
+  - 4828_英国-2.60MB/s(Youtube:不良林)
+  - 4829_美国-2.08MB/s(Youtube:不良林)
+  - 4830_英国-3.01MB/s(Youtube:不良林)
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
