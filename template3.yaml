@@ -1705,12 +1705,6 @@ proxies:
   server: 145.239.1.100
   type: ss
 - cipher: aes-256-gcm
-  name: 7522_加拿大-1.53MB/s(Youtube:不良林)
-  password: KixLvKzwjekG00rm
-  port: '5500'
-  server: 134.195.196.200
-  type: ss
-- cipher: aes-256-gcm
   name: 7523_加拿大-898.5KB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '5601'
@@ -1849,31 +1843,61 @@ proxies:
   server: 172.99.190.39
   type: ss
 - cipher: aes-256-gcm
-  name: 7552_英国-1.11MB/s(Youtube:不良林)
+  name: 7557_加拿大-653.2KB/s(Youtube:不良林)
+  password: KixLvKzwjekG00rm
+  port: '5500'
+  server: 134.195.196.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 7558_加拿大-775.5KB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '5000'
+  server: 134.195.196.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 7559_英国-1.04MB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '3306'
+  server: 172.99.190.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 7560_加拿大-1003.0KB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '5600'
+  server: 134.195.196.200
+  type: ss
+- cipher: aes-256-gcm
+  name: 7561_英国-911.4KB/s(Youtube:不良林)
+  password: KixLvKzwjekG00rm
+  port: '8000'
+  server: 172.99.190.205
+  type: ss
+- cipher: aes-256-gcm
+  name: 7562_英国-1.11MB/s(Youtube:不良林)
   password: g5MeD6Ft3CWlJId
   port: '5004'
   server: 172.99.190.205
   type: ss
 - cipher: aes-256-gcm
-  name: 7553_英国-323.4KB/s(Youtube:不良林)
+  name: 7563_英国-323.4KB/s(Youtube:不良林)
   password: KixLvKzwjekG00rm
   port: '5500'
   server: 172.99.190.39
   type: ss
 - cipher: aes-256-gcm
-  name: 7554_英国-1.14MB/s(Youtube:不良林)
+  name: 7564_英国-1.14MB/s(Youtube:不良林)
   password: PCnnH6SQSnfoS27
   port: '8091'
   server: 172.99.190.188
   type: ss
 - cipher: aes-256-gcm
-  name: 7555_英国-1.74MB/s(Youtube:不良林)
+  name: 7565_英国-1.74MB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '5001'
   server: 172.99.190.205
   type: ss
 - cipher: aes-256-gcm
-  name: 7556_加拿大-1.07MB/s(Youtube:不良林)
+  name: 7566_加拿大-1.07MB/s(Youtube:不良林)
   password: g5MeD6Ft3CWlJId
   port: '5004'
   server: 134.195.196.193
@@ -2159,7 +2183,6 @@ proxy-groups:
   - 7519_英国-1.59MB/s(Youtube:不良林)
   - 7520_英国-1.50MB/s(Youtube:不良林)
   - 7521_法国-592.9KB/s(Youtube:不良林)
-  - 7522_加拿大-1.53MB/s(Youtube:不良林)
   - 7523_加拿大-898.5KB/s(Youtube:不良林)
   - 7525_加拿大-1.67MB/s(Youtube:不良林)
   - 7528_英国-792.0KB/s(Youtube:不良林)
@@ -2183,11 +2206,16 @@ proxy-groups:
   - 7549_加拿大-397.3KB/s(Youtube:不良林)
   - 7550_英国-1.30MB/s(Youtube:不良林)
   - 7551_英国-413.0KB/s(Youtube:不良林)
-  - 7552_英国-1.11MB/s(Youtube:不良林)
-  - 7553_英国-323.4KB/s(Youtube:不良林)
-  - 7554_英国-1.14MB/s(Youtube:不良林)
-  - 7555_英国-1.74MB/s(Youtube:不良林)
-  - 7556_加拿大-1.07MB/s(Youtube:不良林)
+  - 7557_加拿大-653.2KB/s(Youtube:不良林)
+  - 7558_加拿大-775.5KB/s(Youtube:不良林)
+  - 7559_英国-1.04MB/s(Youtube:不良林)
+  - 7560_加拿大-1003.0KB/s(Youtube:不良林)
+  - 7561_英国-911.4KB/s(Youtube:不良林)
+  - 7562_英国-1.11MB/s(Youtube:不良林)
+  - 7563_英国-323.4KB/s(Youtube:不良林)
+  - 7564_英国-1.14MB/s(Youtube:不良林)
+  - 7565_英国-1.74MB/s(Youtube:不良林)
+  - 7566_加拿大-1.07MB/s(Youtube:不良林)
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2470,7 +2498,6 @@ proxy-groups:
   - 7519_英国-1.59MB/s(Youtube:不良林)
   - 7520_英国-1.50MB/s(Youtube:不良林)
   - 7521_法国-592.9KB/s(Youtube:不良林)
-  - 7522_加拿大-1.53MB/s(Youtube:不良林)
   - 7523_加拿大-898.5KB/s(Youtube:不良林)
   - 7525_加拿大-1.67MB/s(Youtube:不良林)
   - 7528_英国-792.0KB/s(Youtube:不良林)
@@ -2494,11 +2521,16 @@ proxy-groups:
   - 7549_加拿大-397.3KB/s(Youtube:不良林)
   - 7550_英国-1.30MB/s(Youtube:不良林)
   - 7551_英国-413.0KB/s(Youtube:不良林)
-  - 7552_英国-1.11MB/s(Youtube:不良林)
-  - 7553_英国-323.4KB/s(Youtube:不良林)
-  - 7554_英国-1.14MB/s(Youtube:不良林)
-  - 7555_英国-1.74MB/s(Youtube:不良林)
-  - 7556_加拿大-1.07MB/s(Youtube:不良林)
+  - 7557_加拿大-653.2KB/s(Youtube:不良林)
+  - 7558_加拿大-775.5KB/s(Youtube:不良林)
+  - 7559_英国-1.04MB/s(Youtube:不良林)
+  - 7560_加拿大-1003.0KB/s(Youtube:不良林)
+  - 7561_英国-911.4KB/s(Youtube:不良林)
+  - 7562_英国-1.11MB/s(Youtube:不良林)
+  - 7563_英国-323.4KB/s(Youtube:不良林)
+  - 7564_英国-1.14MB/s(Youtube:不良林)
+  - 7565_英国-1.74MB/s(Youtube:不良林)
+  - 7566_加拿大-1.07MB/s(Youtube:不良林)
   type: select
 - name: Final
   proxies:
@@ -2790,7 +2822,6 @@ proxy-groups:
   - 7519_英国-1.59MB/s(Youtube:不良林)
   - 7520_英国-1.50MB/s(Youtube:不良林)
   - 7521_法国-592.9KB/s(Youtube:不良林)
-  - 7522_加拿大-1.53MB/s(Youtube:不良林)
   - 7523_加拿大-898.5KB/s(Youtube:不良林)
   - 7525_加拿大-1.67MB/s(Youtube:不良林)
   - 7528_英国-792.0KB/s(Youtube:不良林)
@@ -2814,11 +2845,16 @@ proxy-groups:
   - 7549_加拿大-397.3KB/s(Youtube:不良林)
   - 7550_英国-1.30MB/s(Youtube:不良林)
   - 7551_英国-413.0KB/s(Youtube:不良林)
-  - 7552_英国-1.11MB/s(Youtube:不良林)
-  - 7553_英国-323.4KB/s(Youtube:不良林)
-  - 7554_英国-1.14MB/s(Youtube:不良林)
-  - 7555_英国-1.74MB/s(Youtube:不良林)
-  - 7556_加拿大-1.07MB/s(Youtube:不良林)
+  - 7557_加拿大-653.2KB/s(Youtube:不良林)
+  - 7558_加拿大-775.5KB/s(Youtube:不良林)
+  - 7559_英国-1.04MB/s(Youtube:不良林)
+  - 7560_加拿大-1003.0KB/s(Youtube:不良林)
+  - 7561_英国-911.4KB/s(Youtube:不良林)
+  - 7562_英国-1.11MB/s(Youtube:不良林)
+  - 7563_英国-323.4KB/s(Youtube:不良林)
+  - 7564_英国-1.14MB/s(Youtube:不良林)
+  - 7565_英国-1.74MB/s(Youtube:不良林)
+  - 7566_加拿大-1.07MB/s(Youtube:不良林)
   type: select
 - name: HKMTMedia
   proxies:
@@ -3100,7 +3136,6 @@ proxy-groups:
   - 7519_英国-1.59MB/s(Youtube:不良林)
   - 7520_英国-1.50MB/s(Youtube:不良林)
   - 7521_法国-592.9KB/s(Youtube:不良林)
-  - 7522_加拿大-1.53MB/s(Youtube:不良林)
   - 7523_加拿大-898.5KB/s(Youtube:不良林)
   - 7525_加拿大-1.67MB/s(Youtube:不良林)
   - 7528_英国-792.0KB/s(Youtube:不良林)
@@ -3124,11 +3159,16 @@ proxy-groups:
   - 7549_加拿大-397.3KB/s(Youtube:不良林)
   - 7550_英国-1.30MB/s(Youtube:不良林)
   - 7551_英国-413.0KB/s(Youtube:不良林)
-  - 7552_英国-1.11MB/s(Youtube:不良林)
-  - 7553_英国-323.4KB/s(Youtube:不良林)
-  - 7554_英国-1.14MB/s(Youtube:不良林)
-  - 7555_英国-1.74MB/s(Youtube:不良林)
-  - 7556_加拿大-1.07MB/s(Youtube:不良林)
+  - 7557_加拿大-653.2KB/s(Youtube:不良林)
+  - 7558_加拿大-775.5KB/s(Youtube:不良林)
+  - 7559_英国-1.04MB/s(Youtube:不良林)
+  - 7560_加拿大-1003.0KB/s(Youtube:不良林)
+  - 7561_英国-911.4KB/s(Youtube:不良林)
+  - 7562_英国-1.11MB/s(Youtube:不良林)
+  - 7563_英国-323.4KB/s(Youtube:不良林)
+  - 7564_英国-1.14MB/s(Youtube:不良林)
+  - 7565_英国-1.74MB/s(Youtube:不良林)
+  - 7566_加拿大-1.07MB/s(Youtube:不良林)
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
