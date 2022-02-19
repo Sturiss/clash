@@ -2154,6 +2154,12 @@ proxies:
   port: '8008'
   server: 149.202.82.172
   type: ss
+- cipher: none
+  name: 8168_获取节点异常，请在下个时段重试
+  password: '@buliang00'
+  port: '6666'
+  server: 1.1.1.1
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择快速节点
@@ -2510,6 +2516,7 @@ proxy-groups:
   - 8153_🇨🇦_CA_加拿大
   - 8155_🇫🇷_法国_YouTube:VV科技_133
   - 8167_法国-311.2KB/s(Youtube:不良林)
+  - 8168_获取节点异常，请在下个时段重试
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2867,6 +2874,7 @@ proxy-groups:
   - 8153_🇨🇦_CA_加拿大
   - 8155_🇫🇷_法国_YouTube:VV科技_133
   - 8167_法国-311.2KB/s(Youtube:不良林)
+  - 8168_获取节点异常，请在下个时段重试
   type: select
 - name: Final
   proxies:
@@ -3233,6 +3241,7 @@ proxy-groups:
   - 8153_🇨🇦_CA_加拿大
   - 8155_🇫🇷_法国_YouTube:VV科技_133
   - 8167_法国-311.2KB/s(Youtube:不良林)
+  - 8168_获取节点异常，请在下个时段重试
   type: select
 - name: HKMTMedia
   proxies:
@@ -3589,6 +3598,7 @@ proxy-groups:
   - 8153_🇨🇦_CA_加拿大
   - 8155_🇫🇷_法国_YouTube:VV科技_133
   - 8167_法国-311.2KB/s(Youtube:不良林)
+  - 8168_获取节点异常，请在下个时段重试
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
