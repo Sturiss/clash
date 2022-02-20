@@ -1705,12 +1705,6 @@ proxies:
   server: 172.99.190.149
   type: ss
 - cipher: aes-256-gcm
-  name: 8028_美国-1.59MB/s(Youtube:不良林)
-  password: FoOiGlkAA9yPEGP
-  port: '7306'
-  server: 169.197.141.91
-  type: ss
-- cipher: aes-256-gcm
   name: 8032_英国-546.3KB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '5001'
@@ -1739,12 +1733,6 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: '6679'
   server: 134.195.196.200
-  type: ss
-- cipher: aes-256-gcm
-  name: 8091_英国_YouTube：8度科技
-  password: faBAoD54k87UJG7
-  port: '2375'
-  server: 172.99.190.205
   type: ss
 - cipher: aes-256-gcm
   name: 8090_加拿大_YouTube：8度科技
@@ -1793,12 +1781,6 @@ proxies:
   password: faBAoD54k87UJG7
   port: '2376'
   server: 134.195.196.193
-  type: ss
-- cipher: aes-256-gcm
-  name: 8101_v2cross.com
-  password: KixLvKzwjekG00rm
-  port: '8080'
-  server: 172.99.190.149
   type: ss
 - cipher: aes-256-gcm
   name: 8102_🇬🇧_英国_YouTube:VV科技_14
@@ -2131,31 +2113,49 @@ proxies:
   server: 172.99.190.188
   type: ss
 - cipher: aes-256-gcm
-  name: 8175_加拿大-2.61MB/s(Youtube:不良林)
+  name: 8180_美国-2.44MB/s(Youtube:不良林)
+  password: FoOiGlkAA9yPEGP
+  port: '7306'
+  server: 169.197.141.91
+  type: ss
+- cipher: aes-256-gcm
+  name: 8182_英国-1.32MB/s(Youtube:不良林)
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 172.99.190.149
+  type: ss
+- cipher: aes-256-gcm
+  name: 8183_英国-1.11MB/s(Youtube:不良林)
+  password: faBAoD54k87UJG7
+  port: '2375'
+  server: 172.99.190.205
+  type: ss
+- cipher: aes-256-gcm
+  name: 8185_加拿大-2.61MB/s(Youtube:不良林)
   password: zDNVedRFPQexG9v
   port: '6379'
   server: 134.195.196.193
   type: ss
 - cipher: aes-256-gcm
-  name: 8176_加拿大-1.75MB/s(Youtube:不良林)
+  name: 8186_加拿大-1.26MB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '3306'
   server: 134.195.196.193
   type: ss
 - cipher: aes-256-gcm
-  name: 8177_加拿大-1.66MB/s(Youtube:不良林)
+  name: 8187_加拿大-1.66MB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '5600'
   server: 134.195.196.200
   type: ss
 - cipher: aes-256-gcm
-  name: 8178_加拿大-1.33MB/s(Youtube:不良林)
+  name: 8188_加拿大-1.33MB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '3306'
   server: 134.195.196.200
   type: ss
 - cipher: aes-256-gcm
-  name: 8179_加拿大-2.13MB/s(Youtube:不良林)
+  name: 8189_加拿大-2.13MB/s(Youtube:不良林)
   password: XKFKl2rULjIp74
   port: '8008'
   server: 134.195.196.200
@@ -2441,13 +2441,11 @@ proxy-groups:
   - 8017_英国-633.4KB/s(Youtube:不良林)
   - 8019_法国-772.8KB/s(Youtube:不良林)
   - 8022_英国-1.12MB/s(Youtube:不良林)
-  - 8028_美国-1.59MB/s(Youtube:不良林)
   - 8032_英国-546.3KB/s(Youtube:不良林)
   - 8035_英国-784.8KB/s(Youtube:不良林)
   - 8087_v2cross.com
   - 8089_加拿大_YouTube：8度科技
   - 8088_加拿大_YouTube：8度科技
-  - 8091_英国_YouTube：8度科技
   - 8090_加拿大_YouTube：8度科技
   - 8093_英国_YouTube：8度科技
   - 8094_🇨🇦_CA_加拿大
@@ -2456,7 +2454,6 @@ proxy-groups:
   - 8099_🇨🇦_加拿大_YouTube:VV科技_54
   - 8098_加拿大_YouTube：8度科技
   - 8100_v2cross.com
-  - 8101_v2cross.com
   - 8102_🇬🇧_英国_YouTube:VV科技_14
   - 8103_v2cross.com
   - 8104_🇬🇧_英国_YouTube:VV科技_8
@@ -2512,11 +2509,14 @@ proxy-groups:
   - 8172_法国-2.56MB/s(Youtube:不良林)
   - 8173_加拿大-3.47MB/s(Youtube:不良林)
   - 8174_英国-3.11MB/s(Youtube:不良林)
-  - 8175_加拿大-2.61MB/s(Youtube:不良林)
-  - 8176_加拿大-1.75MB/s(Youtube:不良林)
-  - 8177_加拿大-1.66MB/s(Youtube:不良林)
-  - 8178_加拿大-1.33MB/s(Youtube:不良林)
-  - 8179_加拿大-2.13MB/s(Youtube:不良林)
+  - 8180_美国-2.44MB/s(Youtube:不良林)
+  - 8182_英国-1.32MB/s(Youtube:不良林)
+  - 8183_英国-1.11MB/s(Youtube:不良林)
+  - 8185_加拿大-2.61MB/s(Youtube:不良林)
+  - 8186_加拿大-1.26MB/s(Youtube:不良林)
+  - 8187_加拿大-1.66MB/s(Youtube:不良林)
+  - 8188_加拿大-1.33MB/s(Youtube:不良林)
+  - 8189_加拿大-2.13MB/s(Youtube:不良林)
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2799,13 +2799,11 @@ proxy-groups:
   - 8017_英国-633.4KB/s(Youtube:不良林)
   - 8019_法国-772.8KB/s(Youtube:不良林)
   - 8022_英国-1.12MB/s(Youtube:不良林)
-  - 8028_美国-1.59MB/s(Youtube:不良林)
   - 8032_英国-546.3KB/s(Youtube:不良林)
   - 8035_英国-784.8KB/s(Youtube:不良林)
   - 8087_v2cross.com
   - 8089_加拿大_YouTube：8度科技
   - 8088_加拿大_YouTube：8度科技
-  - 8091_英国_YouTube：8度科技
   - 8090_加拿大_YouTube：8度科技
   - 8093_英国_YouTube：8度科技
   - 8094_🇨🇦_CA_加拿大
@@ -2814,7 +2812,6 @@ proxy-groups:
   - 8099_🇨🇦_加拿大_YouTube:VV科技_54
   - 8098_加拿大_YouTube：8度科技
   - 8100_v2cross.com
-  - 8101_v2cross.com
   - 8102_🇬🇧_英国_YouTube:VV科技_14
   - 8103_v2cross.com
   - 8104_🇬🇧_英国_YouTube:VV科技_8
@@ -2870,11 +2867,14 @@ proxy-groups:
   - 8172_法国-2.56MB/s(Youtube:不良林)
   - 8173_加拿大-3.47MB/s(Youtube:不良林)
   - 8174_英国-3.11MB/s(Youtube:不良林)
-  - 8175_加拿大-2.61MB/s(Youtube:不良林)
-  - 8176_加拿大-1.75MB/s(Youtube:不良林)
-  - 8177_加拿大-1.66MB/s(Youtube:不良林)
-  - 8178_加拿大-1.33MB/s(Youtube:不良林)
-  - 8179_加拿大-2.13MB/s(Youtube:不良林)
+  - 8180_美国-2.44MB/s(Youtube:不良林)
+  - 8182_英国-1.32MB/s(Youtube:不良林)
+  - 8183_英国-1.11MB/s(Youtube:不良林)
+  - 8185_加拿大-2.61MB/s(Youtube:不良林)
+  - 8186_加拿大-1.26MB/s(Youtube:不良林)
+  - 8187_加拿大-1.66MB/s(Youtube:不良林)
+  - 8188_加拿大-1.33MB/s(Youtube:不良林)
+  - 8189_加拿大-2.13MB/s(Youtube:不良林)
   type: select
 - name: Final
   proxies:
@@ -3166,13 +3166,11 @@ proxy-groups:
   - 8017_英国-633.4KB/s(Youtube:不良林)
   - 8019_法国-772.8KB/s(Youtube:不良林)
   - 8022_英国-1.12MB/s(Youtube:不良林)
-  - 8028_美国-1.59MB/s(Youtube:不良林)
   - 8032_英国-546.3KB/s(Youtube:不良林)
   - 8035_英国-784.8KB/s(Youtube:不良林)
   - 8087_v2cross.com
   - 8089_加拿大_YouTube：8度科技
   - 8088_加拿大_YouTube：8度科技
-  - 8091_英国_YouTube：8度科技
   - 8090_加拿大_YouTube：8度科技
   - 8093_英国_YouTube：8度科技
   - 8094_🇨🇦_CA_加拿大
@@ -3181,7 +3179,6 @@ proxy-groups:
   - 8099_🇨🇦_加拿大_YouTube:VV科技_54
   - 8098_加拿大_YouTube：8度科技
   - 8100_v2cross.com
-  - 8101_v2cross.com
   - 8102_🇬🇧_英国_YouTube:VV科技_14
   - 8103_v2cross.com
   - 8104_🇬🇧_英国_YouTube:VV科技_8
@@ -3237,11 +3234,14 @@ proxy-groups:
   - 8172_法国-2.56MB/s(Youtube:不良林)
   - 8173_加拿大-3.47MB/s(Youtube:不良林)
   - 8174_英国-3.11MB/s(Youtube:不良林)
-  - 8175_加拿大-2.61MB/s(Youtube:不良林)
-  - 8176_加拿大-1.75MB/s(Youtube:不良林)
-  - 8177_加拿大-1.66MB/s(Youtube:不良林)
-  - 8178_加拿大-1.33MB/s(Youtube:不良林)
-  - 8179_加拿大-2.13MB/s(Youtube:不良林)
+  - 8180_美国-2.44MB/s(Youtube:不良林)
+  - 8182_英国-1.32MB/s(Youtube:不良林)
+  - 8183_英国-1.11MB/s(Youtube:不良林)
+  - 8185_加拿大-2.61MB/s(Youtube:不良林)
+  - 8186_加拿大-1.26MB/s(Youtube:不良林)
+  - 8187_加拿大-1.66MB/s(Youtube:不良林)
+  - 8188_加拿大-1.33MB/s(Youtube:不良林)
+  - 8189_加拿大-2.13MB/s(Youtube:不良林)
   type: select
 - name: HKMTMedia
   proxies:
@@ -3523,13 +3523,11 @@ proxy-groups:
   - 8017_英国-633.4KB/s(Youtube:不良林)
   - 8019_法国-772.8KB/s(Youtube:不良林)
   - 8022_英国-1.12MB/s(Youtube:不良林)
-  - 8028_美国-1.59MB/s(Youtube:不良林)
   - 8032_英国-546.3KB/s(Youtube:不良林)
   - 8035_英国-784.8KB/s(Youtube:不良林)
   - 8087_v2cross.com
   - 8089_加拿大_YouTube：8度科技
   - 8088_加拿大_YouTube：8度科技
-  - 8091_英国_YouTube：8度科技
   - 8090_加拿大_YouTube：8度科技
   - 8093_英国_YouTube：8度科技
   - 8094_🇨🇦_CA_加拿大
@@ -3538,7 +3536,6 @@ proxy-groups:
   - 8099_🇨🇦_加拿大_YouTube:VV科技_54
   - 8098_加拿大_YouTube：8度科技
   - 8100_v2cross.com
-  - 8101_v2cross.com
   - 8102_🇬🇧_英国_YouTube:VV科技_14
   - 8103_v2cross.com
   - 8104_🇬🇧_英国_YouTube:VV科技_8
@@ -3594,11 +3591,14 @@ proxy-groups:
   - 8172_法国-2.56MB/s(Youtube:不良林)
   - 8173_加拿大-3.47MB/s(Youtube:不良林)
   - 8174_英国-3.11MB/s(Youtube:不良林)
-  - 8175_加拿大-2.61MB/s(Youtube:不良林)
-  - 8176_加拿大-1.75MB/s(Youtube:不良林)
-  - 8177_加拿大-1.66MB/s(Youtube:不良林)
-  - 8178_加拿大-1.33MB/s(Youtube:不良林)
-  - 8179_加拿大-2.13MB/s(Youtube:不良林)
+  - 8180_美国-2.44MB/s(Youtube:不良林)
+  - 8182_英国-1.32MB/s(Youtube:不良林)
+  - 8183_英国-1.11MB/s(Youtube:不良林)
+  - 8185_加拿大-2.61MB/s(Youtube:不良林)
+  - 8186_加拿大-1.26MB/s(Youtube:不良林)
+  - 8187_加拿大-1.66MB/s(Youtube:不良林)
+  - 8188_加拿大-1.33MB/s(Youtube:不良林)
+  - 8189_加拿大-2.13MB/s(Youtube:不良林)
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
