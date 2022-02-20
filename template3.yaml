@@ -1555,12 +1555,6 @@ proxies:
   server: 172.99.190.205
   type: ss
 - cipher: aes-256-gcm
-  name: 8016_法国-567.3KB/s(Youtube:不良林)
-  password: PCnnH6SQSnfoS27
-  port: '8091'
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
   name: 8019_法国-772.8KB/s(Youtube:不良林)
   password: kDWvXYZoTBcGkC4
   port: '8881'
@@ -1697,12 +1691,6 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: '5003'
   server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 8132_v2cross.com
-  password: pKEW8JPByTVTLtM
-  port: '443'
-  server: 172.99.190.149
   type: ss
 - cipher: aes-256-gcm
   name: 8135_🇫🇷_FR_法国
@@ -2023,18 +2011,6 @@ proxies:
   server: 134.195.196.193
   type: ss
 - cipher: aes-256-gcm
-  name: 8294_法国-701.3KB/s(Youtube:不良林)
-  password: Y6R9pAtvxxzmGC
-  port: '5001'
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 8295_加拿大-930.5KB/s(Youtube:不良林)
-  password: FoOiGlkAA9yPEGP
-  port: '7306'
-  server: 134.195.196.147
-  type: ss
-- cipher: aes-256-gcm
   name: 8296_加拿大-921.4KB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '8888'
@@ -2131,25 +2107,49 @@ proxies:
   server: 172.99.190.188
   type: ss
 - cipher: aes-256-gcm
-  name: 8315_英国-543.7KB/s(Youtube:不良林)
+  name: 8320_法国-701.3KB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '5001'
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 8321_法国-1.27MB/s(Youtube:不良林)
+  password: PCnnH6SQSnfoS27
+  port: '8091'
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 8323_英国-523.2KB/s(Youtube:不良林)
+  password: pKEW8JPByTVTLtM
+  port: '443'
+  server: 172.99.190.149
+  type: ss
+- cipher: aes-256-gcm
+  name: 8324_加拿大-930.5KB/s(Youtube:不良林)
+  password: FoOiGlkAA9yPEGP
+  port: '7306'
+  server: 134.195.196.147
+  type: ss
+- cipher: aes-256-gcm
+  name: 8325_英国-543.7KB/s(Youtube:不良林)
   password: Y6R9pAtvxxzmGC
   port: '5601'
   server: 172.99.190.205
   type: ss
 - cipher: aes-256-gcm
-  name: 8316_法国-879.8KB/s(Youtube:不良林)
+  name: 8326_法国-879.8KB/s(Youtube:不良林)
   password: pKEW8JPByTVTLtM
   port: '443'
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 8317_英国-1.14MB/s(Youtube:不良林)
+  name: 8327_英国-1.14MB/s(Youtube:不良林)
   password: FoOiGlkAA9yPEGP
   port: '7307'
   server: 172.99.190.188
   type: ss
 - cipher: aes-256-gcm
-  name: 8318_美国-1.55MB/s(Youtube:不良林)
+  name: 8328_美国-1.55MB/s(Youtube:不良林)
   password: zDNVedRFPQexG9v
   port: '6379'
   server: 169.197.141.91
@@ -2410,7 +2410,6 @@ proxy-groups:
   - 7988_英国-546.7KB/s(Youtube:不良林)
   - 7992_法国-460.3KB/s(Youtube:不良林)
   - 8007_英国-793.4KB/s(Youtube:不良林)
-  - 8016_法国-567.3KB/s(Youtube:不良林)
   - 8019_法国-772.8KB/s(Youtube:不良林)
   - 8022_英国-1.12MB/s(Youtube:不良林)
   - 8035_英国-784.8KB/s(Youtube:不良林)
@@ -2434,7 +2433,6 @@ proxy-groups:
   - 8128_v2cross.com
   - 8130_+US_1531
   - 8131_v2cross.com
-  - 8132_v2cross.com
   - 8135_🇫🇷_FR_法国
   - 8136_🇫🇷_FR_法国
   - 8138_🇫🇷_法国_YouTube:VV科技_139
@@ -2488,8 +2486,6 @@ proxy-groups:
   - 8291_加拿大-1.49MB/s(Youtube:不良林)
   - 8292_加拿大-343.2KB/s(Youtube:不良林)
   - 8293_加拿大-1.35MB/s(Youtube:不良林)
-  - 8294_法国-701.3KB/s(Youtube:不良林)
-  - 8295_加拿大-930.5KB/s(Youtube:不良林)
   - 8296_加拿大-921.4KB/s(Youtube:不良林)
   - 8297_加拿大-866.1KB/s(Youtube:不良林)
   - 8298_加拿大-681.2KB/s(Youtube:不良林)
@@ -2506,10 +2502,14 @@ proxy-groups:
   - 8312_加拿大-631.2KB/s(Youtube:不良林)
   - 8313_美国-1.17MB/s(Youtube:不良林)
   - 8314_英国-1.08MB/s(Youtube:不良林)
-  - 8315_英国-543.7KB/s(Youtube:不良林)
-  - 8316_法国-879.8KB/s(Youtube:不良林)
-  - 8317_英国-1.14MB/s(Youtube:不良林)
-  - 8318_美国-1.55MB/s(Youtube:不良林)
+  - 8320_法国-701.3KB/s(Youtube:不良林)
+  - 8321_法国-1.27MB/s(Youtube:不良林)
+  - 8323_英国-523.2KB/s(Youtube:不良林)
+  - 8324_加拿大-930.5KB/s(Youtube:不良林)
+  - 8325_英国-543.7KB/s(Youtube:不良林)
+  - 8326_法国-879.8KB/s(Youtube:不良林)
+  - 8327_英国-1.14MB/s(Youtube:不良林)
+  - 8328_美国-1.55MB/s(Youtube:不良林)
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2767,7 +2767,6 @@ proxy-groups:
   - 7988_英国-546.7KB/s(Youtube:不良林)
   - 7992_法国-460.3KB/s(Youtube:不良林)
   - 8007_英国-793.4KB/s(Youtube:不良林)
-  - 8016_法国-567.3KB/s(Youtube:不良林)
   - 8019_法国-772.8KB/s(Youtube:不良林)
   - 8022_英国-1.12MB/s(Youtube:不良林)
   - 8035_英国-784.8KB/s(Youtube:不良林)
@@ -2791,7 +2790,6 @@ proxy-groups:
   - 8128_v2cross.com
   - 8130_+US_1531
   - 8131_v2cross.com
-  - 8132_v2cross.com
   - 8135_🇫🇷_FR_法国
   - 8136_🇫🇷_FR_法国
   - 8138_🇫🇷_法国_YouTube:VV科技_139
@@ -2845,8 +2843,6 @@ proxy-groups:
   - 8291_加拿大-1.49MB/s(Youtube:不良林)
   - 8292_加拿大-343.2KB/s(Youtube:不良林)
   - 8293_加拿大-1.35MB/s(Youtube:不良林)
-  - 8294_法国-701.3KB/s(Youtube:不良林)
-  - 8295_加拿大-930.5KB/s(Youtube:不良林)
   - 8296_加拿大-921.4KB/s(Youtube:不良林)
   - 8297_加拿大-866.1KB/s(Youtube:不良林)
   - 8298_加拿大-681.2KB/s(Youtube:不良林)
@@ -2863,10 +2859,14 @@ proxy-groups:
   - 8312_加拿大-631.2KB/s(Youtube:不良林)
   - 8313_美国-1.17MB/s(Youtube:不良林)
   - 8314_英国-1.08MB/s(Youtube:不良林)
-  - 8315_英国-543.7KB/s(Youtube:不良林)
-  - 8316_法国-879.8KB/s(Youtube:不良林)
-  - 8317_英国-1.14MB/s(Youtube:不良林)
-  - 8318_美国-1.55MB/s(Youtube:不良林)
+  - 8320_法国-701.3KB/s(Youtube:不良林)
+  - 8321_法国-1.27MB/s(Youtube:不良林)
+  - 8323_英国-523.2KB/s(Youtube:不良林)
+  - 8324_加拿大-930.5KB/s(Youtube:不良林)
+  - 8325_英国-543.7KB/s(Youtube:不良林)
+  - 8326_法国-879.8KB/s(Youtube:不良林)
+  - 8327_英国-1.14MB/s(Youtube:不良林)
+  - 8328_美国-1.55MB/s(Youtube:不良林)
   type: select
 - name: Final
   proxies:
@@ -3133,7 +3133,6 @@ proxy-groups:
   - 7988_英国-546.7KB/s(Youtube:不良林)
   - 7992_法国-460.3KB/s(Youtube:不良林)
   - 8007_英国-793.4KB/s(Youtube:不良林)
-  - 8016_法国-567.3KB/s(Youtube:不良林)
   - 8019_法国-772.8KB/s(Youtube:不良林)
   - 8022_英国-1.12MB/s(Youtube:不良林)
   - 8035_英国-784.8KB/s(Youtube:不良林)
@@ -3157,7 +3156,6 @@ proxy-groups:
   - 8128_v2cross.com
   - 8130_+US_1531
   - 8131_v2cross.com
-  - 8132_v2cross.com
   - 8135_🇫🇷_FR_法国
   - 8136_🇫🇷_FR_法国
   - 8138_🇫🇷_法国_YouTube:VV科技_139
@@ -3211,8 +3209,6 @@ proxy-groups:
   - 8291_加拿大-1.49MB/s(Youtube:不良林)
   - 8292_加拿大-343.2KB/s(Youtube:不良林)
   - 8293_加拿大-1.35MB/s(Youtube:不良林)
-  - 8294_法国-701.3KB/s(Youtube:不良林)
-  - 8295_加拿大-930.5KB/s(Youtube:不良林)
   - 8296_加拿大-921.4KB/s(Youtube:不良林)
   - 8297_加拿大-866.1KB/s(Youtube:不良林)
   - 8298_加拿大-681.2KB/s(Youtube:不良林)
@@ -3229,10 +3225,14 @@ proxy-groups:
   - 8312_加拿大-631.2KB/s(Youtube:不良林)
   - 8313_美国-1.17MB/s(Youtube:不良林)
   - 8314_英国-1.08MB/s(Youtube:不良林)
-  - 8315_英国-543.7KB/s(Youtube:不良林)
-  - 8316_法国-879.8KB/s(Youtube:不良林)
-  - 8317_英国-1.14MB/s(Youtube:不良林)
-  - 8318_美国-1.55MB/s(Youtube:不良林)
+  - 8320_法国-701.3KB/s(Youtube:不良林)
+  - 8321_法国-1.27MB/s(Youtube:不良林)
+  - 8323_英国-523.2KB/s(Youtube:不良林)
+  - 8324_加拿大-930.5KB/s(Youtube:不良林)
+  - 8325_英国-543.7KB/s(Youtube:不良林)
+  - 8326_法国-879.8KB/s(Youtube:不良林)
+  - 8327_英国-1.14MB/s(Youtube:不良林)
+  - 8328_美国-1.55MB/s(Youtube:不良林)
   type: select
 - name: HKMTMedia
   proxies:
@@ -3489,7 +3489,6 @@ proxy-groups:
   - 7988_英国-546.7KB/s(Youtube:不良林)
   - 7992_法国-460.3KB/s(Youtube:不良林)
   - 8007_英国-793.4KB/s(Youtube:不良林)
-  - 8016_法国-567.3KB/s(Youtube:不良林)
   - 8019_法国-772.8KB/s(Youtube:不良林)
   - 8022_英国-1.12MB/s(Youtube:不良林)
   - 8035_英国-784.8KB/s(Youtube:不良林)
@@ -3513,7 +3512,6 @@ proxy-groups:
   - 8128_v2cross.com
   - 8130_+US_1531
   - 8131_v2cross.com
-  - 8132_v2cross.com
   - 8135_🇫🇷_FR_法国
   - 8136_🇫🇷_FR_法国
   - 8138_🇫🇷_法国_YouTube:VV科技_139
@@ -3567,8 +3565,6 @@ proxy-groups:
   - 8291_加拿大-1.49MB/s(Youtube:不良林)
   - 8292_加拿大-343.2KB/s(Youtube:不良林)
   - 8293_加拿大-1.35MB/s(Youtube:不良林)
-  - 8294_法国-701.3KB/s(Youtube:不良林)
-  - 8295_加拿大-930.5KB/s(Youtube:不良林)
   - 8296_加拿大-921.4KB/s(Youtube:不良林)
   - 8297_加拿大-866.1KB/s(Youtube:不良林)
   - 8298_加拿大-681.2KB/s(Youtube:不良林)
@@ -3585,10 +3581,14 @@ proxy-groups:
   - 8312_加拿大-631.2KB/s(Youtube:不良林)
   - 8313_美国-1.17MB/s(Youtube:不良林)
   - 8314_英国-1.08MB/s(Youtube:不良林)
-  - 8315_英国-543.7KB/s(Youtube:不良林)
-  - 8316_法国-879.8KB/s(Youtube:不良林)
-  - 8317_英国-1.14MB/s(Youtube:不良林)
-  - 8318_美国-1.55MB/s(Youtube:不良林)
+  - 8320_法国-701.3KB/s(Youtube:不良林)
+  - 8321_法国-1.27MB/s(Youtube:不良林)
+  - 8323_英国-523.2KB/s(Youtube:不良林)
+  - 8324_加拿大-930.5KB/s(Youtube:不良林)
+  - 8325_英国-543.7KB/s(Youtube:不良林)
+  - 8326_法国-879.8KB/s(Youtube:不良林)
+  - 8327_英国-1.14MB/s(Youtube:不良林)
+  - 8328_美国-1.55MB/s(Youtube:不良林)
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
