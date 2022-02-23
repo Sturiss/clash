@@ -2316,6 +2316,12 @@ proxies:
   port: '443'
   server: 134.195.196.193
   type: ss
+- cipher: none
+  name: 9248_获取节点异常，请在下个时段重试
+  password: '@buliang00'
+  port: '6666'
+  server: 1.1.1.1
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择快速节点
@@ -2699,6 +2705,7 @@ proxy-groups:
   - 9244_美国-1.13MB/s(Youtube:不良林)
   - 9245_加拿大-422.2KB/s(Youtube:不良林)
   - 9246_加拿大-429.9KB/s(Youtube:不良林)
+  - 9248_获取节点异常，请在下个时段重试
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3083,6 +3090,7 @@ proxy-groups:
   - 9244_美国-1.13MB/s(Youtube:不良林)
   - 9245_加拿大-422.2KB/s(Youtube:不良林)
   - 9246_加拿大-429.9KB/s(Youtube:不良林)
+  - 9248_获取节点异常，请在下个时段重试
   type: select
 - name: Final
   proxies:
@@ -3476,6 +3484,7 @@ proxy-groups:
   - 9244_美国-1.13MB/s(Youtube:不良林)
   - 9245_加拿大-422.2KB/s(Youtube:不良林)
   - 9246_加拿大-429.9KB/s(Youtube:不良林)
+  - 9248_获取节点异常，请在下个时段重试
   type: select
 - name: HKMTMedia
   proxies:
@@ -3859,6 +3868,7 @@ proxy-groups:
   - 9244_美国-1.13MB/s(Youtube:不良林)
   - 9245_加拿大-422.2KB/s(Youtube:不良林)
   - 9246_加拿大-429.9KB/s(Youtube:不良林)
+  - 9248_获取节点异常，请在下个时段重试
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
