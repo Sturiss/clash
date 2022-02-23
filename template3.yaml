@@ -1789,12 +1789,6 @@ proxies:
   server: 172.99.190.149
   type: ss
 - cipher: aes-256-gcm
-  name: 9024_美国-1.47MB/s(Youtube:不良林)
-  password: e4FCWrgpkji3QY
-  port: '9101'
-  server: 169.197.141.91
-  type: ss
-- cipher: aes-256-gcm
   name: 9029_英国-696.8KB/s(Youtube:不良林)
   password: faBAoD54k87UJG7
   port: '2375'
@@ -1996,12 +1990,6 @@ proxies:
   name: 9160_英国-1.02MB/s(Youtube:不良林)
   password: XKFKl2rULjIp74
   port: '8008'
-  server: 172.99.190.188
-  type: ss
-- cipher: aes-256-gcm
-  name: 9162_英国-858.6KB/s(Youtube:不良林)
-  password: Y6R9pAtvxxzmGC
-  port: '5600'
   server: 172.99.190.188
   type: ss
 - cipher: aes-256-gcm
@@ -2322,6 +2310,54 @@ proxies:
   port: '8882'
   server: 149.202.82.172
   type: ss
+- cipher: aes-256-gcm
+  name: 9280_美国-867.4KB/s(Youtube:不良林)
+  password: e4FCWrgpkji3QY
+  port: '9101'
+  server: 169.197.141.91
+  type: ss
+- cipher: aes-256-gcm
+  name: 9282_英国-1.19MB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '5600'
+  server: 172.99.190.188
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 9283_中国-4.97MB/s(Youtube:不良林)
+  password: c753e8a8-e180-4e76-a486-c917273d718b
+  port: '11320'
+  server: gzyd.wozcjd.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 9284_加拿大-3.03MB/s(Youtube:不良林)
+  password: PCnnH6SQSnfoS27
+  port: '8091'
+  server: 134.195.196.221
+  type: ss
+- cipher: aes-256-gcm
+  name: 9285_加拿大-2.80MB/s(Youtube:不良林)
+  password: cdBIDV42DCwnfIN
+  port: '8118'
+  server: 134.195.196.221
+  type: ss
+- cipher: aes-256-gcm
+  name: 9286_加拿大-1.09MB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '8888'
+  server: 134.195.196.147
+  type: ss
+- cipher: aes-256-gcm
+  name: 9287_加拿大-1.19MB/s(Youtube:不良林)
+  password: Y6R9pAtvxxzmGC
+  port: '5600'
+  server: 134.195.196.147
+  type: ss
+- cipher: aes-256-gcm
+  name: 9288_美国-2.72MB/s(Youtube:不良林)
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 169.197.142.187
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择快速节点
@@ -2617,7 +2653,6 @@ proxy-groups:
   - 9003_法国-1.15MB/s(Youtube:不良林)
   - 9004_法国-1.24MB/s(Youtube:不良林)
   - 9006_英国-954.5KB/s(Youtube:不良林)
-  - 9024_美国-1.47MB/s(Youtube:不良林)
   - 9029_英国-696.8KB/s(Youtube:不良林)
   - 9039_德国-2.62MB/s(Youtube:不良林)
   - 9040_法国-407.8KB/s(Youtube:不良林)
@@ -2652,7 +2687,6 @@ proxy-groups:
   - 9148_加拿大-755.0KB/s(Youtube:不良林)
   - 9156_加拿大-950.1KB/s(Youtube:不良林)
   - 9160_英国-1.02MB/s(Youtube:不良林)
-  - 9162_英国-858.6KB/s(Youtube:不良林)
   - 9163_英国-438.3KB/s(Youtube:不良林)
   - 9165_加拿大-415.4KB/s(Youtube:不良林)
   - 9173_加拿大-368.3KB/s(Youtube:不良林)
@@ -2706,6 +2740,14 @@ proxy-groups:
   - 9276_法国-423.6KB/s(Youtube:不良林)
   - 9277_法国-361.2KB/s(Youtube:不良林)
   - 9278_法国-707.0KB/s(Youtube:不良林)
+  - 9280_美国-867.4KB/s(Youtube:不良林)
+  - 9282_英国-1.19MB/s(Youtube:不良林)
+  - 9283_中国-4.97MB/s(Youtube:不良林)
+  - 9284_加拿大-3.03MB/s(Youtube:不良林)
+  - 9285_加拿大-2.80MB/s(Youtube:不良林)
+  - 9286_加拿大-1.09MB/s(Youtube:不良林)
+  - 9287_加拿大-1.19MB/s(Youtube:不良林)
+  - 9288_美国-2.72MB/s(Youtube:不良林)
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3002,7 +3044,6 @@ proxy-groups:
   - 9003_法国-1.15MB/s(Youtube:不良林)
   - 9004_法国-1.24MB/s(Youtube:不良林)
   - 9006_英国-954.5KB/s(Youtube:不良林)
-  - 9024_美国-1.47MB/s(Youtube:不良林)
   - 9029_英国-696.8KB/s(Youtube:不良林)
   - 9039_德国-2.62MB/s(Youtube:不良林)
   - 9040_法国-407.8KB/s(Youtube:不良林)
@@ -3037,7 +3078,6 @@ proxy-groups:
   - 9148_加拿大-755.0KB/s(Youtube:不良林)
   - 9156_加拿大-950.1KB/s(Youtube:不良林)
   - 9160_英国-1.02MB/s(Youtube:不良林)
-  - 9162_英国-858.6KB/s(Youtube:不良林)
   - 9163_英国-438.3KB/s(Youtube:不良林)
   - 9165_加拿大-415.4KB/s(Youtube:不良林)
   - 9173_加拿大-368.3KB/s(Youtube:不良林)
@@ -3091,6 +3131,14 @@ proxy-groups:
   - 9276_法国-423.6KB/s(Youtube:不良林)
   - 9277_法国-361.2KB/s(Youtube:不良林)
   - 9278_法国-707.0KB/s(Youtube:不良林)
+  - 9280_美国-867.4KB/s(Youtube:不良林)
+  - 9282_英国-1.19MB/s(Youtube:不良林)
+  - 9283_中国-4.97MB/s(Youtube:不良林)
+  - 9284_加拿大-3.03MB/s(Youtube:不良林)
+  - 9285_加拿大-2.80MB/s(Youtube:不良林)
+  - 9286_加拿大-1.09MB/s(Youtube:不良林)
+  - 9287_加拿大-1.19MB/s(Youtube:不良林)
+  - 9288_美国-2.72MB/s(Youtube:不良林)
   type: select
 - name: Final
   proxies:
@@ -3396,7 +3444,6 @@ proxy-groups:
   - 9003_法国-1.15MB/s(Youtube:不良林)
   - 9004_法国-1.24MB/s(Youtube:不良林)
   - 9006_英国-954.5KB/s(Youtube:不良林)
-  - 9024_美国-1.47MB/s(Youtube:不良林)
   - 9029_英国-696.8KB/s(Youtube:不良林)
   - 9039_德国-2.62MB/s(Youtube:不良林)
   - 9040_法国-407.8KB/s(Youtube:不良林)
@@ -3431,7 +3478,6 @@ proxy-groups:
   - 9148_加拿大-755.0KB/s(Youtube:不良林)
   - 9156_加拿大-950.1KB/s(Youtube:不良林)
   - 9160_英国-1.02MB/s(Youtube:不良林)
-  - 9162_英国-858.6KB/s(Youtube:不良林)
   - 9163_英国-438.3KB/s(Youtube:不良林)
   - 9165_加拿大-415.4KB/s(Youtube:不良林)
   - 9173_加拿大-368.3KB/s(Youtube:不良林)
@@ -3485,6 +3531,14 @@ proxy-groups:
   - 9276_法国-423.6KB/s(Youtube:不良林)
   - 9277_法国-361.2KB/s(Youtube:不良林)
   - 9278_法国-707.0KB/s(Youtube:不良林)
+  - 9280_美国-867.4KB/s(Youtube:不良林)
+  - 9282_英国-1.19MB/s(Youtube:不良林)
+  - 9283_中国-4.97MB/s(Youtube:不良林)
+  - 9284_加拿大-3.03MB/s(Youtube:不良林)
+  - 9285_加拿大-2.80MB/s(Youtube:不良林)
+  - 9286_加拿大-1.09MB/s(Youtube:不良林)
+  - 9287_加拿大-1.19MB/s(Youtube:不良林)
+  - 9288_美国-2.72MB/s(Youtube:不良林)
   type: select
 - name: HKMTMedia
   proxies:
@@ -3780,7 +3834,6 @@ proxy-groups:
   - 9003_法国-1.15MB/s(Youtube:不良林)
   - 9004_法国-1.24MB/s(Youtube:不良林)
   - 9006_英国-954.5KB/s(Youtube:不良林)
-  - 9024_美国-1.47MB/s(Youtube:不良林)
   - 9029_英国-696.8KB/s(Youtube:不良林)
   - 9039_德国-2.62MB/s(Youtube:不良林)
   - 9040_法国-407.8KB/s(Youtube:不良林)
@@ -3815,7 +3868,6 @@ proxy-groups:
   - 9148_加拿大-755.0KB/s(Youtube:不良林)
   - 9156_加拿大-950.1KB/s(Youtube:不良林)
   - 9160_英国-1.02MB/s(Youtube:不良林)
-  - 9162_英国-858.6KB/s(Youtube:不良林)
   - 9163_英国-438.3KB/s(Youtube:不良林)
   - 9165_加拿大-415.4KB/s(Youtube:不良林)
   - 9173_加拿大-368.3KB/s(Youtube:不良林)
@@ -3869,6 +3921,14 @@ proxy-groups:
   - 9276_法国-423.6KB/s(Youtube:不良林)
   - 9277_法国-361.2KB/s(Youtube:不良林)
   - 9278_法国-707.0KB/s(Youtube:不良林)
+  - 9280_美国-867.4KB/s(Youtube:不良林)
+  - 9282_英国-1.19MB/s(Youtube:不良林)
+  - 9283_中国-4.97MB/s(Youtube:不良林)
+  - 9284_加拿大-3.03MB/s(Youtube:不良林)
+  - 9285_加拿大-2.80MB/s(Youtube:不良林)
+  - 9286_加拿大-1.09MB/s(Youtube:不良林)
+  - 9287_加拿大-1.19MB/s(Youtube:不良林)
+  - 9288_美国-2.72MB/s(Youtube:不良林)
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
