@@ -2047,12 +2047,6 @@ proxies:
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 10588_法国-379.3KB/s
-  password: TEzjfAYq2IjtuoS
-  port: '6697'
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
   name: 10590_法国-522.2KB/s
   password: g5MeD6Ft3CWlJId
   port: '5003'
@@ -2117,6 +2111,12 @@ proxies:
   password: XKFKl2rULjIp74
   port: '8008'
   server: 134.195.196.193
+  type: ss
+- cipher: aes-256-gcm
+  name: 10645_法国-379.3KB/s
+  password: TEzjfAYq2IjtuoS
+  port: '6697'
+  server: 149.202.82.172
   type: ss
 proxy-groups:
 - interval: 3600
@@ -2456,7 +2456,6 @@ proxy-groups:
   - 10581_法国-427.4KB/s
   - 10583_法国-348.5KB/s
   - 10584_法国-313.5KB/s
-  - 10588_法国-379.3KB/s
   - 10590_法国-522.2KB/s
   - 10591_法国-564.4KB/s
   - 10592_英国-499.6KB/s
@@ -2468,6 +2467,7 @@ proxy-groups:
   - 10604_美国-520.6KB/s
   - 10605_英国-323.3KB/s
   - 10607_加拿大-351.0KB/s
+  - 10645_法国-379.3KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2807,7 +2807,6 @@ proxy-groups:
   - 10581_法国-427.4KB/s
   - 10583_法国-348.5KB/s
   - 10584_法国-313.5KB/s
-  - 10588_法国-379.3KB/s
   - 10590_法国-522.2KB/s
   - 10591_法国-564.4KB/s
   - 10592_英国-499.6KB/s
@@ -2819,6 +2818,7 @@ proxy-groups:
   - 10604_美国-520.6KB/s
   - 10605_英国-323.3KB/s
   - 10607_加拿大-351.0KB/s
+  - 10645_法国-379.3KB/s
   type: select
 - name: Final
   proxies:
@@ -3167,7 +3167,6 @@ proxy-groups:
   - 10581_法国-427.4KB/s
   - 10583_法国-348.5KB/s
   - 10584_法国-313.5KB/s
-  - 10588_法国-379.3KB/s
   - 10590_法国-522.2KB/s
   - 10591_法国-564.4KB/s
   - 10592_英国-499.6KB/s
@@ -3179,6 +3178,7 @@ proxy-groups:
   - 10604_美国-520.6KB/s
   - 10605_英国-323.3KB/s
   - 10607_加拿大-351.0KB/s
+  - 10645_法国-379.3KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -3517,7 +3517,6 @@ proxy-groups:
   - 10581_法国-427.4KB/s
   - 10583_法国-348.5KB/s
   - 10584_法国-313.5KB/s
-  - 10588_法国-379.3KB/s
   - 10590_法国-522.2KB/s
   - 10591_法国-564.4KB/s
   - 10592_英国-499.6KB/s
@@ -3529,6 +3528,7 @@ proxy-groups:
   - 10604_美国-520.6KB/s
   - 10605_英国-323.3KB/s
   - 10607_加拿大-351.0KB/s
+  - 10645_法国-379.3KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
