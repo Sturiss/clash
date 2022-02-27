@@ -1975,12 +1975,6 @@ proxies:
   server: 169.197.141.91
   type: ss
 - cipher: aes-256-gcm
-  name: 10859_法国-1.01MB/s
-  password: TEzjfAYq2IjtuoS
-  port: '6697'
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
   name: 10861_英国-439.7KB/s
   password: Y6R9pAtvxxzmGC
   port: '3389'
@@ -2125,18 +2119,6 @@ proxies:
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 10925_英国-1.01MB/s
-  password: FoOiGlkAA9yPEGP
-  port: '7306'
-  server: 172.99.190.92
-  type: ss
-- cipher: aes-256-gcm
-  name: 10926_法国-1.31MB/s
-  password: Y6R9pAtvxxzmGC
-  port: '3306'
-  server: 62.210.209.50
-  type: ss
-- cipher: aes-256-gcm
   name: 10927_法国-1.06MB/s
   password: kDWvXYZoTBcGkC4
   port: '8882'
@@ -2177,6 +2159,24 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: '7306'
   server: 169.197.141.91
+  type: ss
+- cipher: aes-256-gcm
+  name: 10945_英国-1.01MB/s
+  password: FoOiGlkAA9yPEGP
+  port: '7306'
+  server: 172.99.190.92
+  type: ss
+- cipher: aes-256-gcm
+  name: 10946_法国-1.75MB/s
+  password: TEzjfAYq2IjtuoS
+  port: '6697'
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 10948_法国-1.13MB/s
+  password: Y6R9pAtvxxzmGC
+  port: '3306'
+  server: 62.210.209.50
   type: ss
 proxy-groups:
 - interval: 3600
@@ -2504,7 +2504,6 @@ proxy-groups:
   - 10851_加拿大-677.8KB/s
   - 10852_美国-404.4KB/s
   - 10855_美国-822.9KB/s
-  - 10859_法国-1.01MB/s
   - 10861_英国-439.7KB/s
   - 10862_英国-388.7KB/s
   - 10863_法国-368.8KB/s
@@ -2529,8 +2528,6 @@ proxy-groups:
   - 10921_法国-648.6KB/s
   - 10922_法国-1.13MB/s
   - 10924_法国-537.2KB/s
-  - 10925_英国-1.01MB/s
-  - 10926_法国-1.31MB/s
   - 10927_法国-1.06MB/s
   - 10928_法国-1.83MB/s
   - 10929_法国-966.4KB/s
@@ -2538,6 +2535,9 @@ proxy-groups:
   - 10933_英国-840.2KB/s
   - 10935_法国-1.04MB/s
   - 10938_美国-1.21MB/s
+  - 10945_英国-1.01MB/s
+  - 10946_法国-1.75MB/s
+  - 10948_法国-1.13MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2865,7 +2865,6 @@ proxy-groups:
   - 10851_加拿大-677.8KB/s
   - 10852_美国-404.4KB/s
   - 10855_美国-822.9KB/s
-  - 10859_法国-1.01MB/s
   - 10861_英国-439.7KB/s
   - 10862_英国-388.7KB/s
   - 10863_法国-368.8KB/s
@@ -2890,8 +2889,6 @@ proxy-groups:
   - 10921_法国-648.6KB/s
   - 10922_法国-1.13MB/s
   - 10924_法国-537.2KB/s
-  - 10925_英国-1.01MB/s
-  - 10926_法国-1.31MB/s
   - 10927_法国-1.06MB/s
   - 10928_法国-1.83MB/s
   - 10929_法国-966.4KB/s
@@ -2899,6 +2896,9 @@ proxy-groups:
   - 10933_英国-840.2KB/s
   - 10935_法国-1.04MB/s
   - 10938_美国-1.21MB/s
+  - 10945_英国-1.01MB/s
+  - 10946_法国-1.75MB/s
+  - 10948_法国-1.13MB/s
   type: select
 - name: Final
   proxies:
@@ -3235,7 +3235,6 @@ proxy-groups:
   - 10851_加拿大-677.8KB/s
   - 10852_美国-404.4KB/s
   - 10855_美国-822.9KB/s
-  - 10859_法国-1.01MB/s
   - 10861_英国-439.7KB/s
   - 10862_英国-388.7KB/s
   - 10863_法国-368.8KB/s
@@ -3260,8 +3259,6 @@ proxy-groups:
   - 10921_法国-648.6KB/s
   - 10922_法国-1.13MB/s
   - 10924_法国-537.2KB/s
-  - 10925_英国-1.01MB/s
-  - 10926_法国-1.31MB/s
   - 10927_法国-1.06MB/s
   - 10928_法国-1.83MB/s
   - 10929_法国-966.4KB/s
@@ -3269,6 +3266,9 @@ proxy-groups:
   - 10933_英国-840.2KB/s
   - 10935_法国-1.04MB/s
   - 10938_美国-1.21MB/s
+  - 10945_英国-1.01MB/s
+  - 10946_法国-1.75MB/s
+  - 10948_法国-1.13MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -3595,7 +3595,6 @@ proxy-groups:
   - 10851_加拿大-677.8KB/s
   - 10852_美国-404.4KB/s
   - 10855_美国-822.9KB/s
-  - 10859_法国-1.01MB/s
   - 10861_英国-439.7KB/s
   - 10862_英国-388.7KB/s
   - 10863_法国-368.8KB/s
@@ -3620,8 +3619,6 @@ proxy-groups:
   - 10921_法国-648.6KB/s
   - 10922_法国-1.13MB/s
   - 10924_法国-537.2KB/s
-  - 10925_英国-1.01MB/s
-  - 10926_法国-1.31MB/s
   - 10927_法国-1.06MB/s
   - 10928_法国-1.83MB/s
   - 10929_法国-966.4KB/s
@@ -3629,6 +3626,9 @@ proxy-groups:
   - 10933_英国-840.2KB/s
   - 10935_法国-1.04MB/s
   - 10938_美国-1.21MB/s
+  - 10945_英国-1.01MB/s
+  - 10946_法国-1.75MB/s
+  - 10948_法国-1.13MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
