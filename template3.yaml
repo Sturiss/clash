@@ -2245,12 +2245,6 @@ proxies:
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 11352_法国-1.51MB/s
-  password: PCnnH6SQSnfoS27
-  port: '8091'
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
   name: 11353_法国-1.92MB/s
   password: e4FCWrgpkji3QY
   port: '9102'
@@ -2417,6 +2411,30 @@ proxies:
   password: XKFKl2rULjIp74
   port: '8009'
   server: 134.195.196.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 11394_美国-3.01MB/s
+  password: faBAoD54k87UJG7
+  port: '2375'
+  server: 38.86.135.36
+  type: ss
+- cipher: aes-256-gcm
+  name: 11395_美国-428.9KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '3306'
+  server: 167.88.61.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 11397_法国-2.02MB/s
+  password: PCnnH6SQSnfoS27
+  port: '8091'
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 11398_美国-1.54MB/s
+  password: faBAoD54k87UJG7
+  port: '2376'
+  server: 142.202.48.58
   type: ss
 proxy-groups:
 - interval: 3600
@@ -2789,7 +2807,6 @@ proxy-groups:
   - 11347_英国-361.3KB/s
   - 11350_法国-540.6KB/s
   - 11351_法国-1.87MB/s
-  - 11352_法国-1.51MB/s
   - 11353_法国-1.92MB/s
   - 11355_(已存活1天)法国-1.95MB/s
   - 11356_法国-852.9KB/s
@@ -2818,6 +2835,10 @@ proxy-groups:
   - 11391_美国-2.22MB/s
   - 11392_加拿大-1.79MB/s
   - 11393_加拿大-1.94MB/s
+  - 11394_美国-3.01MB/s
+  - 11395_美国-428.9KB/s
+  - 11397_法国-2.02MB/s
+  - 11398_美国-1.54MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3190,7 +3211,6 @@ proxy-groups:
   - 11347_英国-361.3KB/s
   - 11350_法国-540.6KB/s
   - 11351_法国-1.87MB/s
-  - 11352_法国-1.51MB/s
   - 11353_法国-1.92MB/s
   - 11355_(已存活1天)法国-1.95MB/s
   - 11356_法国-852.9KB/s
@@ -3219,6 +3239,10 @@ proxy-groups:
   - 11391_美国-2.22MB/s
   - 11392_加拿大-1.79MB/s
   - 11393_加拿大-1.94MB/s
+  - 11394_美国-3.01MB/s
+  - 11395_美国-428.9KB/s
+  - 11397_法国-2.02MB/s
+  - 11398_美国-1.54MB/s
   type: select
 - name: Final
   proxies:
@@ -3600,7 +3624,6 @@ proxy-groups:
   - 11347_英国-361.3KB/s
   - 11350_法国-540.6KB/s
   - 11351_法国-1.87MB/s
-  - 11352_法国-1.51MB/s
   - 11353_法国-1.92MB/s
   - 11355_(已存活1天)法国-1.95MB/s
   - 11356_法国-852.9KB/s
@@ -3629,6 +3652,10 @@ proxy-groups:
   - 11391_美国-2.22MB/s
   - 11392_加拿大-1.79MB/s
   - 11393_加拿大-1.94MB/s
+  - 11394_美国-3.01MB/s
+  - 11395_美国-428.9KB/s
+  - 11397_法国-2.02MB/s
+  - 11398_美国-1.54MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4000,7 +4027,6 @@ proxy-groups:
   - 11347_英国-361.3KB/s
   - 11350_法国-540.6KB/s
   - 11351_法国-1.87MB/s
-  - 11352_法国-1.51MB/s
   - 11353_法国-1.92MB/s
   - 11355_(已存活1天)法国-1.95MB/s
   - 11356_法国-852.9KB/s
@@ -4029,6 +4055,10 @@ proxy-groups:
   - 11391_美国-2.22MB/s
   - 11392_加拿大-1.79MB/s
   - 11393_加拿大-1.94MB/s
+  - 11394_美国-3.01MB/s
+  - 11395_美国-428.9KB/s
+  - 11397_法国-2.02MB/s
+  - 11398_美国-1.54MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
