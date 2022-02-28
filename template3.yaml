@@ -1573,18 +1573,6 @@ proxies:
   server: 134.195.196.147
   type: ss
 - cipher: aes-256-gcm
-  name: 10438_加拿大-526.8KB/s
-  password: KixLvKzwjekG00rm
-  port: '5500'
-  server: 134.195.196.193
-  type: ss
-- cipher: aes-256-gcm
-  name: 10441_英国-926.6KB/s
-  password: XKFKl2rULjIp74
-  port: '8009'
-  server: 172.99.190.188
-  type: ss
-- cipher: aes-256-gcm
   name: 10449_英国-329.1KB/s
   password: Y6R9pAtvxxzmGC
   port: '5001'
@@ -1649,12 +1637,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: '9101'
   server: 134.195.196.193
-  type: ss
-- cipher: aes-256-gcm
-  name: 10525_英国-371.5KB/s
-  password: PCnnH6SQSnfoS27
-  port: '8091'
-  server: 172.99.190.188
   type: ss
 - cipher: aes-256-gcm
   name: 10528_英国-407.1KB/s
@@ -2071,18 +2053,6 @@ proxies:
   server: 62.210.209.50
   type: ss
 - cipher: aes-256-gcm
-  name: 10954_法国-1.84MB/s
-  password: kDWvXYZoTBcGkC4
-  port: '8881'
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
-  name: 10956_法国-1.29MB/s
-  password: e4FCWrgpkji3QY
-  port: '9102'
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
   name: 10958_加拿大-1.86MB/s
   password: g5MeD6Ft3CWlJId
   port: '5004'
@@ -2161,25 +2131,55 @@ proxies:
   server: 172.99.190.205
   type: ss
 - cipher: aes-256-gcm
-  name: 11009_英国-3.03MB/s
+  name: 11014_法国-2.40MB/s
+  password: e4FCWrgpkji3QY
+  port: '9102'
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 11015_英国-3.02MB/s
+  password: XKFKl2rULjIp74
+  port: '8009'
+  server: 172.99.190.188
+  type: ss
+- cipher: aes-256-gcm
+  name: 11016_英国-3.09MB/s
+  password: PCnnH6SQSnfoS27
+  port: '8091'
+  server: 172.99.190.188
+  type: ss
+- cipher: aes-256-gcm
+  name: 11017_加拿大-1.35MB/s
+  password: KixLvKzwjekG00rm
+  port: '5500'
+  server: 134.195.196.193
+  type: ss
+- cipher: aes-256-gcm
+  name: 11018_法国-1.96MB/s
+  password: kDWvXYZoTBcGkC4
+  port: '8881'
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 11019_英国-3.03MB/s
   password: pKEW8JPByTVTLtM
   port: '443'
   server: 172.99.190.92
   type: ss
 - cipher: aes-256-gcm
-  name: 11010_英国-3.09MB/s
+  name: 11020_英国-3.09MB/s
   password: RexnBgU7EV5ADxG
   port: '7002'
   server: 172.99.190.92
   type: ss
 - cipher: aes-256-gcm
-  name: 11011_英国-1.98MB/s
+  name: 11021_英国-1.98MB/s
   password: faBAoD54k87UJG7
   port: '2375'
   server: 172.99.190.205
   type: ss
 - cipher: aes-256-gcm
-  name: 11012_英国-2.88MB/s
+  name: 11022_英国-2.88MB/s
   password: kDWvXYZoTBcGkC4
   port: '8881'
   server: 172.99.190.205
@@ -2443,8 +2443,6 @@ proxy-groups:
   - 10357_加拿大-434.3KB/s
   - 10359_中国-316.3KB/s
   - 10362_加拿大-664.1KB/s
-  - 10438_加拿大-526.8KB/s
-  - 10441_英国-926.6KB/s
   - 10449_英国-329.1KB/s
   - 10464_法国-366.5KB/s
   - 10469_加拿大-423.1KB/s
@@ -2456,7 +2454,6 @@ proxy-groups:
   - 10506_加拿大-420.1KB/s
   - 10512_英国-657.1KB/s
   - 10523_加拿大-358.7KB/s
-  - 10525_英国-371.5KB/s
   - 10528_英国-407.1KB/s
   - 10533_美国-717.4KB/s
   - 10537_加拿大-408.0KB/s
@@ -2526,8 +2523,6 @@ proxy-groups:
   - 10938_美国-1.21MB/s
   - 10945_英国-1.01MB/s
   - 10948_法国-1.13MB/s
-  - 10954_法国-1.84MB/s
-  - 10956_法国-1.29MB/s
   - 10958_加拿大-1.86MB/s
   - 10965_法国-2.84MB/s
   - 10966_法国-1.98MB/s
@@ -2541,10 +2536,15 @@ proxy-groups:
   - 11004_法国-1.89MB/s
   - 11005_英国-1.99MB/s
   - 11008_英国-2.07MB/s
-  - 11009_英国-3.03MB/s
-  - 11010_英国-3.09MB/s
-  - 11011_英国-1.98MB/s
-  - 11012_英国-2.88MB/s
+  - 11014_法国-2.40MB/s
+  - 11015_英国-3.02MB/s
+  - 11016_英国-3.09MB/s
+  - 11017_加拿大-1.35MB/s
+  - 11018_法国-1.96MB/s
+  - 11019_英国-3.03MB/s
+  - 11020_英国-3.09MB/s
+  - 11021_英国-1.98MB/s
+  - 11022_英国-2.88MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2805,8 +2805,6 @@ proxy-groups:
   - 10357_加拿大-434.3KB/s
   - 10359_中国-316.3KB/s
   - 10362_加拿大-664.1KB/s
-  - 10438_加拿大-526.8KB/s
-  - 10441_英国-926.6KB/s
   - 10449_英国-329.1KB/s
   - 10464_法国-366.5KB/s
   - 10469_加拿大-423.1KB/s
@@ -2818,7 +2816,6 @@ proxy-groups:
   - 10506_加拿大-420.1KB/s
   - 10512_英国-657.1KB/s
   - 10523_加拿大-358.7KB/s
-  - 10525_英国-371.5KB/s
   - 10528_英国-407.1KB/s
   - 10533_美国-717.4KB/s
   - 10537_加拿大-408.0KB/s
@@ -2888,8 +2885,6 @@ proxy-groups:
   - 10938_美国-1.21MB/s
   - 10945_英国-1.01MB/s
   - 10948_法国-1.13MB/s
-  - 10954_法国-1.84MB/s
-  - 10956_法国-1.29MB/s
   - 10958_加拿大-1.86MB/s
   - 10965_法国-2.84MB/s
   - 10966_法国-1.98MB/s
@@ -2903,10 +2898,15 @@ proxy-groups:
   - 11004_法国-1.89MB/s
   - 11005_英国-1.99MB/s
   - 11008_英国-2.07MB/s
-  - 11009_英国-3.03MB/s
-  - 11010_英国-3.09MB/s
-  - 11011_英国-1.98MB/s
-  - 11012_英国-2.88MB/s
+  - 11014_法国-2.40MB/s
+  - 11015_英国-3.02MB/s
+  - 11016_英国-3.09MB/s
+  - 11017_加拿大-1.35MB/s
+  - 11018_法国-1.96MB/s
+  - 11019_英国-3.03MB/s
+  - 11020_英国-3.09MB/s
+  - 11021_英国-1.98MB/s
+  - 11022_英国-2.88MB/s
   type: select
 - name: Final
   proxies:
@@ -3176,8 +3176,6 @@ proxy-groups:
   - 10357_加拿大-434.3KB/s
   - 10359_中国-316.3KB/s
   - 10362_加拿大-664.1KB/s
-  - 10438_加拿大-526.8KB/s
-  - 10441_英国-926.6KB/s
   - 10449_英国-329.1KB/s
   - 10464_法国-366.5KB/s
   - 10469_加拿大-423.1KB/s
@@ -3189,7 +3187,6 @@ proxy-groups:
   - 10506_加拿大-420.1KB/s
   - 10512_英国-657.1KB/s
   - 10523_加拿大-358.7KB/s
-  - 10525_英国-371.5KB/s
   - 10528_英国-407.1KB/s
   - 10533_美国-717.4KB/s
   - 10537_加拿大-408.0KB/s
@@ -3259,8 +3256,6 @@ proxy-groups:
   - 10938_美国-1.21MB/s
   - 10945_英国-1.01MB/s
   - 10948_法国-1.13MB/s
-  - 10954_法国-1.84MB/s
-  - 10956_法国-1.29MB/s
   - 10958_加拿大-1.86MB/s
   - 10965_法国-2.84MB/s
   - 10966_法国-1.98MB/s
@@ -3274,10 +3269,15 @@ proxy-groups:
   - 11004_法国-1.89MB/s
   - 11005_英国-1.99MB/s
   - 11008_英国-2.07MB/s
-  - 11009_英国-3.03MB/s
-  - 11010_英国-3.09MB/s
-  - 11011_英国-1.98MB/s
-  - 11012_英国-2.88MB/s
+  - 11014_法国-2.40MB/s
+  - 11015_英国-3.02MB/s
+  - 11016_英国-3.09MB/s
+  - 11017_加拿大-1.35MB/s
+  - 11018_法国-1.96MB/s
+  - 11019_英国-3.03MB/s
+  - 11020_英国-3.09MB/s
+  - 11021_英国-1.98MB/s
+  - 11022_英国-2.88MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -3537,8 +3537,6 @@ proxy-groups:
   - 10357_加拿大-434.3KB/s
   - 10359_中国-316.3KB/s
   - 10362_加拿大-664.1KB/s
-  - 10438_加拿大-526.8KB/s
-  - 10441_英国-926.6KB/s
   - 10449_英国-329.1KB/s
   - 10464_法国-366.5KB/s
   - 10469_加拿大-423.1KB/s
@@ -3550,7 +3548,6 @@ proxy-groups:
   - 10506_加拿大-420.1KB/s
   - 10512_英国-657.1KB/s
   - 10523_加拿大-358.7KB/s
-  - 10525_英国-371.5KB/s
   - 10528_英国-407.1KB/s
   - 10533_美国-717.4KB/s
   - 10537_加拿大-408.0KB/s
@@ -3620,8 +3617,6 @@ proxy-groups:
   - 10938_美国-1.21MB/s
   - 10945_英国-1.01MB/s
   - 10948_法国-1.13MB/s
-  - 10954_法国-1.84MB/s
-  - 10956_法国-1.29MB/s
   - 10958_加拿大-1.86MB/s
   - 10965_法国-2.84MB/s
   - 10966_法国-1.98MB/s
@@ -3635,10 +3630,15 @@ proxy-groups:
   - 11004_法国-1.89MB/s
   - 11005_英国-1.99MB/s
   - 11008_英国-2.07MB/s
-  - 11009_英国-3.03MB/s
-  - 11010_英国-3.09MB/s
-  - 11011_英国-1.98MB/s
-  - 11012_英国-2.88MB/s
+  - 11014_法国-2.40MB/s
+  - 11015_英国-3.02MB/s
+  - 11016_英国-3.09MB/s
+  - 11017_加拿大-1.35MB/s
+  - 11018_法国-1.96MB/s
+  - 11019_英国-3.03MB/s
+  - 11020_英国-3.09MB/s
+  - 11021_英国-1.98MB/s
+  - 11022_英国-2.88MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
