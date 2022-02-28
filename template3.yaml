@@ -2293,22 +2293,10 @@ proxies:
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 11294_法国-1.04MB/s
-  password: zDNVedRFPQexG9v
-  port: '6379'
-  server: 149.202.82.172
-  type: ss
-- cipher: aes-256-gcm
   name: 11297_法国-1.71MB/s
   password: Y6R9pAtvxxzmGC
   port: '3306'
   server: 62.210.209.50
-  type: ss
-- cipher: aes-256-gcm
-  name: 11298_美国-2.15MB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5004'
-  server: 38.114.114.67
   type: ss
 - cipher: aes-256-gcm
   name: 11304_美国-3.60MB/s
@@ -2329,31 +2317,43 @@ proxies:
   server: 149.202.82.172
   type: ss
 - cipher: aes-256-gcm
-  name: 11309_美国-5.73MB/s
+  name: 11316_美国-2.15MB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 38.114.114.67
+  type: ss
+- cipher: aes-256-gcm
+  name: 11318_法国-1.04MB/s
+  password: zDNVedRFPQexG9v
+  port: '6379'
+  server: 149.202.82.172
+  type: ss
+- cipher: aes-256-gcm
+  name: 11319_美国-5.73MB/s
   password: KixLvKzwjekG00rm
   port: '8000'
   server: 169.197.142.39
   type: ss
 - cipher: aes-256-gcm
-  name: 11310_美国-5.22MB/s
+  name: 11320_美国-5.68MB/s
   password: KixLvKzwjekG00rm
   port: '8080'
   server: 169.197.142.39
   type: ss
 - cipher: aes-256-gcm
-  name: 11311_加拿大-1.37MB/s
+  name: 11321_加拿大-589.4KB/s
   password: e4FCWrgpkji3QY
   port: '9101'
   server: 134.195.196.193
   type: ss
 - cipher: aes-256-gcm
-  name: 11312_加拿大-1.23MB/s
+  name: 11322_加拿大-1.23MB/s
   password: TEzjfAYq2IjtuoS
   port: '6697'
   server: 134.195.196.193
   type: ss
 - cipher: aes-256-gcm
-  name: 11313_加拿大-568.9KB/s
+  name: 11323_加拿大-3.40MB/s
   password: FoOiGlkAA9yPEGP
   port: '7307'
   server: 134.195.196.227
@@ -2737,17 +2737,17 @@ proxy-groups:
   - 11277_法国-1.87MB/s
   - 11286_法国-1.42MB/s
   - 11288_法国-1.82MB/s
-  - 11294_法国-1.04MB/s
   - 11297_法国-1.71MB/s
-  - 11298_美国-2.15MB/s
   - 11304_美国-3.60MB/s
   - 11305_美国-5.05MB/s
   - 11307_(已存活1天)法国-783.1KB/s
-  - 11309_美国-5.73MB/s
-  - 11310_美国-5.22MB/s
-  - 11311_加拿大-1.37MB/s
-  - 11312_加拿大-1.23MB/s
-  - 11313_加拿大-568.9KB/s
+  - 11316_美国-2.15MB/s
+  - 11318_法国-1.04MB/s
+  - 11319_美国-5.73MB/s
+  - 11320_美国-5.68MB/s
+  - 11321_加拿大-589.4KB/s
+  - 11322_加拿大-1.23MB/s
+  - 11323_加拿大-3.40MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3128,17 +3128,17 @@ proxy-groups:
   - 11277_法国-1.87MB/s
   - 11286_法国-1.42MB/s
   - 11288_法国-1.82MB/s
-  - 11294_法国-1.04MB/s
   - 11297_法国-1.71MB/s
-  - 11298_美国-2.15MB/s
   - 11304_美国-3.60MB/s
   - 11305_美国-5.05MB/s
   - 11307_(已存活1天)法国-783.1KB/s
-  - 11309_美国-5.73MB/s
-  - 11310_美国-5.22MB/s
-  - 11311_加拿大-1.37MB/s
-  - 11312_加拿大-1.23MB/s
-  - 11313_加拿大-568.9KB/s
+  - 11316_美国-2.15MB/s
+  - 11318_法国-1.04MB/s
+  - 11319_美国-5.73MB/s
+  - 11320_美国-5.68MB/s
+  - 11321_加拿大-589.4KB/s
+  - 11322_加拿大-1.23MB/s
+  - 11323_加拿大-3.40MB/s
   type: select
 - name: Final
   proxies:
@@ -3528,17 +3528,17 @@ proxy-groups:
   - 11277_法国-1.87MB/s
   - 11286_法国-1.42MB/s
   - 11288_法国-1.82MB/s
-  - 11294_法国-1.04MB/s
   - 11297_法国-1.71MB/s
-  - 11298_美国-2.15MB/s
   - 11304_美国-3.60MB/s
   - 11305_美国-5.05MB/s
   - 11307_(已存活1天)法国-783.1KB/s
-  - 11309_美国-5.73MB/s
-  - 11310_美国-5.22MB/s
-  - 11311_加拿大-1.37MB/s
-  - 11312_加拿大-1.23MB/s
-  - 11313_加拿大-568.9KB/s
+  - 11316_美国-2.15MB/s
+  - 11318_法国-1.04MB/s
+  - 11319_美国-5.73MB/s
+  - 11320_美国-5.68MB/s
+  - 11321_加拿大-589.4KB/s
+  - 11322_加拿大-1.23MB/s
+  - 11323_加拿大-3.40MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -3918,17 +3918,17 @@ proxy-groups:
   - 11277_法国-1.87MB/s
   - 11286_法国-1.42MB/s
   - 11288_法国-1.82MB/s
-  - 11294_法国-1.04MB/s
   - 11297_法国-1.71MB/s
-  - 11298_美国-2.15MB/s
   - 11304_美国-3.60MB/s
   - 11305_美国-5.05MB/s
   - 11307_(已存活1天)法国-783.1KB/s
-  - 11309_美国-5.73MB/s
-  - 11310_美国-5.22MB/s
-  - 11311_加拿大-1.37MB/s
-  - 11312_加拿大-1.23MB/s
-  - 11313_加拿大-568.9KB/s
+  - 11316_美国-2.15MB/s
+  - 11318_法国-1.04MB/s
+  - 11319_美国-5.73MB/s
+  - 11320_美国-5.68MB/s
+  - 11321_加拿大-589.4KB/s
+  - 11322_加拿大-1.23MB/s
+  - 11323_加拿大-3.40MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
