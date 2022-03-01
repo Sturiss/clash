@@ -2455,12 +2455,6 @@ proxies:
   server: 120.232.193.101
   type: ss
 - cipher: rc4-md5
-  name: 11508_台湾-645.7KB/s
-  password: passinfo123
-  port: '8369'
-  server: 59.125.11.164
-  type: ss
-- cipher: rc4-md5
   name: 11515_台湾-684.1KB/s
   password: passinfo123
   port: '8329'
@@ -2477,12 +2471,6 @@ proxies:
   password: TEzjfAYq2IjtuoS
   port: '6679'
   server: 167.88.61.60
-  type: ss
-- cipher: aes-256-gcm
-  name: 11519_美国-366.9KB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5004'
-  server: 38.75.136.93
   type: ss
 - cipher: aes-256-gcm
   name: 11520_美国-323.6KB/s
@@ -2533,12 +2521,6 @@ proxies:
   server: 167.88.61.60
   type: ss
 - cipher: aes-256-gcm
-  name: 11538_美国-375.3KB/s
-  password: e4FCWrgpkji3QY
-  port: '9101'
-  server: 38.75.136.102
-  type: ss
-- cipher: aes-256-gcm
   name: 11541_美国-335.7KB/s
   password: Y6R9pAtvxxzmGC
   port: '3306'
@@ -2567,6 +2549,24 @@ proxies:
   password: FoOiGlkAA9yPEGP
   port: '7307'
   server: 38.91.102.86
+  type: ss
+- cipher: aes-256-gcm
+  name: 11565_美国-375.3KB/s
+  password: e4FCWrgpkji3QY
+  port: '9101'
+  server: 38.75.136.102
+  type: ss
+- cipher: aes-256-gcm
+  name: 11566_美国-404.4KB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 38.75.136.93
+  type: ss
+- cipher: rc4-md5
+  name: 11567_台湾-576.9KB/s
+  password: passinfo123
+  port: '8369'
+  server: 59.125.11.164
   type: ss
 proxy-groups:
 - interval: 3600
@@ -2974,11 +2974,9 @@ proxy-groups:
   - 11497_中国-1.53MB/s
   - 11504_美国-339.1KB/s
   - 11506_中国-1.25MB/s
-  - 11508_台湾-645.7KB/s
   - 11515_台湾-684.1KB/s
   - 11516_美国-337.5KB/s
   - 11518_美国-440.1KB/s
-  - 11519_美国-366.9KB/s
   - 11520_美国-323.6KB/s
   - 11522_美国-428.8KB/s
   - 11524_美国-399.1KB/s
@@ -2987,12 +2985,14 @@ proxy-groups:
   - 11535_中国-1.51MB/s
   - 11536_中国-2.04MB/s
   - 11537_美国-414.9KB/s
-  - 11538_美国-375.3KB/s
   - 11541_美国-335.7KB/s
   - 11545_美国-336.4KB/s
   - 11554_美国-365.3KB/s
   - 11555_美国-401.6KB/s
   - 11556_美国-357.6KB/s
+  - 11565_美国-375.3KB/s
+  - 11566_美国-404.4KB/s
+  - 11567_台湾-576.9KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3400,11 +3400,9 @@ proxy-groups:
   - 11497_中国-1.53MB/s
   - 11504_美国-339.1KB/s
   - 11506_中国-1.25MB/s
-  - 11508_台湾-645.7KB/s
   - 11515_台湾-684.1KB/s
   - 11516_美国-337.5KB/s
   - 11518_美国-440.1KB/s
-  - 11519_美国-366.9KB/s
   - 11520_美国-323.6KB/s
   - 11522_美国-428.8KB/s
   - 11524_美国-399.1KB/s
@@ -3413,12 +3411,14 @@ proxy-groups:
   - 11535_中国-1.51MB/s
   - 11536_中国-2.04MB/s
   - 11537_美国-414.9KB/s
-  - 11538_美国-375.3KB/s
   - 11541_美国-335.7KB/s
   - 11545_美国-336.4KB/s
   - 11554_美国-365.3KB/s
   - 11555_美国-401.6KB/s
   - 11556_美国-357.6KB/s
+  - 11565_美国-375.3KB/s
+  - 11566_美国-404.4KB/s
+  - 11567_台湾-576.9KB/s
   type: select
 - name: Final
   proxies:
@@ -3835,11 +3835,9 @@ proxy-groups:
   - 11497_中国-1.53MB/s
   - 11504_美国-339.1KB/s
   - 11506_中国-1.25MB/s
-  - 11508_台湾-645.7KB/s
   - 11515_台湾-684.1KB/s
   - 11516_美国-337.5KB/s
   - 11518_美国-440.1KB/s
-  - 11519_美国-366.9KB/s
   - 11520_美国-323.6KB/s
   - 11522_美国-428.8KB/s
   - 11524_美国-399.1KB/s
@@ -3848,12 +3846,14 @@ proxy-groups:
   - 11535_中国-1.51MB/s
   - 11536_中国-2.04MB/s
   - 11537_美国-414.9KB/s
-  - 11538_美国-375.3KB/s
   - 11541_美国-335.7KB/s
   - 11545_美国-336.4KB/s
   - 11554_美国-365.3KB/s
   - 11555_美国-401.6KB/s
   - 11556_美国-357.6KB/s
+  - 11565_美国-375.3KB/s
+  - 11566_美国-404.4KB/s
+  - 11567_台湾-576.9KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4260,11 +4260,9 @@ proxy-groups:
   - 11497_中国-1.53MB/s
   - 11504_美国-339.1KB/s
   - 11506_中国-1.25MB/s
-  - 11508_台湾-645.7KB/s
   - 11515_台湾-684.1KB/s
   - 11516_美国-337.5KB/s
   - 11518_美国-440.1KB/s
-  - 11519_美国-366.9KB/s
   - 11520_美国-323.6KB/s
   - 11522_美国-428.8KB/s
   - 11524_美国-399.1KB/s
@@ -4273,12 +4271,14 @@ proxy-groups:
   - 11535_中国-1.51MB/s
   - 11536_中国-2.04MB/s
   - 11537_美国-414.9KB/s
-  - 11538_美国-375.3KB/s
   - 11541_美国-335.7KB/s
   - 11545_美国-336.4KB/s
   - 11554_美国-365.3KB/s
   - 11555_美国-401.6KB/s
   - 11556_美国-357.6KB/s
+  - 11565_美国-375.3KB/s
+  - 11566_美国-404.4KB/s
+  - 11567_台湾-576.9KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
