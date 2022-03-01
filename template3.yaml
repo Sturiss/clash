@@ -2592,6 +2592,18 @@ proxies:
   port: '443'
   server: 38.68.134.23
   type: ss
+- cipher: aes-256-gcm
+  name: 11588_美国-407.7KB/s
+  password: pKEW8JPByTVTLtM
+  port: '443'
+  server: 38.75.136.102
+  type: ss
+- cipher: aes-256-gcm
+  name: 11591_美国-386.8KB/s
+  password: e4FCWrgpkji3QY
+  port: '9101'
+  server: 167.88.61.60
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择快速节点
@@ -3021,6 +3033,8 @@ proxy-groups:
   - 11580_美国-314.2KB/s
   - 11581_美国-344.5KB/s
   - 11582_美国-353.4KB/s
+  - 11588_美国-407.7KB/s
+  - 11591_美国-386.8KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3451,6 +3465,8 @@ proxy-groups:
   - 11580_美国-314.2KB/s
   - 11581_美国-344.5KB/s
   - 11582_美国-353.4KB/s
+  - 11588_美国-407.7KB/s
+  - 11591_美国-386.8KB/s
   type: select
 - name: Final
   proxies:
@@ -3890,6 +3906,8 @@ proxy-groups:
   - 11580_美国-314.2KB/s
   - 11581_美国-344.5KB/s
   - 11582_美国-353.4KB/s
+  - 11588_美国-407.7KB/s
+  - 11591_美国-386.8KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4319,6 +4337,8 @@ proxy-groups:
   - 11580_美国-314.2KB/s
   - 11581_美国-344.5KB/s
   - 11582_美国-353.4KB/s
+  - 11588_美国-407.7KB/s
+  - 11591_美国-386.8KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
