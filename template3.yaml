@@ -2581,12 +2581,6 @@ proxies:
   server: 38.68.134.23
   type: ss
 - cipher: aes-256-gcm
-  name: 11694_美国-339.7KB/s
-  password: XKFKl2rULjIp74
-  port: '8009'
-  server: 38.91.102.86
-  type: ss
-- cipher: aes-256-gcm
   name: 11698_美国-363.0KB/s
   password: kDWvXYZoTBcGkC4
   port: '8882'
@@ -2615,12 +2609,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: '8000'
   server: 38.143.66.71
-  type: ss
-- cipher: aes-256-gcm
-  name: 11709_美国-389.3KB/s
-  password: RexnBgU7EV5ADxG
-  port: '7002'
-  server: 38.75.136.93
   type: ss
 - cipher: aes-256-gcm
   name: 11710_新加坡-591.7KB/s
@@ -2695,12 +2683,6 @@ proxies:
   server: 38.75.136.102
   type: ss
 - cipher: aes-256-gcm
-  name: 11732_美国-409.9KB/s
-  password: m35yfEjtbS
-  port: '32567'
-  server: c39s1.jamjams.net
-  type: ss
-- cipher: aes-256-gcm
   name: 11734_美国-419.3KB/s
   password: e4FCWrgpkji3QY
   port: '9101'
@@ -2717,12 +2699,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: '9102'
   server: 38.68.134.85
-  type: ss
-- cipher: aes-128-gcm
-  name: 11740_中国-1.93MB/s
-  password: ad983854-167d-478f-88eb-5d494d3b2c24
-  port: '37000'
-  server: centralchina1.cloudlink123.com
   type: ss
 - cipher: aes-256-gcm
   name: 11744_美国-396.0KB/s
@@ -2743,19 +2719,49 @@ proxies:
   server: 38.75.136.93
   type: ss
 - cipher: aes-256-gcm
-  name: 11750_新加坡-547.7KB/s
-  password: faBAoD54k87UJG7
-  port: '2376'
-  server: 172.104.168.83
-  type: ss
-- cipher: aes-256-gcm
   name: 11751_新加坡-423.3KB/s
   password: RexnBgU7EV5ADxG
   port: '7002'
   server: 172.104.168.83
   type: ss
 - cipher: aes-256-gcm
-  name: 11753_美国-342.3KB/s
+  name: 11754_美国-316.2KB/s
+  password: RexnBgU7EV5ADxG
+  port: '7002'
+  server: 38.75.136.93
+  type: ss
+- cipher: aes-256-gcm
+  name: 11756_美国-336.8KB/s
+  password: XKFKl2rULjIp74
+  port: '8009'
+  server: 38.91.102.86
+  type: ss
+- cipher: aes-256-gcm
+  name: 11758_美国-302.9KB/s
+  password: m35yfEjtbS
+  port: '32567'
+  server: c39s1.jamjams.net
+  type: ss
+- cipher: aes-256-gcm
+  name: 11759_美国-414.8KB/s
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 167.88.61.60
+  type: ss
+- cipher: aes-128-gcm
+  name: 11760_中国-1.93MB/s
+  password: ad983854-167d-478f-88eb-5d494d3b2c24
+  port: '37000'
+  server: centralchina1.cloudlink123.com
+  type: ss
+- cipher: aes-256-gcm
+  name: 11761_新加坡-547.7KB/s
+  password: faBAoD54k87UJG7
+  port: '2376'
+  server: 172.104.168.83
+  type: ss
+- cipher: aes-256-gcm
+  name: 11763_美国-342.3KB/s
   password: zDNVedRFPQexG9v
   port: '6379'
   server: 38.68.134.23
@@ -3187,13 +3193,11 @@ proxy-groups:
   - 11681_美国-345.9KB/s
   - 11682_美国-334.7KB/s
   - 11686_美国-318.9KB/s
-  - 11694_美国-339.7KB/s
   - 11698_美国-363.0KB/s
   - 11702_美国-345.4KB/s
   - 11706_美国-334.1KB/s
   - 11707_美国-428.4KB/s
   - 11708_美国-314.8KB/s
-  - 11709_美国-389.3KB/s
   - 11710_新加坡-591.7KB/s
   - 11713_美国-335.4KB/s
   - 11714_美国-345.3KB/s
@@ -3206,17 +3210,20 @@ proxy-groups:
   - 11726_美国-328.3KB/s
   - 11727_美国-364.9KB/s
   - 11728_美国-394.0KB/s
-  - 11732_美国-409.9KB/s
   - 11734_美国-419.3KB/s
   - 11735_台湾-587.0KB/s
   - 11737_美国-322.8KB/s
-  - 11740_中国-1.93MB/s
   - 11744_美国-396.0KB/s
   - 11747_新加坡-484.1KB/s
   - 11748_美国-354.3KB/s
-  - 11750_新加坡-547.7KB/s
   - 11751_新加坡-423.3KB/s
-  - 11753_美国-342.3KB/s
+  - 11754_美国-316.2KB/s
+  - 11756_美国-336.8KB/s
+  - 11758_美国-302.9KB/s
+  - 11759_美国-414.8KB/s
+  - 11760_中国-1.93MB/s
+  - 11761_新加坡-547.7KB/s
+  - 11763_美国-342.3KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3645,13 +3652,11 @@ proxy-groups:
   - 11681_美国-345.9KB/s
   - 11682_美国-334.7KB/s
   - 11686_美国-318.9KB/s
-  - 11694_美国-339.7KB/s
   - 11698_美国-363.0KB/s
   - 11702_美国-345.4KB/s
   - 11706_美国-334.1KB/s
   - 11707_美国-428.4KB/s
   - 11708_美国-314.8KB/s
-  - 11709_美国-389.3KB/s
   - 11710_新加坡-591.7KB/s
   - 11713_美国-335.4KB/s
   - 11714_美国-345.3KB/s
@@ -3664,17 +3669,20 @@ proxy-groups:
   - 11726_美国-328.3KB/s
   - 11727_美国-364.9KB/s
   - 11728_美国-394.0KB/s
-  - 11732_美国-409.9KB/s
   - 11734_美国-419.3KB/s
   - 11735_台湾-587.0KB/s
   - 11737_美国-322.8KB/s
-  - 11740_中国-1.93MB/s
   - 11744_美国-396.0KB/s
   - 11747_新加坡-484.1KB/s
   - 11748_美国-354.3KB/s
-  - 11750_新加坡-547.7KB/s
   - 11751_新加坡-423.3KB/s
-  - 11753_美国-342.3KB/s
+  - 11754_美国-316.2KB/s
+  - 11756_美国-336.8KB/s
+  - 11758_美国-302.9KB/s
+  - 11759_美国-414.8KB/s
+  - 11760_中国-1.93MB/s
+  - 11761_新加坡-547.7KB/s
+  - 11763_美国-342.3KB/s
   type: select
 - name: Final
   proxies:
@@ -4112,13 +4120,11 @@ proxy-groups:
   - 11681_美国-345.9KB/s
   - 11682_美国-334.7KB/s
   - 11686_美国-318.9KB/s
-  - 11694_美国-339.7KB/s
   - 11698_美国-363.0KB/s
   - 11702_美国-345.4KB/s
   - 11706_美国-334.1KB/s
   - 11707_美国-428.4KB/s
   - 11708_美国-314.8KB/s
-  - 11709_美国-389.3KB/s
   - 11710_新加坡-591.7KB/s
   - 11713_美国-335.4KB/s
   - 11714_美国-345.3KB/s
@@ -4131,17 +4137,20 @@ proxy-groups:
   - 11726_美国-328.3KB/s
   - 11727_美国-364.9KB/s
   - 11728_美国-394.0KB/s
-  - 11732_美国-409.9KB/s
   - 11734_美国-419.3KB/s
   - 11735_台湾-587.0KB/s
   - 11737_美国-322.8KB/s
-  - 11740_中国-1.93MB/s
   - 11744_美国-396.0KB/s
   - 11747_新加坡-484.1KB/s
   - 11748_美国-354.3KB/s
-  - 11750_新加坡-547.7KB/s
   - 11751_新加坡-423.3KB/s
-  - 11753_美国-342.3KB/s
+  - 11754_美国-316.2KB/s
+  - 11756_美国-336.8KB/s
+  - 11758_美国-302.9KB/s
+  - 11759_美国-414.8KB/s
+  - 11760_中国-1.93MB/s
+  - 11761_新加坡-547.7KB/s
+  - 11763_美国-342.3KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4569,13 +4578,11 @@ proxy-groups:
   - 11681_美国-345.9KB/s
   - 11682_美国-334.7KB/s
   - 11686_美国-318.9KB/s
-  - 11694_美国-339.7KB/s
   - 11698_美国-363.0KB/s
   - 11702_美国-345.4KB/s
   - 11706_美国-334.1KB/s
   - 11707_美国-428.4KB/s
   - 11708_美国-314.8KB/s
-  - 11709_美国-389.3KB/s
   - 11710_新加坡-591.7KB/s
   - 11713_美国-335.4KB/s
   - 11714_美国-345.3KB/s
@@ -4588,17 +4595,20 @@ proxy-groups:
   - 11726_美国-328.3KB/s
   - 11727_美国-364.9KB/s
   - 11728_美国-394.0KB/s
-  - 11732_美国-409.9KB/s
   - 11734_美国-419.3KB/s
   - 11735_台湾-587.0KB/s
   - 11737_美国-322.8KB/s
-  - 11740_中国-1.93MB/s
   - 11744_美国-396.0KB/s
   - 11747_新加坡-484.1KB/s
   - 11748_美国-354.3KB/s
-  - 11750_新加坡-547.7KB/s
   - 11751_新加坡-423.3KB/s
-  - 11753_美国-342.3KB/s
+  - 11754_美国-316.2KB/s
+  - 11756_美国-336.8KB/s
+  - 11758_美国-302.9KB/s
+  - 11759_美国-414.8KB/s
+  - 11760_中国-1.93MB/s
+  - 11761_新加坡-547.7KB/s
+  - 11763_美国-342.3KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
