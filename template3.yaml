@@ -2095,12 +2095,6 @@ proxies:
   server: 167.88.63.71
   type: ss
 - cipher: aes-256-gcm
-  name: 11261_美国-5.78MB/s
-  password: zDNVedRFPQexG9v
-  port: '6379'
-  server: 167.88.61.60
-  type: ss
-- cipher: aes-256-gcm
   name: 11262_美国-3.78MB/s
   password: Y6R9pAtvxxzmGC
   port: '5001'
@@ -2616,12 +2610,6 @@ proxies:
   port: '5001'
   server: 38.143.66.71
   type: ss
-- cipher: aes-256-gcm
-  name: 11644_美国-376.0KB/s
-  password: Y6R9pAtvxxzmGC
-  port: '3389'
-  server: 167.88.61.60
-  type: ss
 - cipher: aes-128-gcm
   name: 11648_中国-1022.3KB/s
   password: ad983854-167d-478f-88eb-5d494d3b2c24
@@ -2635,25 +2623,49 @@ proxies:
   server: 38.143.66.71
   type: ss
 - cipher: aes-256-gcm
-  name: 11650_美国-336.0KB/s
+  name: 11654_美国-373.8KB/s
+  password: PCnnH6SQSnfoS27
+  port: '8090'
+  server: 167.88.61.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 11656_美国-336.6KB/s
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 38.75.136.93
+  type: ss
+- cipher: aes-256-gcm
+  name: 11658_美国-409.3KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '3389'
+  server: 167.88.61.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 11659_美国-344.8KB/s
+  password: zDNVedRFPQexG9v
+  port: '6379'
+  server: 167.88.61.60
+  type: ss
+- cipher: aes-256-gcm
+  name: 11660_美国-336.0KB/s
   password: XKFKl2rULjIp74
   port: '8009'
   server: 38.91.102.86
   type: ss
 - cipher: aes-256-gcm
-  name: 11651_美国-335.8KB/s
+  name: 11661_美国-335.8KB/s
   password: kDWvXYZoTBcGkC4
   port: '8882'
   server: 38.91.102.86
   type: ss
 - cipher: aes-256-gcm
-  name: 11652_美国-401.0KB/s
+  name: 11662_美国-401.0KB/s
   password: TEzjfAYq2IjtuoS
   port: '6679'
   server: 38.75.136.93
   type: ss
 - cipher: aes-256-gcm
-  name: 11653_美国-376.9KB/s
+  name: 11663_美国-376.4KB/s
   password: cdBIDV42DCwnfIN
   port: '8119'
   server: 38.75.136.93
@@ -3004,7 +3016,6 @@ proxy-groups:
   - 11257_法国-1.75MB/s
   - 11258_法国-1.29MB/s
   - 11259_美国-3.53MB/s
-  - 11261_美国-5.78MB/s
   - 11262_美国-3.78MB/s
   - 11263_美国-5.04MB/s
   - 11268_加拿大-3.08MB/s
@@ -3091,13 +3102,16 @@ proxy-groups:
   - 11635_美国-360.1KB/s
   - 11637_美国-323.1KB/s
   - 11638_美国-340.9KB/s
-  - 11644_美国-376.0KB/s
   - 11648_中国-1022.3KB/s
   - 11649_美国-323.7KB/s
-  - 11650_美国-336.0KB/s
-  - 11651_美国-335.8KB/s
-  - 11652_美国-401.0KB/s
-  - 11653_美国-376.9KB/s
+  - 11654_美国-373.8KB/s
+  - 11656_美国-336.6KB/s
+  - 11658_美国-409.3KB/s
+  - 11659_美国-344.8KB/s
+  - 11660_美国-336.0KB/s
+  - 11661_美国-335.8KB/s
+  - 11662_美国-401.0KB/s
+  - 11663_美国-376.4KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3445,7 +3459,6 @@ proxy-groups:
   - 11257_法国-1.75MB/s
   - 11258_法国-1.29MB/s
   - 11259_美国-3.53MB/s
-  - 11261_美国-5.78MB/s
   - 11262_美国-3.78MB/s
   - 11263_美国-5.04MB/s
   - 11268_加拿大-3.08MB/s
@@ -3532,13 +3545,16 @@ proxy-groups:
   - 11635_美国-360.1KB/s
   - 11637_美国-323.1KB/s
   - 11638_美国-340.9KB/s
-  - 11644_美国-376.0KB/s
   - 11648_中国-1022.3KB/s
   - 11649_美国-323.7KB/s
-  - 11650_美国-336.0KB/s
-  - 11651_美国-335.8KB/s
-  - 11652_美国-401.0KB/s
-  - 11653_美国-376.9KB/s
+  - 11654_美国-373.8KB/s
+  - 11656_美国-336.6KB/s
+  - 11658_美国-409.3KB/s
+  - 11659_美国-344.8KB/s
+  - 11660_美国-336.0KB/s
+  - 11661_美国-335.8KB/s
+  - 11662_美国-401.0KB/s
+  - 11663_美国-376.4KB/s
   type: select
 - name: Final
   proxies:
@@ -3895,7 +3911,6 @@ proxy-groups:
   - 11257_法国-1.75MB/s
   - 11258_法国-1.29MB/s
   - 11259_美国-3.53MB/s
-  - 11261_美国-5.78MB/s
   - 11262_美国-3.78MB/s
   - 11263_美国-5.04MB/s
   - 11268_加拿大-3.08MB/s
@@ -3982,13 +3997,16 @@ proxy-groups:
   - 11635_美国-360.1KB/s
   - 11637_美国-323.1KB/s
   - 11638_美国-340.9KB/s
-  - 11644_美国-376.0KB/s
   - 11648_中国-1022.3KB/s
   - 11649_美国-323.7KB/s
-  - 11650_美国-336.0KB/s
-  - 11651_美国-335.8KB/s
-  - 11652_美国-401.0KB/s
-  - 11653_美国-376.9KB/s
+  - 11654_美国-373.8KB/s
+  - 11656_美国-336.6KB/s
+  - 11658_美国-409.3KB/s
+  - 11659_美国-344.8KB/s
+  - 11660_美国-336.0KB/s
+  - 11661_美国-335.8KB/s
+  - 11662_美国-401.0KB/s
+  - 11663_美国-376.4KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4335,7 +4353,6 @@ proxy-groups:
   - 11257_法国-1.75MB/s
   - 11258_法国-1.29MB/s
   - 11259_美国-3.53MB/s
-  - 11261_美国-5.78MB/s
   - 11262_美国-3.78MB/s
   - 11263_美国-5.04MB/s
   - 11268_加拿大-3.08MB/s
@@ -4422,13 +4439,16 @@ proxy-groups:
   - 11635_美国-360.1KB/s
   - 11637_美国-323.1KB/s
   - 11638_美国-340.9KB/s
-  - 11644_美国-376.0KB/s
   - 11648_中国-1022.3KB/s
   - 11649_美国-323.7KB/s
-  - 11650_美国-336.0KB/s
-  - 11651_美国-335.8KB/s
-  - 11652_美国-401.0KB/s
-  - 11653_美国-376.9KB/s
+  - 11654_美国-373.8KB/s
+  - 11656_美国-336.6KB/s
+  - 11658_美国-409.3KB/s
+  - 11659_美国-344.8KB/s
+  - 11660_美国-336.0KB/s
+  - 11661_美国-335.8KB/s
+  - 11662_美国-401.0KB/s
+  - 11663_美国-376.4KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
