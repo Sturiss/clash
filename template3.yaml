@@ -883,22 +883,10 @@ proxies:
   server: 169.197.142.187
   type: ss
 - cipher: aes-256-gcm
-  name: 9373_美国-3.86MB/s
-  password: e4FCWrgpkji3QY
-  port: '9102'
-  server: 169.197.142.187
-  type: ss
-- cipher: aes-256-gcm
   name: 9381_德国-1.51MB/s
   password: e4FCWrgpkji3QY
   port: '9101'
   server: 217.79.184.107
-  type: ss
-- cipher: aes-256-gcm
-  name: 9383_美国-3.68MB/s
-  password: Y6R9pAtvxxzmGC
-  port: '5001'
-  server: 169.197.142.187
   type: ss
 - cipher: aes-256-gcm
   name: 9389_美国-3.12MB/s
@@ -2683,12 +2671,6 @@ proxies:
   server: 38.75.136.93
   type: ss
 - cipher: aes-256-gcm
-  name: 11776_美国-318.5KB/s
-  password: KixLvKzwjekG00rm
-  port: '8080'
-  server: 38.75.136.93
-  type: ss
-- cipher: aes-256-gcm
   name: 11777_美国-321.7KB/s
   password: XKFKl2rULjIp74
   port: '8009'
@@ -2713,22 +2695,10 @@ proxies:
   server: 167.88.61.60
   type: ss
 - cipher: aes-256-gcm
-  name: 11790_美国-369.8KB/s
-  password: pKEW8JPByTVTLtM
-  port: '443'
-  server: 38.75.136.93
-  type: ss
-- cipher: aes-256-gcm
   name: 11791_美国-322.5KB/s
   password: faBAoD54k87UJG7
   port: '2375'
   server: 38.68.134.23
-  type: ss
-- cipher: rc4-md5
-  name: 11797_台湾-503.1KB/s
-  password: passinfo123
-  port: '8369'
-  server: 59.125.11.164
   type: ss
 - cipher: aes-128-gcm
   name: 11798_中国-495.4KB/s
@@ -2741,12 +2711,6 @@ proxies:
   password: '@buliang00'
   port: '6666'
   server: 1.1.1.1
-  type: ss
-- cipher: aes-256-gcm
-  name: 11809_美国-405.1KB/s
-  password: Y6R9pAtvxxzmGC
-  port: '5601'
-  server: 38.114.114.19
   type: ss
 - cipher: aes-256-gcm
   name: 11810_美国-339.5KB/s
@@ -2789,6 +2753,42 @@ proxies:
   password: XKFKl2rULjIp74
   port: '8008'
   server: 38.143.66.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 11832_美国-405.1KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '5601'
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 11834_美国-341.0KB/s
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 38.75.136.93
+  type: ss
+- cipher: aes-256-gcm
+  name: 11835_美国-357.6KB/s
+  password: pKEW8JPByTVTLtM
+  port: '443'
+  server: 38.75.136.93
+  type: ss
+- cipher: rc4-md5
+  name: 11836_台湾-1.20MB/s
+  password: passinfo123
+  port: '8369'
+  server: 59.125.11.164
+  type: ss
+- cipher: aes-256-gcm
+  name: 11837_美国-346.6KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '5001'
+  server: 169.197.142.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 11838_美国-393.7KB/s
+  password: e4FCWrgpkji3QY
+  port: '9102'
+  server: 169.197.142.187
   type: ss
 proxy-groups:
 - interval: 3600
@@ -2934,9 +2934,7 @@ proxy-groups:
   - 9349_美国-4.10MB/s
   - 9350_美国-3.82MB/s
   - 9359_美国-3.36MB/s
-  - 9373_美国-3.86MB/s
   - 9381_德国-1.51MB/s
-  - 9383_美国-3.68MB/s
   - 9389_美国-3.12MB/s
   - 9396_英国-342.1KB/s
   - 9413_美国-4.39MB/s
@@ -3234,17 +3232,13 @@ proxy-groups:
   - 11758_美国-302.9KB/s
   - 11761_新加坡-547.7KB/s
   - 11764_美国-364.9KB/s
-  - 11776_美国-318.5KB/s
   - 11777_美国-321.7KB/s
   - 11778_美国-359.0KB/s
   - 11783_美国-315.6KB/s
   - 11787_美国-326.5KB/s
-  - 11790_美国-369.8KB/s
   - 11791_美国-322.5KB/s
-  - 11797_台湾-503.1KB/s
   - 11798_中国-495.4KB/s
   - 11808_获取节点异常，请在下个时段重试
-  - 11809_美国-405.1KB/s
   - 11810_美国-339.5KB/s
   - 11814_美国-371.8KB/s
   - 11815_美国-423.4KB/s
@@ -3252,6 +3246,12 @@ proxy-groups:
   - 11824_美国-325.3KB/s
   - 11825_美国-340.6KB/s
   - 11827_美国-340.9KB/s
+  - 11832_美国-405.1KB/s
+  - 11834_美国-341.0KB/s
+  - 11835_美国-357.6KB/s
+  - 11836_台湾-1.20MB/s
+  - 11837_美国-346.6KB/s
+  - 11838_美国-393.7KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3397,9 +3397,7 @@ proxy-groups:
   - 9349_美国-4.10MB/s
   - 9350_美国-3.82MB/s
   - 9359_美国-3.36MB/s
-  - 9373_美国-3.86MB/s
   - 9381_德国-1.51MB/s
-  - 9383_美国-3.68MB/s
   - 9389_美国-3.12MB/s
   - 9396_英国-342.1KB/s
   - 9413_美国-4.39MB/s
@@ -3697,17 +3695,13 @@ proxy-groups:
   - 11758_美国-302.9KB/s
   - 11761_新加坡-547.7KB/s
   - 11764_美国-364.9KB/s
-  - 11776_美国-318.5KB/s
   - 11777_美国-321.7KB/s
   - 11778_美国-359.0KB/s
   - 11783_美国-315.6KB/s
   - 11787_美国-326.5KB/s
-  - 11790_美国-369.8KB/s
   - 11791_美国-322.5KB/s
-  - 11797_台湾-503.1KB/s
   - 11798_中国-495.4KB/s
   - 11808_获取节点异常，请在下个时段重试
-  - 11809_美国-405.1KB/s
   - 11810_美国-339.5KB/s
   - 11814_美国-371.8KB/s
   - 11815_美国-423.4KB/s
@@ -3715,6 +3709,12 @@ proxy-groups:
   - 11824_美国-325.3KB/s
   - 11825_美国-340.6KB/s
   - 11827_美国-340.9KB/s
+  - 11832_美国-405.1KB/s
+  - 11834_美国-341.0KB/s
+  - 11835_美国-357.6KB/s
+  - 11836_台湾-1.20MB/s
+  - 11837_美国-346.6KB/s
+  - 11838_美国-393.7KB/s
   type: select
 - name: Final
   proxies:
@@ -3869,9 +3869,7 @@ proxy-groups:
   - 9349_美国-4.10MB/s
   - 9350_美国-3.82MB/s
   - 9359_美国-3.36MB/s
-  - 9373_美国-3.86MB/s
   - 9381_德国-1.51MB/s
-  - 9383_美国-3.68MB/s
   - 9389_美国-3.12MB/s
   - 9396_英国-342.1KB/s
   - 9413_美国-4.39MB/s
@@ -4169,17 +4167,13 @@ proxy-groups:
   - 11758_美国-302.9KB/s
   - 11761_新加坡-547.7KB/s
   - 11764_美国-364.9KB/s
-  - 11776_美国-318.5KB/s
   - 11777_美国-321.7KB/s
   - 11778_美国-359.0KB/s
   - 11783_美国-315.6KB/s
   - 11787_美国-326.5KB/s
-  - 11790_美国-369.8KB/s
   - 11791_美国-322.5KB/s
-  - 11797_台湾-503.1KB/s
   - 11798_中国-495.4KB/s
   - 11808_获取节点异常，请在下个时段重试
-  - 11809_美国-405.1KB/s
   - 11810_美国-339.5KB/s
   - 11814_美国-371.8KB/s
   - 11815_美国-423.4KB/s
@@ -4187,6 +4181,12 @@ proxy-groups:
   - 11824_美国-325.3KB/s
   - 11825_美国-340.6KB/s
   - 11827_美国-340.9KB/s
+  - 11832_美国-405.1KB/s
+  - 11834_美国-341.0KB/s
+  - 11835_美国-357.6KB/s
+  - 11836_台湾-1.20MB/s
+  - 11837_美国-346.6KB/s
+  - 11838_美国-393.7KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4331,9 +4331,7 @@ proxy-groups:
   - 9349_美国-4.10MB/s
   - 9350_美国-3.82MB/s
   - 9359_美国-3.36MB/s
-  - 9373_美国-3.86MB/s
   - 9381_德国-1.51MB/s
-  - 9383_美国-3.68MB/s
   - 9389_美国-3.12MB/s
   - 9396_英国-342.1KB/s
   - 9413_美国-4.39MB/s
@@ -4631,17 +4629,13 @@ proxy-groups:
   - 11758_美国-302.9KB/s
   - 11761_新加坡-547.7KB/s
   - 11764_美国-364.9KB/s
-  - 11776_美国-318.5KB/s
   - 11777_美国-321.7KB/s
   - 11778_美国-359.0KB/s
   - 11783_美国-315.6KB/s
   - 11787_美国-326.5KB/s
-  - 11790_美国-369.8KB/s
   - 11791_美国-322.5KB/s
-  - 11797_台湾-503.1KB/s
   - 11798_中国-495.4KB/s
   - 11808_获取节点异常，请在下个时段重试
-  - 11809_美国-405.1KB/s
   - 11810_美国-339.5KB/s
   - 11814_美国-371.8KB/s
   - 11815_美国-423.4KB/s
@@ -4649,6 +4643,12 @@ proxy-groups:
   - 11824_美国-325.3KB/s
   - 11825_美国-340.6KB/s
   - 11827_美国-340.9KB/s
+  - 11832_美国-405.1KB/s
+  - 11834_美国-341.0KB/s
+  - 11835_美国-357.6KB/s
+  - 11836_台湾-1.20MB/s
+  - 11837_美国-346.6KB/s
+  - 11838_美国-393.7KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
