@@ -835,12 +835,6 @@ proxies:
   server: 134.195.196.221
   type: ss
 - cipher: aes-256-gcm
-  name: 9299_美国-5.36MB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5003'
-  server: 169.197.142.187
-  type: ss
-- cipher: aes-256-gcm
   name: 9309_加拿大-3.43MB/s
   password: XKFKl2rULjIp74
   port: '8008'
@@ -917,12 +911,6 @@ proxies:
   password: pKEW8JPByTVTLtM
   port: '443'
   server: 172.99.190.205
-  type: ss
-- cipher: aes-256-gcm
-  name: 9402_美国-3.35MB/s
-  password: faBAoD54k87UJG7
-  port: '2376'
-  server: 169.197.142.187
   type: ss
 - cipher: aes-256-gcm
   name: 9413_美国-4.39MB/s
@@ -2772,6 +2760,30 @@ proxies:
   port: '6666'
   server: 1.1.1.1
   type: ss
+- cipher: aes-256-gcm
+  name: 11809_美国-405.1KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '5601'
+  server: 38.114.114.19
+  type: ss
+- cipher: aes-256-gcm
+  name: 11810_美国-339.5KB/s
+  password: KixLvKzwjekG00rm
+  port: '5500'
+  server: 38.91.102.86
+  type: ss
+- cipher: aes-256-gcm
+  name: 11814_美国-371.8KB/s
+  password: faBAoD54k87UJG7
+  port: '2376'
+  server: 169.197.142.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 11815_美国-423.4KB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 169.197.142.187
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择快速节点
@@ -2908,7 +2920,6 @@ proxy-groups:
   - 9293_中国-4.97MB/s
   - 9294_加拿大-3.03MB/s
   - 9295_加拿大-2.80MB/s
-  - 9299_美国-5.36MB/s
   - 9309_加拿大-3.43MB/s
   - 9313_英国-610.7KB/s
   - 9319_加拿大-2.37MB/s
@@ -2922,7 +2933,6 @@ proxy-groups:
   - 9383_美国-3.68MB/s
   - 9389_美国-3.12MB/s
   - 9396_英国-342.1KB/s
-  - 9402_美国-3.35MB/s
   - 9413_美国-4.39MB/s
   - 9434_加拿大-704.3KB/s
   - 9458_加拿大-323.4KB/s
@@ -3231,6 +3241,10 @@ proxy-groups:
   - 11797_台湾-503.1KB/s
   - 11798_中国-495.4KB/s
   - 11808_获取节点异常，请在下个时段重试
+  - 11809_美国-405.1KB/s
+  - 11810_美国-339.5KB/s
+  - 11814_美国-371.8KB/s
+  - 11815_美国-423.4KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3368,7 +3382,6 @@ proxy-groups:
   - 9293_中国-4.97MB/s
   - 9294_加拿大-3.03MB/s
   - 9295_加拿大-2.80MB/s
-  - 9299_美国-5.36MB/s
   - 9309_加拿大-3.43MB/s
   - 9313_英国-610.7KB/s
   - 9319_加拿大-2.37MB/s
@@ -3382,7 +3395,6 @@ proxy-groups:
   - 9383_美国-3.68MB/s
   - 9389_美国-3.12MB/s
   - 9396_英国-342.1KB/s
-  - 9402_美国-3.35MB/s
   - 9413_美国-4.39MB/s
   - 9434_加拿大-704.3KB/s
   - 9458_加拿大-323.4KB/s
@@ -3691,6 +3703,10 @@ proxy-groups:
   - 11797_台湾-503.1KB/s
   - 11798_中国-495.4KB/s
   - 11808_获取节点异常，请在下个时段重试
+  - 11809_美国-405.1KB/s
+  - 11810_美国-339.5KB/s
+  - 11814_美国-371.8KB/s
+  - 11815_美国-423.4KB/s
   type: select
 - name: Final
   proxies:
@@ -3837,7 +3853,6 @@ proxy-groups:
   - 9293_中国-4.97MB/s
   - 9294_加拿大-3.03MB/s
   - 9295_加拿大-2.80MB/s
-  - 9299_美国-5.36MB/s
   - 9309_加拿大-3.43MB/s
   - 9313_英国-610.7KB/s
   - 9319_加拿大-2.37MB/s
@@ -3851,7 +3866,6 @@ proxy-groups:
   - 9383_美国-3.68MB/s
   - 9389_美国-3.12MB/s
   - 9396_英国-342.1KB/s
-  - 9402_美国-3.35MB/s
   - 9413_美国-4.39MB/s
   - 9434_加拿大-704.3KB/s
   - 9458_加拿大-323.4KB/s
@@ -4160,6 +4174,10 @@ proxy-groups:
   - 11797_台湾-503.1KB/s
   - 11798_中国-495.4KB/s
   - 11808_获取节点异常，请在下个时段重试
+  - 11809_美国-405.1KB/s
+  - 11810_美国-339.5KB/s
+  - 11814_美国-371.8KB/s
+  - 11815_美国-423.4KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4296,7 +4314,6 @@ proxy-groups:
   - 9293_中国-4.97MB/s
   - 9294_加拿大-3.03MB/s
   - 9295_加拿大-2.80MB/s
-  - 9299_美国-5.36MB/s
   - 9309_加拿大-3.43MB/s
   - 9313_英国-610.7KB/s
   - 9319_加拿大-2.37MB/s
@@ -4310,7 +4327,6 @@ proxy-groups:
   - 9383_美国-3.68MB/s
   - 9389_美国-3.12MB/s
   - 9396_英国-342.1KB/s
-  - 9402_美国-3.35MB/s
   - 9413_美国-4.39MB/s
   - 9434_加拿大-704.3KB/s
   - 9458_加拿大-323.4KB/s
@@ -4619,6 +4635,10 @@ proxy-groups:
   - 11797_台湾-503.1KB/s
   - 11798_中国-495.4KB/s
   - 11808_获取节点异常，请在下个时段重试
+  - 11809_美国-405.1KB/s
+  - 11810_美国-339.5KB/s
+  - 11814_美国-371.8KB/s
+  - 11815_美国-423.4KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
