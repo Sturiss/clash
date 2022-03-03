@@ -2761,12 +2761,6 @@ proxies:
   server: 1.1.1.1
   type: ss
 - cipher: aes-256-gcm
-  name: 12188_美国-333.1KB/s
-  password: PCnnH6SQSnfoS27
-  port: '8090'
-  server: 38.91.102.86
-  type: ss
-- cipher: aes-256-gcm
   name: 12191_美国-414.9KB/s
   password: Y6R9pAtvxxzmGC
   port: '8888'
@@ -2916,12 +2910,6 @@ proxies:
   port: '31002'
   server: 120.233.10.218
   type: ss
-- cipher: aes-256-gcm
-  name: 12264_美国-328.3KB/s
-  password: FoOiGlkAA9yPEGP
-  port: '7307'
-  server: 38.91.102.86
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 12266_中国-1.56MB/s
   password: 038793d8-4f4f-4812-880e-5229058c1c0c
@@ -2933,18 +2921,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: '8080'
   server: 38.143.66.71
-  type: ss
-- cipher: aes-256-gcm
-  name: 12269_美国-353.7KB/s
-  password: pKEW8JPByTVTLtM
-  port: '443'
-  server: 38.91.102.86
-  type: ss
-- cipher: aes-256-gcm
-  name: 12270_美国-359.4KB/s
-  password: TEzjfAYq2IjtuoS
-  port: '6697'
-  server: 169.197.142.187
   type: ss
 - cipher: aes-256-gcm
   name: 12274_美国-395.1KB/s
@@ -3060,12 +3036,6 @@ proxies:
   port: '11005'
   server: 120.233.10.218
   type: ss
-- cipher: aes-256-gcm
-  name: 12308_美国-325.5KB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5004'
-  server: 38.143.66.71
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 12309_中国-1.08MB/s
   password: 038793d8-4f4f-4812-880e-5229058c1c0c
@@ -3095,6 +3065,36 @@ proxies:
   password: cdBIDV42DCwnfIN
   port: '8118'
   server: 38.143.66.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 12317_美国-338.3KB/s
+  password: FoOiGlkAA9yPEGP
+  port: '7307'
+  server: 38.91.102.86
+  type: ss
+- cipher: aes-256-gcm
+  name: 12319_美国-347.0KB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 38.143.66.71
+  type: ss
+- cipher: aes-256-gcm
+  name: 12322_美国-340.3KB/s
+  password: PCnnH6SQSnfoS27
+  port: '8090'
+  server: 38.91.102.86
+  type: ss
+- cipher: aes-256-gcm
+  name: 12323_美国-353.7KB/s
+  password: pKEW8JPByTVTLtM
+  port: '443'
+  server: 38.91.102.86
+  type: ss
+- cipher: aes-256-gcm
+  name: 12324_美国-370.1KB/s
+  password: TEzjfAYq2IjtuoS
+  port: '6697'
+  server: 169.197.142.187
   type: ss
 proxy-groups:
 - interval: 3600
@@ -3553,7 +3553,6 @@ proxy-groups:
   - 12150_美国-398.6KB/s
   - 12169_美国-303.1KB/s
   - 12184_获取节点异常，请在下个时段重试
-  - 12188_美国-333.1KB/s
   - 12191_美国-414.9KB/s
   - 12192_美国-346.1KB/s
   - 12193_美国-401.6KB/s
@@ -3579,11 +3578,8 @@ proxy-groups:
   - 12251_中国-1.48MB/s
   - 12253_美国-355.4KB/s
   - 12256_中国-730.2KB/s
-  - 12264_美国-328.3KB/s
   - 12266_中国-1.56MB/s
   - 12267_美国-301.0KB/s
-  - 12269_美国-353.7KB/s
-  - 12270_美国-359.4KB/s
   - 12274_美国-395.1KB/s
   - 12275_中国-1.61MB/s
   - 12279_美国-335.4KB/s
@@ -3603,12 +3599,16 @@ proxy-groups:
   - 12302_美国-335.5KB/s
   - 12304_美国-432.5KB/s
   - 12305_中国-830.2KB/s
-  - 12308_美国-325.5KB/s
   - 12309_中国-1.08MB/s
   - 12310_美国-311.0KB/s
   - 12311_美国-310.2KB/s
   - 12312_美国-366.3KB/s
   - 12314_美国-331.6KB/s
+  - 12317_美国-338.3KB/s
+  - 12319_美国-347.0KB/s
+  - 12322_美国-340.3KB/s
+  - 12323_美国-353.7KB/s
+  - 12324_美国-370.1KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4067,7 +4067,6 @@ proxy-groups:
   - 12150_美国-398.6KB/s
   - 12169_美国-303.1KB/s
   - 12184_获取节点异常，请在下个时段重试
-  - 12188_美国-333.1KB/s
   - 12191_美国-414.9KB/s
   - 12192_美国-346.1KB/s
   - 12193_美国-401.6KB/s
@@ -4093,11 +4092,8 @@ proxy-groups:
   - 12251_中国-1.48MB/s
   - 12253_美国-355.4KB/s
   - 12256_中国-730.2KB/s
-  - 12264_美国-328.3KB/s
   - 12266_中国-1.56MB/s
   - 12267_美国-301.0KB/s
-  - 12269_美国-353.7KB/s
-  - 12270_美国-359.4KB/s
   - 12274_美国-395.1KB/s
   - 12275_中国-1.61MB/s
   - 12279_美国-335.4KB/s
@@ -4117,12 +4113,16 @@ proxy-groups:
   - 12302_美国-335.5KB/s
   - 12304_美国-432.5KB/s
   - 12305_中国-830.2KB/s
-  - 12308_美国-325.5KB/s
   - 12309_中国-1.08MB/s
   - 12310_美国-311.0KB/s
   - 12311_美国-310.2KB/s
   - 12312_美国-366.3KB/s
   - 12314_美国-331.6KB/s
+  - 12317_美国-338.3KB/s
+  - 12319_美国-347.0KB/s
+  - 12322_美国-340.3KB/s
+  - 12323_美国-353.7KB/s
+  - 12324_美国-370.1KB/s
   type: select
 - name: Final
   proxies:
@@ -4590,7 +4590,6 @@ proxy-groups:
   - 12150_美国-398.6KB/s
   - 12169_美国-303.1KB/s
   - 12184_获取节点异常，请在下个时段重试
-  - 12188_美国-333.1KB/s
   - 12191_美国-414.9KB/s
   - 12192_美国-346.1KB/s
   - 12193_美国-401.6KB/s
@@ -4616,11 +4615,8 @@ proxy-groups:
   - 12251_中国-1.48MB/s
   - 12253_美国-355.4KB/s
   - 12256_中国-730.2KB/s
-  - 12264_美国-328.3KB/s
   - 12266_中国-1.56MB/s
   - 12267_美国-301.0KB/s
-  - 12269_美国-353.7KB/s
-  - 12270_美国-359.4KB/s
   - 12274_美国-395.1KB/s
   - 12275_中国-1.61MB/s
   - 12279_美国-335.4KB/s
@@ -4640,12 +4636,16 @@ proxy-groups:
   - 12302_美国-335.5KB/s
   - 12304_美国-432.5KB/s
   - 12305_中国-830.2KB/s
-  - 12308_美国-325.5KB/s
   - 12309_中国-1.08MB/s
   - 12310_美国-311.0KB/s
   - 12311_美国-310.2KB/s
   - 12312_美国-366.3KB/s
   - 12314_美国-331.6KB/s
+  - 12317_美国-338.3KB/s
+  - 12319_美国-347.0KB/s
+  - 12322_美国-340.3KB/s
+  - 12323_美国-353.7KB/s
+  - 12324_美国-370.1KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -5103,7 +5103,6 @@ proxy-groups:
   - 12150_美国-398.6KB/s
   - 12169_美国-303.1KB/s
   - 12184_获取节点异常，请在下个时段重试
-  - 12188_美国-333.1KB/s
   - 12191_美国-414.9KB/s
   - 12192_美国-346.1KB/s
   - 12193_美国-401.6KB/s
@@ -5129,11 +5128,8 @@ proxy-groups:
   - 12251_中国-1.48MB/s
   - 12253_美国-355.4KB/s
   - 12256_中国-730.2KB/s
-  - 12264_美国-328.3KB/s
   - 12266_中国-1.56MB/s
   - 12267_美国-301.0KB/s
-  - 12269_美国-353.7KB/s
-  - 12270_美国-359.4KB/s
   - 12274_美国-395.1KB/s
   - 12275_中国-1.61MB/s
   - 12279_美国-335.4KB/s
@@ -5153,12 +5149,16 @@ proxy-groups:
   - 12302_美国-335.5KB/s
   - 12304_美国-432.5KB/s
   - 12305_中国-830.2KB/s
-  - 12308_美国-325.5KB/s
   - 12309_中国-1.08MB/s
   - 12310_美国-311.0KB/s
   - 12311_美国-310.2KB/s
   - 12312_美国-366.3KB/s
   - 12314_美国-331.6KB/s
+  - 12317_美国-338.3KB/s
+  - 12319_美国-347.0KB/s
+  - 12322_美国-340.3KB/s
+  - 12323_美国-353.7KB/s
+  - 12324_美国-370.1KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
