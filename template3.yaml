@@ -2707,12 +2707,6 @@ proxies:
   server: 167.88.61.175
   type: ss
 - cipher: aes-256-gcm
-  name: 12203_美国-389.4KB/s
-  password: FoOiGlkAA9yPEGP
-  port: '7307'
-  server: 169.197.142.187
-  type: ss
-- cipher: aes-256-gcm
   name: 12208_美国-381.0KB/s
   password: FoOiGlkAA9yPEGP
   port: '7306'
@@ -2723,12 +2717,6 @@ proxies:
   password: 038793d8-4f4f-4812-880e-5229058c1c0c
   port: '41002'
   server: 120.233.10.218
-  type: ss
-- cipher: aes-256-gcm
-  name: 12246_美国-342.8KB/s
-  password: PCnnH6SQSnfoS27
-  port: '8091'
-  server: 38.143.66.71
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 12247_中国-1.52MB/s
@@ -3138,12 +3126,6 @@ proxies:
   port: '6679'
   server: 134.195.196.187
   type: ss
-- cipher: rc4-md5
-  name: 12734_中国-1.29MB/s
-  password: passinfo123
-  port: '8186'
-  server: 117.28.243.220
-  type: ss
 - cipher: aes-256-gcm
   name: 12737_美国-346.1KB/s
   password: zDNVedRFPQexG9v
@@ -3191,12 +3173,6 @@ proxies:
   password: g5MeD6Ft3CWlJId
   port: '5004'
   server: 169.197.142.187
-  type: ss
-- cipher: rc4-md5
-  name: 12770_中国-1.69MB/s
-  password: passinfo123
-  port: '6150'
-  server: 117.28.243.154
   type: ss
 - cipher: rc4-md5
   name: 12771_中国-1.65MB/s
@@ -3256,6 +3232,30 @@ proxies:
   name: 12804_美国-300.4KB/s
   password: e4FCWrgpkji3QY
   port: '9102'
+  server: 169.197.142.187
+  type: ss
+- cipher: rc4-md5
+  name: 12809_中国-1.65MB/s
+  password: passinfo123
+  port: '6150'
+  server: 117.28.243.154
+  type: ss
+- cipher: aes-256-gcm
+  name: 12811_美国-328.8KB/s
+  password: PCnnH6SQSnfoS27
+  port: '8091'
+  server: 38.143.66.71
+  type: ss
+- cipher: rc4-md5
+  name: 12815_中国-1.41MB/s
+  password: passinfo123
+  port: '8186'
+  server: 117.28.243.220
+  type: ss
+- cipher: aes-256-gcm
+  name: 12817_美国-316.2KB/s
+  password: FoOiGlkAA9yPEGP
+  port: '7307'
   server: 169.197.142.187
   type: ss
 proxy-groups:
@@ -3706,10 +3706,8 @@ proxy-groups:
   - 12184_获取节点异常，请在下个时段重试
   - 12194_美国-414.1KB/s
   - 12198_美国-354.0KB/s
-  - 12203_美国-389.4KB/s
   - 12208_美国-381.0KB/s
   - 12238_中国-1.60MB/s
-  - 12246_美国-342.8KB/s
   - 12247_中国-1.52MB/s
   - 12251_中国-1.48MB/s
   - 12253_美国-355.4KB/s
@@ -3778,7 +3776,6 @@ proxy-groups:
   - 12730_加拿大-145.1KB/s
   - 12731_美国-124.4KB/s
   - 12732_加拿大-165.6KB/s
-  - 12734_中国-1.29MB/s
   - 12737_美国-346.1KB/s
   - 12742_美国-347.8KB/s
   - 12743_美国-374.3KB/s
@@ -3787,7 +3784,6 @@ proxy-groups:
   - 12758_中国-587.7KB/s
   - 12760_美国-354.7KB/s
   - 12769_美国-413.7KB/s
-  - 12770_中国-1.69MB/s
   - 12771_中国-1.65MB/s
   - 12785_美国-394.4KB/s
   - 12786_中国-1.16MB/s
@@ -3798,6 +3794,10 @@ proxy-groups:
   - 12800_中国-452.4KB/s
   - 12802_中国-1.61MB/s
   - 12804_美国-300.4KB/s
+  - 12809_中国-1.65MB/s
+  - 12811_美国-328.8KB/s
+  - 12815_中国-1.41MB/s
+  - 12817_美国-316.2KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4247,10 +4247,8 @@ proxy-groups:
   - 12184_获取节点异常，请在下个时段重试
   - 12194_美国-414.1KB/s
   - 12198_美国-354.0KB/s
-  - 12203_美国-389.4KB/s
   - 12208_美国-381.0KB/s
   - 12238_中国-1.60MB/s
-  - 12246_美国-342.8KB/s
   - 12247_中国-1.52MB/s
   - 12251_中国-1.48MB/s
   - 12253_美国-355.4KB/s
@@ -4319,7 +4317,6 @@ proxy-groups:
   - 12730_加拿大-145.1KB/s
   - 12731_美国-124.4KB/s
   - 12732_加拿大-165.6KB/s
-  - 12734_中国-1.29MB/s
   - 12737_美国-346.1KB/s
   - 12742_美国-347.8KB/s
   - 12743_美国-374.3KB/s
@@ -4328,7 +4325,6 @@ proxy-groups:
   - 12758_中国-587.7KB/s
   - 12760_美国-354.7KB/s
   - 12769_美国-413.7KB/s
-  - 12770_中国-1.69MB/s
   - 12771_中国-1.65MB/s
   - 12785_美国-394.4KB/s
   - 12786_中国-1.16MB/s
@@ -4339,6 +4335,10 @@ proxy-groups:
   - 12800_中国-452.4KB/s
   - 12802_中国-1.61MB/s
   - 12804_美国-300.4KB/s
+  - 12809_中国-1.65MB/s
+  - 12811_美国-328.8KB/s
+  - 12815_中国-1.41MB/s
+  - 12817_美国-316.2KB/s
   type: select
 - name: Final
   proxies:
@@ -4797,10 +4797,8 @@ proxy-groups:
   - 12184_获取节点异常，请在下个时段重试
   - 12194_美国-414.1KB/s
   - 12198_美国-354.0KB/s
-  - 12203_美国-389.4KB/s
   - 12208_美国-381.0KB/s
   - 12238_中国-1.60MB/s
-  - 12246_美国-342.8KB/s
   - 12247_中国-1.52MB/s
   - 12251_中国-1.48MB/s
   - 12253_美国-355.4KB/s
@@ -4869,7 +4867,6 @@ proxy-groups:
   - 12730_加拿大-145.1KB/s
   - 12731_美国-124.4KB/s
   - 12732_加拿大-165.6KB/s
-  - 12734_中国-1.29MB/s
   - 12737_美国-346.1KB/s
   - 12742_美国-347.8KB/s
   - 12743_美国-374.3KB/s
@@ -4878,7 +4875,6 @@ proxy-groups:
   - 12758_中国-587.7KB/s
   - 12760_美国-354.7KB/s
   - 12769_美国-413.7KB/s
-  - 12770_中国-1.69MB/s
   - 12771_中国-1.65MB/s
   - 12785_美国-394.4KB/s
   - 12786_中国-1.16MB/s
@@ -4889,6 +4885,10 @@ proxy-groups:
   - 12800_中国-452.4KB/s
   - 12802_中国-1.61MB/s
   - 12804_美国-300.4KB/s
+  - 12809_中国-1.65MB/s
+  - 12811_美国-328.8KB/s
+  - 12815_中国-1.41MB/s
+  - 12817_美国-316.2KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -5337,10 +5337,8 @@ proxy-groups:
   - 12184_获取节点异常，请在下个时段重试
   - 12194_美国-414.1KB/s
   - 12198_美国-354.0KB/s
-  - 12203_美国-389.4KB/s
   - 12208_美国-381.0KB/s
   - 12238_中国-1.60MB/s
-  - 12246_美国-342.8KB/s
   - 12247_中国-1.52MB/s
   - 12251_中国-1.48MB/s
   - 12253_美国-355.4KB/s
@@ -5409,7 +5407,6 @@ proxy-groups:
   - 12730_加拿大-145.1KB/s
   - 12731_美国-124.4KB/s
   - 12732_加拿大-165.6KB/s
-  - 12734_中国-1.29MB/s
   - 12737_美国-346.1KB/s
   - 12742_美国-347.8KB/s
   - 12743_美国-374.3KB/s
@@ -5418,7 +5415,6 @@ proxy-groups:
   - 12758_中国-587.7KB/s
   - 12760_美国-354.7KB/s
   - 12769_美国-413.7KB/s
-  - 12770_中国-1.69MB/s
   - 12771_中国-1.65MB/s
   - 12785_美国-394.4KB/s
   - 12786_中国-1.16MB/s
@@ -5429,6 +5425,10 @@ proxy-groups:
   - 12800_中国-452.4KB/s
   - 12802_中国-1.61MB/s
   - 12804_美国-300.4KB/s
+  - 12809_中国-1.65MB/s
+  - 12811_美国-328.8KB/s
+  - 12815_中国-1.41MB/s
+  - 12817_美国-316.2KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
