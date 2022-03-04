@@ -3403,12 +3403,6 @@ proxies:
   server: 117.28.243.220
   type: ss
 - cipher: aes-256-gcm
-  name: 13268_美国-128.3KB/s
-  password: Y6R9pAtvxxzmGC
-  port: '5601'
-  server: 169.197.142.187
-  type: ss
-- cipher: aes-256-gcm
   name: 13269_加拿大-147.6KB/s
   password: RexnBgU7EV5ADxG
   port: '7001'
@@ -3433,19 +3427,25 @@ proxies:
   server: 134.195.196.12
   type: ss
 - cipher: aes-256-gcm
-  name: 13275_加拿大-175.4KB/s
+  name: 13280_美国-128.3KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '5601'
+  server: 169.197.142.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 13283_加拿大-175.4KB/s
   password: TEzjfAYq2IjtuoS
   port: '6679'
   server: 134.195.196.12
   type: ss
 - cipher: aes-256-gcm
-  name: 13276_加拿大-141.6KB/s
+  name: 13284_加拿大-141.6KB/s
   password: KixLvKzwjekG00rm
   port: '8000'
   server: 198.57.27.218
   type: ss
 - cipher: aes-256-gcm
-  name: 13277_加拿大-145.0KB/s
+  name: 13285_加拿大-145.0KB/s
   password: Y6R9pAtvxxzmGC
   port: '3389'
   server: 134.195.196.12
@@ -4014,14 +4014,14 @@ proxy-groups:
   - 13252_加拿大-130.4KB/s
   - 13260_美国-123.1KB/s
   - 13262_中国-1003.0KB/s
-  - 13268_美国-128.3KB/s
   - 13269_加拿大-147.6KB/s
   - 13271_日本-208.2KB/s
   - 13272_加拿大-143.8KB/s
   - 13274_加拿大-128.7KB/s
-  - 13275_加拿大-175.4KB/s
-  - 13276_加拿大-141.6KB/s
-  - 13277_加拿大-145.0KB/s
+  - 13280_美国-128.3KB/s
+  - 13283_加拿大-175.4KB/s
+  - 13284_加拿大-141.6KB/s
+  - 13285_加拿大-145.0KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4587,14 +4587,14 @@ proxy-groups:
   - 13252_加拿大-130.4KB/s
   - 13260_美国-123.1KB/s
   - 13262_中国-1003.0KB/s
-  - 13268_美国-128.3KB/s
   - 13269_加拿大-147.6KB/s
   - 13271_日本-208.2KB/s
   - 13272_加拿大-143.8KB/s
   - 13274_加拿大-128.7KB/s
-  - 13275_加拿大-175.4KB/s
-  - 13276_加拿大-141.6KB/s
-  - 13277_加拿大-145.0KB/s
+  - 13280_美国-128.3KB/s
+  - 13283_加拿大-175.4KB/s
+  - 13284_加拿大-141.6KB/s
+  - 13285_加拿大-145.0KB/s
   type: select
 - name: Final
   proxies:
@@ -5169,14 +5169,14 @@ proxy-groups:
   - 13252_加拿大-130.4KB/s
   - 13260_美国-123.1KB/s
   - 13262_中国-1003.0KB/s
-  - 13268_美国-128.3KB/s
   - 13269_加拿大-147.6KB/s
   - 13271_日本-208.2KB/s
   - 13272_加拿大-143.8KB/s
   - 13274_加拿大-128.7KB/s
-  - 13275_加拿大-175.4KB/s
-  - 13276_加拿大-141.6KB/s
-  - 13277_加拿大-145.0KB/s
+  - 13280_美国-128.3KB/s
+  - 13283_加拿大-175.4KB/s
+  - 13284_加拿大-141.6KB/s
+  - 13285_加拿大-145.0KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -5741,14 +5741,14 @@ proxy-groups:
   - 13252_加拿大-130.4KB/s
   - 13260_美国-123.1KB/s
   - 13262_中国-1003.0KB/s
-  - 13268_美国-128.3KB/s
   - 13269_加拿大-147.6KB/s
   - 13271_日本-208.2KB/s
   - 13272_加拿大-143.8KB/s
   - 13274_加拿大-128.7KB/s
-  - 13275_加拿大-175.4KB/s
-  - 13276_加拿大-141.6KB/s
-  - 13277_加拿大-145.0KB/s
+  - 13280_美国-128.3KB/s
+  - 13283_加拿大-175.4KB/s
+  - 13284_加拿大-141.6KB/s
+  - 13285_加拿大-145.0KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
