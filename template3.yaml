@@ -3949,12 +3949,6 @@ proxies:
   server: 38.143.66.71
   type: ss
 - cipher: aes-256-gcm
-  name: 14600_美国-299.6KB/s
-  password: PCnnH6SQSnfoS27
-  port: '8090'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
   name: 14604_加拿大-183.2KB/s
   password: pKEW8JPByTVTLtM
   port: '443'
@@ -4127,6 +4121,12 @@ proxies:
   password: zDNVedRFPQexG9v
   port: '6379'
   server: 134.195.196.3
+  type: ss
+- cipher: aes-256-gcm
+  name: 14700_美国-320.5KB/s
+  password: PCnnH6SQSnfoS27
+  port: '8090'
+  server: 169.197.142.99
   type: ss
 proxy-groups:
 - interval: 3600
@@ -4783,7 +4783,6 @@ proxy-groups:
   - 14587_英国-154.8KB/s
   - 14597_中国-1.76MB/s
   - 14598_美国-202.6KB/s
-  - 14600_美国-299.6KB/s
   - 14604_加拿大-183.2KB/s
   - 14608_加拿大-209.6KB/s
   - 14623_中国-370.4KB/s
@@ -4813,6 +4812,7 @@ proxy-groups:
   - 14695_加拿大-195.8KB/s
   - 14696_加拿大-171.4KB/s
   - 14697_加拿大-214.3KB/s
+  - 14700_美国-320.5KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5469,7 +5469,6 @@ proxy-groups:
   - 14587_英国-154.8KB/s
   - 14597_中国-1.76MB/s
   - 14598_美国-202.6KB/s
-  - 14600_美国-299.6KB/s
   - 14604_加拿大-183.2KB/s
   - 14608_加拿大-209.6KB/s
   - 14623_中国-370.4KB/s
@@ -5499,6 +5498,7 @@ proxy-groups:
   - 14695_加拿大-195.8KB/s
   - 14696_加拿大-171.4KB/s
   - 14697_加拿大-214.3KB/s
+  - 14700_美国-320.5KB/s
   type: select
 - name: Final
   proxies:
@@ -6164,7 +6164,6 @@ proxy-groups:
   - 14587_英国-154.8KB/s
   - 14597_中国-1.76MB/s
   - 14598_美国-202.6KB/s
-  - 14600_美国-299.6KB/s
   - 14604_加拿大-183.2KB/s
   - 14608_加拿大-209.6KB/s
   - 14623_中国-370.4KB/s
@@ -6194,6 +6193,7 @@ proxy-groups:
   - 14695_加拿大-195.8KB/s
   - 14696_加拿大-171.4KB/s
   - 14697_加拿大-214.3KB/s
+  - 14700_美国-320.5KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -6849,7 +6849,6 @@ proxy-groups:
   - 14587_英国-154.8KB/s
   - 14597_中国-1.76MB/s
   - 14598_美国-202.6KB/s
-  - 14600_美国-299.6KB/s
   - 14604_加拿大-183.2KB/s
   - 14608_加拿大-209.6KB/s
   - 14623_中国-370.4KB/s
@@ -6879,6 +6878,7 @@ proxy-groups:
   - 14695_加拿大-195.8KB/s
   - 14696_加拿大-171.4KB/s
   - 14697_加拿大-214.3KB/s
+  - 14700_美国-320.5KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
