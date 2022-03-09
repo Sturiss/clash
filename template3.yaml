@@ -3595,12 +3595,6 @@ proxies:
   server: 145.239.7.164
   type: ss
 - cipher: aes-256-gcm
-  name: 14437_加拿大-173.7KB/s
-  password: XKFKl2rULjIp74
-  port: '8009'
-  server: 134.195.196.68
-  type: ss
-- cipher: aes-256-gcm
   name: 14444_加拿大-161.0KB/s
   password: RexnBgU7EV5ADxG
   port: '7001'
@@ -3835,12 +3829,6 @@ proxies:
   server: 134.195.196.187
   type: ss
 - cipher: aes-256-gcm
-  name: 15189_加拿大-171.7KB/s
-  password: pKEW8JPByTVTLtM
-  port: '443'
-  server: 134.195.196.187
-  type: ss
-- cipher: aes-256-gcm
   name: 15196_加拿大-208.8KB/s
   password: KixLvKzwjekG00rm
   port: '5500'
@@ -3949,22 +3937,10 @@ proxies:
   server: 134.195.196.187
   type: ss
 - cipher: aes-256-gcm
-  name: 15332_加拿大-178.6KB/s
-  password: Y6R9pAtvxxzmGC
-  port: '5001'
-  server: 134.195.196.81
-  type: ss
-- cipher: aes-256-gcm
   name: 15339_加拿大-180.7KB/s
   password: e4FCWrgpkji3QY
   port: '9101'
   server: 134.195.196.3
-  type: ss
-- cipher: aes-256-gcm
-  name: 15362_加拿大-246.3KB/s
-  password: faBAoD54k87UJG7
-  port: '2375'
-  server: 134.195.196.81
   type: ss
 - cipher: aes-256-gcm
   name: 15365_加拿大-164.2KB/s
@@ -4444,6 +4420,42 @@ proxies:
   name: 15647_加拿大-220.9KB/s
   password: Y6R9pAtvxxzmGC
   port: '3389'
+  server: 134.195.196.81
+  type: ss
+- cipher: aes-256-gcm
+  name: 15648_加拿大-214.2KB/s
+  password: faBAoD54k87UJG7
+  port: '2375'
+  server: 134.195.196.81
+  type: ss
+- cipher: aes-256-gcm
+  name: 15650_加拿大-199.2KB/s
+  password: pKEW8JPByTVTLtM
+  port: '443'
+  server: 134.195.196.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 15652_加拿大-179.8KB/s
+  password: PCnnH6SQSnfoS27
+  port: '8090'
+  server: 134.195.196.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 15653_加拿大-179.4KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '5601'
+  server: 134.195.196.187
+  type: ss
+- cipher: aes-256-gcm
+  name: 15656_加拿大-175.3KB/s
+  password: XKFKl2rULjIp74
+  port: '8009'
+  server: 134.195.196.68
+  type: ss
+- cipher: aes-256-gcm
+  name: 15657_加拿大-162.1KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '5001'
   server: 134.195.196.81
   type: ss
 proxy-groups:
@@ -5042,7 +5054,6 @@ proxy-groups:
   - 14402_日本-220.2KB/s
   - 14406_美国-186.1KB/s
   - 14428_英国-209.2KB/s
-  - 14437_加拿大-173.7KB/s
   - 14444_加拿大-161.0KB/s
   - 14479_中国-351.9KB/s
   - 14497_美国-177.6KB/s
@@ -5082,7 +5093,6 @@ proxy-groups:
   - 15176_加拿大-208.5KB/s
   - 15183_加拿大-172.1KB/s
   - 15184_加拿大-156.9KB/s
-  - 15189_加拿大-171.7KB/s
   - 15196_加拿大-208.8KB/s
   - 15207_加拿大-159.8KB/s
   - 15213_加拿大-199.1KB/s
@@ -5101,9 +5111,7 @@ proxy-groups:
   - 15305_加拿大-209.2KB/s
   - 15316_加拿大-204.7KB/s
   - 15322_加拿大-152.9KB/s
-  - 15332_加拿大-178.6KB/s
   - 15339_加拿大-180.7KB/s
-  - 15362_加拿大-246.3KB/s
   - 15365_加拿大-164.2KB/s
   - 15374_加拿大-189.4KB/s
   - 15391_加拿大-150.3KB/s
@@ -5184,6 +5192,12 @@ proxy-groups:
   - 15645_英国-183.7KB/s
   - 15646_加拿大-196.4KB/s
   - 15647_加拿大-220.9KB/s
+  - 15648_加拿大-214.2KB/s
+  - 15650_加拿大-199.2KB/s
+  - 15652_加拿大-179.8KB/s
+  - 15653_加拿大-179.4KB/s
+  - 15656_加拿大-175.3KB/s
+  - 15657_加拿大-162.1KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5781,7 +5795,6 @@ proxy-groups:
   - 14402_日本-220.2KB/s
   - 14406_美国-186.1KB/s
   - 14428_英国-209.2KB/s
-  - 14437_加拿大-173.7KB/s
   - 14444_加拿大-161.0KB/s
   - 14479_中国-351.9KB/s
   - 14497_美国-177.6KB/s
@@ -5821,7 +5834,6 @@ proxy-groups:
   - 15176_加拿大-208.5KB/s
   - 15183_加拿大-172.1KB/s
   - 15184_加拿大-156.9KB/s
-  - 15189_加拿大-171.7KB/s
   - 15196_加拿大-208.8KB/s
   - 15207_加拿大-159.8KB/s
   - 15213_加拿大-199.1KB/s
@@ -5840,9 +5852,7 @@ proxy-groups:
   - 15305_加拿大-209.2KB/s
   - 15316_加拿大-204.7KB/s
   - 15322_加拿大-152.9KB/s
-  - 15332_加拿大-178.6KB/s
   - 15339_加拿大-180.7KB/s
-  - 15362_加拿大-246.3KB/s
   - 15365_加拿大-164.2KB/s
   - 15374_加拿大-189.4KB/s
   - 15391_加拿大-150.3KB/s
@@ -5923,6 +5933,12 @@ proxy-groups:
   - 15645_英国-183.7KB/s
   - 15646_加拿大-196.4KB/s
   - 15647_加拿大-220.9KB/s
+  - 15648_加拿大-214.2KB/s
+  - 15650_加拿大-199.2KB/s
+  - 15652_加拿大-179.8KB/s
+  - 15653_加拿大-179.4KB/s
+  - 15656_加拿大-175.3KB/s
+  - 15657_加拿大-162.1KB/s
   type: select
 - name: Final
   proxies:
@@ -6529,7 +6545,6 @@ proxy-groups:
   - 14402_日本-220.2KB/s
   - 14406_美国-186.1KB/s
   - 14428_英国-209.2KB/s
-  - 14437_加拿大-173.7KB/s
   - 14444_加拿大-161.0KB/s
   - 14479_中国-351.9KB/s
   - 14497_美国-177.6KB/s
@@ -6569,7 +6584,6 @@ proxy-groups:
   - 15176_加拿大-208.5KB/s
   - 15183_加拿大-172.1KB/s
   - 15184_加拿大-156.9KB/s
-  - 15189_加拿大-171.7KB/s
   - 15196_加拿大-208.8KB/s
   - 15207_加拿大-159.8KB/s
   - 15213_加拿大-199.1KB/s
@@ -6588,9 +6602,7 @@ proxy-groups:
   - 15305_加拿大-209.2KB/s
   - 15316_加拿大-204.7KB/s
   - 15322_加拿大-152.9KB/s
-  - 15332_加拿大-178.6KB/s
   - 15339_加拿大-180.7KB/s
-  - 15362_加拿大-246.3KB/s
   - 15365_加拿大-164.2KB/s
   - 15374_加拿大-189.4KB/s
   - 15391_加拿大-150.3KB/s
@@ -6671,6 +6683,12 @@ proxy-groups:
   - 15645_英国-183.7KB/s
   - 15646_加拿大-196.4KB/s
   - 15647_加拿大-220.9KB/s
+  - 15648_加拿大-214.2KB/s
+  - 15650_加拿大-199.2KB/s
+  - 15652_加拿大-179.8KB/s
+  - 15653_加拿大-179.4KB/s
+  - 15656_加拿大-175.3KB/s
+  - 15657_加拿大-162.1KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -7267,7 +7285,6 @@ proxy-groups:
   - 14402_日本-220.2KB/s
   - 14406_美国-186.1KB/s
   - 14428_英国-209.2KB/s
-  - 14437_加拿大-173.7KB/s
   - 14444_加拿大-161.0KB/s
   - 14479_中国-351.9KB/s
   - 14497_美国-177.6KB/s
@@ -7307,7 +7324,6 @@ proxy-groups:
   - 15176_加拿大-208.5KB/s
   - 15183_加拿大-172.1KB/s
   - 15184_加拿大-156.9KB/s
-  - 15189_加拿大-171.7KB/s
   - 15196_加拿大-208.8KB/s
   - 15207_加拿大-159.8KB/s
   - 15213_加拿大-199.1KB/s
@@ -7326,9 +7342,7 @@ proxy-groups:
   - 15305_加拿大-209.2KB/s
   - 15316_加拿大-204.7KB/s
   - 15322_加拿大-152.9KB/s
-  - 15332_加拿大-178.6KB/s
   - 15339_加拿大-180.7KB/s
-  - 15362_加拿大-246.3KB/s
   - 15365_加拿大-164.2KB/s
   - 15374_加拿大-189.4KB/s
   - 15391_加拿大-150.3KB/s
@@ -7409,6 +7423,12 @@ proxy-groups:
   - 15645_英国-183.7KB/s
   - 15646_加拿大-196.4KB/s
   - 15647_加拿大-220.9KB/s
+  - 15648_加拿大-214.2KB/s
+  - 15650_加拿大-199.2KB/s
+  - 15652_加拿大-179.8KB/s
+  - 15653_加拿大-179.4KB/s
+  - 15656_加拿大-175.3KB/s
+  - 15657_加拿大-162.1KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
