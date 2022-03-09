@@ -4488,6 +4488,12 @@ proxies:
   port: '9102'
   server: 134.195.196.187
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 16096_中国-1.89MB/s
+  password: 47848b82-f2a7-4a28-a9cb-2196c3d19655
+  port: '28002'
+  server: jp.v2bees.net
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择快速节点
@@ -5233,6 +5239,7 @@ proxy-groups:
   - 15998_美国-138.9KB/s
   - 16004_美国-152.7KB/s
   - 16092_加拿大-172.6KB/s
+  - 16096_中国-1.89MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5979,6 +5986,7 @@ proxy-groups:
   - 15998_美国-138.9KB/s
   - 16004_美国-152.7KB/s
   - 16092_加拿大-172.6KB/s
+  - 16096_中国-1.89MB/s
   type: select
 - name: Final
   proxies:
@@ -6734,6 +6742,7 @@ proxy-groups:
   - 15998_美国-138.9KB/s
   - 16004_美国-152.7KB/s
   - 16092_加拿大-172.6KB/s
+  - 16096_中国-1.89MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -7479,6 +7488,7 @@ proxy-groups:
   - 15998_美国-138.9KB/s
   - 16004_美国-152.7KB/s
   - 16092_加拿大-172.6KB/s
+  - 16096_中国-1.89MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
