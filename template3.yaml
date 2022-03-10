@@ -4483,15 +4483,15 @@ proxies:
   server: 169.197.142.99
   type: ss
 - cipher: aes-256-gcm
-  name: 16203_加拿大-247.1KB/s
-  password: TEzjfAYq2IjtuoS
-  port: '6697'
-  server: 134.195.196.81
-  type: ss
-- cipher: aes-256-gcm
   name: 16204_加拿大-228.9KB/s
   password: pKEW8JPByTVTLtM
   port: '443'
+  server: 134.195.196.81
+  type: ss
+- cipher: aes-256-gcm
+  name: 16225_加拿大-247.1KB/s
+  password: TEzjfAYq2IjtuoS
+  port: '6697'
   server: 134.195.196.81
   type: ss
 proxy-groups:
@@ -5238,8 +5238,8 @@ proxy-groups:
   - 16200_加拿大-203.9KB/s
   - 16201_加拿大-163.4KB/s
   - 16202_美国-264.6KB/s
-  - 16203_加拿大-247.1KB/s
   - 16204_加拿大-228.9KB/s
+  - 16225_加拿大-247.1KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5985,8 +5985,8 @@ proxy-groups:
   - 16200_加拿大-203.9KB/s
   - 16201_加拿大-163.4KB/s
   - 16202_美国-264.6KB/s
-  - 16203_加拿大-247.1KB/s
   - 16204_加拿大-228.9KB/s
+  - 16225_加拿大-247.1KB/s
   type: select
 - name: Final
   proxies:
@@ -6741,8 +6741,8 @@ proxy-groups:
   - 16200_加拿大-203.9KB/s
   - 16201_加拿大-163.4KB/s
   - 16202_美国-264.6KB/s
-  - 16203_加拿大-247.1KB/s
   - 16204_加拿大-228.9KB/s
+  - 16225_加拿大-247.1KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -7487,8 +7487,8 @@ proxy-groups:
   - 16200_加拿大-203.9KB/s
   - 16201_加拿大-163.4KB/s
   - 16202_美国-264.6KB/s
-  - 16203_加拿大-247.1KB/s
   - 16204_加拿大-228.9KB/s
+  - 16225_加拿大-247.1KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
