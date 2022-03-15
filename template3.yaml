@@ -559,12 +559,6 @@ proxies:
   server: 117.28.243.154
   type: ss
 - cipher: rc4-md5
-  name: 17778_中国-157.1KB/s
-  password: passinfo123
-  port: '8223'
-  server: 117.28.243.220
-  type: ss
-- cipher: rc4-md5
   name: 17782_中国-415.8KB/s
   password: passinfo123
   port: '4173'
@@ -595,7 +589,13 @@ proxies:
   server: 72c6f7e1.ddns.tokyo
   type: ss
 - cipher: rc4-md5
-  name: 17860_中国-1.73MB/s
+  name: 17878_中国-182.4KB/s
+  password: passinfo123
+  port: '8223'
+  server: 117.28.243.220
+  type: ss
+- cipher: rc4-md5
+  name: 17881_中国-1.17MB/s
   password: passinfo123
   port: '8050'
   server: 117.28.243.165
@@ -690,13 +690,13 @@ proxy-groups:
   - 17108_中国-377.2KB/s
   - 17726_中国-436.5KB/s
   - 17751_中国-341.9KB/s
-  - 17778_中国-157.1KB/s
   - 17782_中国-415.8KB/s
   - 17786_中国-277.0KB/s
   - 17804_中国-1.41MB/s
   - 17807_中国-5.50MB/s
   - 17845_中国-1.58MB/s
-  - 17860_中国-1.73MB/s
+  - 17878_中国-182.4KB/s
+  - 17881_中国-1.17MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -788,13 +788,13 @@ proxy-groups:
   - 17108_中国-377.2KB/s
   - 17726_中国-436.5KB/s
   - 17751_中国-341.9KB/s
-  - 17778_中国-157.1KB/s
   - 17782_中国-415.8KB/s
   - 17786_中国-277.0KB/s
   - 17804_中国-1.41MB/s
   - 17807_中国-5.50MB/s
   - 17845_中国-1.58MB/s
-  - 17860_中国-1.73MB/s
+  - 17878_中国-182.4KB/s
+  - 17881_中国-1.17MB/s
   type: select
 - name: Final
   proxies:
@@ -895,13 +895,13 @@ proxy-groups:
   - 17108_中国-377.2KB/s
   - 17726_中国-436.5KB/s
   - 17751_中国-341.9KB/s
-  - 17778_中国-157.1KB/s
   - 17782_中国-415.8KB/s
   - 17786_中国-277.0KB/s
   - 17804_中国-1.41MB/s
   - 17807_中国-5.50MB/s
   - 17845_中国-1.58MB/s
-  - 17860_中国-1.73MB/s
+  - 17878_中国-182.4KB/s
+  - 17881_中国-1.17MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -992,13 +992,13 @@ proxy-groups:
   - 17108_中国-377.2KB/s
   - 17726_中国-436.5KB/s
   - 17751_中国-341.9KB/s
-  - 17778_中国-157.1KB/s
   - 17782_中国-415.8KB/s
   - 17786_中国-277.0KB/s
   - 17804_中国-1.41MB/s
   - 17807_中国-5.50MB/s
   - 17845_中国-1.58MB/s
-  - 17860_中国-1.73MB/s
+  - 17878_中国-182.4KB/s
+  - 17881_中国-1.17MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
