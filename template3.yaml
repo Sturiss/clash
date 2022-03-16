@@ -432,12 +432,6 @@ proxies:
   port: '31012'
   server: gy.xqcloud.net
   type: ss
-- cipher: aes-128-cfb
-  name: 14541_中国-456.6KB/s
-  password: QazEdcTgb159@$*
-  port: '20700'
-  server: 14.29.124.174
-  type: ss
 - cipher: rc4-md5
   name: 14597_中国-1.76MB/s
   password: passinfo123
@@ -467,12 +461,6 @@ proxies:
   password: passinfo123
   port: '8045'
   server: 117.28.243.220
-  type: ss
-- cipher: rc4-md5
-  name: 15404_中国-865.4KB/s
-  password: passinfo123
-  port: '6188'
-  server: 117.28.243.154
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 15503_中国-8.71MB/s
@@ -571,12 +559,6 @@ proxies:
   server: 117.28.243.220
   type: ss
 - cipher: rc4-md5
-  name: 18239_中国-809.4KB/s
-  password: passinfo123
-  port: '8186'
-  server: 117.28.243.220
-  type: ss
-- cipher: rc4-md5
   name: 18350_中国-1.45MB/s
   password: passinfo123
   port: '4173'
@@ -594,10 +576,28 @@ proxies:
   port: '8050'
   server: 117.28.243.165
   type: ss
+- cipher: aes-128-cfb
+  name: 18589_中国-260.0KB/s
+  password: QazEdcTgb159@$*
+  port: '20700'
+  server: 14.29.124.174
+  type: ss
 - cipher: rc4-md5
-  name: 18424_中国-1.00MB/s
+  name: 18590_中国-1000.0KB/s
+  password: passinfo123
+  port: '8186'
+  server: 117.28.243.220
+  type: ss
+- cipher: rc4-md5
+  name: 18591_中国-645.4KB/s
   password: passinfo123
   port: '6145'
+  server: 117.28.243.154
+  type: ss
+- cipher: rc4-md5
+  name: 18593_中国-1.20MB/s
+  password: passinfo123
+  port: '6188'
   server: 117.28.243.154
   type: ss
 proxy-groups:
@@ -669,13 +669,11 @@ proxy-groups:
   - 13829_中国-686.2KB/s
   - 13836_中国-168.5KB/s
   - 13927_中国-1.47MB/s
-  - 14541_中国-456.6KB/s
   - 14597_中国-1.76MB/s
   - 14883_中国-161.3KB/s
   - 14932_中国-1.22MB/s
   - 14984_中国-358.6KB/s
   - 15144_中国-290.9KB/s
-  - 15404_中国-865.4KB/s
   - 15503_中国-8.71MB/s
   - 15624_中国-1.26MB/s
   - 15625_中国-1.21MB/s
@@ -692,11 +690,13 @@ proxy-groups:
   - 17878_中国-182.4KB/s
   - 17885_中国-1.54MB/s
   - 18232_中国-1.19MB/s
-  - 18239_中国-809.4KB/s
   - 18350_中国-1.45MB/s
   - 18377_中国-175.6KB/s
   - 18409_中国-472.0KB/s
-  - 18424_中国-1.00MB/s
+  - 18589_中国-260.0KB/s
+  - 18590_中国-1000.0KB/s
+  - 18591_中国-645.4KB/s
+  - 18593_中国-1.20MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -767,13 +767,11 @@ proxy-groups:
   - 13829_中国-686.2KB/s
   - 13836_中国-168.5KB/s
   - 13927_中国-1.47MB/s
-  - 14541_中国-456.6KB/s
   - 14597_中国-1.76MB/s
   - 14883_中国-161.3KB/s
   - 14932_中国-1.22MB/s
   - 14984_中国-358.6KB/s
   - 15144_中国-290.9KB/s
-  - 15404_中国-865.4KB/s
   - 15503_中国-8.71MB/s
   - 15624_中国-1.26MB/s
   - 15625_中国-1.21MB/s
@@ -790,11 +788,13 @@ proxy-groups:
   - 17878_中国-182.4KB/s
   - 17885_中国-1.54MB/s
   - 18232_中国-1.19MB/s
-  - 18239_中国-809.4KB/s
   - 18350_中国-1.45MB/s
   - 18377_中国-175.6KB/s
   - 18409_中国-472.0KB/s
-  - 18424_中国-1.00MB/s
+  - 18589_中国-260.0KB/s
+  - 18590_中国-1000.0KB/s
+  - 18591_中国-645.4KB/s
+  - 18593_中国-1.20MB/s
   type: select
 - name: Final
   proxies:
@@ -874,13 +874,11 @@ proxy-groups:
   - 13829_中国-686.2KB/s
   - 13836_中国-168.5KB/s
   - 13927_中国-1.47MB/s
-  - 14541_中国-456.6KB/s
   - 14597_中国-1.76MB/s
   - 14883_中国-161.3KB/s
   - 14932_中国-1.22MB/s
   - 14984_中国-358.6KB/s
   - 15144_中国-290.9KB/s
-  - 15404_中国-865.4KB/s
   - 15503_中国-8.71MB/s
   - 15624_中国-1.26MB/s
   - 15625_中国-1.21MB/s
@@ -897,11 +895,13 @@ proxy-groups:
   - 17878_中国-182.4KB/s
   - 17885_中国-1.54MB/s
   - 18232_中国-1.19MB/s
-  - 18239_中国-809.4KB/s
   - 18350_中国-1.45MB/s
   - 18377_中国-175.6KB/s
   - 18409_中国-472.0KB/s
-  - 18424_中国-1.00MB/s
+  - 18589_中国-260.0KB/s
+  - 18590_中国-1000.0KB/s
+  - 18591_中国-645.4KB/s
+  - 18593_中国-1.20MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -971,13 +971,11 @@ proxy-groups:
   - 13829_中国-686.2KB/s
   - 13836_中国-168.5KB/s
   - 13927_中国-1.47MB/s
-  - 14541_中国-456.6KB/s
   - 14597_中国-1.76MB/s
   - 14883_中国-161.3KB/s
   - 14932_中国-1.22MB/s
   - 14984_中国-358.6KB/s
   - 15144_中国-290.9KB/s
-  - 15404_中国-865.4KB/s
   - 15503_中国-8.71MB/s
   - 15624_中国-1.26MB/s
   - 15625_中国-1.21MB/s
@@ -994,11 +992,13 @@ proxy-groups:
   - 17878_中国-182.4KB/s
   - 17885_中国-1.54MB/s
   - 18232_中国-1.19MB/s
-  - 18239_中国-809.4KB/s
   - 18350_中国-1.45MB/s
   - 18377_中国-175.6KB/s
   - 18409_中国-472.0KB/s
-  - 18424_中国-1.00MB/s
+  - 18589_中国-260.0KB/s
+  - 18590_中国-1000.0KB/s
+  - 18591_中国-645.4KB/s
+  - 18593_中国-1.20MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
