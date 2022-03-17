@@ -43,6 +43,12 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- cipher: rc4-md5
+  name: 15404_中国-865.4KB/s
+  password: passinfo123
+  port: 6188.0
+  server: 117.28.243.154
+  type: ss
 - name: 中国-2.92MB/s-617
   password: 1910c83debd71218
   port: '3389'
@@ -604,6 +610,7 @@ proxy-groups:
 - interval: 3600
   name: 自动选择
   proxies:
+  - 15404_中国-865.4KB/s
   - 中国-2.92MB/s-617
   - 中国-817.8KB/s_2761
   - 3825_中国-558.0KB/s
@@ -702,6 +709,7 @@ proxy-groups:
 - name: PROXY
   proxies:
   - 自动选择
+  - 15404_中国-865.4KB/s
   - 中国-2.92MB/s-617
   - 中国-817.8KB/s_2761
   - 3825_中国-558.0KB/s
@@ -809,6 +817,7 @@ proxy-groups:
 - name: GlobalMedia
   proxies:
   - PROXY
+  - 15404_中国-865.4KB/s
   - 中国-2.92MB/s-617
   - 中国-817.8KB/s_2761
   - 3825_中国-558.0KB/s
@@ -906,6 +915,7 @@ proxy-groups:
 - name: HKMTMedia
   proxies:
   - DIRECT
+  - 15404_中国-865.4KB/s
   - 中国-2.92MB/s-617
   - 中国-817.8KB/s_2761
   - 3825_中国-558.0KB/s
