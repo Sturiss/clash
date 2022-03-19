@@ -126,18 +126,6 @@ proxies:
   port: '25600'
   server: w6.v2mmy.xyz
   type: ss
-- cipher: aes-128-gcm
-  name: 11990_中国-541.8KB/s
-  password: a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0
-  port: '37000'
-  server: centralchina1.cloudlink123.com
-  type: ss
-- cipher: aes-128-gcm
-  name: 12001_中国-2.20MB/s
-  password: a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0
-  port: '37006'
-  server: centralchina1.cloudlink123.com
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 12238_中国-1.60MB/s
   password: 038793d8-4f4f-4812-880e-5229058c1c0c
@@ -636,6 +624,24 @@ proxies:
   port: '61000'
   server: 36.158.228.185
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 19900_中国-4.05MB/s
+  password: ff121459-d0e2-49dc-a0a0-30eb7c10e30c
+  port: '60009'
+  server: gz.mikuyun.xyz
+  type: ss
+- cipher: aes-128-gcm
+  name: 19905_中国-2.83MB/s
+  password: a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0
+  port: '37000'
+  server: centralchina1.cloudlink123.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 19906_中国-8.65MB/s
+  password: a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0
+  port: '37006'
+  server: centralchina1.cloudlink123.com
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -654,8 +660,6 @@ proxy-groups:
   - 11497_中国-1.53MB/s
   - 11506_中国-1.25MB/s
   - 11535_中国-1.51MB/s
-  - 11990_中国-541.8KB/s
-  - 12001_中国-2.20MB/s
   - 12238_中国-1.60MB/s
   - 12247_中国-1.52MB/s
   - 12251_中国-1.48MB/s
@@ -739,6 +743,9 @@ proxy-groups:
   - 19679_中国-188.5KB/s
   - 19803_中国-208.2KB/s
   - 19852_中国-24.33MB/s
+  - 19900_中国-4.05MB/s
+  - 19905_中国-2.83MB/s
+  - 19906_中国-8.65MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -758,8 +765,6 @@ proxy-groups:
   - 11497_中国-1.53MB/s
   - 11506_中国-1.25MB/s
   - 11535_中国-1.51MB/s
-  - 11990_中国-541.8KB/s
-  - 12001_中国-2.20MB/s
   - 12238_中国-1.60MB/s
   - 12247_中国-1.52MB/s
   - 12251_中国-1.48MB/s
@@ -843,6 +848,9 @@ proxy-groups:
   - 19679_中国-188.5KB/s
   - 19803_中国-208.2KB/s
   - 19852_中国-24.33MB/s
+  - 19900_中国-4.05MB/s
+  - 19905_中国-2.83MB/s
+  - 19906_中国-8.65MB/s
   type: select
 - name: Final
   proxies:
@@ -871,8 +879,6 @@ proxy-groups:
   - 11497_中国-1.53MB/s
   - 11506_中国-1.25MB/s
   - 11535_中国-1.51MB/s
-  - 11990_中国-541.8KB/s
-  - 12001_中国-2.20MB/s
   - 12238_中国-1.60MB/s
   - 12247_中国-1.52MB/s
   - 12251_中国-1.48MB/s
@@ -956,6 +962,9 @@ proxy-groups:
   - 19679_中国-188.5KB/s
   - 19803_中国-208.2KB/s
   - 19852_中国-24.33MB/s
+  - 19900_中国-4.05MB/s
+  - 19905_中国-2.83MB/s
+  - 19906_中国-8.65MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -974,8 +983,6 @@ proxy-groups:
   - 11497_中国-1.53MB/s
   - 11506_中国-1.25MB/s
   - 11535_中国-1.51MB/s
-  - 11990_中国-541.8KB/s
-  - 12001_中国-2.20MB/s
   - 12238_中国-1.60MB/s
   - 12247_中国-1.52MB/s
   - 12251_中国-1.48MB/s
@@ -1059,6 +1066,9 @@ proxy-groups:
   - 19679_中国-188.5KB/s
   - 19803_中国-208.2KB/s
   - 19852_中国-24.33MB/s
+  - 19900_中国-4.05MB/s
+  - 19905_中国-2.83MB/s
+  - 19906_中国-8.65MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
