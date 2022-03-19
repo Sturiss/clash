@@ -631,15 +631,15 @@ proxies:
   server: gz.mikuyun.xyz
   type: ss
 - cipher: aes-128-gcm
-  name: 19905_中国-2.83MB/s
-  password: a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0
-  port: '37000'
-  server: centralchina1.cloudlink123.com
-  type: ss
-- cipher: aes-128-gcm
   name: 19906_中国-8.65MB/s
   password: a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0
   port: '37006'
+  server: centralchina1.cloudlink123.com
+  type: ss
+- cipher: aes-128-gcm
+  name: 20067_中国-5.45MB/s
+  password: a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0
+  port: '37000'
   server: centralchina1.cloudlink123.com
   type: ss
 proxy-groups:
@@ -744,8 +744,8 @@ proxy-groups:
   - 19803_中国-208.2KB/s
   - 19852_中国-24.33MB/s
   - 19900_中国-4.05MB/s
-  - 19905_中国-2.83MB/s
   - 19906_中国-8.65MB/s
+  - 20067_中国-5.45MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -849,8 +849,8 @@ proxy-groups:
   - 19803_中国-208.2KB/s
   - 19852_中国-24.33MB/s
   - 19900_中国-4.05MB/s
-  - 19905_中国-2.83MB/s
   - 19906_中国-8.65MB/s
+  - 20067_中国-5.45MB/s
   type: select
 - name: Final
   proxies:
@@ -963,8 +963,8 @@ proxy-groups:
   - 19803_中国-208.2KB/s
   - 19852_中国-24.33MB/s
   - 19900_中国-4.05MB/s
-  - 19905_中国-2.83MB/s
   - 19906_中国-8.65MB/s
+  - 20067_中国-5.45MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1067,8 +1067,8 @@ proxy-groups:
   - 19803_中国-208.2KB/s
   - 19852_中国-24.33MB/s
   - 19900_中国-4.05MB/s
-  - 19905_中国-2.83MB/s
   - 19906_中国-8.65MB/s
+  - 20067_中国-5.45MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
