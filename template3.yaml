@@ -55,10 +55,22 @@ proxies:
   server: 122.192.154.54
   type: trojan
 - cipher: chacha20-ietf-poly1305
+  name: 日本-1.33MB/s_2575
+  password: G!yBwPWH3Vao
+  port: '801'
+  server: 5.181.5.136
+  type: ss
+- cipher: chacha20-ietf-poly1305
   name: 中国-817.8KB/s_2761
   password: qiH3cBOhlcUIm017
   port: '60005'
   server: aaa-666.txwd.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 日本-500.8KB/s_3135
+  password: Y6R9pAtvxxzmGC
+  port: '8888'
+  server: 85.208.108.18
   type: ss
 - cipher: rc4-md5
   name: 3825_中国-558.0KB/s
@@ -216,6 +228,12 @@ proxies:
   port: '8450'
   server: 107.148.211.118
   type: ss
+- cipher: aes-256-gcm
+  name: 13271_日本-208.2KB/s
+  password: Y6R9pAtvxxzmGC
+  port: '5000'
+  server: 85.208.110.138
+  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 13694_中国-267.3KB/s
   password: 21eda7ab-7263-4214-a056-59cb153ad0e0
@@ -311,6 +329,12 @@ proxies:
   password: 21eda7ab-7263-4214-a056-59cb153ad0e0
   port: '6396'
   server: 56c918c15a09403d93c037772a69dwd.jkcloud.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 13790_日本-214.9KB/s
+  password: pKEW8JPByTVTLtM
+  port: '4444'
+  server: 85.208.108.106
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 13793_中国-1.38MB/s
@@ -420,11 +444,23 @@ proxies:
   port: '31012'
   server: gy.xqcloud.net
   type: ss
+- cipher: aes-256-gcm
+  name: 14402_日本-220.2KB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 85.208.110.138
+  type: ss
 - cipher: rc4-md5
   name: 14597_中国-1.76MB/s
   password: passinfo123
   port: '8036'
   server: 117.28.243.220
+  type: ss
+- cipher: aes-256-gcm
+  name: 14651_日本-177.0KB/s
+  password: faBAoD54k87UJG7
+  port: '2376'
+  server: 85.208.108.90
   type: ss
 - cipher: rc4-md5
   name: 14883_中国-161.3KB/s
@@ -497,6 +533,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: '21701'
   server: 14.29.124.174
+  type: ss
+- cipher: aes-256-gcm
+  name: 17286_日本-253.3KB/s
+  password: cdBIDV42DCwnfIN
+  port: '8118'
+  server: 139.162.116.239
   type: ss
 - cipher: aes-256-cfb
   name: 17726_中国-436.5KB/s
@@ -630,6 +672,12 @@ proxies:
   port: '37006'
   server: centralchina1.cloudlink123.com
   type: ss
+- cipher: aes-256-gcm
+  name: 19939_日本-1.39MB/s
+  password: FoOiGlkAA9yPEGP
+  port: '7306'
+  server: 85.208.108.234
+  type: ss
 - cipher: aes-128-gcm
   name: 20077_中国-5.45MB/s
   password: a9dbdfbc-0964-4bc2-8b39-6e9c3e9fd8d0
@@ -648,7 +696,9 @@ proxy-groups:
   proxies:
   - 15404_中国-865.4KB/s
   - 中国-2.92MB/s-617
+  - 日本-1.33MB/s_2575
   - 中国-817.8KB/s_2761
+  - 日本-500.8KB/s_3135
   - 3825_中国-558.0KB/s
   - 4017_中国-1.70MB/s
   - 8371_中国-9.62MB/s
@@ -675,6 +725,7 @@ proxy-groups:
   - 12309_中国-1.08MB/s
   - 13044_中国-1.45MB/s
   - 13139_中国-158.3KB/s
+  - 13271_日本-208.2KB/s
   - 13694_中国-267.3KB/s
   - 13705_中国-1.46MB/s
   - 13715_中国-1.40MB/s
@@ -691,6 +742,7 @@ proxy-groups:
   - 13783_中国-1.65MB/s
   - 13786_中国-1.13MB/s
   - 13787_中国-1.92MB/s
+  - 13790_日本-214.9KB/s
   - 13793_中国-1.38MB/s
   - 13794_中国-747.1KB/s
   - 13795_中国-1.87MB/s
@@ -709,7 +761,9 @@ proxy-groups:
   - 13829_中国-686.2KB/s
   - 13836_中国-168.5KB/s
   - 13927_中国-1.47MB/s
+  - 14402_日本-220.2KB/s
   - 14597_中国-1.76MB/s
+  - 14651_日本-177.0KB/s
   - 14883_中国-161.3KB/s
   - 14932_中国-1.22MB/s
   - 15144_中国-290.9KB/s
@@ -722,6 +776,7 @@ proxy-groups:
   - 16539_中国-175.3KB/s
   - 17035_中国-290.4KB/s
   - 17108_中国-377.2KB/s
+  - 17286_日本-253.3KB/s
   - 17726_中国-436.5KB/s
   - 17786_中国-277.0KB/s
   - 17807_中国-5.50MB/s
@@ -744,6 +799,7 @@ proxy-groups:
   - 19852_中国-24.33MB/s
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
+  - 19939_日本-1.39MB/s
   - 20077_中国-5.45MB/s
   - 20089_中国-1.88MB/s
   type: url-test
@@ -753,7 +809,9 @@ proxy-groups:
   - 自动选择
   - 15404_中国-865.4KB/s
   - 中国-2.92MB/s-617
+  - 日本-1.33MB/s_2575
   - 中国-817.8KB/s_2761
+  - 日本-500.8KB/s_3135
   - 3825_中国-558.0KB/s
   - 4017_中国-1.70MB/s
   - 8371_中国-9.62MB/s
@@ -780,6 +838,7 @@ proxy-groups:
   - 12309_中国-1.08MB/s
   - 13044_中国-1.45MB/s
   - 13139_中国-158.3KB/s
+  - 13271_日本-208.2KB/s
   - 13694_中国-267.3KB/s
   - 13705_中国-1.46MB/s
   - 13715_中国-1.40MB/s
@@ -796,6 +855,7 @@ proxy-groups:
   - 13783_中国-1.65MB/s
   - 13786_中国-1.13MB/s
   - 13787_中国-1.92MB/s
+  - 13790_日本-214.9KB/s
   - 13793_中国-1.38MB/s
   - 13794_中国-747.1KB/s
   - 13795_中国-1.87MB/s
@@ -814,7 +874,9 @@ proxy-groups:
   - 13829_中国-686.2KB/s
   - 13836_中国-168.5KB/s
   - 13927_中国-1.47MB/s
+  - 14402_日本-220.2KB/s
   - 14597_中国-1.76MB/s
+  - 14651_日本-177.0KB/s
   - 14883_中国-161.3KB/s
   - 14932_中国-1.22MB/s
   - 15144_中国-290.9KB/s
@@ -827,6 +889,7 @@ proxy-groups:
   - 16539_中国-175.3KB/s
   - 17035_中国-290.4KB/s
   - 17108_中国-377.2KB/s
+  - 17286_日本-253.3KB/s
   - 17726_中国-436.5KB/s
   - 17786_中国-277.0KB/s
   - 17807_中国-5.50MB/s
@@ -849,6 +912,7 @@ proxy-groups:
   - 19852_中国-24.33MB/s
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
+  - 19939_日本-1.39MB/s
   - 20077_中国-5.45MB/s
   - 20089_中国-1.88MB/s
   type: select
@@ -867,7 +931,9 @@ proxy-groups:
   - PROXY
   - 15404_中国-865.4KB/s
   - 中国-2.92MB/s-617
+  - 日本-1.33MB/s_2575
   - 中国-817.8KB/s_2761
+  - 日本-500.8KB/s_3135
   - 3825_中国-558.0KB/s
   - 4017_中国-1.70MB/s
   - 8371_中国-9.62MB/s
@@ -894,6 +960,7 @@ proxy-groups:
   - 12309_中国-1.08MB/s
   - 13044_中国-1.45MB/s
   - 13139_中国-158.3KB/s
+  - 13271_日本-208.2KB/s
   - 13694_中国-267.3KB/s
   - 13705_中国-1.46MB/s
   - 13715_中国-1.40MB/s
@@ -910,6 +977,7 @@ proxy-groups:
   - 13783_中国-1.65MB/s
   - 13786_中国-1.13MB/s
   - 13787_中国-1.92MB/s
+  - 13790_日本-214.9KB/s
   - 13793_中国-1.38MB/s
   - 13794_中国-747.1KB/s
   - 13795_中国-1.87MB/s
@@ -928,7 +996,9 @@ proxy-groups:
   - 13829_中国-686.2KB/s
   - 13836_中国-168.5KB/s
   - 13927_中国-1.47MB/s
+  - 14402_日本-220.2KB/s
   - 14597_中国-1.76MB/s
+  - 14651_日本-177.0KB/s
   - 14883_中国-161.3KB/s
   - 14932_中国-1.22MB/s
   - 15144_中国-290.9KB/s
@@ -941,6 +1011,7 @@ proxy-groups:
   - 16539_中国-175.3KB/s
   - 17035_中国-290.4KB/s
   - 17108_中国-377.2KB/s
+  - 17286_日本-253.3KB/s
   - 17726_中国-436.5KB/s
   - 17786_中国-277.0KB/s
   - 17807_中国-5.50MB/s
@@ -963,6 +1034,7 @@ proxy-groups:
   - 19852_中国-24.33MB/s
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
+  - 19939_日本-1.39MB/s
   - 20077_中国-5.45MB/s
   - 20089_中国-1.88MB/s
   type: select
@@ -971,7 +1043,9 @@ proxy-groups:
   - DIRECT
   - 15404_中国-865.4KB/s
   - 中国-2.92MB/s-617
+  - 日本-1.33MB/s_2575
   - 中国-817.8KB/s_2761
+  - 日本-500.8KB/s_3135
   - 3825_中国-558.0KB/s
   - 4017_中国-1.70MB/s
   - 8371_中国-9.62MB/s
@@ -998,6 +1072,7 @@ proxy-groups:
   - 12309_中国-1.08MB/s
   - 13044_中国-1.45MB/s
   - 13139_中国-158.3KB/s
+  - 13271_日本-208.2KB/s
   - 13694_中国-267.3KB/s
   - 13705_中国-1.46MB/s
   - 13715_中国-1.40MB/s
@@ -1014,6 +1089,7 @@ proxy-groups:
   - 13783_中国-1.65MB/s
   - 13786_中国-1.13MB/s
   - 13787_中国-1.92MB/s
+  - 13790_日本-214.9KB/s
   - 13793_中国-1.38MB/s
   - 13794_中国-747.1KB/s
   - 13795_中国-1.87MB/s
@@ -1032,7 +1108,9 @@ proxy-groups:
   - 13829_中国-686.2KB/s
   - 13836_中国-168.5KB/s
   - 13927_中国-1.47MB/s
+  - 14402_日本-220.2KB/s
   - 14597_中国-1.76MB/s
+  - 14651_日本-177.0KB/s
   - 14883_中国-161.3KB/s
   - 14932_中国-1.22MB/s
   - 15144_中国-290.9KB/s
@@ -1045,6 +1123,7 @@ proxy-groups:
   - 16539_中国-175.3KB/s
   - 17035_中国-290.4KB/s
   - 17108_中国-377.2KB/s
+  - 17286_日本-253.3KB/s
   - 17726_中国-436.5KB/s
   - 17786_中国-277.0KB/s
   - 17807_中国-5.50MB/s
@@ -1067,6 +1146,7 @@ proxy-groups:
   - 19852_中国-24.33MB/s
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
+  - 19939_日本-1.39MB/s
   - 20077_中国-5.45MB/s
   - 20089_中国-1.88MB/s
   type: select
