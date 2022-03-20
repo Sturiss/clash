@@ -726,6 +726,12 @@ proxies:
   port: '6188'
   server: 117.28.243.154
   type: ss
+- cipher: aes-128-cfb
+  name: 20411_中国-356.0KB/s
+  password: QazEdcTgb159@$*
+  port: '25021'
+  server: 180.163.62.91
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -844,6 +850,7 @@ proxy-groups:
   - 20341_中国-312.8KB/s
   - 20350_中国-152.5KB/s
   - 20388_中国-260.0KB/s
+  - 20411_中国-356.0KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -963,6 +970,7 @@ proxy-groups:
   - 20341_中国-312.8KB/s
   - 20350_中国-152.5KB/s
   - 20388_中国-260.0KB/s
+  - 20411_中国-356.0KB/s
   type: select
 - name: Final
   proxies:
@@ -1091,6 +1099,7 @@ proxy-groups:
   - 20341_中国-312.8KB/s
   - 20350_中国-152.5KB/s
   - 20388_中国-260.0KB/s
+  - 20411_中国-356.0KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1209,6 +1218,7 @@ proxy-groups:
   - 20341_中国-312.8KB/s
   - 20350_中国-152.5KB/s
   - 20388_中国-260.0KB/s
+  - 20411_中国-356.0KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
