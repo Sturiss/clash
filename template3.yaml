@@ -595,12 +595,6 @@ proxies:
   server: 180.163.62.91
   type: ss
 - cipher: rc4-md5
-  name: 19494_中国-887.1KB/s
-  password: passinfo123
-  port: '6188'
-  server: 117.28.243.154
-  type: ss
-- cipher: rc4-md5
   name: 19496_中国-1.49MB/s
   password: passinfo123
   port: '6150'
@@ -726,6 +720,12 @@ proxies:
   port: '443'
   server: fkgfw-prod.i.sxl.cn
   type: ss
+- cipher: rc4-md5
+  name: 20384_中国-260.0KB/s
+  password: passinfo123
+  port: '6188'
+  server: 117.28.243.154
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -822,7 +822,6 @@ proxy-groups:
   - 18589_中国-260.0KB/s
   - 18945_中国-1.46MB/s
   - 19493_中国-367.7KB/s
-  - 19494_中国-887.1KB/s
   - 19496_中国-1.49MB/s
   - 19576_中国-197.8KB/s
   - 19580_中国-1.23MB/s
@@ -844,6 +843,7 @@ proxy-groups:
   - 20293_中国-363.1KB/s
   - 20341_中国-312.8KB/s
   - 20350_中国-152.5KB/s
+  - 20384_中国-260.0KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -941,7 +941,6 @@ proxy-groups:
   - 18589_中国-260.0KB/s
   - 18945_中国-1.46MB/s
   - 19493_中国-367.7KB/s
-  - 19494_中国-887.1KB/s
   - 19496_中国-1.49MB/s
   - 19576_中国-197.8KB/s
   - 19580_中国-1.23MB/s
@@ -963,6 +962,7 @@ proxy-groups:
   - 20293_中国-363.1KB/s
   - 20341_中国-312.8KB/s
   - 20350_中国-152.5KB/s
+  - 20384_中国-260.0KB/s
   type: select
 - name: Final
   proxies:
@@ -1069,7 +1069,6 @@ proxy-groups:
   - 18589_中国-260.0KB/s
   - 18945_中国-1.46MB/s
   - 19493_中国-367.7KB/s
-  - 19494_中国-887.1KB/s
   - 19496_中国-1.49MB/s
   - 19576_中国-197.8KB/s
   - 19580_中国-1.23MB/s
@@ -1091,6 +1090,7 @@ proxy-groups:
   - 20293_中国-363.1KB/s
   - 20341_中国-312.8KB/s
   - 20350_中国-152.5KB/s
+  - 20384_中国-260.0KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1187,7 +1187,6 @@ proxy-groups:
   - 18589_中国-260.0KB/s
   - 18945_中国-1.46MB/s
   - 19493_中国-367.7KB/s
-  - 19494_中国-887.1KB/s
   - 19496_中国-1.49MB/s
   - 19576_中国-197.8KB/s
   - 19580_中国-1.23MB/s
@@ -1209,6 +1208,7 @@ proxy-groups:
   - 20293_中国-363.1KB/s
   - 20341_中国-312.8KB/s
   - 20350_中国-152.5KB/s
+  - 20384_中国-260.0KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
