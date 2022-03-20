@@ -708,12 +708,6 @@ proxies:
   port: '45095'
   server: 1.14.165.96
   type: ss
-- cipher: aes-256-gcm
-  name: 20202_日本-1.98MB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5003'
-  server: 85.208.108.234
-  type: ss
 - cipher: aes-128-cfb
   name: 20210_中国-317.8KB/s
   password: QazEdcTgb159@$*
@@ -725,6 +719,12 @@ proxies:
   password: passinfo123
   port: '6011'
   server: 117.28.243.141
+  type: ss
+- cipher: aes-256-gcm
+  name: 20227_日本-1.86MB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 85.208.108.234
   type: ss
 proxy-groups:
 - interval: 3600
@@ -841,9 +841,9 @@ proxy-groups:
   - 20151_中国-8.84MB/s
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
-  - 20202_日本-1.98MB/s
   - 20210_中国-317.8KB/s
   - 20219_中国-520.0KB/s
+  - 20227_日本-1.86MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -960,9 +960,9 @@ proxy-groups:
   - 20151_中国-8.84MB/s
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
-  - 20202_日本-1.98MB/s
   - 20210_中国-317.8KB/s
   - 20219_中国-520.0KB/s
+  - 20227_日本-1.86MB/s
   type: select
 - name: Final
   proxies:
@@ -1088,9 +1088,9 @@ proxy-groups:
   - 20151_中国-8.84MB/s
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
-  - 20202_日本-1.98MB/s
   - 20210_中国-317.8KB/s
   - 20219_中国-520.0KB/s
+  - 20227_日本-1.86MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1206,9 +1206,9 @@ proxy-groups:
   - 20151_中国-8.84MB/s
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
-  - 20202_日本-1.98MB/s
   - 20210_中国-317.8KB/s
   - 20219_中国-520.0KB/s
+  - 20227_日本-1.86MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
