@@ -726,12 +726,6 @@ proxies:
   port: '41009'
   server: colagzcm.jumpwallsocks.online
   type: ss
-- cipher: aes-256-gcm
-  name: 21065_日本-991.4KB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5003'
-  server: 85.208.108.234
-  type: ss
 - cipher: aes-256-cfb
   name: 21135_中国-4.92MB/s
   password: E4DNMf73kHPrd8Qq7aqGPf7f
@@ -756,8 +750,14 @@ proxies:
   port: '40001'
   server: colagzcm.jumpwallsocks.online
   type: ss
+- cipher: aes-256-gcm
+  name: 21201_日本-2.79MB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 85.208.108.234
+  type: ss
 - cipher: rc4-md5
-  name: 21196_中国-348.9KB/s
+  name: 21206_中国-703.9KB/s
   password: passinfo123
   port: '8007'
   server: 117.28.243.164
@@ -880,12 +880,12 @@ proxy-groups:
   - 20908_中国-360.6KB/s
   - 20962_中国-241.4KB/s
   - 20982_中国-783.7KB/s
-  - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
   - 21178_日本-1.33MB/s
   - 21187_中国-2.42MB/s
   - 21192_中国-4.78MB/s
-  - 21196_中国-348.9KB/s
+  - 21201_日本-2.79MB/s
+  - 21206_中国-703.9KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1005,12 +1005,12 @@ proxy-groups:
   - 20908_中国-360.6KB/s
   - 20962_中国-241.4KB/s
   - 20982_中国-783.7KB/s
-  - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
   - 21178_日本-1.33MB/s
   - 21187_中国-2.42MB/s
   - 21192_中国-4.78MB/s
-  - 21196_中国-348.9KB/s
+  - 21201_日本-2.79MB/s
+  - 21206_中国-703.9KB/s
   type: select
 - name: Final
   proxies:
@@ -1139,12 +1139,12 @@ proxy-groups:
   - 20908_中国-360.6KB/s
   - 20962_中国-241.4KB/s
   - 20982_中国-783.7KB/s
-  - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
   - 21178_日本-1.33MB/s
   - 21187_中国-2.42MB/s
   - 21192_中国-4.78MB/s
-  - 21196_中国-348.9KB/s
+  - 21201_日本-2.79MB/s
+  - 21206_中国-703.9KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1263,12 +1263,12 @@ proxy-groups:
   - 20908_中国-360.6KB/s
   - 20962_中国-241.4KB/s
   - 20982_中国-783.7KB/s
-  - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
   - 21178_日本-1.33MB/s
   - 21187_中国-2.42MB/s
   - 21192_中国-4.78MB/s
-  - 21196_中国-348.9KB/s
+  - 21201_日本-2.79MB/s
+  - 21206_中国-703.9KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
