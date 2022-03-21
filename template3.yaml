@@ -642,12 +642,6 @@ proxies:
   port: '37000'
   server: centralchina1.cloudlink123.com
   type: ss
-- cipher: rc4-md5
-  name: 20089_中国-1.88MB/s
-  password: passinfo123
-  port: '8050'
-  server: 117.28.243.165
-  type: ss
 - cipher: aes-128-cfb
   name: 20178_中国-373.3KB/s
   password: QazEdcTgb159@$*
@@ -745,13 +739,25 @@ proxies:
   server: fkgfw-prod.i.sxl.cn
   type: ss
 - cipher: aes-256-gcm
-  name: 21171_日本-1.33MB/s
+  name: 21178_日本-1.33MB/s
   password: FoOiGlkAA9yPEGP
   port: '7306'
   server: 85.208.108.234
   type: ss
 - cipher: rc4-md5
-  name: 21176_中国-348.9KB/s
+  name: 21187_中国-2.42MB/s
+  password: passinfo123
+  port: '8050'
+  server: 117.28.243.165
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 21192_中国-4.78MB/s
+  password: f238b431-ba39-427d-9bbd-2440c30ef211
+  port: '40001'
+  server: colagzcm.jumpwallsocks.online
+  type: ss
+- cipher: rc4-md5
+  name: 21196_中国-348.9KB/s
   password: passinfo123
   port: '8007'
   server: 117.28.243.164
@@ -860,7 +866,6 @@ proxy-groups:
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
   - 20077_中国-5.45MB/s
-  - 20089_中国-1.88MB/s
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
@@ -877,8 +882,10 @@ proxy-groups:
   - 20982_中国-783.7KB/s
   - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
-  - 21171_日本-1.33MB/s
-  - 21176_中国-348.9KB/s
+  - 21178_日本-1.33MB/s
+  - 21187_中国-2.42MB/s
+  - 21192_中国-4.78MB/s
+  - 21196_中国-348.9KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -984,7 +991,6 @@ proxy-groups:
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
   - 20077_中国-5.45MB/s
-  - 20089_中国-1.88MB/s
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
@@ -1001,8 +1007,10 @@ proxy-groups:
   - 20982_中国-783.7KB/s
   - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
-  - 21171_日本-1.33MB/s
-  - 21176_中国-348.9KB/s
+  - 21178_日本-1.33MB/s
+  - 21187_中国-2.42MB/s
+  - 21192_中国-4.78MB/s
+  - 21196_中国-348.9KB/s
   type: select
 - name: Final
   proxies:
@@ -1117,7 +1125,6 @@ proxy-groups:
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
   - 20077_中国-5.45MB/s
-  - 20089_中国-1.88MB/s
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
@@ -1134,8 +1141,10 @@ proxy-groups:
   - 20982_中国-783.7KB/s
   - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
-  - 21171_日本-1.33MB/s
-  - 21176_中国-348.9KB/s
+  - 21178_日本-1.33MB/s
+  - 21187_中国-2.42MB/s
+  - 21192_中国-4.78MB/s
+  - 21196_中国-348.9KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1240,7 +1249,6 @@ proxy-groups:
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
   - 20077_中国-5.45MB/s
-  - 20089_中国-1.88MB/s
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
@@ -1257,8 +1265,10 @@ proxy-groups:
   - 20982_中国-783.7KB/s
   - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
-  - 21171_日本-1.33MB/s
-  - 21176_中国-348.9KB/s
+  - 21178_日本-1.33MB/s
+  - 21187_中国-2.42MB/s
+  - 21192_中国-4.78MB/s
+  - 21196_中国-348.9KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
