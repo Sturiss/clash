@@ -733,12 +733,6 @@ proxies:
   server: colagzcm.jumpwallsocks.online
   type: ss
 - cipher: aes-256-gcm
-  name: 21063_日本-1.15MB/s
-  password: FoOiGlkAA9yPEGP
-  port: '7306'
-  server: 85.208.108.234
-  type: ss
-- cipher: aes-256-gcm
   name: 21065_日本-991.4KB/s
   password: g5MeD6Ft3CWlJId
   port: '5003'
@@ -750,8 +744,14 @@ proxies:
   port: '443'
   server: fkgfw-prod.i.sxl.cn
   type: ss
+- cipher: aes-256-gcm
+  name: 21171_日本-1.33MB/s
+  password: FoOiGlkAA9yPEGP
+  port: '7306'
+  server: 85.208.108.234
+  type: ss
 - cipher: rc4-md5
-  name: 21166_中国-348.9KB/s
+  name: 21176_中国-348.9KB/s
   password: passinfo123
   port: '8007'
   server: 117.28.243.164
@@ -875,10 +875,10 @@ proxy-groups:
   - 20908_中国-360.6KB/s
   - 20962_中国-241.4KB/s
   - 20982_中国-783.7KB/s
-  - 21063_日本-1.15MB/s
   - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
-  - 21166_中国-348.9KB/s
+  - 21171_日本-1.33MB/s
+  - 21176_中国-348.9KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -999,10 +999,10 @@ proxy-groups:
   - 20908_中国-360.6KB/s
   - 20962_中国-241.4KB/s
   - 20982_中国-783.7KB/s
-  - 21063_日本-1.15MB/s
   - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
-  - 21166_中国-348.9KB/s
+  - 21171_日本-1.33MB/s
+  - 21176_中国-348.9KB/s
   type: select
 - name: Final
   proxies:
@@ -1132,10 +1132,10 @@ proxy-groups:
   - 20908_中国-360.6KB/s
   - 20962_中国-241.4KB/s
   - 20982_中国-783.7KB/s
-  - 21063_日本-1.15MB/s
   - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
-  - 21166_中国-348.9KB/s
+  - 21171_日本-1.33MB/s
+  - 21176_中国-348.9KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1255,10 +1255,10 @@ proxy-groups:
   - 20908_中国-360.6KB/s
   - 20962_中国-241.4KB/s
   - 20982_中国-783.7KB/s
-  - 21063_日本-1.15MB/s
   - 21065_日本-991.4KB/s
   - 21135_中国-4.92MB/s
-  - 21166_中国-348.9KB/s
+  - 21171_日本-1.33MB/s
+  - 21176_中国-348.9KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
