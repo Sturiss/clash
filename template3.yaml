@@ -750,6 +750,12 @@ proxies:
   port: '5003'
   server: 85.208.108.234
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 20982_中国-783.7KB/s
+  password: f238b431-ba39-427d-9bbd-2440c30ef211
+  port: '41009'
+  server: colagzcm.jumpwallsocks.online
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -872,6 +878,7 @@ proxy-groups:
   - 20947_中国-8.10MB/s
   - 20962_中国-241.4KB/s
   - 20967_日本-582.8KB/s
+  - 20982_中国-783.7KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -995,6 +1002,7 @@ proxy-groups:
   - 20947_中国-8.10MB/s
   - 20962_中国-241.4KB/s
   - 20967_日本-582.8KB/s
+  - 20982_中国-783.7KB/s
   type: select
 - name: Final
   proxies:
@@ -1127,6 +1135,7 @@ proxy-groups:
   - 20947_中国-8.10MB/s
   - 20962_中国-241.4KB/s
   - 20967_日本-582.8KB/s
+  - 20982_中国-783.7KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1249,6 +1258,7 @@ proxy-groups:
   - 20947_中国-8.10MB/s
   - 20962_中国-241.4KB/s
   - 20967_日本-582.8KB/s
+  - 20982_中国-783.7KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
