@@ -726,12 +726,6 @@ proxies:
   port: '443'
   server: fkgfw-prod.i.sxl.cn
   type: ss
-- cipher: rc4-md5
-  name: 21271_中国-5.80MB/s
-  password: passinfo123
-  port: '8050'
-  server: 117.28.243.165
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 21283_中国-2.40MB/s
   password: f238b431-ba39-427d-9bbd-2440c30ef211
@@ -761,6 +755,12 @@ proxies:
   password: passinfo123
   port: '4173'
   server: 117.28.243.173
+  type: ss
+- cipher: rc4-md5
+  name: 22043_中国-3.01MB/s
+  password: passinfo123
+  port: '8050'
+  server: 117.28.243.165
   type: ss
 proxy-groups:
 - interval: 3600
@@ -880,12 +880,12 @@ proxy-groups:
   - 21201_日本-2.79MB/s
   - 21226_中国-703.9KB/s
   - 21259_中国-900.3KB/s
-  - 21271_中国-5.80MB/s
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 21620_中国-710.3KB/s
   - 21800_中国-1.55MB/s
   - 21831_中国-9.67MB/s
+  - 22043_中国-3.01MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1005,12 +1005,12 @@ proxy-groups:
   - 21201_日本-2.79MB/s
   - 21226_中国-703.9KB/s
   - 21259_中国-900.3KB/s
-  - 21271_中国-5.80MB/s
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 21620_中国-710.3KB/s
   - 21800_中国-1.55MB/s
   - 21831_中国-9.67MB/s
+  - 22043_中国-3.01MB/s
   type: select
 - name: Final
   proxies:
@@ -1139,12 +1139,12 @@ proxy-groups:
   - 21201_日本-2.79MB/s
   - 21226_中国-703.9KB/s
   - 21259_中国-900.3KB/s
-  - 21271_中国-5.80MB/s
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 21620_中国-710.3KB/s
   - 21800_中国-1.55MB/s
   - 21831_中国-9.67MB/s
+  - 22043_中国-3.01MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1263,12 +1263,12 @@ proxy-groups:
   - 21201_日本-2.79MB/s
   - 21226_中国-703.9KB/s
   - 21259_中国-900.3KB/s
-  - 21271_中国-5.80MB/s
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 21620_中国-710.3KB/s
   - 21800_中国-1.55MB/s
   - 21831_中国-9.67MB/s
+  - 22043_中国-3.01MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
