@@ -739,12 +739,6 @@ proxies:
   server: colagzcm.jumpwallsocks.online
   type: ss
 - cipher: rc4-md5
-  name: 21620_中国-710.3KB/s
-  password: passinfo123
-  port: '6145'
-  server: 117.28.243.154
-  type: ss
-- cipher: rc4-md5
   name: 21800_中国-1.55MB/s
   password: passinfo123
   port: '6188'
@@ -761,6 +755,12 @@ proxies:
   password: passinfo123
   port: '8050'
   server: 117.28.243.165
+  type: ss
+- cipher: rc4-md5
+  name: 22080_中国-658.0KB/s
+  password: passinfo123
+  port: '6145'
+  server: 117.28.243.154
   type: ss
 proxy-groups:
 - interval: 3600
@@ -882,10 +882,10 @@ proxy-groups:
   - 21259_中国-900.3KB/s
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
-  - 21620_中国-710.3KB/s
   - 21800_中国-1.55MB/s
   - 21831_中国-9.67MB/s
   - 22043_中国-3.01MB/s
+  - 22080_中国-658.0KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1007,10 +1007,10 @@ proxy-groups:
   - 21259_中国-900.3KB/s
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
-  - 21620_中国-710.3KB/s
   - 21800_中国-1.55MB/s
   - 21831_中国-9.67MB/s
   - 22043_中国-3.01MB/s
+  - 22080_中国-658.0KB/s
   type: select
 - name: Final
   proxies:
@@ -1141,10 +1141,10 @@ proxy-groups:
   - 21259_中国-900.3KB/s
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
-  - 21620_中国-710.3KB/s
   - 21800_中国-1.55MB/s
   - 21831_中国-9.67MB/s
   - 22043_中国-3.01MB/s
+  - 22080_中国-658.0KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1265,10 +1265,10 @@ proxy-groups:
   - 21259_中国-900.3KB/s
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
-  - 21620_中国-710.3KB/s
   - 21800_中国-1.55MB/s
   - 21831_中国-9.67MB/s
   - 22043_中国-3.01MB/s
+  - 22080_中国-658.0KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
