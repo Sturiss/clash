@@ -762,6 +762,12 @@ proxies:
   port: '6145'
   server: 117.28.243.154
   type: ss
+- cipher: aes-128-gcm
+  name: 22219_中国-8.56MB/s
+  password: 538295ce-842c-4452-99f1-c1ef91e9e725
+  port: '40401'
+  server: cn3.relay.starlink.st
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -886,6 +892,7 @@ proxy-groups:
   - 21831_中国-9.67MB/s
   - 22043_中国-3.01MB/s
   - 22080_中国-658.0KB/s
+  - 22219_中国-8.56MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1011,6 +1018,7 @@ proxy-groups:
   - 21831_中国-9.67MB/s
   - 22043_中国-3.01MB/s
   - 22080_中国-658.0KB/s
+  - 22219_中国-8.56MB/s
   type: select
 - name: Final
   proxies:
@@ -1145,6 +1153,7 @@ proxy-groups:
   - 21831_中国-9.67MB/s
   - 22043_中国-3.01MB/s
   - 22080_中国-658.0KB/s
+  - 22219_中国-8.56MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1269,6 +1278,7 @@ proxy-groups:
   - 21831_中国-9.67MB/s
   - 22043_中国-3.01MB/s
   - 22080_中国-658.0KB/s
+  - 22219_中国-8.56MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
