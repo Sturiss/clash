@@ -757,16 +757,16 @@ proxies:
   server: 117.28.243.173
   type: ss
 - cipher: rc4-md5
-  name: 22258_中国-1.62MB/s
-  password: passinfo123
-  port: '6188'
-  server: 117.28.243.154
-  type: ss
-- cipher: rc4-md5
   name: 22283_中国-3.16MB/s
   password: passinfo123
   port: '8050'
   server: 117.28.243.165
+  type: ss
+- cipher: rc4-md5
+  name: 22310_中国-1.30MB/s
+  password: passinfo123
+  port: '6188'
+  server: 117.28.243.154
   type: ss
 proxy-groups:
 - interval: 3600
@@ -891,8 +891,8 @@ proxy-groups:
   - 22080_中国-658.0KB/s
   - 22219_中国-8.56MB/s
   - 22249_中国-5.02MB/s
-  - 22258_中国-1.62MB/s
   - 22283_中国-3.16MB/s
+  - 22310_中国-1.30MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1017,8 +1017,8 @@ proxy-groups:
   - 22080_中国-658.0KB/s
   - 22219_中国-8.56MB/s
   - 22249_中国-5.02MB/s
-  - 22258_中国-1.62MB/s
   - 22283_中国-3.16MB/s
+  - 22310_中国-1.30MB/s
   type: select
 - name: Final
   proxies:
@@ -1152,8 +1152,8 @@ proxy-groups:
   - 22080_中国-658.0KB/s
   - 22219_中国-8.56MB/s
   - 22249_中国-5.02MB/s
-  - 22258_中国-1.62MB/s
   - 22283_中国-3.16MB/s
+  - 22310_中国-1.30MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1277,8 +1277,8 @@ proxy-groups:
   - 22080_中国-658.0KB/s
   - 22219_中国-8.56MB/s
   - 22249_中国-5.02MB/s
-  - 22258_中国-1.62MB/s
   - 22283_中国-3.16MB/s
+  - 22310_中国-1.30MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
