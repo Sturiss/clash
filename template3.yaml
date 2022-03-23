@@ -666,12 +666,6 @@ proxies:
   port: '21647'
   server: 14.29.124.174
   type: ss
-- cipher: rc4-md5
-  name: 20388_中国-260.0KB/s
-  password: passinfo123
-  port: '6188'
-  server: 117.28.243.154
-  type: ss
 - cipher: aes-128-cfb
   name: 20448_中国-333.8KB/s
   password: QazEdcTgb159@$*
@@ -760,6 +754,12 @@ proxies:
   name: 21620_中国-710.3KB/s
   password: passinfo123
   port: '6145'
+  server: 117.28.243.154
+  type: ss
+- cipher: rc4-md5
+  name: 21800_中国-1.55MB/s
+  password: passinfo123
+  port: '6188'
   server: 117.28.243.154
   type: ss
 proxy-groups:
@@ -870,7 +870,6 @@ proxy-groups:
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
   - 20341_中国-312.8KB/s
-  - 20388_中国-260.0KB/s
   - 20448_中国-333.8KB/s
   - 20477_中国-270.0KB/s
   - 20621_中国-1.34MB/s
@@ -886,6 +885,7 @@ proxy-groups:
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 21620_中国-710.3KB/s
+  - 21800_中国-1.55MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -995,7 +995,6 @@ proxy-groups:
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
   - 20341_中国-312.8KB/s
-  - 20388_中国-260.0KB/s
   - 20448_中国-333.8KB/s
   - 20477_中国-270.0KB/s
   - 20621_中国-1.34MB/s
@@ -1011,6 +1010,7 @@ proxy-groups:
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 21620_中国-710.3KB/s
+  - 21800_中国-1.55MB/s
   type: select
 - name: Final
   proxies:
@@ -1129,7 +1129,6 @@ proxy-groups:
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
   - 20341_中国-312.8KB/s
-  - 20388_中国-260.0KB/s
   - 20448_中国-333.8KB/s
   - 20477_中国-270.0KB/s
   - 20621_中国-1.34MB/s
@@ -1145,6 +1144,7 @@ proxy-groups:
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 21620_中国-710.3KB/s
+  - 21800_中国-1.55MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1253,7 +1253,6 @@ proxy-groups:
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
   - 20341_中国-312.8KB/s
-  - 20388_中国-260.0KB/s
   - 20448_中国-333.8KB/s
   - 20477_中国-270.0KB/s
   - 20621_中国-1.34MB/s
@@ -1269,6 +1268,7 @@ proxy-groups:
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 21620_中国-710.3KB/s
+  - 21800_中国-1.55MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
