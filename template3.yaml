@@ -751,12 +751,6 @@ proxies:
   server: 117.28.243.173
   type: ss
 - cipher: rc4-md5
-  name: 22389_中国-3.57MB/s
-  password: passinfo123
-  port: '8050'
-  server: 117.28.243.165
-  type: ss
-- cipher: rc4-md5
   name: 22468_中国-624.0KB/s
   password: passinfo123
   port: '6188'
@@ -767,6 +761,12 @@ proxies:
   password: 538295ce-842c-4452-99f1-c1ef91e9e725
   port: '40401'
   server: cn3.relay.starlink.st
+  type: ss
+- cipher: rc4-md5
+  name: 22846_中国-217.1KB/s
+  password: passinfo123
+  port: '8050'
+  server: 117.28.243.165
   type: ss
 proxy-groups:
 - interval: 3600
@@ -890,9 +890,9 @@ proxy-groups:
   - 21300_中国-2.67MB/s
   - 22080_中国-658.0KB/s
   - 22249_中国-5.02MB/s
-  - 22389_中国-3.57MB/s
   - 22468_中国-624.0KB/s
   - 22532_中国-2.66MB/s
+  - 22846_中国-217.1KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1016,9 +1016,9 @@ proxy-groups:
   - 21300_中国-2.67MB/s
   - 22080_中国-658.0KB/s
   - 22249_中国-5.02MB/s
-  - 22389_中国-3.57MB/s
   - 22468_中国-624.0KB/s
   - 22532_中国-2.66MB/s
+  - 22846_中国-217.1KB/s
   type: select
 - name: Final
   proxies:
@@ -1151,9 +1151,9 @@ proxy-groups:
   - 21300_中国-2.67MB/s
   - 22080_中国-658.0KB/s
   - 22249_中国-5.02MB/s
-  - 22389_中国-3.57MB/s
   - 22468_中国-624.0KB/s
   - 22532_中国-2.66MB/s
+  - 22846_中国-217.1KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1276,9 +1276,9 @@ proxy-groups:
   - 21300_中国-2.67MB/s
   - 22080_中国-658.0KB/s
   - 22249_中国-5.02MB/s
-  - 22389_中国-3.57MB/s
   - 22468_中国-624.0KB/s
   - 22532_中国-2.66MB/s
+  - 22846_中国-217.1KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
