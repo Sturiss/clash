@@ -745,12 +745,6 @@ proxies:
   server: 117.28.243.154
   type: ss
 - cipher: rc4-md5
-  name: 22249_中国-5.02MB/s
-  password: passinfo123
-  port: '4173'
-  server: 117.28.243.173
-  type: ss
-- cipher: rc4-md5
   name: 22468_中国-624.0KB/s
   password: passinfo123
   port: '6188'
@@ -779,6 +773,18 @@ proxies:
   password: 43ZBWt
   port: 20041/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D59e3b5f250.microsoft.com
   server: speedtest-pathx.xtsmart.link
+  type: ss
+- cipher: chacha20-ietf
+  name: 23331_中国-4.33MB/s
+  password: 43ZBWt
+  port: 20000/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D59e3b5f250.microsoft.com
+  server: speedtest-iepl.xtsmart.link
+  type: ss
+- cipher: rc4-md5
+  name: 23335_中国-5.22MB/s
+  password: passinfo123
+  port: '4173'
+  server: 117.28.243.173
   type: ss
 proxy-groups:
 - interval: 3600
@@ -901,12 +907,13 @@ proxy-groups:
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 22080_中国-658.0KB/s
-  - 22249_中国-5.02MB/s
   - 22468_中国-624.0KB/s
   - 22532_中国-2.66MB/s
   - 23236_中国-709.2KB/s
   - 23298_日本-2.66MB/s
   - 23300_中国-1.68MB/s
+  - 23331_中国-4.33MB/s
+  - 23335_中国-5.22MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1029,12 +1036,13 @@ proxy-groups:
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 22080_中国-658.0KB/s
-  - 22249_中国-5.02MB/s
   - 22468_中国-624.0KB/s
   - 22532_中国-2.66MB/s
   - 23236_中国-709.2KB/s
   - 23298_日本-2.66MB/s
   - 23300_中国-1.68MB/s
+  - 23331_中国-4.33MB/s
+  - 23335_中国-5.22MB/s
   type: select
 - name: Final
   proxies:
@@ -1166,12 +1174,13 @@ proxy-groups:
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 22080_中国-658.0KB/s
-  - 22249_中国-5.02MB/s
   - 22468_中国-624.0KB/s
   - 22532_中国-2.66MB/s
   - 23236_中国-709.2KB/s
   - 23298_日本-2.66MB/s
   - 23300_中国-1.68MB/s
+  - 23331_中国-4.33MB/s
+  - 23335_中国-5.22MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1293,12 +1302,13 @@ proxy-groups:
   - 21283_中国-2.40MB/s
   - 21300_中国-2.67MB/s
   - 22080_中国-658.0KB/s
-  - 22249_中国-5.02MB/s
   - 22468_中国-624.0KB/s
   - 22532_中国-2.66MB/s
   - 23236_中国-709.2KB/s
   - 23298_日本-2.66MB/s
   - 23300_中国-1.68MB/s
+  - 23331_中国-4.33MB/s
+  - 23335_中国-5.22MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
