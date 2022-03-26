@@ -774,6 +774,12 @@ proxies:
   port: '4173'
   server: 117.28.243.173
   type: ss
+- cipher: chacha20-ietf
+  name: 23398_(已存活1天)中国-16.59MB/s
+  password: 43ZBWt
+  port: 20000/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D59e3b5f250.microsoft.com
+  server: speedtest-iepl.xtsmart.link
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -900,6 +906,7 @@ proxy-groups:
   - 23236_中国-709.2KB/s
   - 23298_日本-2.66MB/s
   - 23348_中国-5.22MB/s
+  - 23398_(已存活1天)中国-16.59MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1027,6 +1034,7 @@ proxy-groups:
   - 23236_中国-709.2KB/s
   - 23298_日本-2.66MB/s
   - 23348_中国-5.22MB/s
+  - 23398_(已存活1天)中国-16.59MB/s
   type: select
 - name: Final
   proxies:
@@ -1163,6 +1171,7 @@ proxy-groups:
   - 23236_中国-709.2KB/s
   - 23298_日本-2.66MB/s
   - 23348_中国-5.22MB/s
+  - 23398_(已存活1天)中国-16.59MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -1289,6 +1298,7 @@ proxy-groups:
   - 23236_中国-709.2KB/s
   - 23298_日本-2.66MB/s
   - 23348_中国-5.22MB/s
+  - 23398_(已存活1天)中国-16.59MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
