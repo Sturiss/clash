@@ -2348,12 +2348,6 @@ proxies:
   server: 167.88.63.108
   type: ss
 - cipher: aes-256-gcm
-  name: 23645_美国-697.1KB/s
-  password: e4FCWrgpkji3QY
-  port: '9101'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
   name: 23680_美国-1.93MB/s
   password: PCnnH6SQSnfoS27
   port: '8090'
@@ -2471,6 +2465,12 @@ proxies:
   name: 23965_美国-352.3KB/s
   password: cdBIDV42DCwnfIN
   port: '8118'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 23972_美国-501.2KB/s
+  password: e4FCWrgpkji3QY
+  port: '9101'
   server: 169.197.142.99
   type: ss
 proxy-groups:
@@ -2861,7 +2861,6 @@ proxy-groups:
   - 23458_美国-383.5KB/s
   - 23491_新加坡-606.8KB/s
   - 23622_美国-222.9KB/s
-  - 23645_美国-697.1KB/s
   - 23680_美国-1.93MB/s
   - 23779_美国-3.73MB/s
   - 23791_美国-3.30MB/s
@@ -2882,6 +2881,7 @@ proxy-groups:
   - 23961_美国-3.05MB/s
   - 23962_美国-1.92MB/s
   - 23965_美国-352.3KB/s
+  - 23972_美国-501.2KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3271,7 +3271,6 @@ proxy-groups:
   - 23458_美国-383.5KB/s
   - 23491_新加坡-606.8KB/s
   - 23622_美国-222.9KB/s
-  - 23645_美国-697.1KB/s
   - 23680_美国-1.93MB/s
   - 23779_美国-3.73MB/s
   - 23791_美国-3.30MB/s
@@ -3292,6 +3291,7 @@ proxy-groups:
   - 23961_美国-3.05MB/s
   - 23962_美国-1.92MB/s
   - 23965_美国-352.3KB/s
+  - 23972_美国-501.2KB/s
   type: select
 - name: Final
   proxies:
@@ -3690,7 +3690,6 @@ proxy-groups:
   - 23458_美国-383.5KB/s
   - 23491_新加坡-606.8KB/s
   - 23622_美国-222.9KB/s
-  - 23645_美国-697.1KB/s
   - 23680_美国-1.93MB/s
   - 23779_美国-3.73MB/s
   - 23791_美国-3.30MB/s
@@ -3711,6 +3710,7 @@ proxy-groups:
   - 23961_美国-3.05MB/s
   - 23962_美国-1.92MB/s
   - 23965_美国-352.3KB/s
+  - 23972_美国-501.2KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4099,7 +4099,6 @@ proxy-groups:
   - 23458_美国-383.5KB/s
   - 23491_新加坡-606.8KB/s
   - 23622_美国-222.9KB/s
-  - 23645_美国-697.1KB/s
   - 23680_美国-1.93MB/s
   - 23779_美国-3.73MB/s
   - 23791_美国-3.30MB/s
@@ -4120,6 +4119,7 @@ proxy-groups:
   - 23961_美国-3.05MB/s
   - 23962_美国-1.92MB/s
   - 23965_美国-352.3KB/s
+  - 23972_美国-501.2KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
