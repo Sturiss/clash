@@ -2432,12 +2432,6 @@ proxies:
   server: 38.114.114.69
   type: ss
 - cipher: aes-256-gcm
-  name: 24095_美国-868.2KB/s
-  password: pKEW8JPByTVTLtM
-  port: '443'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
   name: 24118_美国-392.2KB/s
   password: e4FCWrgpkji3QY
   port: '9101'
@@ -2474,15 +2468,27 @@ proxies:
   server: 38.114.114.69
   type: ss
 - cipher: aes-256-gcm
-  name: 24154_美国-531.1KB/s
+  name: 24155_美国-574.2KB/s
+  password: RexnBgU7EV5ADxG
+  port: '7002'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 24160_美国-1017.8KB/s
+  password: FoOiGlkAA9yPEGP
+  port: '7307'
+  server: 167.88.63.108
+  type: ss
+- cipher: aes-256-gcm
+  name: 24161_美国-531.1KB/s
   password: TEzjfAYq2IjtuoS
   port: '6697'
   server: 169.197.142.99
   type: ss
 - cipher: aes-256-gcm
-  name: 24155_美国-574.2KB/s
-  password: RexnBgU7EV5ADxG
-  port: '7002'
+  name: 24166_美国-421.6KB/s
+  password: pKEW8JPByTVTLtM
+  port: '443'
   server: 169.197.142.99
   type: ss
 proxy-groups:
@@ -2887,15 +2893,16 @@ proxy-groups:
   - 24051_美国-3.22MB/s
   - 24089_美国-374.2KB/s
   - 24092_美国-1.44MB/s
-  - 24095_美国-868.2KB/s
   - 24118_美国-392.2KB/s
   - 24123_美国-447.6KB/s
   - 24135_美国-616.6KB/s
   - 24138_美国-588.0KB/s
   - 24145_美国-681.6KB/s
   - 24151_美国-1.40MB/s
-  - 24154_美国-531.1KB/s
   - 24155_美国-574.2KB/s
+  - 24160_美国-1017.8KB/s
+  - 24161_美国-531.1KB/s
+  - 24166_美国-421.6KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3299,15 +3306,16 @@ proxy-groups:
   - 24051_美国-3.22MB/s
   - 24089_美国-374.2KB/s
   - 24092_美国-1.44MB/s
-  - 24095_美国-868.2KB/s
   - 24118_美国-392.2KB/s
   - 24123_美国-447.6KB/s
   - 24135_美国-616.6KB/s
   - 24138_美国-588.0KB/s
   - 24145_美国-681.6KB/s
   - 24151_美国-1.40MB/s
-  - 24154_美国-531.1KB/s
   - 24155_美国-574.2KB/s
+  - 24160_美国-1017.8KB/s
+  - 24161_美国-531.1KB/s
+  - 24166_美国-421.6KB/s
   type: select
 - name: Final
   proxies:
@@ -3720,15 +3728,16 @@ proxy-groups:
   - 24051_美国-3.22MB/s
   - 24089_美国-374.2KB/s
   - 24092_美国-1.44MB/s
-  - 24095_美国-868.2KB/s
   - 24118_美国-392.2KB/s
   - 24123_美国-447.6KB/s
   - 24135_美国-616.6KB/s
   - 24138_美国-588.0KB/s
   - 24145_美国-681.6KB/s
   - 24151_美国-1.40MB/s
-  - 24154_美国-531.1KB/s
   - 24155_美国-574.2KB/s
+  - 24160_美国-1017.8KB/s
+  - 24161_美国-531.1KB/s
+  - 24166_美国-421.6KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4131,15 +4140,16 @@ proxy-groups:
   - 24051_美国-3.22MB/s
   - 24089_美国-374.2KB/s
   - 24092_美国-1.44MB/s
-  - 24095_美国-868.2KB/s
   - 24118_美国-392.2KB/s
   - 24123_美国-447.6KB/s
   - 24135_美国-616.6KB/s
   - 24138_美国-588.0KB/s
   - 24145_美国-681.6KB/s
   - 24151_美国-1.40MB/s
-  - 24154_美国-531.1KB/s
   - 24155_美国-574.2KB/s
+  - 24160_美国-1017.8KB/s
+  - 24161_美国-531.1KB/s
+  - 24166_美国-421.6KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
