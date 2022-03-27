@@ -1807,12 +1807,6 @@ proxies:
   port: '443'
   server: 167.88.61.175
   type: ss
-- cipher: aes-256-gcm
-  name: 19891_美国-673.7KB/s
-  password: pKEW8JPByTVTLtM
-  port: '443'
-  server: 142.202.48.17
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 19900_中国-4.05MB/s
   password: ff121459-d0e2-49dc-a0a0-30eb7c10e30c
@@ -2360,12 +2354,6 @@ proxies:
   server: 169.197.142.99
   type: ss
 - cipher: aes-256-gcm
-  name: 23671_美国-1.55MB/s
-  password: cdBIDV42DCwnfIN
-  port: '8118'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
   name: 23680_美国-1.93MB/s
   password: PCnnH6SQSnfoS27
   port: '8090'
@@ -2388,12 +2376,6 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: '8888'
   server: 142.202.48.17
-  type: ss
-- cipher: aes-256-gcm
-  name: 23810_美国-1.37MB/s
-  password: KixLvKzwjekG00rm
-  port: '8080'
-  server: 38.114.114.69
   type: ss
 - cipher: aes-256-gcm
   name: 23840_美国-1.55MB/s
@@ -2438,12 +2420,6 @@ proxies:
   server: 38.114.114.69
   type: ss
 - cipher: aes-256-gcm
-  name: 23917_美国-311.0KB/s
-  password: TEzjfAYq2IjtuoS
-  port: '6679'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
   name: 23938_美国-288.5KB/s
   password: PCnnH6SQSnfoS27
   port: '8090'
@@ -2454,6 +2430,48 @@ proxies:
   password: Y6R9pAtvxxzmGC
   port: '3389'
   server: 38.114.114.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 23948_美国-258.0KB/s
+  password: faBAoD54k87UJG7
+  port: '2376'
+  server: 142.202.48.17
+  type: ss
+- cipher: aes-256-gcm
+  name: 23949_美国-3.12MB/s
+  password: XKFKl2rULjIp74
+  port: '8008'
+  server: 142.202.48.17
+  type: ss
+- cipher: aes-256-gcm
+  name: 23953_美国-3.10MB/s
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 38.114.114.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 23958_美国-1.01MB/s
+  password: TEzjfAYq2IjtuoS
+  port: '6679'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 23961_美国-3.05MB/s
+  password: pKEW8JPByTVTLtM
+  port: '443'
+  server: 142.202.48.17
+  type: ss
+- cipher: aes-256-gcm
+  name: 23962_美国-1.92MB/s
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 142.202.48.17
+  type: ss
+- cipher: aes-256-gcm
+  name: 23965_美国-352.3KB/s
+  password: cdBIDV42DCwnfIN
+  port: '8118'
+  server: 169.197.142.99
   type: ss
 proxy-groups:
 - interval: 3600
@@ -2753,7 +2771,6 @@ proxy-groups:
   - 19852_中国-24.33MB/s
   - 19870_美国-604.0KB/s
   - 19887_美国-406.3KB/s
-  - 19891_美国-673.7KB/s
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
   - 19925_新加坡-1.93MB/s
@@ -2845,12 +2862,10 @@ proxy-groups:
   - 23491_新加坡-606.8KB/s
   - 23622_美国-222.9KB/s
   - 23645_美国-697.1KB/s
-  - 23671_美国-1.55MB/s
   - 23680_美国-1.93MB/s
   - 23779_美国-3.73MB/s
   - 23791_美国-3.30MB/s
   - 23802_美国-1.46MB/s
-  - 23810_美国-1.37MB/s
   - 23840_美国-1.55MB/s
   - 23842_美国-1.13MB/s
   - 23853_美国-784.2KB/s
@@ -2858,9 +2873,15 @@ proxy-groups:
   - 23856_美国-1.27MB/s
   - 23858_美国-1.37MB/s
   - 23904_美国-4.56MB/s
-  - 23917_美国-311.0KB/s
   - 23938_美国-288.5KB/s
   - 23941_美国-1.57MB/s
+  - 23948_美国-258.0KB/s
+  - 23949_美国-3.12MB/s
+  - 23953_美国-3.10MB/s
+  - 23958_美国-1.01MB/s
+  - 23961_美国-3.05MB/s
+  - 23962_美国-1.92MB/s
+  - 23965_美国-352.3KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3160,7 +3181,6 @@ proxy-groups:
   - 19852_中国-24.33MB/s
   - 19870_美国-604.0KB/s
   - 19887_美国-406.3KB/s
-  - 19891_美国-673.7KB/s
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
   - 19925_新加坡-1.93MB/s
@@ -3252,12 +3272,10 @@ proxy-groups:
   - 23491_新加坡-606.8KB/s
   - 23622_美国-222.9KB/s
   - 23645_美国-697.1KB/s
-  - 23671_美国-1.55MB/s
   - 23680_美国-1.93MB/s
   - 23779_美国-3.73MB/s
   - 23791_美国-3.30MB/s
   - 23802_美国-1.46MB/s
-  - 23810_美国-1.37MB/s
   - 23840_美国-1.55MB/s
   - 23842_美国-1.13MB/s
   - 23853_美国-784.2KB/s
@@ -3265,9 +3283,15 @@ proxy-groups:
   - 23856_美国-1.27MB/s
   - 23858_美国-1.37MB/s
   - 23904_美国-4.56MB/s
-  - 23917_美国-311.0KB/s
   - 23938_美国-288.5KB/s
   - 23941_美国-1.57MB/s
+  - 23948_美国-258.0KB/s
+  - 23949_美国-3.12MB/s
+  - 23953_美国-3.10MB/s
+  - 23958_美国-1.01MB/s
+  - 23961_美国-3.05MB/s
+  - 23962_美国-1.92MB/s
+  - 23965_美国-352.3KB/s
   type: select
 - name: Final
   proxies:
@@ -3576,7 +3600,6 @@ proxy-groups:
   - 19852_中国-24.33MB/s
   - 19870_美国-604.0KB/s
   - 19887_美国-406.3KB/s
-  - 19891_美国-673.7KB/s
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
   - 19925_新加坡-1.93MB/s
@@ -3668,12 +3691,10 @@ proxy-groups:
   - 23491_新加坡-606.8KB/s
   - 23622_美国-222.9KB/s
   - 23645_美国-697.1KB/s
-  - 23671_美国-1.55MB/s
   - 23680_美国-1.93MB/s
   - 23779_美国-3.73MB/s
   - 23791_美国-3.30MB/s
   - 23802_美国-1.46MB/s
-  - 23810_美国-1.37MB/s
   - 23840_美国-1.55MB/s
   - 23842_美国-1.13MB/s
   - 23853_美国-784.2KB/s
@@ -3681,9 +3702,15 @@ proxy-groups:
   - 23856_美国-1.27MB/s
   - 23858_美国-1.37MB/s
   - 23904_美国-4.56MB/s
-  - 23917_美国-311.0KB/s
   - 23938_美国-288.5KB/s
   - 23941_美国-1.57MB/s
+  - 23948_美国-258.0KB/s
+  - 23949_美国-3.12MB/s
+  - 23953_美国-3.10MB/s
+  - 23958_美国-1.01MB/s
+  - 23961_美国-3.05MB/s
+  - 23962_美国-1.92MB/s
+  - 23965_美国-352.3KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -3982,7 +4009,6 @@ proxy-groups:
   - 19852_中国-24.33MB/s
   - 19870_美国-604.0KB/s
   - 19887_美国-406.3KB/s
-  - 19891_美国-673.7KB/s
   - 19900_中国-4.05MB/s
   - 19906_中国-8.65MB/s
   - 19925_新加坡-1.93MB/s
@@ -4074,12 +4100,10 @@ proxy-groups:
   - 23491_新加坡-606.8KB/s
   - 23622_美国-222.9KB/s
   - 23645_美国-697.1KB/s
-  - 23671_美国-1.55MB/s
   - 23680_美国-1.93MB/s
   - 23779_美国-3.73MB/s
   - 23791_美国-3.30MB/s
   - 23802_美国-1.46MB/s
-  - 23810_美国-1.37MB/s
   - 23840_美国-1.55MB/s
   - 23842_美国-1.13MB/s
   - 23853_美国-784.2KB/s
@@ -4087,9 +4111,15 @@ proxy-groups:
   - 23856_美国-1.27MB/s
   - 23858_美国-1.37MB/s
   - 23904_美国-4.56MB/s
-  - 23917_美国-311.0KB/s
   - 23938_美国-288.5KB/s
   - 23941_美国-1.57MB/s
+  - 23948_美国-258.0KB/s
+  - 23949_美国-3.12MB/s
+  - 23953_美国-3.10MB/s
+  - 23958_美国-1.01MB/s
+  - 23961_美国-3.05MB/s
+  - 23962_美国-1.92MB/s
+  - 23965_美国-352.3KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
