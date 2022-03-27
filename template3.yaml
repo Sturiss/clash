@@ -2378,12 +2378,6 @@ proxies:
   server: 38.114.114.69
   type: ss
 - cipher: aes-256-gcm
-  name: 23938_美国-288.5KB/s
-  password: PCnnH6SQSnfoS27
-  port: '8090'
-  server: 38.114.114.69
-  type: ss
-- cipher: aes-256-gcm
   name: 23941_美国-1.57MB/s
   password: Y6R9pAtvxxzmGC
   port: '3389'
@@ -2474,13 +2468,19 @@ proxies:
   server: 169.197.142.99
   type: ss
 - cipher: aes-256-gcm
-  name: 24033_美国-681.6KB/s
+  name: 24038_美国-2.10MB/s
+  password: PCnnH6SQSnfoS27
+  port: '8090'
+  server: 38.114.114.69
+  type: ss
+- cipher: aes-256-gcm
+  name: 24043_美国-681.6KB/s
   password: RexnBgU7EV5ADxG
   port: '7001'
   server: 169.197.142.99
   type: ss
 - cipher: aes-256-gcm
-  name: 24035_美国-850.0KB/s
+  name: 24045_美国-850.0KB/s
   password: Y6R9pAtvxxzmGC
   port: '5001'
   server: 169.197.142.99
@@ -2878,7 +2878,6 @@ proxy-groups:
   - 23842_美国-1.13MB/s
   - 23858_美国-1.37MB/s
   - 23904_美国-4.56MB/s
-  - 23938_美国-288.5KB/s
   - 23941_美国-1.57MB/s
   - 23948_美国-258.0KB/s
   - 23953_美国-3.10MB/s
@@ -2894,8 +2893,9 @@ proxy-groups:
   - 24016_美国-609.3KB/s
   - 24021_美国-2.77MB/s
   - 24032_美国-648.1KB/s
-  - 24033_美国-681.6KB/s
-  - 24035_美国-850.0KB/s
+  - 24038_美国-2.10MB/s
+  - 24043_美国-681.6KB/s
+  - 24045_美国-850.0KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3290,7 +3290,6 @@ proxy-groups:
   - 23842_美国-1.13MB/s
   - 23858_美国-1.37MB/s
   - 23904_美国-4.56MB/s
-  - 23938_美国-288.5KB/s
   - 23941_美国-1.57MB/s
   - 23948_美国-258.0KB/s
   - 23953_美国-3.10MB/s
@@ -3306,8 +3305,9 @@ proxy-groups:
   - 24016_美国-609.3KB/s
   - 24021_美国-2.77MB/s
   - 24032_美国-648.1KB/s
-  - 24033_美国-681.6KB/s
-  - 24035_美国-850.0KB/s
+  - 24038_美国-2.10MB/s
+  - 24043_美国-681.6KB/s
+  - 24045_美国-850.0KB/s
   type: select
 - name: Final
   proxies:
@@ -3711,7 +3711,6 @@ proxy-groups:
   - 23842_美国-1.13MB/s
   - 23858_美国-1.37MB/s
   - 23904_美国-4.56MB/s
-  - 23938_美国-288.5KB/s
   - 23941_美国-1.57MB/s
   - 23948_美国-258.0KB/s
   - 23953_美国-3.10MB/s
@@ -3727,8 +3726,9 @@ proxy-groups:
   - 24016_美国-609.3KB/s
   - 24021_美国-2.77MB/s
   - 24032_美国-648.1KB/s
-  - 24033_美国-681.6KB/s
-  - 24035_美国-850.0KB/s
+  - 24038_美国-2.10MB/s
+  - 24043_美国-681.6KB/s
+  - 24045_美国-850.0KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4122,7 +4122,6 @@ proxy-groups:
   - 23842_美国-1.13MB/s
   - 23858_美国-1.37MB/s
   - 23904_美国-4.56MB/s
-  - 23938_美国-288.5KB/s
   - 23941_美国-1.57MB/s
   - 23948_美国-258.0KB/s
   - 23953_美国-3.10MB/s
@@ -4138,8 +4137,9 @@ proxy-groups:
   - 24016_美国-609.3KB/s
   - 24021_美国-2.77MB/s
   - 24032_美国-648.1KB/s
-  - 24033_美国-681.6KB/s
-  - 24035_美国-850.0KB/s
+  - 24038_美国-2.10MB/s
+  - 24043_美国-681.6KB/s
+  - 24045_美国-850.0KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
