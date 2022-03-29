@@ -2504,12 +2504,6 @@ proxies:
   server: 169.197.142.99
   type: ss
 - cipher: aes-256-gcm
-  name: 25144_美国-1.88MB/s
-  password: KixLvKzwjekG00rm
-  port: '8080'
-  server: 167.88.63.108
-  type: ss
-- cipher: aes-256-gcm
   name: 25160_美国-2.97MB/s
   password: e4FCWrgpkji3QY
   port: '9102'
@@ -2562,6 +2556,12 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: '7001'
   server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 25261_美国-1.97MB/s
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 167.88.63.108
   type: ss
 proxy-groups:
 - interval: 3600
@@ -2977,7 +2977,6 @@ proxy-groups:
   - 25027_美国-494.8KB/s
   - 25039_美国-268.4KB/s
   - 25061_美国-167.9KB/s
-  - 25144_美国-1.88MB/s
   - 25160_美国-2.97MB/s
   - 25171_美国-2.35MB/s
   - 25181_美国-1.51MB/s
@@ -2987,6 +2986,7 @@ proxy-groups:
   - 25243_美国-2.28MB/s
   - 25252_美国-2.04MB/s
   - 25258_美国-1.59MB/s
+  - 25261_美国-1.97MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3402,7 +3402,6 @@ proxy-groups:
   - 25027_美国-494.8KB/s
   - 25039_美国-268.4KB/s
   - 25061_美国-167.9KB/s
-  - 25144_美国-1.88MB/s
   - 25160_美国-2.97MB/s
   - 25171_美国-2.35MB/s
   - 25181_美国-1.51MB/s
@@ -3412,6 +3411,7 @@ proxy-groups:
   - 25243_美国-2.28MB/s
   - 25252_美国-2.04MB/s
   - 25258_美国-1.59MB/s
+  - 25261_美国-1.97MB/s
   type: select
 - name: Final
   proxies:
@@ -3836,7 +3836,6 @@ proxy-groups:
   - 25027_美国-494.8KB/s
   - 25039_美国-268.4KB/s
   - 25061_美国-167.9KB/s
-  - 25144_美国-1.88MB/s
   - 25160_美国-2.97MB/s
   - 25171_美国-2.35MB/s
   - 25181_美国-1.51MB/s
@@ -3846,6 +3845,7 @@ proxy-groups:
   - 25243_美国-2.28MB/s
   - 25252_美国-2.04MB/s
   - 25258_美国-1.59MB/s
+  - 25261_美国-1.97MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4260,7 +4260,6 @@ proxy-groups:
   - 25027_美国-494.8KB/s
   - 25039_美国-268.4KB/s
   - 25061_美国-167.9KB/s
-  - 25144_美国-1.88MB/s
   - 25160_美国-2.97MB/s
   - 25171_美国-2.35MB/s
   - 25181_美国-1.51MB/s
@@ -4270,6 +4269,7 @@ proxy-groups:
   - 25243_美国-2.28MB/s
   - 25252_美国-2.04MB/s
   - 25258_美国-1.59MB/s
+  - 25261_美国-1.97MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
