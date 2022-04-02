@@ -2683,6 +2683,66 @@ proxies:
   port: '11009'
   server: 211.99.115.7
   type: ss
+- cipher: aes-256-gcm
+  name: 25490_中国-1.62MB/s
+  password: zAdhDSabeh
+  port: '11402'
+  server: 211.99.115.16
+  type: ss
+- cipher: aes-256-gcm
+  name: 25491_中国-2.53MB/s
+  password: zAdhDSabeh
+  port: '11853'
+  server: 211.99.115.3
+  type: ss
+- cipher: aes-256-gcm
+  name: 25492_中国-14.89MB/s
+  password: zAdhDSabeh
+  port: '11003'
+  server: 211.99.115.15
+  type: ss
+- cipher: aes-256-gcm
+  name: 25493_中国-1.60MB/s
+  password: zAdhDSabeh
+  port: '11651'
+  server: 211.99.115.6
+  type: ss
+- cipher: aes-256-gcm
+  name: 25494_中国-9.19MB/s
+  password: zAdhDSabeh
+  port: '11011'
+  server: 211.99.115.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 25500_中国-9.41MB/s
+  password: zAdhDSabeh
+  port: '11117'
+  server: 211.99.115.14
+  type: ss
+- cipher: aes-256-gcm
+  name: 25501_中国-2.23MB/s
+  password: zAdhDSabeh
+  port: '11551'
+  server: 211.99.115.8
+  type: ss
+- cipher: aes-256-gcm
+  name: 25502_中国-1.83MB/s
+  password: zAdhDSabeh
+  port: '11904'
+  server: 211.99.115.21
+  type: ss
+- cipher: aes-256-gcm
+  name: 25503_中国-498.9KB/s
+  password: zAdhDSabeh
+  port: '11103'
+  server: 211.99.115.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 25504_中国-3.23MB/s
+  password: zAdhDSabeh
+  port: '11801'
+  server: 42.157.161.52
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -3127,6 +3187,16 @@ proxy-groups:
   - 25487_中国-1.69MB/s
   - 25488_中国-12.56MB/s
   - 25489_中国-14.62MB/s
+  - 25490_中国-1.62MB/s
+  - 25491_中国-2.53MB/s
+  - 25492_中国-14.89MB/s
+  - 25493_中国-1.60MB/s
+  - 25494_中国-9.19MB/s
+  - 25500_中国-9.41MB/s
+  - 25501_中国-2.23MB/s
+  - 25502_中国-1.83MB/s
+  - 25503_中国-498.9KB/s
+  - 25504_中国-3.23MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -3572,6 +3642,16 @@ proxy-groups:
   - 25487_中国-1.69MB/s
   - 25488_中国-12.56MB/s
   - 25489_中国-14.62MB/s
+  - 25490_中国-1.62MB/s
+  - 25491_中国-2.53MB/s
+  - 25492_中国-14.89MB/s
+  - 25493_中国-1.60MB/s
+  - 25494_中国-9.19MB/s
+  - 25500_中国-9.41MB/s
+  - 25501_中国-2.23MB/s
+  - 25502_中国-1.83MB/s
+  - 25503_中国-498.9KB/s
+  - 25504_中国-3.23MB/s
   type: select
 - name: Final
   proxies:
@@ -4026,6 +4106,16 @@ proxy-groups:
   - 25487_中国-1.69MB/s
   - 25488_中国-12.56MB/s
   - 25489_中国-14.62MB/s
+  - 25490_中国-1.62MB/s
+  - 25491_中国-2.53MB/s
+  - 25492_中国-14.89MB/s
+  - 25493_中国-1.60MB/s
+  - 25494_中国-9.19MB/s
+  - 25500_中国-9.41MB/s
+  - 25501_中国-2.23MB/s
+  - 25502_中国-1.83MB/s
+  - 25503_中国-498.9KB/s
+  - 25504_中国-3.23MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -4470,6 +4560,16 @@ proxy-groups:
   - 25487_中国-1.69MB/s
   - 25488_中国-12.56MB/s
   - 25489_中国-14.62MB/s
+  - 25490_中国-1.62MB/s
+  - 25491_中国-2.53MB/s
+  - 25492_中国-14.89MB/s
+  - 25493_中国-1.60MB/s
+  - 25494_中国-9.19MB/s
+  - 25500_中国-9.41MB/s
+  - 25501_中国-2.23MB/s
+  - 25502_中国-1.83MB/s
+  - 25503_中国-498.9KB/s
+  - 25504_中国-3.23MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
