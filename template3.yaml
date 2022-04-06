@@ -3188,15 +3188,27 @@ proxies:
   server: 180.163.62.91
   type: ss
 - cipher: aes-128-cfb
-  name: 26137_中国-365.4KB/s
+  name: 26140_中国-365.4KB/s
   password: QazEdcTgb159@$*
   port: '21008'
   server: 180.163.62.91
   type: ss
 - cipher: aes-128-cfb
-  name: 26138_中国-338.7KB/s
+  name: 26141_中国-338.7KB/s
   password: QazEdcTgb159@$*
   port: '21000'
+  server: 180.163.62.91
+  type: ss
+- cipher: aes-128-cfb
+  name: 26142_中国-338.5KB/s
+  password: QazEdcTgb159@$*
+  port: '21085'
+  server: 180.163.62.91
+  type: ss
+- cipher: aes-128-cfb
+  name: 26143_中国-330.5KB/s
+  password: QazEdcTgb159@$*
+  port: '21088'
   server: 180.163.62.91
   type: ss
 proxy-groups:
@@ -3727,8 +3739,10 @@ proxy-groups:
   - 26129_美国-1.73MB/s
   - 26132_中国-369.4KB/s
   - 26135_中国-399.9KB/s
-  - 26137_中国-365.4KB/s
-  - 26138_中国-338.7KB/s
+  - 26140_中国-365.4KB/s
+  - 26141_中国-338.7KB/s
+  - 26142_中国-338.5KB/s
+  - 26143_中国-330.5KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4258,8 +4272,10 @@ proxy-groups:
   - 26129_美国-1.73MB/s
   - 26132_中国-369.4KB/s
   - 26135_中国-399.9KB/s
-  - 26137_中国-365.4KB/s
-  - 26138_中国-338.7KB/s
+  - 26140_中国-365.4KB/s
+  - 26141_中国-338.7KB/s
+  - 26142_中国-338.5KB/s
+  - 26143_中国-330.5KB/s
   type: select
 - name: Final
   proxies:
@@ -4798,8 +4814,10 @@ proxy-groups:
   - 26129_美国-1.73MB/s
   - 26132_中国-369.4KB/s
   - 26135_中国-399.9KB/s
-  - 26137_中国-365.4KB/s
-  - 26138_中国-338.7KB/s
+  - 26140_中国-365.4KB/s
+  - 26141_中国-338.7KB/s
+  - 26142_中国-338.5KB/s
+  - 26143_中国-330.5KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -5328,8 +5346,10 @@ proxy-groups:
   - 26129_美国-1.73MB/s
   - 26132_中国-369.4KB/s
   - 26135_中国-399.9KB/s
-  - 26137_中国-365.4KB/s
-  - 26138_中国-338.7KB/s
+  - 26140_中国-365.4KB/s
+  - 26141_中国-338.7KB/s
+  - 26142_中国-338.5KB/s
+  - 26143_中国-330.5KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
