@@ -2929,12 +2929,6 @@ proxies:
   port: '443'
   server: 34.216.75.173
   type: ss
-- cipher: aes-128-cfb
-  name: 25741_中国-710.9KB/s
-  password: QazEdcTgb159@$*
-  port: '25001'
-  server: 180.163.62.91
-  type: ss
 - cipher: aes-256-gcm
   name: 25755_美国-366.9KB/s
   password: TEzjfAYq2IjtuoS
@@ -2982,12 +2976,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: '35028'
   server: 14.29.124.174
-  type: ss
-- cipher: aes-256-cfb
-  name: 25844_美国-434.6KB/s
-  password: VP8ZPxQpJtZRCjfZ
-  port: '9080'
-  server: 62.216.91.229
   type: ss
 - cipher: aes-128-cfb
   name: 25848_中国-328.1KB/s
@@ -3109,12 +3097,6 @@ proxies:
   port: '16508'
   server: 180.163.62.91
   type: ss
-- cipher: aes-128-cfb
-  name: 26014_中国-316.0KB/s
-  password: QazEdcTgb159@$*
-  port: '16507'
-  server: 180.163.62.91
-  type: ss
 - cipher: chacha20-ietf-poly1305
   name: 26018_中国-7.86MB/s
   password: 082e09b9-35a1-45af-914c-76bd6562228d
@@ -3182,10 +3164,28 @@ proxies:
   server: 180.163.62.91
   type: ss
 - cipher: aes-128-cfb
-  name: 26088_中国-359.1KB/s
+  name: 26091_中国-359.1KB/s
   password: QazEdcTgb159@$*
   port: '16502'
   server: 180.163.62.91
+  type: ss
+- cipher: aes-128-cfb
+  name: 26093_中国-555.0KB/s
+  password: QazEdcTgb159@$*
+  port: '25001'
+  server: 180.163.62.91
+  type: ss
+- cipher: aes-128-cfb
+  name: 26094_中国-399.9KB/s
+  password: QazEdcTgb159@$*
+  port: '16507'
+  server: 180.163.62.91
+  type: ss
+- cipher: aes-256-cfb
+  name: 26095_美国-333.4KB/s
+  password: VP8ZPxQpJtZRCjfZ
+  port: '9080'
+  server: 62.216.91.229
   type: ss
 proxy-groups:
 - interval: 3600
@@ -3672,7 +3672,6 @@ proxy-groups:
   - 25696_美国-4.54MB/s
   - 25697_美国-3.85MB/s
   - 25716_美国-3.69MB/s
-  - 25741_中国-710.9KB/s
   - 25755_美国-366.9KB/s
   - 25760_中国-718.2KB/s
   - 25823_中国-363.5KB/s
@@ -3681,7 +3680,6 @@ proxy-groups:
   - 25829_中国-356.3KB/s
   - 25838_中国-490.1KB/s
   - 25842_中国-352.8KB/s
-  - 25844_美国-434.6KB/s
   - 25848_中国-328.1KB/s
   - 25853_中国-352.1KB/s
   - 25856_中国-321.7KB/s
@@ -3702,7 +3700,6 @@ proxy-groups:
   - 25988_中国-682.0KB/s
   - 25989_中国-349.5KB/s
   - 26009_中国-397.4KB/s
-  - 26014_中国-316.0KB/s
   - 26018_中国-7.86MB/s
   - 26032_中国-15.94MB/s
   - 26060_中国-398.8KB/s
@@ -3714,7 +3711,10 @@ proxy-groups:
   - 26081_中国-399.2KB/s
   - 26086_中国-309.2KB/s
   - 26087_中国-706.3KB/s
-  - 26088_中国-359.1KB/s
+  - 26091_中国-359.1KB/s
+  - 26093_中国-555.0KB/s
+  - 26094_中国-399.9KB/s
+  - 26095_美国-333.4KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4201,7 +4201,6 @@ proxy-groups:
   - 25696_美国-4.54MB/s
   - 25697_美国-3.85MB/s
   - 25716_美国-3.69MB/s
-  - 25741_中国-710.9KB/s
   - 25755_美国-366.9KB/s
   - 25760_中国-718.2KB/s
   - 25823_中国-363.5KB/s
@@ -4210,7 +4209,6 @@ proxy-groups:
   - 25829_中国-356.3KB/s
   - 25838_中国-490.1KB/s
   - 25842_中国-352.8KB/s
-  - 25844_美国-434.6KB/s
   - 25848_中国-328.1KB/s
   - 25853_中国-352.1KB/s
   - 25856_中国-321.7KB/s
@@ -4231,7 +4229,6 @@ proxy-groups:
   - 25988_中国-682.0KB/s
   - 25989_中国-349.5KB/s
   - 26009_中国-397.4KB/s
-  - 26014_中国-316.0KB/s
   - 26018_中国-7.86MB/s
   - 26032_中国-15.94MB/s
   - 26060_中国-398.8KB/s
@@ -4243,7 +4240,10 @@ proxy-groups:
   - 26081_中国-399.2KB/s
   - 26086_中国-309.2KB/s
   - 26087_中国-706.3KB/s
-  - 26088_中国-359.1KB/s
+  - 26091_中国-359.1KB/s
+  - 26093_中国-555.0KB/s
+  - 26094_中国-399.9KB/s
+  - 26095_美国-333.4KB/s
   type: select
 - name: Final
   proxies:
@@ -4739,7 +4739,6 @@ proxy-groups:
   - 25696_美国-4.54MB/s
   - 25697_美国-3.85MB/s
   - 25716_美国-3.69MB/s
-  - 25741_中国-710.9KB/s
   - 25755_美国-366.9KB/s
   - 25760_中国-718.2KB/s
   - 25823_中国-363.5KB/s
@@ -4748,7 +4747,6 @@ proxy-groups:
   - 25829_中国-356.3KB/s
   - 25838_中国-490.1KB/s
   - 25842_中国-352.8KB/s
-  - 25844_美国-434.6KB/s
   - 25848_中国-328.1KB/s
   - 25853_中国-352.1KB/s
   - 25856_中国-321.7KB/s
@@ -4769,7 +4767,6 @@ proxy-groups:
   - 25988_中国-682.0KB/s
   - 25989_中国-349.5KB/s
   - 26009_中国-397.4KB/s
-  - 26014_中国-316.0KB/s
   - 26018_中国-7.86MB/s
   - 26032_中国-15.94MB/s
   - 26060_中国-398.8KB/s
@@ -4781,7 +4778,10 @@ proxy-groups:
   - 26081_中国-399.2KB/s
   - 26086_中国-309.2KB/s
   - 26087_中国-706.3KB/s
-  - 26088_中国-359.1KB/s
+  - 26091_中国-359.1KB/s
+  - 26093_中国-555.0KB/s
+  - 26094_中国-399.9KB/s
+  - 26095_美国-333.4KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -5267,7 +5267,6 @@ proxy-groups:
   - 25696_美国-4.54MB/s
   - 25697_美国-3.85MB/s
   - 25716_美国-3.69MB/s
-  - 25741_中国-710.9KB/s
   - 25755_美国-366.9KB/s
   - 25760_中国-718.2KB/s
   - 25823_中国-363.5KB/s
@@ -5276,7 +5275,6 @@ proxy-groups:
   - 25829_中国-356.3KB/s
   - 25838_中国-490.1KB/s
   - 25842_中国-352.8KB/s
-  - 25844_美国-434.6KB/s
   - 25848_中国-328.1KB/s
   - 25853_中国-352.1KB/s
   - 25856_中国-321.7KB/s
@@ -5297,7 +5295,6 @@ proxy-groups:
   - 25988_中国-682.0KB/s
   - 25989_中国-349.5KB/s
   - 26009_中国-397.4KB/s
-  - 26014_中国-316.0KB/s
   - 26018_中国-7.86MB/s
   - 26032_中国-15.94MB/s
   - 26060_中国-398.8KB/s
@@ -5309,7 +5306,10 @@ proxy-groups:
   - 26081_中国-399.2KB/s
   - 26086_中国-309.2KB/s
   - 26087_中国-706.3KB/s
-  - 26088_中国-359.1KB/s
+  - 26091_中国-359.1KB/s
+  - 26093_中国-555.0KB/s
+  - 26094_中国-399.9KB/s
+  - 26095_美国-333.4KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
