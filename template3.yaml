@@ -3385,6 +3385,12 @@ proxies:
   port: '9080'
   server: 62.216.91.229
   type: ss
+- cipher: aes-128-gcm
+  name: 26470_中国-7.94MB/s
+  password: 29890b98-a08a-48cc-9983-accb3a16e325
+  port: '21682'
+  server: cm.newhua99.ga
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -3946,6 +3952,7 @@ proxy-groups:
   - 26308_新加坡-474.0KB/s
   - 26312_新加坡-633.9KB/s
   - 26402_美国-1.04MB/s
+  - 26470_中国-7.94MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4508,6 +4515,7 @@ proxy-groups:
   - 26308_新加坡-474.0KB/s
   - 26312_新加坡-633.9KB/s
   - 26402_美国-1.04MB/s
+  - 26470_中国-7.94MB/s
   type: select
 - name: Final
   proxies:
@@ -5079,6 +5087,7 @@ proxy-groups:
   - 26308_新加坡-474.0KB/s
   - 26312_新加坡-633.9KB/s
   - 26402_美国-1.04MB/s
+  - 26470_中国-7.94MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -5640,6 +5649,7 @@ proxy-groups:
   - 26308_新加坡-474.0KB/s
   - 26312_新加坡-633.9KB/s
   - 26402_美国-1.04MB/s
+  - 26470_中国-7.94MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
