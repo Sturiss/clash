@@ -3344,12 +3344,6 @@ proxies:
   server: 169.197.142.99
   type: ss
 - cipher: aes-256-cfb
-  name: 26279_新加坡-415.2KB/s
-  password: a3GFYt36Sm82Vys9
-  port: '9000'
-  server: 103.172.116.5
-  type: ss
-- cipher: aes-256-cfb
   name: 26289_新加坡-1.07MB/s
   password: GA9KzeEgvfxNrgmM
   port: '9019'
@@ -3378,6 +3372,18 @@ proxies:
   password: y9VURyNzJWNRYEGQ
   port: '9008'
   server: 103.172.116.7
+  type: ss
+- cipher: aes-256-cfb
+  name: 26308_新加坡-474.0KB/s
+  password: a3GFYt36Sm82Vys9
+  port: '9000'
+  server: 103.172.116.5
+  type: ss
+- cipher: aes-256-cfb
+  name: 26309_新加坡-633.9KB/s
+  password: daFYagqDdBdA6VTX
+  port: '9073'
+  server: 103.172.116.5
   type: ss
 proxy-groups:
 - interval: 3600
@@ -3933,12 +3939,13 @@ proxy-groups:
   - 26205_新加坡-539.5KB/s
   - 26207_中国-389.2KB/s
   - 26225_美国-174.5KB/s
-  - 26279_新加坡-415.2KB/s
   - 26289_新加坡-1.07MB/s
   - 26290_新加坡-325.5KB/s
   - 26291_新加坡-311.0KB/s
   - 26292_新加坡-342.3KB/s
   - 26303_新加坡-436.1KB/s
+  - 26308_新加坡-474.0KB/s
+  - 26309_新加坡-633.9KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4494,12 +4501,13 @@ proxy-groups:
   - 26205_新加坡-539.5KB/s
   - 26207_中国-389.2KB/s
   - 26225_美国-174.5KB/s
-  - 26279_新加坡-415.2KB/s
   - 26289_新加坡-1.07MB/s
   - 26290_新加坡-325.5KB/s
   - 26291_新加坡-311.0KB/s
   - 26292_新加坡-342.3KB/s
   - 26303_新加坡-436.1KB/s
+  - 26308_新加坡-474.0KB/s
+  - 26309_新加坡-633.9KB/s
   type: select
 - name: Final
   proxies:
@@ -5064,12 +5072,13 @@ proxy-groups:
   - 26205_新加坡-539.5KB/s
   - 26207_中国-389.2KB/s
   - 26225_美国-174.5KB/s
-  - 26279_新加坡-415.2KB/s
   - 26289_新加坡-1.07MB/s
   - 26290_新加坡-325.5KB/s
   - 26291_新加坡-311.0KB/s
   - 26292_新加坡-342.3KB/s
   - 26303_新加坡-436.1KB/s
+  - 26308_新加坡-474.0KB/s
+  - 26309_新加坡-633.9KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -5624,12 +5633,13 @@ proxy-groups:
   - 26205_新加坡-539.5KB/s
   - 26207_中国-389.2KB/s
   - 26225_美国-174.5KB/s
-  - 26279_新加坡-415.2KB/s
   - 26289_新加坡-1.07MB/s
   - 26290_新加坡-325.5KB/s
   - 26291_新加坡-311.0KB/s
   - 26292_新加坡-342.3KB/s
   - 26303_新加坡-436.1KB/s
+  - 26308_新加坡-474.0KB/s
+  - 26309_新加坡-633.9KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
