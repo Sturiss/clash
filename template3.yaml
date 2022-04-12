@@ -1412,12 +1412,6 @@ proxies:
   server: jp.v2bees.net
   type: ss
 - cipher: aes-256-gcm
-  name: 16433_美国-247.3KB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5004'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
   name: 16468_中国-435.7KB/s
   password: a7997951-8649-4e93-a727-2e1945b96f6c
   port: '25101'
@@ -1646,18 +1640,6 @@ proxies:
   server: 142.202.48.74
   type: ss
 - cipher: aes-256-gcm
-  name: 18961_美国-233.3KB/s
-  password: KixLvKzwjekG00rm
-  port: '8080'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
-  name: 19030_美国-175.8KB/s
-  password: zDNVedRFPQexG9v
-  port: '6379'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
   name: 19039_美国-226.5KB/s
   password: g5MeD6Ft3CWlJId
   port: '5003'
@@ -1831,12 +1813,6 @@ proxies:
   port: '45073'
   server: 1.14.165.96
   type: ss
-- cipher: aes-256-gcm
-  name: 20233_美国-439.9KB/s
-  password: kDWvXYZoTBcGkC4
-  port: '8882'
-  server: 169.197.142.99
-  type: ss
 - cipher: aes-128-cfb
   name: 20341_中国-312.8KB/s
   password: QazEdcTgb159@$*
@@ -1890,12 +1866,6 @@ proxies:
   password: KixLvKzwjekG00rm
   port: '8080'
   server: 169.197.142.4
-  type: ss
-- cipher: aes-256-gcm
-  name: 20610_美国-4.11MB/s
-  password: FoOiGlkAA9yPEGP
-  port: '7306'
-  server: 169.197.142.99
   type: ss
 - cipher: rc4-md5
   name: 20621_中国-1.34MB/s
@@ -2852,12 +2822,6 @@ proxies:
   server: 38.121.43.91
   type: ss
 - cipher: aes-256-gcm
-  name: 25686_美国-318.2KB/s
-  password: cdBIDV42DCwnfIN
-  port: '8118'
-  server: 169.197.142.99
-  type: ss
-- cipher: aes-256-gcm
   name: 25689_美国-1.72MB/s
   password: Y6R9pAtvxxzmGC
   port: '3306'
@@ -3416,9 +3380,45 @@ proxies:
   server: 180.163.62.91
   type: ss
 - cipher: aes-256-gcm
-  name: 26584_美国-1.33MB/s
+  name: 26586_美国-3.17MB/s
+  password: FoOiGlkAA9yPEGP
+  port: '7306'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 26587_美国-4.55MB/s
+  password: zDNVedRFPQexG9v
+  port: '6379'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 26589_美国-683.7KB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 26590_美国-2.02MB/s
+  password: kDWvXYZoTBcGkC4
+  port: '8882'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 26591_美国-1.33MB/s
   password: Y6R9pAtvxxzmGC
   port: '5601'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 26594_美国-2.96MB/s
+  password: KixLvKzwjekG00rm
+  port: '8080'
+  server: 169.197.142.99
+  type: ss
+- cipher: aes-256-gcm
+  name: 26595_美国-2.31MB/s
+  password: cdBIDV42DCwnfIN
+  port: '8118'
   server: 169.197.142.99
   type: ss
 proxy-groups:
@@ -3653,7 +3653,6 @@ proxy-groups:
   - 15968_美国-180.4KB/s
   - 16004_美国-152.7KB/s
   - 16096_中国-1.89MB/s
-  - 16433_美国-247.3KB/s
   - 16468_中国-435.7KB/s
   - 16485_中国-180.9KB/s
   - 16539_中国-175.3KB/s
@@ -3692,8 +3691,6 @@ proxy-groups:
   - 18840_美国-148.9KB/s
   - 18902_新加坡-167.3KB/s
   - 18921_美国-214.9KB/s
-  - 18961_美国-233.3KB/s
-  - 19030_美国-175.8KB/s
   - 19039_美国-226.5KB/s
   - 19146_美国-237.5KB/s
   - 19203_美国-213.6KB/s
@@ -3723,7 +3720,6 @@ proxy-groups:
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
-  - 20233_美国-439.9KB/s
   - 20341_中国-312.8KB/s
   - 20371_美国-2.47MB/s
   - 20448_中国-333.8KB/s
@@ -3733,7 +3729,6 @@ proxy-groups:
   - 20487_美国-852.9KB/s
   - 20507_美国-2.52MB/s
   - 20608_美国-3.82MB/s
-  - 20610_美国-4.11MB/s
   - 20621_中国-1.34MB/s
   - 20639_中国-3.93MB/s
   - 20793_中国-305.5KB/s
@@ -3893,7 +3888,6 @@ proxy-groups:
   - 25649_美国-1.82MB/s
   - 25669_美国-309.5KB/s
   - 25680_美国-512.4KB/s
-  - 25686_美国-318.2KB/s
   - 25689_美国-1.72MB/s
   - 25690_美国-2.99MB/s
   - 25694_美国-3.49MB/s
@@ -3987,7 +3981,13 @@ proxy-groups:
   - 26579_美国-3.56MB/s
   - 26581_中国-335.0KB/s
   - 26582_中国-492.3KB/s
-  - 26584_美国-1.33MB/s
+  - 26586_美国-3.17MB/s
+  - 26587_美国-4.55MB/s
+  - 26589_美国-683.7KB/s
+  - 26590_美国-2.02MB/s
+  - 26591_美国-1.33MB/s
+  - 26594_美国-2.96MB/s
+  - 26595_美国-2.31MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4221,7 +4221,6 @@ proxy-groups:
   - 15968_美国-180.4KB/s
   - 16004_美国-152.7KB/s
   - 16096_中国-1.89MB/s
-  - 16433_美国-247.3KB/s
   - 16468_中国-435.7KB/s
   - 16485_中国-180.9KB/s
   - 16539_中国-175.3KB/s
@@ -4260,8 +4259,6 @@ proxy-groups:
   - 18840_美国-148.9KB/s
   - 18902_新加坡-167.3KB/s
   - 18921_美国-214.9KB/s
-  - 18961_美国-233.3KB/s
-  - 19030_美国-175.8KB/s
   - 19039_美国-226.5KB/s
   - 19146_美国-237.5KB/s
   - 19203_美国-213.6KB/s
@@ -4291,7 +4288,6 @@ proxy-groups:
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
-  - 20233_美国-439.9KB/s
   - 20341_中国-312.8KB/s
   - 20371_美国-2.47MB/s
   - 20448_中国-333.8KB/s
@@ -4301,7 +4297,6 @@ proxy-groups:
   - 20487_美国-852.9KB/s
   - 20507_美国-2.52MB/s
   - 20608_美国-3.82MB/s
-  - 20610_美国-4.11MB/s
   - 20621_中国-1.34MB/s
   - 20639_中国-3.93MB/s
   - 20793_中国-305.5KB/s
@@ -4461,7 +4456,6 @@ proxy-groups:
   - 25649_美国-1.82MB/s
   - 25669_美国-309.5KB/s
   - 25680_美国-512.4KB/s
-  - 25686_美国-318.2KB/s
   - 25689_美国-1.72MB/s
   - 25690_美国-2.99MB/s
   - 25694_美国-3.49MB/s
@@ -4555,7 +4549,13 @@ proxy-groups:
   - 26579_美国-3.56MB/s
   - 26581_中国-335.0KB/s
   - 26582_中国-492.3KB/s
-  - 26584_美国-1.33MB/s
+  - 26586_美国-3.17MB/s
+  - 26587_美国-4.55MB/s
+  - 26589_美国-683.7KB/s
+  - 26590_美国-2.02MB/s
+  - 26591_美国-1.33MB/s
+  - 26594_美国-2.96MB/s
+  - 26595_美国-2.31MB/s
   type: select
 - name: Final
   proxies:
@@ -4798,7 +4798,6 @@ proxy-groups:
   - 15968_美国-180.4KB/s
   - 16004_美国-152.7KB/s
   - 16096_中国-1.89MB/s
-  - 16433_美国-247.3KB/s
   - 16468_中国-435.7KB/s
   - 16485_中国-180.9KB/s
   - 16539_中国-175.3KB/s
@@ -4837,8 +4836,6 @@ proxy-groups:
   - 18840_美国-148.9KB/s
   - 18902_新加坡-167.3KB/s
   - 18921_美国-214.9KB/s
-  - 18961_美国-233.3KB/s
-  - 19030_美国-175.8KB/s
   - 19039_美国-226.5KB/s
   - 19146_美国-237.5KB/s
   - 19203_美国-213.6KB/s
@@ -4868,7 +4865,6 @@ proxy-groups:
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
-  - 20233_美国-439.9KB/s
   - 20341_中国-312.8KB/s
   - 20371_美国-2.47MB/s
   - 20448_中国-333.8KB/s
@@ -4878,7 +4874,6 @@ proxy-groups:
   - 20487_美国-852.9KB/s
   - 20507_美国-2.52MB/s
   - 20608_美国-3.82MB/s
-  - 20610_美国-4.11MB/s
   - 20621_中国-1.34MB/s
   - 20639_中国-3.93MB/s
   - 20793_中国-305.5KB/s
@@ -5038,7 +5033,6 @@ proxy-groups:
   - 25649_美国-1.82MB/s
   - 25669_美国-309.5KB/s
   - 25680_美国-512.4KB/s
-  - 25686_美国-318.2KB/s
   - 25689_美国-1.72MB/s
   - 25690_美国-2.99MB/s
   - 25694_美国-3.49MB/s
@@ -5132,7 +5126,13 @@ proxy-groups:
   - 26579_美国-3.56MB/s
   - 26581_中国-335.0KB/s
   - 26582_中国-492.3KB/s
-  - 26584_美国-1.33MB/s
+  - 26586_美国-3.17MB/s
+  - 26587_美国-4.55MB/s
+  - 26589_美国-683.7KB/s
+  - 26590_美国-2.02MB/s
+  - 26591_美国-1.33MB/s
+  - 26594_美国-2.96MB/s
+  - 26595_美国-2.31MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -5365,7 +5365,6 @@ proxy-groups:
   - 15968_美国-180.4KB/s
   - 16004_美国-152.7KB/s
   - 16096_中国-1.89MB/s
-  - 16433_美国-247.3KB/s
   - 16468_中国-435.7KB/s
   - 16485_中国-180.9KB/s
   - 16539_中国-175.3KB/s
@@ -5404,8 +5403,6 @@ proxy-groups:
   - 18840_美国-148.9KB/s
   - 18902_新加坡-167.3KB/s
   - 18921_美国-214.9KB/s
-  - 18961_美国-233.3KB/s
-  - 19030_美国-175.8KB/s
   - 19039_美国-226.5KB/s
   - 19146_美国-237.5KB/s
   - 19203_美国-213.6KB/s
@@ -5435,7 +5432,6 @@ proxy-groups:
   - 20178_中国-373.3KB/s
   - 20194_中国-363.3KB/s
   - 20210_中国-317.8KB/s
-  - 20233_美国-439.9KB/s
   - 20341_中国-312.8KB/s
   - 20371_美国-2.47MB/s
   - 20448_中国-333.8KB/s
@@ -5445,7 +5441,6 @@ proxy-groups:
   - 20487_美国-852.9KB/s
   - 20507_美国-2.52MB/s
   - 20608_美国-3.82MB/s
-  - 20610_美国-4.11MB/s
   - 20621_中国-1.34MB/s
   - 20639_中国-3.93MB/s
   - 20793_中国-305.5KB/s
@@ -5605,7 +5600,6 @@ proxy-groups:
   - 25649_美国-1.82MB/s
   - 25669_美国-309.5KB/s
   - 25680_美国-512.4KB/s
-  - 25686_美国-318.2KB/s
   - 25689_美国-1.72MB/s
   - 25690_美国-2.99MB/s
   - 25694_美国-3.49MB/s
@@ -5699,7 +5693,13 @@ proxy-groups:
   - 26579_美国-3.56MB/s
   - 26581_中国-335.0KB/s
   - 26582_中国-492.3KB/s
-  - 26584_美国-1.33MB/s
+  - 26586_美国-3.17MB/s
+  - 26587_美国-4.55MB/s
+  - 26589_美国-683.7KB/s
+  - 26590_美国-2.02MB/s
+  - 26591_美国-1.33MB/s
+  - 26594_美国-2.96MB/s
+  - 26595_美国-2.31MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
