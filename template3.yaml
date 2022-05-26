@@ -1261,6 +1261,30 @@ proxies:
   port: '10064'
   server: 180.163.62.91
   type: ss
+- cipher: aes-256-gcm
+  name: 28480_中国-3.89MB/s
+  password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49
+  port: '11087'
+  server: zh01lv5hk04.feiguayun.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 28482_中国-251.1KB/s
+  password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49
+  port: '35087'
+  server: zh01lv5uk01.feiguayun.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 28483_中国-583.1KB/s
+  password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49
+  port: '11087'
+  server: zh01lv5hk03.feiguayun.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 28484_中国-477.1KB/s
+  password: 23c807f7-14ba-4f5d-8357-4c1afe17fd49
+  port: '32087'
+  server: zh01lv5jp02.feiguayun.xyz
+  type: ss
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -1468,6 +1492,10 @@ proxy-groups:
   - 28365_中国-321.6KB/s
   - 28438_中国-12.46MB/s
   - 28455_中国-359.2KB/s
+  - 28480_中国-3.89MB/s
+  - 28482_中国-251.1KB/s
+  - 28483_中国-583.1KB/s
+  - 28484_中国-477.1KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -1676,6 +1704,10 @@ proxy-groups:
   - 28365_中国-321.6KB/s
   - 28438_中国-12.46MB/s
   - 28455_中国-359.2KB/s
+  - 28480_中国-3.89MB/s
+  - 28482_中国-251.1KB/s
+  - 28483_中国-583.1KB/s
+  - 28484_中国-477.1KB/s
   type: select
 - name: Final
   proxies:
@@ -1893,6 +1925,10 @@ proxy-groups:
   - 28365_中国-321.6KB/s
   - 28438_中国-12.46MB/s
   - 28455_中国-359.2KB/s
+  - 28480_中国-3.89MB/s
+  - 28482_中国-251.1KB/s
+  - 28483_中国-583.1KB/s
+  - 28484_中国-477.1KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -2100,6 +2136,10 @@ proxy-groups:
   - 28365_中国-321.6KB/s
   - 28438_中国-12.46MB/s
   - 28455_中国-359.2KB/s
+  - 28480_中国-3.89MB/s
+  - 28482_中国-251.1KB/s
+  - 28483_中国-583.1KB/s
+  - 28484_中国-477.1KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
