@@ -3848,12 +3848,6 @@ proxies:
   server: 5.181.234.254
   type: ss
 - cipher: aes-256-gcm
-  name: 28840_美国-2.89MB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5003'
-  server: 169.197.142.39
-  type: ss
-- cipher: aes-256-gcm
   name: 28847_美国-3.33MB/s
   password: kDWvXYZoTBcGkC4
   port: '8881'
@@ -3882,18 +3876,6 @@ proxies:
   password: e4FCWrgpkji3QY
   port: '9102'
   server: 38.68.135.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 28890_美国-3.00MB/s
-  password: KixLvKzwjekG00rm
-  port: '5500'
-  server: 169.197.142.39
-  type: ss
-- cipher: aes-256-gcm
-  name: 28894_美国-3.07MB/s
-  password: TEzjfAYq2IjtuoS
-  port: '6697'
-  server: 169.197.142.39
   type: ss
 - cipher: aes-256-gcm
   name: 28906_美国-1.44MB/s
@@ -3956,12 +3938,6 @@ proxies:
   server: 169.197.142.39
   type: ss
 - cipher: aes-256-gcm
-  name: 29005_美国-1.28MB/s
-  password: PCnnH6SQSnfoS27
-  port: '8091'
-  server: 169.197.142.39
-  type: ss
-- cipher: aes-256-gcm
   name: 29008_美国-1.05MB/s
   password: cdBIDV42DCwnfIN
   port: '8119'
@@ -3972,12 +3948,6 @@ proxies:
   password: QazEdcTgb159@$*
   port: '10065'
   server: 180.163.62.91
-  type: ss
-- cipher: aes-256-gcm
-  name: 29034_美国-1.03MB/s
-  password: e4FCWrgpkji3QY
-  port: '9102'
-  server: 169.197.142.39
   type: ss
 - cipher: aes-256-gcm
   name: 29042_美国-2.24MB/s
@@ -4008,6 +3978,36 @@ proxies:
   password: 1e5111699c45496da84112f35db665c4
   port: '29332'
   server: 165.232.169.142
+  type: ss
+- cipher: aes-256-gcm
+  name: 29080_美国-1.47MB/s
+  password: PCnnH6SQSnfoS27
+  port: '8091'
+  server: 169.197.142.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 29081_美国-864.8KB/s
+  password: e4FCWrgpkji3QY
+  port: '9102'
+  server: 169.197.142.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 29082_美国-734.0KB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 169.197.142.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 29083_美国-2.12MB/s
+  password: KixLvKzwjekG00rm
+  port: '5500'
+  server: 169.197.142.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 29084_美国-1.03MB/s
+  password: TEzjfAYq2IjtuoS
+  port: '6697'
+  server: 169.197.142.39
   type: ss
 proxy-groups:
 - interval: 3600
@@ -4647,14 +4647,11 @@ proxy-groups:
   - 28819_美国-1.92MB/s
   - 28835_美国-2.89MB/s
   - 28837_美国-1.66MB/s
-  - 28840_美国-2.89MB/s
   - 28847_美国-3.33MB/s
   - 28857_美国-1.32MB/s
   - 28862_美国-2.02MB/s
   - 28867_美国-579.4KB/s
   - 28886_美国-1.07MB/s
-  - 28890_美国-3.00MB/s
-  - 28894_美国-3.07MB/s
   - 28906_美国-1.44MB/s
   - 28908_美国-1.63MB/s
   - 28910_美国-1.04MB/s
@@ -4665,15 +4662,18 @@ proxy-groups:
   - 28981_美国-2.38MB/s
   - 29003_美国-1.18MB/s
   - 29004_美国-991.3KB/s
-  - 29005_美国-1.28MB/s
   - 29008_美国-1.05MB/s
   - 29022_中国-419.9KB/s
-  - 29034_美国-1.03MB/s
   - 29042_美国-2.24MB/s
   - 29044_美国-463.2KB/s
   - 29046_美国-2.76MB/s
   - 29049_中国-386.5KB/s
   - 29056_新加坡-876.5KB/s
+  - 29080_美国-1.47MB/s
+  - 29081_美国-864.8KB/s
+  - 29082_美国-734.0KB/s
+  - 29083_美国-2.12MB/s
+  - 29084_美国-1.03MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5313,14 +5313,11 @@ proxy-groups:
   - 28819_美国-1.92MB/s
   - 28835_美国-2.89MB/s
   - 28837_美国-1.66MB/s
-  - 28840_美国-2.89MB/s
   - 28847_美国-3.33MB/s
   - 28857_美国-1.32MB/s
   - 28862_美国-2.02MB/s
   - 28867_美国-579.4KB/s
   - 28886_美国-1.07MB/s
-  - 28890_美国-3.00MB/s
-  - 28894_美国-3.07MB/s
   - 28906_美国-1.44MB/s
   - 28908_美国-1.63MB/s
   - 28910_美国-1.04MB/s
@@ -5331,15 +5328,18 @@ proxy-groups:
   - 28981_美国-2.38MB/s
   - 29003_美国-1.18MB/s
   - 29004_美国-991.3KB/s
-  - 29005_美国-1.28MB/s
   - 29008_美国-1.05MB/s
   - 29022_中国-419.9KB/s
-  - 29034_美国-1.03MB/s
   - 29042_美国-2.24MB/s
   - 29044_美国-463.2KB/s
   - 29046_美国-2.76MB/s
   - 29049_中国-386.5KB/s
   - 29056_新加坡-876.5KB/s
+  - 29080_美国-1.47MB/s
+  - 29081_美国-864.8KB/s
+  - 29082_美国-734.0KB/s
+  - 29083_美国-2.12MB/s
+  - 29084_美国-1.03MB/s
   type: select
 - name: Final
   proxies:
@@ -5988,14 +5988,11 @@ proxy-groups:
   - 28819_美国-1.92MB/s
   - 28835_美国-2.89MB/s
   - 28837_美国-1.66MB/s
-  - 28840_美国-2.89MB/s
   - 28847_美国-3.33MB/s
   - 28857_美国-1.32MB/s
   - 28862_美国-2.02MB/s
   - 28867_美国-579.4KB/s
   - 28886_美国-1.07MB/s
-  - 28890_美国-3.00MB/s
-  - 28894_美国-3.07MB/s
   - 28906_美国-1.44MB/s
   - 28908_美国-1.63MB/s
   - 28910_美国-1.04MB/s
@@ -6006,15 +6003,18 @@ proxy-groups:
   - 28981_美国-2.38MB/s
   - 29003_美国-1.18MB/s
   - 29004_美国-991.3KB/s
-  - 29005_美国-1.28MB/s
   - 29008_美国-1.05MB/s
   - 29022_中国-419.9KB/s
-  - 29034_美国-1.03MB/s
   - 29042_美国-2.24MB/s
   - 29044_美国-463.2KB/s
   - 29046_美国-2.76MB/s
   - 29049_中国-386.5KB/s
   - 29056_新加坡-876.5KB/s
+  - 29080_美国-1.47MB/s
+  - 29081_美国-864.8KB/s
+  - 29082_美国-734.0KB/s
+  - 29083_美国-2.12MB/s
+  - 29084_美国-1.03MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -6653,14 +6653,11 @@ proxy-groups:
   - 28819_美国-1.92MB/s
   - 28835_美国-2.89MB/s
   - 28837_美国-1.66MB/s
-  - 28840_美国-2.89MB/s
   - 28847_美国-3.33MB/s
   - 28857_美国-1.32MB/s
   - 28862_美国-2.02MB/s
   - 28867_美国-579.4KB/s
   - 28886_美国-1.07MB/s
-  - 28890_美国-3.00MB/s
-  - 28894_美国-3.07MB/s
   - 28906_美国-1.44MB/s
   - 28908_美国-1.63MB/s
   - 28910_美国-1.04MB/s
@@ -6671,15 +6668,18 @@ proxy-groups:
   - 28981_美国-2.38MB/s
   - 29003_美国-1.18MB/s
   - 29004_美国-991.3KB/s
-  - 29005_美国-1.28MB/s
   - 29008_美国-1.05MB/s
   - 29022_中国-419.9KB/s
-  - 29034_美国-1.03MB/s
   - 29042_美国-2.24MB/s
   - 29044_美国-463.2KB/s
   - 29046_美国-2.76MB/s
   - 29049_中国-386.5KB/s
   - 29056_新加坡-876.5KB/s
+  - 29080_美国-1.47MB/s
+  - 29081_美国-864.8KB/s
+  - 29082_美国-734.0KB/s
+  - 29083_美国-2.12MB/s
+  - 29084_美国-1.03MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
