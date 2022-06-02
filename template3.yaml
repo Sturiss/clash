@@ -1681,6 +1681,12 @@ proxies:
   port: '8080'
   server: 85.208.108.58
   type: ss
+- cipher: aes-128-gcm
+  name: 29212_中国-6.03MB/s
+  password: b195963c-2631-442d-ab3a-6e78df25d904
+  port: '20011'
+  server: cdn2.myuuusss.com
+  type: ss
 - cipher: aes-256-gcm
   name: 10533_美国-717.4KB/s
   password: g5MeD6Ft3CWlJId
@@ -3931,12 +3937,6 @@ proxies:
   port: '8118'
   server: 169.197.142.39
   type: ss
-- cipher: aes-256-gcm
-  name: 29042_美国-2.24MB/s
-  password: RexnBgU7EV5ADxG
-  port: '7002'
-  server: 169.197.142.39
-  type: ss
 - cipher: aes-256-cfb
   name: 29044_美国-463.2KB/s
   password: a40ff797db5c4b948cfe5a5234a0e74c
@@ -4007,6 +4007,18 @@ proxies:
   name: 29199_美国-602.5KB/s
   password: Y6R9pAtvxxzmGC
   port: '5000'
+  server: 169.197.142.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 29206_美国-863.0KB/s
+  password: RexnBgU7EV5ADxG
+  port: '7002'
+  server: 169.197.142.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 29210_美国-430.4KB/s
+  password: kDWvXYZoTBcGkC4
+  port: '8881'
   server: 169.197.142.39
   type: ss
 proxy-groups:
@@ -4286,6 +4298,7 @@ proxy-groups:
   - 29056_新加坡-876.5KB/s
   - 29147_中国-873.1KB/s
   - 29189_日本-2.93MB/s
+  - 29212_中国-6.03MB/s
   - 10533_美国-717.4KB/s
   - 10766_美国-847.0KB/s
   - 10778_美国-1.86MB/s
@@ -4661,7 +4674,6 @@ proxy-groups:
   - 28926_美国-2.74MB/s
   - 28939_美国-3.54MB/s
   - 29003_美国-1.18MB/s
-  - 29042_美国-2.24MB/s
   - 29044_美国-463.2KB/s
   - 29046_美国-2.76MB/s
   - 29081_美国-864.8KB/s
@@ -4674,6 +4686,8 @@ proxy-groups:
   - 29194_美国-366.2KB/s
   - 29195_美国-405.1KB/s
   - 29199_美国-602.5KB/s
+  - 29206_美国-863.0KB/s
+  - 29210_美国-430.4KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4952,6 +4966,7 @@ proxy-groups:
   - 29056_新加坡-876.5KB/s
   - 29147_中国-873.1KB/s
   - 29189_日本-2.93MB/s
+  - 29212_中国-6.03MB/s
   - 10533_美国-717.4KB/s
   - 10766_美国-847.0KB/s
   - 10778_美国-1.86MB/s
@@ -5327,7 +5342,6 @@ proxy-groups:
   - 28926_美国-2.74MB/s
   - 28939_美国-3.54MB/s
   - 29003_美国-1.18MB/s
-  - 29042_美国-2.24MB/s
   - 29044_美国-463.2KB/s
   - 29046_美国-2.76MB/s
   - 29081_美国-864.8KB/s
@@ -5340,6 +5354,8 @@ proxy-groups:
   - 29194_美国-366.2KB/s
   - 29195_美国-405.1KB/s
   - 29199_美国-602.5KB/s
+  - 29206_美国-863.0KB/s
+  - 29210_美国-430.4KB/s
   type: select
 - name: Final
   proxies:
@@ -5627,6 +5643,7 @@ proxy-groups:
   - 29056_新加坡-876.5KB/s
   - 29147_中国-873.1KB/s
   - 29189_日本-2.93MB/s
+  - 29212_中国-6.03MB/s
   - 10533_美国-717.4KB/s
   - 10766_美国-847.0KB/s
   - 10778_美国-1.86MB/s
@@ -6002,7 +6019,6 @@ proxy-groups:
   - 28926_美国-2.74MB/s
   - 28939_美国-3.54MB/s
   - 29003_美国-1.18MB/s
-  - 29042_美国-2.24MB/s
   - 29044_美国-463.2KB/s
   - 29046_美国-2.76MB/s
   - 29081_美国-864.8KB/s
@@ -6015,6 +6031,8 @@ proxy-groups:
   - 29194_美国-366.2KB/s
   - 29195_美国-405.1KB/s
   - 29199_美国-602.5KB/s
+  - 29206_美国-863.0KB/s
+  - 29210_美国-430.4KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -6292,6 +6310,7 @@ proxy-groups:
   - 29056_新加坡-876.5KB/s
   - 29147_中国-873.1KB/s
   - 29189_日本-2.93MB/s
+  - 29212_中国-6.03MB/s
   - 10533_美国-717.4KB/s
   - 10766_美国-847.0KB/s
   - 10778_美国-1.86MB/s
@@ -6667,7 +6686,6 @@ proxy-groups:
   - 28926_美国-2.74MB/s
   - 28939_美国-3.54MB/s
   - 29003_美国-1.18MB/s
-  - 29042_美国-2.24MB/s
   - 29044_美国-463.2KB/s
   - 29046_美国-2.76MB/s
   - 29081_美国-864.8KB/s
@@ -6680,6 +6698,8 @@ proxy-groups:
   - 29194_美国-366.2KB/s
   - 29195_美国-405.1KB/s
   - 29199_美国-602.5KB/s
+  - 29206_美国-863.0KB/s
+  - 29210_美国-430.4KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
