@@ -3781,12 +3781,6 @@ proxies:
   port: '11087'
   server: zh01lv5hk02.feiguayun.xyz
   type: ss
-- cipher: aes-128-cfb
-  name: 28646_中国-2.31MB/s
-  password: QazEdcTgb159@$*
-  port: '10064'
-  server: 180.163.62.91
-  type: ss
 - cipher: aes-256-gcm
   name: 28718_美国-654.1KB/s
   password: cdBIDV42DCwnfIN
@@ -3870,12 +3864,6 @@ proxies:
   password: RexnBgU7EV5ADxG
   port: '7001'
   server: 38.68.135.19
-  type: ss
-- cipher: aes-256-gcm
-  name: 28859_美国-2.70MB/s
-  password: g5MeD6Ft3CWlJId
-  port: '5004'
-  server: 169.197.142.39
   type: ss
 - cipher: aes-256-gcm
   name: 28862_美国-2.02MB/s
@@ -3990,6 +3978,36 @@ proxies:
   password: e4FCWrgpkji3QY
   port: '9102'
   server: 169.197.142.39
+  type: ss
+- cipher: aes-256-gcm
+  name: 29042_美国-2.24MB/s
+  password: RexnBgU7EV5ADxG
+  port: '7002'
+  server: 169.197.142.39
+  type: ss
+- cipher: aes-256-cfb
+  name: 29044_美国-463.2KB/s
+  password: a40ff797db5c4b948cfe5a5234a0e74c
+  port: '25453'
+  server: 167.172.135.97
+  type: ss
+- cipher: aes-256-gcm
+  name: 29046_美国-2.76MB/s
+  password: g5MeD6Ft3CWlJId
+  port: '5004'
+  server: 169.197.142.39
+  type: ss
+- cipher: aes-128-cfb
+  name: 29049_中国-386.5KB/s
+  password: QazEdcTgb159@$*
+  port: '10064'
+  server: 180.163.62.91
+  type: ss
+- cipher: aes-256-cfb
+  name: 29050_新加坡-876.5KB/s
+  password: 1e5111699c45496da84112f35db665c4
+  port: '29332'
+  server: 165.232.169.142
   type: ss
 proxy-groups:
 - interval: 3600
@@ -4618,7 +4636,6 @@ proxy-groups:
   - 28604_日本-9.68MB/s
   - 28639_中国-543.7KB/s
   - 28641_中国-6.17MB/s
-  - 28646_中国-2.31MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
   - 28721_美国-342.4KB/s
@@ -4633,7 +4650,6 @@ proxy-groups:
   - 28840_美国-2.89MB/s
   - 28847_美国-3.33MB/s
   - 28857_美国-1.32MB/s
-  - 28859_美国-2.70MB/s
   - 28862_美国-2.02MB/s
   - 28867_美国-579.4KB/s
   - 28886_美国-1.07MB/s
@@ -4653,6 +4669,11 @@ proxy-groups:
   - 29008_美国-1.05MB/s
   - 29022_中国-419.9KB/s
   - 29034_美国-1.03MB/s
+  - 29042_美国-2.24MB/s
+  - 29044_美国-463.2KB/s
+  - 29046_美国-2.76MB/s
+  - 29049_中国-386.5KB/s
+  - 29050_新加坡-876.5KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5281,7 +5302,6 @@ proxy-groups:
   - 28604_日本-9.68MB/s
   - 28639_中国-543.7KB/s
   - 28641_中国-6.17MB/s
-  - 28646_中国-2.31MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
   - 28721_美国-342.4KB/s
@@ -5296,7 +5316,6 @@ proxy-groups:
   - 28840_美国-2.89MB/s
   - 28847_美国-3.33MB/s
   - 28857_美国-1.32MB/s
-  - 28859_美国-2.70MB/s
   - 28862_美国-2.02MB/s
   - 28867_美国-579.4KB/s
   - 28886_美国-1.07MB/s
@@ -5316,6 +5335,11 @@ proxy-groups:
   - 29008_美国-1.05MB/s
   - 29022_中国-419.9KB/s
   - 29034_美国-1.03MB/s
+  - 29042_美国-2.24MB/s
+  - 29044_美国-463.2KB/s
+  - 29046_美国-2.76MB/s
+  - 29049_中国-386.5KB/s
+  - 29050_新加坡-876.5KB/s
   type: select
 - name: Final
   proxies:
@@ -5953,7 +5977,6 @@ proxy-groups:
   - 28604_日本-9.68MB/s
   - 28639_中国-543.7KB/s
   - 28641_中国-6.17MB/s
-  - 28646_中国-2.31MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
   - 28721_美国-342.4KB/s
@@ -5968,7 +5991,6 @@ proxy-groups:
   - 28840_美国-2.89MB/s
   - 28847_美国-3.33MB/s
   - 28857_美国-1.32MB/s
-  - 28859_美国-2.70MB/s
   - 28862_美国-2.02MB/s
   - 28867_美国-579.4KB/s
   - 28886_美国-1.07MB/s
@@ -5988,6 +6010,11 @@ proxy-groups:
   - 29008_美国-1.05MB/s
   - 29022_中国-419.9KB/s
   - 29034_美国-1.03MB/s
+  - 29042_美国-2.24MB/s
+  - 29044_美国-463.2KB/s
+  - 29046_美国-2.76MB/s
+  - 29049_中国-386.5KB/s
+  - 29050_新加坡-876.5KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -6615,7 +6642,6 @@ proxy-groups:
   - 28604_日本-9.68MB/s
   - 28639_中国-543.7KB/s
   - 28641_中国-6.17MB/s
-  - 28646_中国-2.31MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
   - 28721_美国-342.4KB/s
@@ -6630,7 +6656,6 @@ proxy-groups:
   - 28840_美国-2.89MB/s
   - 28847_美国-3.33MB/s
   - 28857_美国-1.32MB/s
-  - 28859_美国-2.70MB/s
   - 28862_美国-2.02MB/s
   - 28867_美国-579.4KB/s
   - 28886_美国-1.07MB/s
@@ -6650,6 +6675,11 @@ proxy-groups:
   - 29008_美国-1.05MB/s
   - 29022_中国-419.9KB/s
   - 29034_美国-1.03MB/s
+  - 29042_美国-2.24MB/s
+  - 29044_美国-463.2KB/s
+  - 29046_美国-2.76MB/s
+  - 29049_中国-386.5KB/s
+  - 29050_新加坡-876.5KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
