@@ -1663,12 +1663,6 @@ proxies:
   port: '10064'
   server: 180.163.62.91
   type: ss
-- cipher: aes-256-cfb
-  name: 29056_新加坡-876.5KB/s
-  password: 1e5111699c45496da84112f35db665c4
-  port: '29332'
-  server: 165.232.169.142
-  type: ss
 - cipher: aes-256-gcm
   name: 29189_日本-2.93MB/s
   password: KixLvKzwjekG00rm
@@ -1686,6 +1680,12 @@ proxies:
   password: QazEdcTgb159@$*
   port: '10065'
   server: 180.163.62.91
+  type: ss
+- cipher: aes-256-cfb
+  name: 29368_新加坡-1.09MB/s
+  password: 1e5111699c45496da84112f35db665c4
+  port: '29332'
+  server: 165.232.169.142
   type: ss
 - cipher: aes-256-gcm
   name: 10533_美国-717.4KB/s
@@ -3817,12 +3817,6 @@ proxies:
   port: '443'
   server: 169.197.141.52
   type: ss
-- cipher: aes-256-cfb
-  name: 28721_美国-342.4KB/s
-  password: amazonskr05
-  port: '443'
-  server: 54.214.170.7
-  type: ss
 - cipher: aes-256-gcm
   name: 28748_美国-2.97MB/s
   password: KixLvKzwjekG00rm
@@ -4020,6 +4014,12 @@ proxies:
   password: PCnnH6SQSnfoS27
   port: '8091'
   server: 169.197.142.39
+  type: ss
+- cipher: aes-256-cfb
+  name: 29369_美国-4.36MB/s
+  password: amazonskr05
+  port: '443'
+  server: 54.214.170.7
   type: ss
 proxy-groups:
 - interval: 3600
@@ -4295,10 +4295,10 @@ proxy-groups:
   - 28639_中国-543.7KB/s
   - 28641_中国-6.17MB/s
   - 29049_中国-386.5KB/s
-  - 29056_新加坡-876.5KB/s
   - 29189_日本-2.93MB/s
   - 29257_中国-3.05MB/s
   - 29279_中国-3.05MB/s
+  - 29368_新加坡-1.09MB/s
   - 10533_美国-717.4KB/s
   - 10766_美国-847.0KB/s
   - 10778_美国-1.86MB/s
@@ -4654,7 +4654,6 @@ proxy-groups:
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
-  - 28721_美国-342.4KB/s
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -4688,6 +4687,7 @@ proxy-groups:
   - 29348_美国-419.7KB/s
   - 29353_美国-249.3KB/s
   - 29354_美国-225.3KB/s
+  - 29369_美国-4.36MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4963,10 +4963,10 @@ proxy-groups:
   - 28639_中国-543.7KB/s
   - 28641_中国-6.17MB/s
   - 29049_中国-386.5KB/s
-  - 29056_新加坡-876.5KB/s
   - 29189_日本-2.93MB/s
   - 29257_中国-3.05MB/s
   - 29279_中国-3.05MB/s
+  - 29368_新加坡-1.09MB/s
   - 10533_美国-717.4KB/s
   - 10766_美国-847.0KB/s
   - 10778_美国-1.86MB/s
@@ -5322,7 +5322,6 @@ proxy-groups:
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
-  - 28721_美国-342.4KB/s
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -5356,6 +5355,7 @@ proxy-groups:
   - 29348_美国-419.7KB/s
   - 29353_美国-249.3KB/s
   - 29354_美国-225.3KB/s
+  - 29369_美国-4.36MB/s
   type: select
 - name: Final
   proxies:
@@ -5640,10 +5640,10 @@ proxy-groups:
   - 28639_中国-543.7KB/s
   - 28641_中国-6.17MB/s
   - 29049_中国-386.5KB/s
-  - 29056_新加坡-876.5KB/s
   - 29189_日本-2.93MB/s
   - 29257_中国-3.05MB/s
   - 29279_中国-3.05MB/s
+  - 29368_新加坡-1.09MB/s
   - 10533_美国-717.4KB/s
   - 10766_美国-847.0KB/s
   - 10778_美国-1.86MB/s
@@ -5999,7 +5999,6 @@ proxy-groups:
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
-  - 28721_美国-342.4KB/s
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -6033,6 +6032,7 @@ proxy-groups:
   - 29348_美国-419.7KB/s
   - 29353_美国-249.3KB/s
   - 29354_美国-225.3KB/s
+  - 29369_美国-4.36MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -6307,10 +6307,10 @@ proxy-groups:
   - 28639_中国-543.7KB/s
   - 28641_中国-6.17MB/s
   - 29049_中国-386.5KB/s
-  - 29056_新加坡-876.5KB/s
   - 29189_日本-2.93MB/s
   - 29257_中国-3.05MB/s
   - 29279_中国-3.05MB/s
+  - 29368_新加坡-1.09MB/s
   - 10533_美国-717.4KB/s
   - 10766_美国-847.0KB/s
   - 10778_美国-1.86MB/s
@@ -6666,7 +6666,6 @@ proxy-groups:
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
-  - 28721_美国-342.4KB/s
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -6700,6 +6699,7 @@ proxy-groups:
   - 29348_美国-419.7KB/s
   - 29353_美国-249.3KB/s
   - 29354_美国-225.3KB/s
+  - 29369_美国-4.36MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
