@@ -3661,12 +3661,6 @@ proxies:
   port: '5004'
   server: 167.88.61.70
   type: ss
-- cipher: aes-256-cfb
-  name: 27916_美国-3.84MB/s
-  password: VP8ZPxQpJtZRCjfZ
-  port: '9080'
-  server: 62.216.91.229
-  type: ss
 - cipher: aes-256-gcm
   name: 27919_美国-1.90MB/s
   password: Y6R9pAtvxxzmGC
@@ -4020,6 +4014,12 @@ proxies:
   password: amazonskr05
   port: '443'
   server: 54.214.170.7
+  type: ss
+- cipher: aes-256-cfb
+  name: 29474_美国-3.49MB/s
+  password: VP8ZPxQpJtZRCjfZ
+  port: '9080'
+  server: 62.216.91.229
   type: ss
 proxy-groups:
 - interval: 3600
@@ -4628,7 +4628,6 @@ proxy-groups:
   - 27880_美国-3.56MB/s
   - 27894_美国-3.50MB/s
   - 27913_美国-1.22MB/s
-  - 27916_美国-3.84MB/s
   - 27919_美国-1.90MB/s
   - 27922_美国-517.2KB/s
   - 27932_美国-1.84MB/s
@@ -4688,6 +4687,7 @@ proxy-groups:
   - 29353_美国-249.3KB/s
   - 29354_美国-225.3KB/s
   - 29369_美国-4.36MB/s
+  - 29474_美国-3.49MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5296,7 +5296,6 @@ proxy-groups:
   - 27880_美国-3.56MB/s
   - 27894_美国-3.50MB/s
   - 27913_美国-1.22MB/s
-  - 27916_美国-3.84MB/s
   - 27919_美国-1.90MB/s
   - 27922_美国-517.2KB/s
   - 27932_美国-1.84MB/s
@@ -5356,6 +5355,7 @@ proxy-groups:
   - 29353_美国-249.3KB/s
   - 29354_美国-225.3KB/s
   - 29369_美国-4.36MB/s
+  - 29474_美国-3.49MB/s
   type: select
 - name: Final
   proxies:
@@ -5973,7 +5973,6 @@ proxy-groups:
   - 27880_美国-3.56MB/s
   - 27894_美国-3.50MB/s
   - 27913_美国-1.22MB/s
-  - 27916_美国-3.84MB/s
   - 27919_美国-1.90MB/s
   - 27922_美国-517.2KB/s
   - 27932_美国-1.84MB/s
@@ -6033,6 +6032,7 @@ proxy-groups:
   - 29353_美国-249.3KB/s
   - 29354_美国-225.3KB/s
   - 29369_美国-4.36MB/s
+  - 29474_美国-3.49MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -6640,7 +6640,6 @@ proxy-groups:
   - 27880_美国-3.56MB/s
   - 27894_美国-3.50MB/s
   - 27913_美国-1.22MB/s
-  - 27916_美国-3.84MB/s
   - 27919_美国-1.90MB/s
   - 27922_美国-517.2KB/s
   - 27932_美国-1.84MB/s
@@ -6700,6 +6699,7 @@ proxy-groups:
   - 29353_美国-249.3KB/s
   - 29354_美国-225.3KB/s
   - 29369_美国-4.36MB/s
+  - 29474_美国-3.49MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
