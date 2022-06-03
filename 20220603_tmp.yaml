@@ -43,33 +43,24 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- name: 🇨🇳_油管：全网最强白嫖_1
-  password: ''
-  port: '443'
-  server: zgao.xyz
-  skip-cert-verify: true
-  type: trojan
-  udp: true
-- name: 🇭🇰_油管：全网最强白嫖_2
-  password: ''
-  port: '3389'
-  server: 20.187.79.61
-  skip-cert-verify: true
-  type: trojan
-  udp: true
+- cipher: aes-256-cfb
+  name: 30358_以色列-290.9KB/s_1
+  password: '8460400130'
+  port: '50003'
+  server: 83.229.73.60
+  type: ss
+  updatetime: 2022-06-03 21:28:18.047573
 proxy-groups:
 - interval: 3600
   name: 自动选择
   proxies:
-  - 🇨🇳_油管：全网最强白嫖_1
-  - 🇭🇰_油管：全网最强白嫖_2
+  - 30358_以色列-290.9KB/s_1
   type: url-test
   url: https://www.google.com/
 - name: PROXY
   proxies:
   - 自动选择
-  - 🇨🇳_油管：全网最强白嫖_1
-  - 🇭🇰_油管：全网最强白嫖_2
+  - 30358_以色列-290.9KB/s_1
   type: select
 - name: Final
   proxies:
@@ -84,14 +75,12 @@ proxy-groups:
 - name: GlobalMedia
   proxies:
   - PROXY
-  - 🇨🇳_油管：全网最强白嫖_1
-  - 🇭🇰_油管：全网最强白嫖_2
+  - 30358_以色列-290.9KB/s_1
   type: select
 - name: HKMTMedia
   proxies:
   - DIRECT
-  - 🇨🇳_油管：全网最强白嫖_1
-  - 🇭🇰_油管：全网最强白嫖_2
+  - 30358_以色列-290.9KB/s_1
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
