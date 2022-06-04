@@ -3100,18 +3100,6 @@ proxies:
   ws-headers:
     host: 159.27.115.21
   ws-path: /
-- alterId: 1
-  cipher: auto
-  name: 30596_中国-506.3KB/s
-  network: ws
-  port: 38701
-  server: ingress-i1.onebox6.org
-  tls: 0
-  type: vmess
-  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
-  ws-headers:
-    host: ingress-i1.onebox6.org
-  ws-path: /hls/cctv5phd.m3u8
 - alterId: 0
   cipher: auto
   name: 30606_中国-338.6KB/s
@@ -3135,18 +3123,6 @@ proxies:
   uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5
   ws-headers:
     host: 155.248.162.21
-- alterId: 2
-  cipher: auto
-  name: 30635_香港-2.26MB/s
-  network: ws
-  port: 80
-  server: 527hk1.fans8.xyz
-  tls: 1
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  ws-headers:
-    host: 527hk1.fans8.xyz
-  ws-path: /ray
 - alterId: 0
   cipher: auto
   name: 30641_中国-1.01MB/s
@@ -3171,17 +3147,6 @@ proxies:
   ws-headers:
     host: 138.2.52.84
   ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 30649_澳大利亚-763.8KB/s
-  network: tcp
-  port: 46360
-  server: 152.67.102.225
-  tls: 0
-  type: vmess
-  uuid: 61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d
-  ws-headers:
-    host: 152.67.102.225
 - alterId: 4
   cipher: auto
   name: 30665_印度-322.8KB/s
@@ -3241,17 +3206,6 @@ proxies:
   uuid: 8c44be2e-2e16-4cf4-db1e-a1c8c61b7fd4
   ws-headers:
     host: 150.230.60.8
-- alterId: 0
-  cipher: auto
-  name: 30682_美国-4.50MB/s
-  network: tcp
-  port: 24552
-  server: 173.82.212.149
-  tls: 0
-  type: vmess
-  uuid: 601d7be0-d6cc-4e98-d721-b83b7da6fec5
-  ws-headers:
-    host: 173.82.212.149
 - alterId: 2
   cipher: auto
   name: 30692_俄罗斯联邦-2.82MB/s
@@ -3300,6 +3254,85 @@ proxies:
   ws-headers:
     host: 45.35.84.162
   ws-path: /ws
+- alterId: 0
+  cipher: auto
+  name: 30710_澳大利亚-2.66MB/s
+  network: tcp
+  port: 46360
+  server: 152.67.102.225
+  tls: 0
+  type: vmess
+  uuid: 61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d
+  ws-headers:
+    host: 152.67.102.225
+- alterId: 1
+  cipher: auto
+  name: 30711_中国-2.54MB/s
+  network: ws
+  port: 38701
+  server: ingress-i1.onebox6.org
+  tls: 0
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    host: ingress-i1.onebox6.org
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  name: 30712_香港-4.07MB/s
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 527hk1.fans8.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 30715_美国-4.93MB/s
+  network: tcp
+  port: 24552
+  server: 173.82.212.149
+  tls: 0
+  type: vmess
+  uuid: 601d7be0-d6cc-4e98-d721-b83b7da6fec5
+  ws-headers:
+    host: 173.82.212.149
+- alterId: 0
+  cipher: auto
+  name: 30716_韩国-848.3KB/s
+  network: tcp
+  port: 33156
+  server: 152.70.236.51
+  tls: 0
+  type: vmess
+  uuid: 49526417-e201-4949-8055-81b0fb264be5
+  ws-headers:
+    host: 152.70.236.51
+- alterId: 0
+  cipher: auto
+  name: 30717_美国-5.11MB/s
+  network: tcp
+  port: 36109
+  server: 45.12.110.8
+  tls: 0
+  type: vmess
+  uuid: d7729364-2135-4af5-aa4f-e1f565a5c23e
+  ws-headers:
+    host: 45.12.110.8
+- alterId: 0
+  cipher: auto
+  name: 30718_美国-403.4KB/s
+  network: tcp
+  port: 22610
+  server: 5.183.32.187
+  tls: 0
+  type: vmess
+  uuid: 46a2f46a-c56f-487b-b2c9-b4204bf8021e
+  ws-headers:
+    host: 5.183.32.187
 - name: 28344_德国-908.0KB/s
   password: 316b40c0-0dab-4ea1-9666-ac1658b033b2
   port: '12340'
@@ -4004,12 +4037,6 @@ proxies:
   port: '443'
   server: xjp.ziqiyun.xyz
   type: trojan
-- name: 30655_中国-2.08MB/s
-  password: ''
-  port: '3381'
-  server: 116.129.253.134
-  sni: t.me.vpnhat
-  type: trojan
 - name: 30656_中国-8.16MB/s
   password: ''
   port: '5602'
@@ -4019,11 +4046,6 @@ proxies:
   password: ''
   port: '3052'
   server: kr01.wangxd.life
-  type: trojan
-- name: 30660_捷克-462.8KB/s
-  password: ''
-  port: '443'
-  server: v2cross.com.02.v2ce.com
   type: trojan
 - name: 30663_美国-3.66MB/s
   password: ''
@@ -4072,11 +4094,6 @@ proxies:
   password: ''
   port: '443'
   server: shs.ziqiyun.xyz
-  type: trojan
-- name: 30681_美国-363.0KB/s
-  password: ''
-  port: '16001'
-  server: usa006.369boy.com
   type: trojan
 - name: 30683_美国-161.8KB/s
   password: ''
@@ -4153,6 +4170,22 @@ proxies:
   port: '443'
   server: 212.81.47.11
   sni: t.me.vpnhat
+  type: trojan
+- name: 30713_捷克-431.4KB/s
+  password: ''
+  port: '443'
+  server: v2cross.com.02.v2ce.com
+  type: trojan
+- name: 30714_中国-4.40MB/s
+  password: ''
+  port: '3381'
+  server: 116.129.253.134
+  sni: t.me.vpnhat
+  type: trojan
+- name: 30719_美国-5.67MB/s
+  password: ''
+  port: '16001'
+  server: usa006.369boy.com
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -4574,23 +4607,26 @@ proxy-groups:
   - 30444_中国-1.18MB/s
   - 30450_日本-2.64MB/s
   - 30454_中国-972.2KB/s
-  - 30596_中国-506.3KB/s
   - 30606_中国-338.6KB/s
   - 30620_美国-967.9KB/s
-  - 30635_香港-2.26MB/s
   - 30641_中国-1.01MB/s
   - 30643_美国-2.63MB/s
-  - 30649_澳大利亚-763.8KB/s
   - 30665_印度-322.8KB/s
   - 30666_法国-2.88MB/s
   - 30669_日本-9.87MB/s
   - 30674_美国-314.2KB/s
   - 30675_日本-4.06MB/s
-  - 30682_美国-4.50MB/s
   - 30692_俄罗斯联邦-2.82MB/s
   - 30695_美国-9.61MB/s
   - 30698_台湾-386.2KB/s
   - 30704_美国-3.37MB/s
+  - 30710_澳大利亚-2.66MB/s
+  - 30711_中国-2.54MB/s
+  - 30712_香港-4.07MB/s
+  - 30715_美国-4.93MB/s
+  - 30716_韩国-848.3KB/s
+  - 30717_美国-5.11MB/s
+  - 30718_美国-403.4KB/s
   - 28344_德国-908.0KB/s
   - 28363_日本-2.73MB/s
   - 28412_英国-1.56MB/s
@@ -4718,10 +4754,8 @@ proxy-groups:
   - 30614_中国-3.23MB/s
   - 30639_美国-3.12MB/s
   - 30650_美国-2.85MB/s
-  - 30655_中国-2.08MB/s
   - 30656_中国-8.16MB/s
   - 30659_美国-2.23MB/s
-  - 30660_捷克-462.8KB/s
   - 30663_美国-3.66MB/s
   - 30667_美国-5.33MB/s
   - 30668_中国-755.0KB/s
@@ -4731,7 +4765,6 @@ proxy-groups:
   - 30673_中国-5.56MB/s
   - 30676_美国-622.9KB/s
   - 30677_美国-1.02MB/s
-  - 30681_美国-363.0KB/s
   - 30683_美国-161.8KB/s
   - 30684_印度-3.13MB/s
   - 30686_美国-5.26MB/s
@@ -4746,6 +4779,9 @@ proxy-groups:
   - 30707_美国-310.4KB/s
   - 30708_韩国-3.09MB/s
   - 30709_美国-4.68MB/s
+  - 30713_捷克-431.4KB/s
+  - 30714_中国-4.40MB/s
+  - 30719_美国-5.67MB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5167,23 +5203,26 @@ proxy-groups:
   - 30444_中国-1.18MB/s
   - 30450_日本-2.64MB/s
   - 30454_中国-972.2KB/s
-  - 30596_中国-506.3KB/s
   - 30606_中国-338.6KB/s
   - 30620_美国-967.9KB/s
-  - 30635_香港-2.26MB/s
   - 30641_中国-1.01MB/s
   - 30643_美国-2.63MB/s
-  - 30649_澳大利亚-763.8KB/s
   - 30665_印度-322.8KB/s
   - 30666_法国-2.88MB/s
   - 30669_日本-9.87MB/s
   - 30674_美国-314.2KB/s
   - 30675_日本-4.06MB/s
-  - 30682_美国-4.50MB/s
   - 30692_俄罗斯联邦-2.82MB/s
   - 30695_美国-9.61MB/s
   - 30698_台湾-386.2KB/s
   - 30704_美国-3.37MB/s
+  - 30710_澳大利亚-2.66MB/s
+  - 30711_中国-2.54MB/s
+  - 30712_香港-4.07MB/s
+  - 30715_美国-4.93MB/s
+  - 30716_韩国-848.3KB/s
+  - 30717_美国-5.11MB/s
+  - 30718_美国-403.4KB/s
   - 28344_德国-908.0KB/s
   - 28363_日本-2.73MB/s
   - 28412_英国-1.56MB/s
@@ -5311,10 +5350,8 @@ proxy-groups:
   - 30614_中国-3.23MB/s
   - 30639_美国-3.12MB/s
   - 30650_美国-2.85MB/s
-  - 30655_中国-2.08MB/s
   - 30656_中国-8.16MB/s
   - 30659_美国-2.23MB/s
-  - 30660_捷克-462.8KB/s
   - 30663_美国-3.66MB/s
   - 30667_美国-5.33MB/s
   - 30668_中国-755.0KB/s
@@ -5324,7 +5361,6 @@ proxy-groups:
   - 30673_中国-5.56MB/s
   - 30676_美国-622.9KB/s
   - 30677_美国-1.02MB/s
-  - 30681_美国-363.0KB/s
   - 30683_美国-161.8KB/s
   - 30684_印度-3.13MB/s
   - 30686_美国-5.26MB/s
@@ -5339,6 +5375,9 @@ proxy-groups:
   - 30707_美国-310.4KB/s
   - 30708_韩国-3.09MB/s
   - 30709_美国-4.68MB/s
+  - 30713_捷克-431.4KB/s
+  - 30714_中国-4.40MB/s
+  - 30719_美国-5.67MB/s
   type: select
 - name: Final
   proxies:
@@ -5769,23 +5808,26 @@ proxy-groups:
   - 30444_中国-1.18MB/s
   - 30450_日本-2.64MB/s
   - 30454_中国-972.2KB/s
-  - 30596_中国-506.3KB/s
   - 30606_中国-338.6KB/s
   - 30620_美国-967.9KB/s
-  - 30635_香港-2.26MB/s
   - 30641_中国-1.01MB/s
   - 30643_美国-2.63MB/s
-  - 30649_澳大利亚-763.8KB/s
   - 30665_印度-322.8KB/s
   - 30666_法国-2.88MB/s
   - 30669_日本-9.87MB/s
   - 30674_美国-314.2KB/s
   - 30675_日本-4.06MB/s
-  - 30682_美国-4.50MB/s
   - 30692_俄罗斯联邦-2.82MB/s
   - 30695_美国-9.61MB/s
   - 30698_台湾-386.2KB/s
   - 30704_美国-3.37MB/s
+  - 30710_澳大利亚-2.66MB/s
+  - 30711_中国-2.54MB/s
+  - 30712_香港-4.07MB/s
+  - 30715_美国-4.93MB/s
+  - 30716_韩国-848.3KB/s
+  - 30717_美国-5.11MB/s
+  - 30718_美国-403.4KB/s
   - 28344_德国-908.0KB/s
   - 28363_日本-2.73MB/s
   - 28412_英国-1.56MB/s
@@ -5913,10 +5955,8 @@ proxy-groups:
   - 30614_中国-3.23MB/s
   - 30639_美国-3.12MB/s
   - 30650_美国-2.85MB/s
-  - 30655_中国-2.08MB/s
   - 30656_中国-8.16MB/s
   - 30659_美国-2.23MB/s
-  - 30660_捷克-462.8KB/s
   - 30663_美国-3.66MB/s
   - 30667_美国-5.33MB/s
   - 30668_中国-755.0KB/s
@@ -5926,7 +5966,6 @@ proxy-groups:
   - 30673_中国-5.56MB/s
   - 30676_美国-622.9KB/s
   - 30677_美国-1.02MB/s
-  - 30681_美国-363.0KB/s
   - 30683_美国-161.8KB/s
   - 30684_印度-3.13MB/s
   - 30686_美国-5.26MB/s
@@ -5941,6 +5980,9 @@ proxy-groups:
   - 30707_美国-310.4KB/s
   - 30708_韩国-3.09MB/s
   - 30709_美国-4.68MB/s
+  - 30713_捷克-431.4KB/s
+  - 30714_中国-4.40MB/s
+  - 30719_美国-5.67MB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -6361,23 +6403,26 @@ proxy-groups:
   - 30444_中国-1.18MB/s
   - 30450_日本-2.64MB/s
   - 30454_中国-972.2KB/s
-  - 30596_中国-506.3KB/s
   - 30606_中国-338.6KB/s
   - 30620_美国-967.9KB/s
-  - 30635_香港-2.26MB/s
   - 30641_中国-1.01MB/s
   - 30643_美国-2.63MB/s
-  - 30649_澳大利亚-763.8KB/s
   - 30665_印度-322.8KB/s
   - 30666_法国-2.88MB/s
   - 30669_日本-9.87MB/s
   - 30674_美国-314.2KB/s
   - 30675_日本-4.06MB/s
-  - 30682_美国-4.50MB/s
   - 30692_俄罗斯联邦-2.82MB/s
   - 30695_美国-9.61MB/s
   - 30698_台湾-386.2KB/s
   - 30704_美国-3.37MB/s
+  - 30710_澳大利亚-2.66MB/s
+  - 30711_中国-2.54MB/s
+  - 30712_香港-4.07MB/s
+  - 30715_美国-4.93MB/s
+  - 30716_韩国-848.3KB/s
+  - 30717_美国-5.11MB/s
+  - 30718_美国-403.4KB/s
   - 28344_德国-908.0KB/s
   - 28363_日本-2.73MB/s
   - 28412_英国-1.56MB/s
@@ -6505,10 +6550,8 @@ proxy-groups:
   - 30614_中国-3.23MB/s
   - 30639_美国-3.12MB/s
   - 30650_美国-2.85MB/s
-  - 30655_中国-2.08MB/s
   - 30656_中国-8.16MB/s
   - 30659_美国-2.23MB/s
-  - 30660_捷克-462.8KB/s
   - 30663_美国-3.66MB/s
   - 30667_美国-5.33MB/s
   - 30668_中国-755.0KB/s
@@ -6518,7 +6561,6 @@ proxy-groups:
   - 30673_中国-5.56MB/s
   - 30676_美国-622.9KB/s
   - 30677_美国-1.02MB/s
-  - 30681_美国-363.0KB/s
   - 30683_美国-161.8KB/s
   - 30684_印度-3.13MB/s
   - 30686_美国-5.26MB/s
@@ -6533,6 +6575,9 @@ proxy-groups:
   - 30707_美国-310.4KB/s
   - 30708_韩国-3.09MB/s
   - 30709_美国-4.68MB/s
+  - 30713_捷克-431.4KB/s
+  - 30714_中国-4.40MB/s
+  - 30719_美国-5.67MB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
