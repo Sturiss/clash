@@ -3184,18 +3184,6 @@ proxies:
   ws-path: /ray
 - alterId: 2
   cipher: auto
-  name: 30506_香港-1.94MB/s
-  network: ws
-  port: 80
-  server: 527hk1.fans8.xyz
-  tls: 1
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  ws-headers:
-    host: 527hk1.fans8.xyz
-  ws-path: /ray
-- alterId: 2
-  cipher: auto
   name: 30518_台湾-878.6KB/s
   network: ws
   port: 443
@@ -3230,6 +3218,18 @@ proxies:
   ws-headers:
     host: ingress-i1.onebox6.org
   ws-path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  name: 30594_香港-440.1KB/s
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 527hk1.fans8.xyz
+  ws-path: /ray
 - name: 28344_德国-908.0KB/s
   password: 316b40c0-0dab-4ea1-9666-ac1658b033b2
   port: '12340'
@@ -4009,12 +4009,6 @@ proxies:
   server: 120.233.186.71
   sni: t.me.vpnhat
   type: trojan
-- name: 30573_美国-1.29MB/s
-  password: ''
-  port: '3389'
-  server: 134.195.101.32
-  sni: t.me.vpnhat
-  type: trojan
 - name: 30575_中国-1.10MB/s
   password: ''
   port: '3385'
@@ -4043,10 +4037,16 @@ proxies:
   port: '17001'
   server: 107.167.24.6
   type: trojan
-- name: 30589_中国-868.5KB/s
+- name: 30591_中国-868.5KB/s
   password: ''
   port: '3381'
   server: 103.56.60.235
+  sni: t.me.vpnhat
+  type: trojan
+- name: 30593_美国-948.5KB/s
+  password: ''
+  port: '3389'
+  server: 134.195.101.32
   sni: t.me.vpnhat
   type: trojan
 proxy-groups:
@@ -4476,10 +4476,10 @@ proxy-groups:
   - 30454_中国-972.2KB/s
   - 30480_法国-381.3KB/s
   - 30495_俄罗斯联邦-450.4KB/s
-  - 30506_香港-1.94MB/s
   - 30518_台湾-878.6KB/s
   - 30578_中国-439.6KB/s
   - 30585_中国-233.2KB/s
+  - 30594_香港-440.1KB/s
   - 28344_德国-908.0KB/s
   - 28363_日本-2.73MB/s
   - 28412_英国-1.56MB/s
@@ -4621,13 +4621,13 @@ proxy-groups:
   - 30528_中国-527.7KB/s
   - 30549_意大利-1.25MB/s
   - 30572_中国-954.4KB/s
-  - 30573_美国-1.29MB/s
   - 30575_中国-1.10MB/s
   - 30576_中国-159.0KB/s
   - 30577_中国-5.14MB/s
   - 30580_中国-955.9KB/s
   - 30581_美国-3.53MB/s
-  - 30589_中国-868.5KB/s
+  - 30591_中国-868.5KB/s
+  - 30593_美国-948.5KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5056,10 +5056,10 @@ proxy-groups:
   - 30454_中国-972.2KB/s
   - 30480_法国-381.3KB/s
   - 30495_俄罗斯联邦-450.4KB/s
-  - 30506_香港-1.94MB/s
   - 30518_台湾-878.6KB/s
   - 30578_中国-439.6KB/s
   - 30585_中国-233.2KB/s
+  - 30594_香港-440.1KB/s
   - 28344_德国-908.0KB/s
   - 28363_日本-2.73MB/s
   - 28412_英国-1.56MB/s
@@ -5201,13 +5201,13 @@ proxy-groups:
   - 30528_中国-527.7KB/s
   - 30549_意大利-1.25MB/s
   - 30572_中国-954.4KB/s
-  - 30573_美国-1.29MB/s
   - 30575_中国-1.10MB/s
   - 30576_中国-159.0KB/s
   - 30577_中国-5.14MB/s
   - 30580_中国-955.9KB/s
   - 30581_美国-3.53MB/s
-  - 30589_中国-868.5KB/s
+  - 30591_中国-868.5KB/s
+  - 30593_美国-948.5KB/s
   type: select
 - name: Final
   proxies:
@@ -5645,10 +5645,10 @@ proxy-groups:
   - 30454_中国-972.2KB/s
   - 30480_法国-381.3KB/s
   - 30495_俄罗斯联邦-450.4KB/s
-  - 30506_香港-1.94MB/s
   - 30518_台湾-878.6KB/s
   - 30578_中国-439.6KB/s
   - 30585_中国-233.2KB/s
+  - 30594_香港-440.1KB/s
   - 28344_德国-908.0KB/s
   - 28363_日本-2.73MB/s
   - 28412_英国-1.56MB/s
@@ -5790,13 +5790,13 @@ proxy-groups:
   - 30528_中国-527.7KB/s
   - 30549_意大利-1.25MB/s
   - 30572_中国-954.4KB/s
-  - 30573_美国-1.29MB/s
   - 30575_中国-1.10MB/s
   - 30576_中国-159.0KB/s
   - 30577_中国-5.14MB/s
   - 30580_中国-955.9KB/s
   - 30581_美国-3.53MB/s
-  - 30589_中国-868.5KB/s
+  - 30591_中国-868.5KB/s
+  - 30593_美国-948.5KB/s
   type: select
 - name: HKMTMedia
   proxies:
@@ -6224,10 +6224,10 @@ proxy-groups:
   - 30454_中国-972.2KB/s
   - 30480_法国-381.3KB/s
   - 30495_俄罗斯联邦-450.4KB/s
-  - 30506_香港-1.94MB/s
   - 30518_台湾-878.6KB/s
   - 30578_中国-439.6KB/s
   - 30585_中国-233.2KB/s
+  - 30594_香港-440.1KB/s
   - 28344_德国-908.0KB/s
   - 28363_日本-2.73MB/s
   - 28412_英国-1.56MB/s
@@ -6369,13 +6369,13 @@ proxy-groups:
   - 30528_中国-527.7KB/s
   - 30549_意大利-1.25MB/s
   - 30572_中国-954.4KB/s
-  - 30573_美国-1.29MB/s
   - 30575_中国-1.10MB/s
   - 30576_中国-159.0KB/s
   - 30577_中国-5.14MB/s
   - 30580_中国-955.9KB/s
   - 30581_美国-3.53MB/s
-  - 30589_中国-868.5KB/s
+  - 30591_中国-868.5KB/s
+  - 30593_美国-948.5KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
