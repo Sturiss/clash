@@ -51,18 +51,27 @@ proxies:
   protocol: origin
   server: 152.89.210.105
   type: ssr
-  updatetime: 2022-06-05 11:07:31.720948
+- cipher: aes-256-cfb
+  name: 美国-400.9KB_2
+  obfs: tls1.2_ticket_auth
+  password: YFVrXZgRo
+  port: '8081'
+  protocol: origin
+  server: us-am32-5.eqnode.net
+  type: ssr
 proxy-groups:
 - interval: 3600
   name: 自动选择
   proxies:
   - 英国-2.21MB_1
+  - 美国-400.9KB_2
   type: url-test
   url: https://www.google.com/
 - name: PROXY
   proxies:
   - 自动选择
   - 英国-2.21MB_1
+  - 美国-400.9KB_2
   type: select
 - name: Final
   proxies:
@@ -78,11 +87,13 @@ proxy-groups:
   proxies:
   - PROXY
   - 英国-2.21MB_1
+  - 美国-400.9KB_2
   type: select
 - name: HKMTMedia
   proxies:
   - DIRECT
   - 英国-2.21MB_1
+  - 美国-400.9KB_2
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
