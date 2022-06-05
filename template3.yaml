@@ -1711,6 +1711,12 @@ proxies:
   port: '29596'
   server: 157.230.41.220
   type: ss
+- cipher: aes-128-cfb
+  name: 31038_中国-5.57MB
+  password: QazEdcTgb159@$*
+  port: '10064'
+  server: 180.163.62.91
+  type: ss
 - cipher: aes-256-cfb
   name: 28458_美国-2.12MB/s
   password: amazonskr05
@@ -3235,6 +3241,54 @@ proxies:
   ws-headers:
     host: 331tw.fans8.xyz
   ws-path: /ray
+- alterId: 64
+  cipher: auto
+  name: 31030_法国-1.71MB
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  tls: 1
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    host: 54.37.192.112
+  ws-path: /path/120208301422
+- alterId: 0
+  cipher: auto
+  name: 31033_中国-969.2KB
+  network: ws
+  port: 28325
+  server: mc.xiaohouzi.club
+  tls: 0
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-headers:
+    host: mc.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: 31034_中国-426.0KB
+  network: ws
+  port: 38701
+  server: ingress-i1.onebox6.org
+  tls: 0
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    host: ingress-i1.onebox6.org
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  name: 31037_台湾-544.5KB
+  network: ws
+  port: 443
+  server: 330tw.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 330tw.fans8.xyz
+  ws-path: /ray
 - name: 28473_未知国家-833.9KB/s
   password: iKR3Ft
   port: '443'
@@ -4151,6 +4205,31 @@ proxies:
   port: '443'
   server: jgwdb3.gaox.ml
   type: trojan
+- name: 31031_澳大利亚-337.6KB
+  password: ''
+  port: '443'
+  server: jgwxn2.gaox.ml
+  type: trojan
+- name: 31032_美国-381.7KB
+  password: ''
+  port: '443'
+  server: au2-3.nigirocloud.com
+  type: trojan
+- name: 31035_美国-1.78MB
+  password: ''
+  port: '443'
+  server: au2-4.nigirocloud.com
+  type: trojan
+- name: 31036_美国-3.36MB
+  password: ''
+  port: '443'
+  server: au2-1.nigirocloud.com
+  type: trojan
+- name: 31039_美国-1.87MB
+  password: ''
+  port: '443'
+  server: 212.81.47.12
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -4433,6 +4512,7 @@ proxy-groups:
   - 30685_中国-406.1KB/s
   - 30806_中国-3.45MB/s
   - 30838_新加坡-1.08MB/s
+  - 31038_中国-5.57MB
   - 28458_美国-2.12MB/s
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
@@ -4581,6 +4661,10 @@ proxy-groups:
   - 31018_俄罗斯联邦-1.34MB
   - 31023_俄罗斯联邦-1.14MB
   - 31025_俄罗斯联邦-1.34MB
+  - 31030_法国-1.71MB
+  - 31033_中国-969.2KB
+  - 31034_中国-426.0KB
+  - 31037_台湾-544.5KB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -4757,6 +4841,11 @@ proxy-groups:
   - 31027_美国-3.14MB
   - 31028_美国-2.43MB
   - 31029_日本-1.90MB
+  - 31031_澳大利亚-337.6KB
+  - 31032_美国-381.7KB
+  - 31035_美国-1.78MB
+  - 31036_美国-3.36MB
+  - 31039_美国-1.87MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5040,6 +5129,7 @@ proxy-groups:
   - 30685_中国-406.1KB/s
   - 30806_中国-3.45MB/s
   - 30838_新加坡-1.08MB/s
+  - 31038_中国-5.57MB
   - 28458_美国-2.12MB/s
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
@@ -5188,6 +5278,10 @@ proxy-groups:
   - 31018_俄罗斯联邦-1.34MB
   - 31023_俄罗斯联邦-1.14MB
   - 31025_俄罗斯联邦-1.34MB
+  - 31030_法国-1.71MB
+  - 31033_中国-969.2KB
+  - 31034_中国-426.0KB
+  - 31037_台湾-544.5KB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -5364,6 +5458,11 @@ proxy-groups:
   - 31027_美国-3.14MB
   - 31028_美国-2.43MB
   - 31029_日本-1.90MB
+  - 31031_澳大利亚-337.6KB
+  - 31032_美国-381.7KB
+  - 31035_美国-1.78MB
+  - 31036_美国-3.36MB
+  - 31039_美国-1.87MB
   type: select
 - name: Final
   proxies:
@@ -5656,6 +5755,7 @@ proxy-groups:
   - 30685_中国-406.1KB/s
   - 30806_中国-3.45MB/s
   - 30838_新加坡-1.08MB/s
+  - 31038_中国-5.57MB
   - 28458_美国-2.12MB/s
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
@@ -5804,6 +5904,10 @@ proxy-groups:
   - 31018_俄罗斯联邦-1.34MB
   - 31023_俄罗斯联邦-1.14MB
   - 31025_俄罗斯联邦-1.34MB
+  - 31030_法国-1.71MB
+  - 31033_中国-969.2KB
+  - 31034_中国-426.0KB
+  - 31037_台湾-544.5KB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -5980,6 +6084,11 @@ proxy-groups:
   - 31027_美国-3.14MB
   - 31028_美国-2.43MB
   - 31029_日本-1.90MB
+  - 31031_澳大利亚-337.6KB
+  - 31032_美国-381.7KB
+  - 31035_美国-1.78MB
+  - 31036_美国-3.36MB
+  - 31039_美国-1.87MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -6262,6 +6371,7 @@ proxy-groups:
   - 30685_中国-406.1KB/s
   - 30806_中国-3.45MB/s
   - 30838_新加坡-1.08MB/s
+  - 31038_中国-5.57MB
   - 28458_美国-2.12MB/s
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
@@ -6410,6 +6520,10 @@ proxy-groups:
   - 31018_俄罗斯联邦-1.34MB
   - 31023_俄罗斯联邦-1.14MB
   - 31025_俄罗斯联邦-1.34MB
+  - 31030_法国-1.71MB
+  - 31033_中国-969.2KB
+  - 31034_中国-426.0KB
+  - 31037_台湾-544.5KB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -6586,6 +6700,11 @@ proxy-groups:
   - 31027_美国-3.14MB
   - 31028_美国-2.43MB
   - 31029_日本-1.90MB
+  - 31031_澳大利亚-337.6KB
+  - 31032_美国-381.7KB
+  - 31035_美国-1.78MB
+  - 31036_美国-3.36MB
+  - 31039_美国-1.87MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
