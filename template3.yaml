@@ -1718,12 +1718,6 @@ proxies:
   server: 180.163.62.91
   type: ss
 - cipher: aes-256-cfb
-  name: 28458_美国-2.12MB/s
-  password: amazonskr05
-  port: '443'
-  server: 54.213.250.111
-  type: ss
-- cipher: aes-256-cfb
   name: 28547_美国-6.69MB/s
   password: amazonskr05
   port: '443'
@@ -1951,17 +1945,6 @@ proxies:
   port: '247'
   server: 97.64.31.80
   type: ss
-- alterId: 0
-  cipher: auto
-  name: 28475_中国-263.4KB/s(Youtube:不良林)
-  network: tcp
-  port: 12229
-  server: bgpv2.ktyjsq.com
-  tls: 0
-  type: vmess
-  uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6
-  ws-headers:
-    host: bgpv2.ktyjsq.com
 - alterId: 0
   cipher: auto
   name: 28485_伊朗-1.96MB/s(Youtube:不良林)
@@ -3307,11 +3290,6 @@ proxies:
   ws-headers:
     host: ingress-i1.onebox6.org
   ws-path: /hls/cctv5phd.m3u8
-- name: 28473_未知国家-833.9KB/s
-  password: iKR3Ft
-  port: '443'
-  server: 193.178.210.29
-  type: trojan
 - name: 28479_日本-858.2KB/s
   password: a580d839-ee41-4df1-bf03-6789dca32e30
   port: '443'
@@ -4263,6 +4241,56 @@ proxies:
   port: '443'
   server: jgwdb3.gaox.ml
   type: trojan
+- name: 31045_中国-7.44MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31046_中国-6.63MB
+  password: ''
+  port: '3389'
+  server: 116.129.253.130
+  type: trojan
+- name: 31047_中国-6.94MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.47
+  type: trojan
+- name: 31048_中国-7.73MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31049_中国-2.46MB
+  password: ''
+  port: '3389'
+  server: 116.129.253.130
+  type: trojan
+- name: 31050_中国-6.14MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.47
+  type: trojan
+- name: 31051_中国-5.68MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31052_新加坡-421.5KB
+  password: ''
+  port: '3389'
+  server: 5.44.249.43
+  type: trojan
+- name: 31053_美国-295.5KB
+  password: ''
+  port: '443'
+  server: au2-4.nigirocloud.com
+  type: trojan
+- name: 31054_英国-400.9KB
+  password: ''
+  port: '443'
+  server: jgwcc1.gaox.ml
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -4546,7 +4574,6 @@ proxy-groups:
   - 30806_中国-3.45MB/s
   - 30838_新加坡-1.08MB/s
   - 31038_中国-5.57MB
-  - 28458_美国-2.12MB/s
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
@@ -4585,7 +4612,6 @@ proxy-groups:
   - 29486_美国-171.2KB/s
   - 29497_美国-3.49MB/s
   - 31040_美国-2.05MB
-  - 28475_中国-263.4KB/s(Youtube:不良林)
   - 28485_伊朗-1.96MB/s(Youtube:不良林)
   - 28515_美国-304.1KB/s(Youtube:不良林)
   - 28573_美国-3.64MB/s(Youtube:不良林)
@@ -4700,7 +4726,6 @@ proxy-groups:
   - 31034_中国-426.0KB
   - 31037_台湾-544.5KB
   - 31041_中国-558.9KB
-  - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
   - 28524_英国-2.87MB/s
@@ -4884,6 +4909,16 @@ proxy-groups:
   - 31042_美国-295.1KB
   - 31043_美国-211.7KB
   - 31044_日本-1.67MB
+  - 31045_中国-7.44MB
+  - 31046_中国-6.63MB
+  - 31047_中国-6.94MB
+  - 31048_中国-7.73MB
+  - 31049_中国-2.46MB
+  - 31050_中国-6.14MB
+  - 31051_中国-5.68MB
+  - 31052_新加坡-421.5KB
+  - 31053_美国-295.5KB
+  - 31054_英国-400.9KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5168,7 +5203,6 @@ proxy-groups:
   - 30806_中国-3.45MB/s
   - 30838_新加坡-1.08MB/s
   - 31038_中国-5.57MB
-  - 28458_美国-2.12MB/s
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
@@ -5207,7 +5241,6 @@ proxy-groups:
   - 29486_美国-171.2KB/s
   - 29497_美国-3.49MB/s
   - 31040_美国-2.05MB
-  - 28475_中国-263.4KB/s(Youtube:不良林)
   - 28485_伊朗-1.96MB/s(Youtube:不良林)
   - 28515_美国-304.1KB/s(Youtube:不良林)
   - 28573_美国-3.64MB/s(Youtube:不良林)
@@ -5322,7 +5355,6 @@ proxy-groups:
   - 31034_中国-426.0KB
   - 31037_台湾-544.5KB
   - 31041_中国-558.9KB
-  - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
   - 28524_英国-2.87MB/s
@@ -5506,6 +5538,16 @@ proxy-groups:
   - 31042_美国-295.1KB
   - 31043_美国-211.7KB
   - 31044_日本-1.67MB
+  - 31045_中国-7.44MB
+  - 31046_中国-6.63MB
+  - 31047_中国-6.94MB
+  - 31048_中国-7.73MB
+  - 31049_中国-2.46MB
+  - 31050_中国-6.14MB
+  - 31051_中国-5.68MB
+  - 31052_新加坡-421.5KB
+  - 31053_美国-295.5KB
+  - 31054_英国-400.9KB
   type: select
 - name: Final
   proxies:
@@ -5799,7 +5841,6 @@ proxy-groups:
   - 30806_中国-3.45MB/s
   - 30838_新加坡-1.08MB/s
   - 31038_中国-5.57MB
-  - 28458_美国-2.12MB/s
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
@@ -5838,7 +5879,6 @@ proxy-groups:
   - 29486_美国-171.2KB/s
   - 29497_美国-3.49MB/s
   - 31040_美国-2.05MB
-  - 28475_中国-263.4KB/s(Youtube:不良林)
   - 28485_伊朗-1.96MB/s(Youtube:不良林)
   - 28515_美国-304.1KB/s(Youtube:不良林)
   - 28573_美国-3.64MB/s(Youtube:不良林)
@@ -5953,7 +5993,6 @@ proxy-groups:
   - 31034_中国-426.0KB
   - 31037_台湾-544.5KB
   - 31041_中国-558.9KB
-  - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
   - 28524_英国-2.87MB/s
@@ -6137,6 +6176,16 @@ proxy-groups:
   - 31042_美国-295.1KB
   - 31043_美国-211.7KB
   - 31044_日本-1.67MB
+  - 31045_中国-7.44MB
+  - 31046_中国-6.63MB
+  - 31047_中国-6.94MB
+  - 31048_中国-7.73MB
+  - 31049_中国-2.46MB
+  - 31050_中国-6.14MB
+  - 31051_中国-5.68MB
+  - 31052_新加坡-421.5KB
+  - 31053_美国-295.5KB
+  - 31054_英国-400.9KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -6420,7 +6469,6 @@ proxy-groups:
   - 30806_中国-3.45MB/s
   - 30838_新加坡-1.08MB/s
   - 31038_中国-5.57MB
-  - 28458_美国-2.12MB/s
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
@@ -6459,7 +6507,6 @@ proxy-groups:
   - 29486_美国-171.2KB/s
   - 29497_美国-3.49MB/s
   - 31040_美国-2.05MB
-  - 28475_中国-263.4KB/s(Youtube:不良林)
   - 28485_伊朗-1.96MB/s(Youtube:不良林)
   - 28515_美国-304.1KB/s(Youtube:不良林)
   - 28573_美国-3.64MB/s(Youtube:不良林)
@@ -6574,7 +6621,6 @@ proxy-groups:
   - 31034_中国-426.0KB
   - 31037_台湾-544.5KB
   - 31041_中国-558.9KB
-  - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
   - 28524_英国-2.87MB/s
@@ -6758,6 +6804,16 @@ proxy-groups:
   - 31042_美国-295.1KB
   - 31043_美国-211.7KB
   - 31044_日本-1.67MB
+  - 31045_中国-7.44MB
+  - 31046_中国-6.63MB
+  - 31047_中国-6.94MB
+  - 31048_中国-7.73MB
+  - 31049_中国-2.46MB
+  - 31050_中国-6.14MB
+  - 31051_中国-5.68MB
+  - 31052_新加坡-421.5KB
+  - 31053_美国-295.5KB
+  - 31054_英国-400.9KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
