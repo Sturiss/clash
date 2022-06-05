@@ -3113,6 +3113,18 @@ proxies:
   ws-headers:
     host: 54.37.192.112
   ws-path: /path/120208301422
+- alterId: 2
+  cipher: auto
+  name: 30982_俄罗斯联邦-1.06MB
+  network: ws
+  port: 80
+  server: 331tw.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 331tw.fans8.xyz
+  ws-path: /ray
 - name: 28473_未知国家-833.9KB/s
   password: iKR3Ft
   port: '443'
@@ -3919,6 +3931,16 @@ proxies:
   port: '10028'
   server: v1hugang5.kuli888.xyz
   type: trojan
+- name: 30980_中国-1.59MB
+  password: ''
+  port: '10028'
+  server: v1hugang5.kuli888.xyz
+  type: trojan
+- name: 30984_澳大利亚-493.4KB
+  password: ''
+  port: '443'
+  server: jgwxn2.gaox.ml
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -4339,6 +4361,7 @@ proxy-groups:
   - 30961_中国-4.94MB
   - 30969_法国-1.11MB
   - 30978_法国-1.11MB
+  - 30982_俄罗斯联邦-1.06MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -4493,6 +4516,8 @@ proxy-groups:
   - 30976_澳大利亚-2.23MB
   - 30977_美国-4.86MB
   - 30979_中国-1.59MB
+  - 30980_中国-1.59MB
+  - 30984_澳大利亚-493.4KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4914,6 +4939,7 @@ proxy-groups:
   - 30961_中国-4.94MB
   - 30969_法国-1.11MB
   - 30978_法国-1.11MB
+  - 30982_俄罗斯联邦-1.06MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -5068,6 +5094,8 @@ proxy-groups:
   - 30976_澳大利亚-2.23MB
   - 30977_美国-4.86MB
   - 30979_中国-1.59MB
+  - 30980_中国-1.59MB
+  - 30984_澳大利亚-493.4KB
   type: select
 - name: Final
   proxies:
@@ -5498,6 +5526,7 @@ proxy-groups:
   - 30961_中国-4.94MB
   - 30969_法国-1.11MB
   - 30978_法国-1.11MB
+  - 30982_俄罗斯联邦-1.06MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -5652,6 +5681,8 @@ proxy-groups:
   - 30976_澳大利亚-2.23MB
   - 30977_美国-4.86MB
   - 30979_中国-1.59MB
+  - 30980_中国-1.59MB
+  - 30984_澳大利亚-493.4KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -6072,6 +6103,7 @@ proxy-groups:
   - 30961_中国-4.94MB
   - 30969_法国-1.11MB
   - 30978_法国-1.11MB
+  - 30982_俄罗斯联邦-1.06MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -6226,6 +6258,8 @@ proxy-groups:
   - 30976_澳大利亚-2.23MB
   - 30977_美国-4.86MB
   - 30979_中国-1.59MB
+  - 30980_中国-1.59MB
+  - 30984_澳大利亚-493.4KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
