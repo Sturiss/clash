@@ -27,8 +27,8 @@ cfw-bypass:
 cfw-latency-timeout: 5000
 dns:
   default-nameserver:
-  - 123.125.81.6
-  - 8.8.8.8
+  - 223.5.5.5
+  - 119.29.29.29
   enable: false
   enhanced-mode: redir-host
   fake-ip-range: 198.18.0.1/16
@@ -42,16 +42,26 @@ hosts:
 log-level: info
 mode: Rule
 port: 7890
-proxies: []
+proxies:
+- cipher: aes-256-cfb
+  name: 英国-2.21MB_1
+  obfs: plain
+  password: daFYagqDdBdA6VTX
+  port: '9073'
+  protocol: origin
+  server: 152.89.210.105
+  type: ssr
 proxy-groups:
 - interval: 3600
   name: 自动选择
-  proxies: []
+  proxies:
+  - 英国-2.21MB_1
   type: url-test
   url: https://www.google.com/
 - name: PROXY
   proxies:
   - 自动选择
+  - 英国-2.21MB_1
   type: select
 - name: Final
   proxies:
@@ -66,10 +76,12 @@ proxy-groups:
 - name: GlobalMedia
   proxies:
   - PROXY
+  - 英国-2.21MB_1
   type: select
 - name: HKMTMedia
   proxies:
   - DIRECT
+  - 英国-2.21MB_1
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
@@ -1390,19 +1402,11 @@ rules:
 - DOMAIN-SUFFIX,linuxmint.com,PROXY
 - DOMAIN-SUFFIX,parallels.com,DIRECT
 - DOMAIN-SUFFIX,linuxdiyf.com,PROXY
-- DOMAIN-SUFFIX,tpzw9.xyz,PROXY
-- DOMAIN-SUFFIX,hjbfq1.com,PROXY
 - DOMAIN-SUFFIX,cloudflare.com,PROXY
-- DOMAIN-SUFFIX,pornbest.org,PROXY
-- DOMAIN-SUFFIX,bbcdn.xyz,PROXY
-- DOMAIN-SUFFIX,yasehd.xyz,PROXY
 - DOMAIN-SUFFIX,fastandeasyhacking.com,PROXY
 - DOMAIN-SUFFIX,nunuyy1.top,DIRECT
 - DOMAIN-SUFFIX,macwk.com,DIRECT
 - DOMAIN-SUFFIX,jb51.net,DIRECT
-- DOMAIN-SUFFIX,servyou.com.cn,DIRECT
-- DOMAIN-SUFFIX,aliyundrive.com,DIRECT
-- DOMAIN-SUFFIX,dlpanda.com,DIRECT
 - IP-CIDR,17.0.0.0/8,Apple,no-resolve
 - IP-CIDR,192.168.0.0/16,DIRECT
 - IP-CIDR,10.0.0.0/8,DIRECT
