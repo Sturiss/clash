@@ -3139,6 +3139,42 @@ proxies:
   ws-headers:
     host: mc.xiaohouzi.club
   ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 31003_中国-1.53MB
+  network: ws
+  port: 28325
+  server: mc.xiaohouzi.club
+  tls: 0
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-headers:
+    host: mc.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 2
+  cipher: auto
+  name: 31006_香港-1.76MB
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 527hk1.fans8.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 31007_美国-2.50MB
+  network: ws
+  port: 31961
+  server: bai-piao-wang-zhe-iplc6.98848.xyz
+  tls: 0
+  type: vmess
+  uuid: 94311e71-9125-4bd1-faa2-515a8667c486
+  ws-headers:
+    host: bai-piao-wang-zhe-iplc6.98848.xyz
+  ws-path: /youtubt@白嫖王者
 - name: 28473_未知国家-833.9KB/s
   password: iKR3Ft
   port: '443'
@@ -3990,6 +4026,26 @@ proxies:
   port: '44608'
   server: shcu.alinkrelay.com
   type: trojan
+- name: 31000_中国-7.82MB
+  password: ''
+  port: '52016'
+  server: v1shengang.kuli888.xyz
+  type: trojan
+- name: 31001_美国-343.8KB
+  password: ''
+  port: '17001'
+  server: 107.167.24.6
+  type: trojan
+- name: 31008_巴西-822.7KB
+  password: ''
+  port: '44612'
+  server: fr.n.optage.moe
+  type: trojan
+- name: 31009_澳大利亚-518.4KB
+  password: ''
+  port: '443'
+  server: jgwxn4.gaox.ml
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -4412,6 +4468,9 @@ proxy-groups:
   - 30994_中国-546.4KB
   - 30996_中国-546.4KB
   - 30997_中国-1.53MB
+  - 31003_中国-1.53MB
+  - 31006_香港-1.76MB
+  - 31007_美国-2.50MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -4575,6 +4634,10 @@ proxy-groups:
   - 30993_美国-334.7KB
   - 30995_美国-334.7KB
   - 30998_中国-10.93MB
+  - 31000_中国-7.82MB
+  - 31001_美国-343.8KB
+  - 31008_巴西-822.7KB
+  - 31009_澳大利亚-518.4KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4998,6 +5061,9 @@ proxy-groups:
   - 30994_中国-546.4KB
   - 30996_中国-546.4KB
   - 30997_中国-1.53MB
+  - 31003_中国-1.53MB
+  - 31006_香港-1.76MB
+  - 31007_美国-2.50MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -5161,6 +5227,10 @@ proxy-groups:
   - 30993_美国-334.7KB
   - 30995_美国-334.7KB
   - 30998_中国-10.93MB
+  - 31000_中国-7.82MB
+  - 31001_美国-343.8KB
+  - 31008_巴西-822.7KB
+  - 31009_澳大利亚-518.4KB
   type: select
 - name: Final
   proxies:
@@ -5593,6 +5663,9 @@ proxy-groups:
   - 30994_中国-546.4KB
   - 30996_中国-546.4KB
   - 30997_中国-1.53MB
+  - 31003_中国-1.53MB
+  - 31006_香港-1.76MB
+  - 31007_美国-2.50MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -5756,6 +5829,10 @@ proxy-groups:
   - 30993_美国-334.7KB
   - 30995_美国-334.7KB
   - 30998_中国-10.93MB
+  - 31000_中国-7.82MB
+  - 31001_美国-343.8KB
+  - 31008_巴西-822.7KB
+  - 31009_澳大利亚-518.4KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -6178,6 +6255,9 @@ proxy-groups:
   - 30994_中国-546.4KB
   - 30996_中国-546.4KB
   - 30997_中国-1.53MB
+  - 31003_中国-1.53MB
+  - 31006_香港-1.76MB
+  - 31007_美国-2.50MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -6341,6 +6421,10 @@ proxy-groups:
   - 30993_美国-334.7KB
   - 30995_美国-334.7KB
   - 30998_中国-10.93MB
+  - 31000_中国-7.82MB
+  - 31001_美国-343.8KB
+  - 31008_巴西-822.7KB
+  - 31009_澳大利亚-518.4KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
