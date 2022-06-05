@@ -3115,6 +3115,30 @@ proxies:
   ws-headers:
     host: ingress-i1.onebox6.org
   ws-path: /hls/cctv5phd.m3u8
+- alterId: 1
+  cipher: auto
+  name: 30996_中国-546.4KB
+  network: ws
+  port: 38701
+  server: ingress-i1.onebox6.org
+  tls: 0
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    host: ingress-i1.onebox6.org
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 30997_中国-1.53MB
+  network: ws
+  port: 28325
+  server: mc.xiaohouzi.club
+  tls: 0
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-headers:
+    host: mc.xiaohouzi.club
+  ws-path: /v2ray
 - name: 28473_未知国家-833.9KB/s
   password: iKR3Ft
   port: '443'
@@ -3956,6 +3980,16 @@ proxies:
   port: '17001'
   server: 107.167.24.6
   type: trojan
+- name: 30995_美国-334.7KB
+  password: ''
+  port: '17001'
+  server: 107.167.24.6
+  type: trojan
+- name: 30998_中国-10.93MB
+  password: ''
+  port: '44608'
+  server: shcu.alinkrelay.com
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -4376,6 +4410,8 @@ proxy-groups:
   - 30982_俄罗斯联邦-1.06MB
   - 30987_俄罗斯联邦-1.06MB
   - 30994_中国-546.4KB
+  - 30996_中国-546.4KB
+  - 30997_中国-1.53MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -4537,6 +4573,8 @@ proxy-groups:
   - 30991_澳大利亚-493.4KB
   - 30992_美国-4.22MB
   - 30993_美国-334.7KB
+  - 30995_美国-334.7KB
+  - 30998_中国-10.93MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -4958,6 +4996,8 @@ proxy-groups:
   - 30982_俄罗斯联邦-1.06MB
   - 30987_俄罗斯联邦-1.06MB
   - 30994_中国-546.4KB
+  - 30996_中国-546.4KB
+  - 30997_中国-1.53MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -5119,6 +5159,8 @@ proxy-groups:
   - 30991_澳大利亚-493.4KB
   - 30992_美国-4.22MB
   - 30993_美国-334.7KB
+  - 30995_美国-334.7KB
+  - 30998_中国-10.93MB
   type: select
 - name: Final
   proxies:
@@ -5549,6 +5591,8 @@ proxy-groups:
   - 30982_俄罗斯联邦-1.06MB
   - 30987_俄罗斯联邦-1.06MB
   - 30994_中国-546.4KB
+  - 30996_中国-546.4KB
+  - 30997_中国-1.53MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -5710,6 +5754,8 @@ proxy-groups:
   - 30991_澳大利亚-493.4KB
   - 30992_美国-4.22MB
   - 30993_美国-334.7KB
+  - 30995_美国-334.7KB
+  - 30998_中国-10.93MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -6130,6 +6176,8 @@ proxy-groups:
   - 30982_俄罗斯联邦-1.06MB
   - 30987_俄罗斯联邦-1.06MB
   - 30994_中国-546.4KB
+  - 30996_中国-546.4KB
+  - 30997_中国-1.53MB
   - 28473_未知国家-833.9KB/s
   - 28479_日本-858.2KB/s
   - 28500_美国-186.3KB/s
@@ -6291,6 +6339,8 @@ proxy-groups:
   - 30991_澳大利亚-493.4KB
   - 30992_美国-4.22MB
   - 30993_美国-334.7KB
+  - 30995_美国-334.7KB
+  - 30998_中国-10.93MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
