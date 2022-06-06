@@ -1760,18 +1760,6 @@ proxies:
   server: 180.163.62.91
   type: ss
 - cipher: aes-256-gcm
-  name: 28718_美国-654.1KB/s
-  password: cdBIDV42DCwnfIN
-  port: '8119'
-  server: 169.197.141.52
-  type: ss
-- cipher: aes-256-gcm
-  name: 28719_美国-1.92MB/s
-  password: pKEW8JPByTVTLtM
-  port: '443'
-  server: 169.197.141.52
-  type: ss
-- cipher: aes-256-gcm
   name: 28748_美国-2.97MB/s
   password: KixLvKzwjekG00rm
   port: '8000'
@@ -1981,18 +1969,6 @@ proxies:
   port: '247'
   server: 97.64.31.80
   type: ss
-- alterId: 2
-  cipher: auto
-  name: 28715_香港-1.85MB/s(Youtube:不良林)
-  network: ws
-  port: 80
-  server: 426hk.fans8.xyz
-  tls: 1
-  type: vmess
-  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
-  ws-headers:
-    host: 426hk.fans8.xyz
-  ws-path: /ray
 - alterId: 1
   cipher: auto
   name: 28737_日本-6.45MB/s(Youtube:不良林)
@@ -3770,11 +3746,42 @@ proxies:
   ws-headers:
     host: 330tw.fans8.xyz
   ws-path: /ray
-- name: 28720_加拿大-1.50MB/s
-  password: 543a952b-2261-4244-a9bb-30f902c19bf7
-  port: '18443'
-  server: t02.tgfaka.com
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 31301_中国-375.8KB
+  network: ws
+  port: 28325
+  server: mc.xiaohouzi.club
+  tls: 0
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-headers:
+    host: mc.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 2
+  cipher: auto
+  name: 31302_香港-1.13MB
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 527hk1.fans8.xyz
+  ws-path: /ray
+- alterId: 64
+  cipher: auto
+  name: 31303_法国-370.8KB
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  tls: 1
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    host: 54.37.192.112
+  ws-path: /path/120208301422
 - name: 28916_捷克-478.5KB/s
   password: kGrwqmB1nEKUsDwE
   port: '443'
@@ -5536,6 +5543,41 @@ proxies:
   port: '443'
   server: 212.81.47.18
   type: trojan
+- name: 31295_中国-7.34MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31296_中国-10.88MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31297_中国-10.56MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.47
+  type: trojan
+- name: 31298_中国-783.1KB
+  password: ''
+  port: '3389'
+  server: 116.129.253.130
+  type: trojan
+- name: 31299_中国-8.31MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31300_美国-2.25MB
+  password: ''
+  port: '443'
+  server: au2-1.nigirocloud.com
+  type: trojan
+- name: 31304_美国-559.9KB
+  password: ''
+  port: '443'
+  server: cc.tianxiedaiweige.tk
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -5826,8 +5868,6 @@ proxy-groups:
   - 31232_中国-532.5KB
   - 31260_中国-294.7KB
   - 31278_中国-294.7KB
-  - 28718_美国-654.1KB/s
-  - 28719_美国-1.92MB/s
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -5863,7 +5903,6 @@ proxy-groups:
   - 29486_美国-171.2KB/s
   - 29497_美国-3.49MB/s
   - 31040_美国-2.05MB
-  - 28715_香港-1.85MB/s(Youtube:不良林)
   - 28737_日本-6.45MB/s(Youtube:不良林)
   - 28757_日本-937.2KB/s(Youtube:不良林)
   - 28776_日本-4.77MB/s(Youtube:不良林)
@@ -6014,7 +6053,9 @@ proxy-groups:
   - 31252_中国-2.17MB
   - 31262_法国-1.20MB
   - 31294_台湾-1.27MB
-  - 28720_加拿大-1.50MB/s
+  - 31301_中国-375.8KB
+  - 31302_香港-1.13MB
+  - 31303_法国-370.8KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -6360,6 +6401,13 @@ proxy-groups:
   - 31289_新加坡-1.00MB
   - 31292_韩国-622.2KB
   - 31293_美国-2.50MB
+  - 31295_中国-7.34MB
+  - 31296_中国-10.88MB
+  - 31297_中国-10.56MB
+  - 31298_中国-783.1KB
+  - 31299_中国-8.31MB
+  - 31300_美国-2.25MB
+  - 31304_美国-559.9KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6651,8 +6699,6 @@ proxy-groups:
   - 31232_中国-532.5KB
   - 31260_中国-294.7KB
   - 31278_中国-294.7KB
-  - 28718_美国-654.1KB/s
-  - 28719_美国-1.92MB/s
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -6688,7 +6734,6 @@ proxy-groups:
   - 29486_美国-171.2KB/s
   - 29497_美国-3.49MB/s
   - 31040_美国-2.05MB
-  - 28715_香港-1.85MB/s(Youtube:不良林)
   - 28737_日本-6.45MB/s(Youtube:不良林)
   - 28757_日本-937.2KB/s(Youtube:不良林)
   - 28776_日本-4.77MB/s(Youtube:不良林)
@@ -6839,7 +6884,9 @@ proxy-groups:
   - 31252_中国-2.17MB
   - 31262_法国-1.20MB
   - 31294_台湾-1.27MB
-  - 28720_加拿大-1.50MB/s
+  - 31301_中国-375.8KB
+  - 31302_香港-1.13MB
+  - 31303_法国-370.8KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -7185,6 +7232,13 @@ proxy-groups:
   - 31289_新加坡-1.00MB
   - 31292_韩国-622.2KB
   - 31293_美国-2.50MB
+  - 31295_中国-7.34MB
+  - 31296_中国-10.88MB
+  - 31297_中国-10.56MB
+  - 31298_中国-783.1KB
+  - 31299_中国-8.31MB
+  - 31300_美国-2.25MB
+  - 31304_美国-559.9KB
   type: select
 - name: Final
   proxies:
@@ -7485,8 +7539,6 @@ proxy-groups:
   - 31232_中国-532.5KB
   - 31260_中国-294.7KB
   - 31278_中国-294.7KB
-  - 28718_美国-654.1KB/s
-  - 28719_美国-1.92MB/s
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -7522,7 +7574,6 @@ proxy-groups:
   - 29486_美国-171.2KB/s
   - 29497_美国-3.49MB/s
   - 31040_美国-2.05MB
-  - 28715_香港-1.85MB/s(Youtube:不良林)
   - 28737_日本-6.45MB/s(Youtube:不良林)
   - 28757_日本-937.2KB/s(Youtube:不良林)
   - 28776_日本-4.77MB/s(Youtube:不良林)
@@ -7673,7 +7724,9 @@ proxy-groups:
   - 31252_中国-2.17MB
   - 31262_法国-1.20MB
   - 31294_台湾-1.27MB
-  - 28720_加拿大-1.50MB/s
+  - 31301_中国-375.8KB
+  - 31302_香港-1.13MB
+  - 31303_法国-370.8KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -8019,6 +8072,13 @@ proxy-groups:
   - 31289_新加坡-1.00MB
   - 31292_韩国-622.2KB
   - 31293_美国-2.50MB
+  - 31295_中国-7.34MB
+  - 31296_中国-10.88MB
+  - 31297_中国-10.56MB
+  - 31298_中国-783.1KB
+  - 31299_中国-8.31MB
+  - 31300_美国-2.25MB
+  - 31304_美国-559.9KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -8309,8 +8369,6 @@ proxy-groups:
   - 31232_中国-532.5KB
   - 31260_中国-294.7KB
   - 31278_中国-294.7KB
-  - 28718_美国-654.1KB/s
-  - 28719_美国-1.92MB/s
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -8346,7 +8404,6 @@ proxy-groups:
   - 29486_美国-171.2KB/s
   - 29497_美国-3.49MB/s
   - 31040_美国-2.05MB
-  - 28715_香港-1.85MB/s(Youtube:不良林)
   - 28737_日本-6.45MB/s(Youtube:不良林)
   - 28757_日本-937.2KB/s(Youtube:不良林)
   - 28776_日本-4.77MB/s(Youtube:不良林)
@@ -8497,7 +8554,9 @@ proxy-groups:
   - 31252_中国-2.17MB
   - 31262_法国-1.20MB
   - 31294_台湾-1.27MB
-  - 28720_加拿大-1.50MB/s
+  - 31301_中国-375.8KB
+  - 31302_香港-1.13MB
+  - 31303_法国-370.8KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -8843,6 +8902,13 @@ proxy-groups:
   - 31289_新加坡-1.00MB
   - 31292_韩国-622.2KB
   - 31293_美国-2.50MB
+  - 31295_中国-7.34MB
+  - 31296_中国-10.88MB
+  - 31297_中国-10.56MB
+  - 31298_中国-783.1KB
+  - 31299_中国-8.31MB
+  - 31300_美国-2.25MB
+  - 31304_美国-559.9KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
