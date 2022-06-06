@@ -1729,6 +1729,12 @@ proxies:
   port: '10064'
   server: 180.163.62.91
   type: ss
+- cipher: aes-128-cfb
+  name: 31141_中国-543.0KB
+  password: QazEdcTgb159@$*
+  port: '10064'
+  server: 180.163.62.91
+  type: ss
 - cipher: aes-256-cfb
   name: 28547_美国-6.69MB/s
   password: amazonskr05
@@ -3469,6 +3475,66 @@ proxies:
   ws-headers:
     host: jpcu.dfnode.top
   ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: 31137_中国-475.2KB
+  network: ws
+  port: 38701
+  server: ingress-i1.onebox6.org
+  tls: 0
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    host: ingress-i1.onebox6.org
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  name: 31138_台湾-2.05MB
+  network: ws
+  port: 443
+  server: 330tw.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 330tw.fans8.xyz
+  ws-path: /ray
+- alterId: 64
+  cipher: auto
+  name: 31139_法国-2.91MB
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  tls: 1
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    host: 54.37.192.112
+  ws-path: /path/120208301422
+- alterId: 2
+  cipher: auto
+  name: 31140_香港-4.07MB
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 527hk1.fans8.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 31142_中国-6.28MB
+  network: ws
+  port: 30004
+  server: jpcu.dfnode.top
+  tls: 0
+  type: vmess
+  uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1
+  ws-headers:
+    host: jpcu.dfnode.top
+  ws-path: /v2ray
 - name: 28586_美国-515.6KB/s
   password: 316b40c0-0dab-4ea1-9666-ac1658b033b2
   port: '12340'
@@ -4710,6 +4776,26 @@ proxies:
   port: '42000'
   server: shcm.pdjc.cc
   type: trojan
+- name: 31135_中国-8.90MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.47
+  type: trojan
+- name: 31136_中国-10.07MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.47
+  type: trojan
+- name: 31143_中国-2.79MB
+  password: ''
+  port: '42000'
+  server: shcm.pdjc.cc
+  type: trojan
+- name: 31144_澳大利亚-2.58MB
+  password: ''
+  port: '443'
+  server: jgwxn2.gaox.ml
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -4995,6 +5081,7 @@ proxy-groups:
   - 31038_中国-5.57MB
   - 31096_中国-1.53MB
   - 31132_中国-543.0KB
+  - 31141_中国-543.0KB
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
@@ -5161,6 +5248,11 @@ proxy-groups:
   - 31124_新加坡-371.5KB
   - 31131_香港-4.07MB
   - 31133_中国-6.28MB
+  - 31137_中国-475.2KB
+  - 31138_台湾-2.05MB
+  - 31139_法国-2.91MB
+  - 31140_香港-4.07MB
+  - 31142_中国-6.28MB
   - 28586_美国-515.6KB/s
   - 28676_英国-1.76MB/s
   - 28700_新加坡-3.84MB/s
@@ -5402,6 +5494,10 @@ proxy-groups:
   - 31129_新加坡-2.25MB
   - 31130_澳大利亚-2.50MB
   - 31134_中国-2.79MB
+  - 31135_中国-8.90MB
+  - 31136_中国-10.07MB
+  - 31143_中国-2.79MB
+  - 31144_澳大利亚-2.58MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -5688,6 +5784,7 @@ proxy-groups:
   - 31038_中国-5.57MB
   - 31096_中国-1.53MB
   - 31132_中国-543.0KB
+  - 31141_中国-543.0KB
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
@@ -5854,6 +5951,11 @@ proxy-groups:
   - 31124_新加坡-371.5KB
   - 31131_香港-4.07MB
   - 31133_中国-6.28MB
+  - 31137_中国-475.2KB
+  - 31138_台湾-2.05MB
+  - 31139_法国-2.91MB
+  - 31140_香港-4.07MB
+  - 31142_中国-6.28MB
   - 28586_美国-515.6KB/s
   - 28676_英国-1.76MB/s
   - 28700_新加坡-3.84MB/s
@@ -6095,6 +6197,10 @@ proxy-groups:
   - 31129_新加坡-2.25MB
   - 31130_澳大利亚-2.50MB
   - 31134_中国-2.79MB
+  - 31135_中国-8.90MB
+  - 31136_中国-10.07MB
+  - 31143_中国-2.79MB
+  - 31144_澳大利亚-2.58MB
   type: select
 - name: Final
   proxies:
@@ -6390,6 +6496,7 @@ proxy-groups:
   - 31038_中国-5.57MB
   - 31096_中国-1.53MB
   - 31132_中国-543.0KB
+  - 31141_中国-543.0KB
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
@@ -6556,6 +6663,11 @@ proxy-groups:
   - 31124_新加坡-371.5KB
   - 31131_香港-4.07MB
   - 31133_中国-6.28MB
+  - 31137_中国-475.2KB
+  - 31138_台湾-2.05MB
+  - 31139_法国-2.91MB
+  - 31140_香港-4.07MB
+  - 31142_中国-6.28MB
   - 28586_美国-515.6KB/s
   - 28676_英国-1.76MB/s
   - 28700_新加坡-3.84MB/s
@@ -6797,6 +6909,10 @@ proxy-groups:
   - 31129_新加坡-2.25MB
   - 31130_澳大利亚-2.50MB
   - 31134_中国-2.79MB
+  - 31135_中国-8.90MB
+  - 31136_中国-10.07MB
+  - 31143_中国-2.79MB
+  - 31144_澳大利亚-2.58MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -7082,6 +7198,7 @@ proxy-groups:
   - 31038_中国-5.57MB
   - 31096_中国-1.53MB
   - 31132_中国-543.0KB
+  - 31141_中国-543.0KB
   - 28547_美国-6.69MB/s
   - 28718_美国-654.1KB/s
   - 28719_美国-1.92MB/s
@@ -7248,6 +7365,11 @@ proxy-groups:
   - 31124_新加坡-371.5KB
   - 31131_香港-4.07MB
   - 31133_中国-6.28MB
+  - 31137_中国-475.2KB
+  - 31138_台湾-2.05MB
+  - 31139_法国-2.91MB
+  - 31140_香港-4.07MB
+  - 31142_中国-6.28MB
   - 28586_美国-515.6KB/s
   - 28676_英国-1.76MB/s
   - 28700_新加坡-3.84MB/s
@@ -7489,6 +7611,10 @@ proxy-groups:
   - 31129_新加坡-2.25MB
   - 31130_澳大利亚-2.50MB
   - 31134_中国-2.79MB
+  - 31135_中国-8.90MB
+  - 31136_中国-10.07MB
+  - 31143_中国-2.79MB
+  - 31144_澳大利亚-2.58MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
