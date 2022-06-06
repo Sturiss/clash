@@ -3996,6 +3996,54 @@ proxies:
   ws-headers:
     host: ustls-test.xiaohouzi.club
   ws-path: /v2ray
+- alterId: 1
+  cipher: auto
+  name: 31359_中国-157.6KB
+  network: ws
+  port: 38701
+  server: ingress-i1.onebox6.org
+  tls: 0
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    host: ingress-i1.onebox6.org
+  ws-path: /hls/cctv5phd.m3u8
+- alterId: 2
+  cipher: auto
+  name: 31362_俄罗斯联邦-497.4KB
+  network: ws
+  port: 80
+  server: 331tw.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 331tw.fans8.xyz
+  ws-path: /ray
+- alterId: 2
+  cipher: auto
+  name: 31363_香港-667.2KB
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 527hk1.fans8.xyz
+  ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 31364_中国-6.22MB
+  network: ws
+  port: 30004
+  server: jpcu.dfnode.top
+  tls: 0
+  type: vmess
+  uuid: a6ef37c5-1a0f-3204-8ca6-fa7a18c062c1
+  ws-headers:
+    host: jpcu.dfnode.top
+  ws-path: /v2ray
 - name: 28916_捷克-478.5KB/s
   password: kGrwqmB1nEKUsDwE
   port: '443'
@@ -5942,6 +5990,31 @@ proxies:
   port: '443'
   server: 212.81.47.15
   type: trojan
+- name: 31355_美国-3.75MB
+  password: ''
+  port: '443'
+  server: 212.81.47.15
+  type: trojan
+- name: 31356_中国-7.67MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31357_中国-4.44MB
+  password: ''
+  port: '3385'
+  server: 116.129.253.134
+  type: trojan
+- name: 31358_中国-2.86MB
+  password: ''
+  port: '42000'
+  server: shcm.pdjc.cc
+  type: trojan
+- name: 31361_美国-377.3KB
+  password: ''
+  port: '443'
+  server: au2-3.nigirocloud.com
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -6439,6 +6512,10 @@ proxy-groups:
   - 31346_中国-1.52MB
   - 31352_美国-9.64MB
   - 31353_俄罗斯联邦-1017.8KB
+  - 31359_中国-157.6KB
+  - 31362_俄罗斯联邦-497.4KB
+  - 31363_香港-667.2KB
+  - 31364_中国-6.22MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -6821,6 +6898,11 @@ proxy-groups:
   - 31350_中国-6.51MB
   - 31351_美国-4.21MB
   - 31354_美国-3.75MB
+  - 31355_美国-3.75MB
+  - 31356_中国-7.67MB
+  - 31357_中国-4.44MB
+  - 31358_中国-2.86MB
+  - 31361_美国-377.3KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7319,6 +7401,10 @@ proxy-groups:
   - 31346_中国-1.52MB
   - 31352_美国-9.64MB
   - 31353_俄罗斯联邦-1017.8KB
+  - 31359_中国-157.6KB
+  - 31362_俄罗斯联邦-497.4KB
+  - 31363_香港-667.2KB
+  - 31364_中国-6.22MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -7701,6 +7787,11 @@ proxy-groups:
   - 31350_中国-6.51MB
   - 31351_美国-4.21MB
   - 31354_美国-3.75MB
+  - 31355_美国-3.75MB
+  - 31356_中国-7.67MB
+  - 31357_中国-4.44MB
+  - 31358_中国-2.86MB
+  - 31361_美国-377.3KB
   type: select
 - name: Final
   proxies:
@@ -8208,6 +8299,10 @@ proxy-groups:
   - 31346_中国-1.52MB
   - 31352_美国-9.64MB
   - 31353_俄罗斯联邦-1017.8KB
+  - 31359_中国-157.6KB
+  - 31362_俄罗斯联邦-497.4KB
+  - 31363_香港-667.2KB
+  - 31364_中国-6.22MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -8590,6 +8685,11 @@ proxy-groups:
   - 31350_中国-6.51MB
   - 31351_美国-4.21MB
   - 31354_美国-3.75MB
+  - 31355_美国-3.75MB
+  - 31356_中国-7.67MB
+  - 31357_中国-4.44MB
+  - 31358_中国-2.86MB
+  - 31361_美国-377.3KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -9087,6 +9187,10 @@ proxy-groups:
   - 31346_中国-1.52MB
   - 31352_美国-9.64MB
   - 31353_俄罗斯联邦-1017.8KB
+  - 31359_中国-157.6KB
+  - 31362_俄罗斯联邦-497.4KB
+  - 31363_香港-667.2KB
+  - 31364_中国-6.22MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -9469,6 +9573,11 @@ proxy-groups:
   - 31350_中国-6.51MB
   - 31351_美国-4.21MB
   - 31354_美国-3.75MB
+  - 31355_美国-3.75MB
+  - 31356_中国-7.67MB
+  - 31357_中国-4.44MB
+  - 31358_中国-2.86MB
+  - 31361_美国-377.3KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
