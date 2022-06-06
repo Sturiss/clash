@@ -3830,6 +3830,54 @@ proxies:
   ws-headers:
     host: 54.37.192.112
   ws-path: /path/120208301422
+- alterId: 2
+  cipher: auto
+  name: 31321_台湾-1.59MB
+  network: ws
+  port: 443
+  server: 330tw.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 330tw.fans8.xyz
+  ws-path: /ray
+- alterId: 2
+  cipher: auto
+  name: 31322_香港-1.13MB
+  network: ws
+  port: 80
+  server: 527hk1.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 527hk1.fans8.xyz
+  ws-path: /ray
+- alterId: 64
+  cipher: auto
+  name: 31323_法国-370.8KB
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  tls: 1
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    host: 54.37.192.112
+  ws-path: /path/120208301422
+- alterId: 1
+  cipher: auto
+  name: 31324_中国-385.5KB
+  network: ws
+  port: 38701
+  server: ingress-i1.onebox6.org
+  tls: 0
+  type: vmess
+  uuid: 79386685-16da-327c-9e14-aa6d702d86bc
+  ws-headers:
+    host: ingress-i1.onebox6.org
+  ws-path: /hls/cctv5phd.m3u8
 - name: 28916_捷克-478.5KB/s
   password: kGrwqmB1nEKUsDwE
   port: '443'
@@ -5656,6 +5704,36 @@ proxies:
   port: '443'
   server: cc.tianxiedaiweige.tk
   type: trojan
+- name: 31315_中国-5.98MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31316_中国-5.03MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31317_中国-193.6KB
+  password: ''
+  port: '42000'
+  server: shcm.pdjc.cc
+  type: trojan
+- name: 31318_中国-6.87MB
+  password: ''
+  port: '3389'
+  server: 116.129.253.130
+  type: trojan
+- name: 31319_中国-9.54MB
+  password: ''
+  port: '3389'
+  server: 116.129.254.29
+  type: trojan
+- name: 31320_新加坡-1.88MB
+  password: ''
+  port: '3389'
+  server: 5.44.249.43
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -6138,6 +6216,10 @@ proxy-groups:
   - 31311_中国-375.8KB
   - 31312_香港-1.13MB
   - 31313_法国-370.8KB
+  - 31321_台湾-1.59MB
+  - 31322_香港-1.13MB
+  - 31323_法国-370.8KB
+  - 31324_中国-385.5KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -6496,6 +6578,12 @@ proxy-groups:
   - 31309_新加坡-1.30MB
   - 31310_美国-2.25MB
   - 31314_美国-559.9KB
+  - 31315_中国-5.98MB
+  - 31316_中国-5.03MB
+  - 31317_中国-193.6KB
+  - 31318_中国-6.87MB
+  - 31319_中国-9.54MB
+  - 31320_新加坡-1.88MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6979,6 +7067,10 @@ proxy-groups:
   - 31311_中国-375.8KB
   - 31312_香港-1.13MB
   - 31313_法国-370.8KB
+  - 31321_台湾-1.59MB
+  - 31322_香港-1.13MB
+  - 31323_法国-370.8KB
+  - 31324_中国-385.5KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -7337,6 +7429,12 @@ proxy-groups:
   - 31309_新加坡-1.30MB
   - 31310_美国-2.25MB
   - 31314_美国-559.9KB
+  - 31315_中国-5.98MB
+  - 31316_中国-5.03MB
+  - 31317_中国-193.6KB
+  - 31318_中国-6.87MB
+  - 31319_中国-9.54MB
+  - 31320_新加坡-1.88MB
   type: select
 - name: Final
   proxies:
@@ -7829,6 +7927,10 @@ proxy-groups:
   - 31311_中国-375.8KB
   - 31312_香港-1.13MB
   - 31313_法国-370.8KB
+  - 31321_台湾-1.59MB
+  - 31322_香港-1.13MB
+  - 31323_法国-370.8KB
+  - 31324_中国-385.5KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -8187,6 +8289,12 @@ proxy-groups:
   - 31309_新加坡-1.30MB
   - 31310_美国-2.25MB
   - 31314_美国-559.9KB
+  - 31315_中国-5.98MB
+  - 31316_中国-5.03MB
+  - 31317_中国-193.6KB
+  - 31318_中国-6.87MB
+  - 31319_中国-9.54MB
+  - 31320_新加坡-1.88MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -8669,6 +8777,10 @@ proxy-groups:
   - 31311_中国-375.8KB
   - 31312_香港-1.13MB
   - 31313_法国-370.8KB
+  - 31321_台湾-1.59MB
+  - 31322_香港-1.13MB
+  - 31323_法国-370.8KB
+  - 31324_中国-385.5KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -9027,6 +9139,12 @@ proxy-groups:
   - 31309_新加坡-1.30MB
   - 31310_美国-2.25MB
   - 31314_美国-559.9KB
+  - 31315_中国-5.98MB
+  - 31316_中国-5.03MB
+  - 31317_中国-193.6KB
+  - 31318_中国-6.87MB
+  - 31319_中国-9.54MB
+  - 31320_新加坡-1.88MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
