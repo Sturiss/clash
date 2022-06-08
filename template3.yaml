@@ -1915,6 +1915,18 @@ proxies:
   port: '10065'
   server: 180.163.62.91
   type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 31680_中国-3.85MB
+  password: b195963c-2631-442d-ab3a-6e78df25d904
+  port: '30041'
+  server: cdn1.myuuusss.com
+  type: ss
+- cipher: aes-128-cfb
+  name: 31681_中国-405.2KB
+  password: QazEdcTgb159@$*
+  port: '10065'
+  server: 180.163.62.91
+  type: ss
 - cipher: aes-256-gcm
   name: 28748_美国-2.97MB/s
   password: KixLvKzwjekG00rm
@@ -5201,6 +5213,18 @@ proxies:
   ws-headers:
     host: 330tw.fans8.xyz
   ws-path: /ray
+- alterId: 64
+  cipher: auto
+  name: 31678_法国-1.13MB
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  tls: 1
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    host: 54.37.192.112
+  ws-path: /path/120208301422
 - name: 28916_捷克-478.5KB/s
   password: kGrwqmB1nEKUsDwE
   port: '443'
@@ -8137,6 +8161,16 @@ proxies:
   port: '443'
   server: fhcarm2.gaox.ml
   type: trojan
+- name: 31679_美国-197.6KB
+  password: ''
+  port: '12340'
+  server: s1.hazz.win
+  type: trojan
+- name: 31682_美国-2.35MB
+  password: ''
+  port: '443'
+  server: fhcarm2.gaox.ml
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -8453,6 +8487,8 @@ proxy-groups:
   - 31623_中国-6.14MB
   - 31675_中国-3.85MB
   - 31676_中国-405.2KB
+  - 31680_中国-3.85MB
+  - 31681_中国-405.2KB
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -8750,6 +8786,7 @@ proxy-groups:
   - 31658_法国-1.87MB
   - 31659_中国-432.9KB
   - 31666_台湾-469.4KB
+  - 31678_法国-1.13MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -9330,6 +9367,8 @@ proxy-groups:
   - 31673_美国-197.6KB
   - 31674_美国-2.75MB
   - 31677_美国-2.35MB
+  - 31679_美国-197.6KB
+  - 31682_美国-2.35MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -9647,6 +9686,8 @@ proxy-groups:
   - 31623_中国-6.14MB
   - 31675_中国-3.85MB
   - 31676_中国-405.2KB
+  - 31680_中国-3.85MB
+  - 31681_中国-405.2KB
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -9944,6 +9985,7 @@ proxy-groups:
   - 31658_法国-1.87MB
   - 31659_中国-432.9KB
   - 31666_台湾-469.4KB
+  - 31678_法国-1.13MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -10524,6 +10566,8 @@ proxy-groups:
   - 31673_美国-197.6KB
   - 31674_美国-2.75MB
   - 31677_美国-2.35MB
+  - 31679_美国-197.6KB
+  - 31682_美国-2.35MB
   type: select
 - name: Final
   proxies:
@@ -10850,6 +10894,8 @@ proxy-groups:
   - 31623_中国-6.14MB
   - 31675_中国-3.85MB
   - 31676_中国-405.2KB
+  - 31680_中国-3.85MB
+  - 31681_中国-405.2KB
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -11147,6 +11193,7 @@ proxy-groups:
   - 31658_法国-1.87MB
   - 31659_中国-432.9KB
   - 31666_台湾-469.4KB
+  - 31678_法国-1.13MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -11727,6 +11774,8 @@ proxy-groups:
   - 31673_美国-197.6KB
   - 31674_美国-2.75MB
   - 31677_美国-2.35MB
+  - 31679_美国-197.6KB
+  - 31682_美国-2.35MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -12043,6 +12092,8 @@ proxy-groups:
   - 31623_中国-6.14MB
   - 31675_中国-3.85MB
   - 31676_中国-405.2KB
+  - 31680_中国-3.85MB
+  - 31681_中国-405.2KB
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -12340,6 +12391,7 @@ proxy-groups:
   - 31658_法国-1.87MB
   - 31659_中国-432.9KB
   - 31666_台湾-469.4KB
+  - 31678_法国-1.13MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -12920,6 +12972,8 @@ proxy-groups:
   - 31673_美国-197.6KB
   - 31674_美国-2.75MB
   - 31677_美国-2.35MB
+  - 31679_美国-197.6KB
+  - 31682_美国-2.35MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
