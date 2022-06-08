@@ -1849,6 +1849,12 @@ proxies:
   port: '10065'
   server: 180.163.62.91
   type: ss
+- cipher: aes-256-cfb
+  name: 31534_新加坡-690.6KB
+  password: e6c1cf51375c407d92d110881a825acb
+  port: '29596'
+  server: 157.230.41.220
+  type: ss
 - cipher: aes-256-gcm
   name: 28748_美国-2.97MB/s
   password: KixLvKzwjekG00rm
@@ -4734,6 +4740,41 @@ proxies:
   ws-headers:
     host: vjp1.0bad.com
   ws-path: /chat
+- alterId: 1
+  cipher: auto
+  name: 31529_美国-383.9KB
+  network: ws
+  port: 10051
+  server: agem.xiaohouzi.club
+  tls: 0
+  type: vmess
+  uuid: c900facf-7e5d-3caf-a49e-c4bb1996ca95
+  ws-headers:
+    host: agem.xiaohouzi.club
+  ws-path: /v2ray
+- alterId: 0
+  cipher: auto
+  name: 31535_日本-5.11MB
+  network: tcp
+  port: 26195
+  server: 150.230.60.8
+  tls: 0
+  type: vmess
+  uuid: 8c44be2e-2e16-4cf4-db1e-a1c8c61b7fd4
+  ws-headers:
+    host: 150.230.60.8
+- alterId: 0
+  cipher: auto
+  name: 31537_美国-4.56MB
+  network: ws
+  port: 443
+  server: vus4.0bad.com
+  tls: 1
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  ws-headers:
+    host: vus4.0bad.com
+  ws-path: /chat
 - name: 28916_捷克-478.5KB/s
   password: kGrwqmB1nEKUsDwE
   port: '443'
@@ -7150,6 +7191,36 @@ proxies:
   port: '3052'
   server: kr01.wangxd.life
   type: trojan
+- name: 31528_中国-4.61MB
+  password: ''
+  port: '20009'
+  server: cm-gz.okvpn.xyz
+  type: trojan
+- name: 31530_印度-367.7KB
+  password: ''
+  port: '443'
+  server: jgwhdlb4.gaox.ml
+  type: trojan
+- name: 31531_韩国-5.63MB
+  password: ''
+  port: '3052'
+  server: kr04.wangxd.life
+  type: trojan
+- name: 31532_美国-3.37MB
+  password: ''
+  port: '3052'
+  server: kr01.wangxd.life
+  type: trojan
+- name: 31533_美国-4.84MB
+  password: ''
+  port: '443'
+  server: au2-2.nigirocloud.com
+  type: trojan
+- name: 31536_美国-5.15MB
+  password: ''
+  port: '443'
+  server: 212.81.47.14
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -7455,6 +7526,7 @@ proxy-groups:
   - 31509_新加坡-1.09MB
   - 31513_中国-317.9KB
   - 31518_中国-317.9KB
+  - 31534_新加坡-690.6KB
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -7718,6 +7790,9 @@ proxy-groups:
   - 31521_日本-13.10MB
   - 31525_未知国家-1.31MB
   - 31527_日本-15.89MB
+  - 31529_美国-383.9KB
+  - 31535_日本-5.11MB
+  - 31537_美国-4.56MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -8194,6 +8269,12 @@ proxy-groups:
   - 31523_美国-5.51MB
   - 31524_韩国-5.63MB
   - 31526_美国-3.37MB
+  - 31528_中国-4.61MB
+  - 31530_印度-367.7KB
+  - 31531_韩国-5.63MB
+  - 31532_美国-3.37MB
+  - 31533_美国-4.84MB
+  - 31536_美国-5.15MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -8500,6 +8581,7 @@ proxy-groups:
   - 31509_新加坡-1.09MB
   - 31513_中国-317.9KB
   - 31518_中国-317.9KB
+  - 31534_新加坡-690.6KB
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -8763,6 +8845,9 @@ proxy-groups:
   - 31521_日本-13.10MB
   - 31525_未知国家-1.31MB
   - 31527_日本-15.89MB
+  - 31529_美国-383.9KB
+  - 31535_日本-5.11MB
+  - 31537_美国-4.56MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -9239,6 +9324,12 @@ proxy-groups:
   - 31523_美国-5.51MB
   - 31524_韩国-5.63MB
   - 31526_美国-3.37MB
+  - 31528_中国-4.61MB
+  - 31530_印度-367.7KB
+  - 31531_韩国-5.63MB
+  - 31532_美国-3.37MB
+  - 31533_美国-4.84MB
+  - 31536_美国-5.15MB
   type: select
 - name: Final
   proxies:
@@ -9554,6 +9645,7 @@ proxy-groups:
   - 31509_新加坡-1.09MB
   - 31513_中国-317.9KB
   - 31518_中国-317.9KB
+  - 31534_新加坡-690.6KB
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -9817,6 +9909,9 @@ proxy-groups:
   - 31521_日本-13.10MB
   - 31525_未知国家-1.31MB
   - 31527_日本-15.89MB
+  - 31529_美国-383.9KB
+  - 31535_日本-5.11MB
+  - 31537_美国-4.56MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -10293,6 +10388,12 @@ proxy-groups:
   - 31523_美国-5.51MB
   - 31524_韩国-5.63MB
   - 31526_美国-3.37MB
+  - 31528_中国-4.61MB
+  - 31530_印度-367.7KB
+  - 31531_韩国-5.63MB
+  - 31532_美国-3.37MB
+  - 31533_美国-4.84MB
+  - 31536_美国-5.15MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -10598,6 +10699,7 @@ proxy-groups:
   - 31509_新加坡-1.09MB
   - 31513_中国-317.9KB
   - 31518_中国-317.9KB
+  - 31534_新加坡-690.6KB
   - 28748_美国-2.97MB/s
   - 28758_美国-2.99MB/s
   - 28769_(已存活1天)美国-1.73MB/s
@@ -10861,6 +10963,9 @@ proxy-groups:
   - 31521_日本-13.10MB
   - 31525_未知国家-1.31MB
   - 31527_日本-15.89MB
+  - 31529_美国-383.9KB
+  - 31535_日本-5.11MB
+  - 31537_美国-4.56MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -11337,6 +11442,12 @@ proxy-groups:
   - 31523_美国-5.51MB
   - 31524_韩国-5.63MB
   - 31526_美国-3.37MB
+  - 31528_中国-4.61MB
+  - 31530_印度-367.7KB
+  - 31531_韩国-5.63MB
+  - 31532_美国-3.37MB
+  - 31533_美国-4.84MB
+  - 31536_美国-5.15MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
