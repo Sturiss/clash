@@ -5051,6 +5051,42 @@ proxies:
   ws-headers:
     host: 330tw.fans8.xyz
   ws-path: /ray
+- alterId: 64
+  cipher: auto
+  name: 31632_法国-1.72MB
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  tls: 1
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    host: 54.37.192.112
+  ws-path: /path/120208301422
+- alterId: 2
+  cipher: auto
+  name: 31635_台湾-1.76MB
+  network: ws
+  port: 443
+  server: 330tw.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 330tw.fans8.xyz
+  ws-path: /ray
+- alterId: 2
+  cipher: auto
+  name: 31636_俄罗斯联邦-402.8KB
+  network: ws
+  port: 80
+  server: 331tw.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1c08f35bdafe74a6a386907aa
+  ws-headers:
+    host: 331tw.fans8.xyz
+  ws-path: /ray
 - name: 28916_捷克-478.5KB/s
   password: kGrwqmB1nEKUsDwE
   port: '443'
@@ -7807,6 +7843,41 @@ proxies:
   port: '12340'
   server: s1.hazz.win
   type: trojan
+- name: 31628_中国-4.66MB
+  password: ''
+  port: '20009'
+  server: cm-gz.okvpn.xyz
+  type: trojan
+- name: 31629_台湾-7.12MB
+  password: ''
+  port: '3389'
+  server: 211.72.35.158
+  type: trojan
+- name: 31630_台湾-8.07MB
+  password: ''
+  port: '3389'
+  server: 211.72.35.158
+  type: trojan
+- name: 31631_台湾-10.80MB
+  password: ''
+  port: '3389'
+  server: 211.72.35.158
+  type: trojan
+- name: 31633_美国-4.85MB
+  password: ''
+  port: '17001'
+  server: 107.167.24.6
+  type: trojan
+- name: 31634_美国-437.9KB
+  password: ''
+  port: '12340'
+  server: s1.hazz.win
+  type: trojan
+- name: 31637_中国-4.56MB
+  password: ''
+  port: '20000'
+  server: cu-cs.okvpn.xyz
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -8406,6 +8477,9 @@ proxy-groups:
   - 31620_香港-1.15MB
   - 31624_中国-446.9KB
   - 31627_台湾-1.76MB
+  - 31632_法国-1.72MB
+  - 31635_台湾-1.76MB
+  - 31636_俄罗斯联邦-402.8KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -8950,6 +9024,13 @@ proxy-groups:
   - 31621_中国-737.0KB
   - 31625_美国-550.1KB
   - 31626_美国-437.9KB
+  - 31628_中国-4.66MB
+  - 31629_台湾-7.12MB
+  - 31630_台湾-8.07MB
+  - 31631_台湾-10.80MB
+  - 31633_美国-4.85MB
+  - 31634_美国-437.9KB
+  - 31637_中国-4.56MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -9550,6 +9631,9 @@ proxy-groups:
   - 31620_香港-1.15MB
   - 31624_中国-446.9KB
   - 31627_台湾-1.76MB
+  - 31632_法国-1.72MB
+  - 31635_台湾-1.76MB
+  - 31636_俄罗斯联邦-402.8KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -10094,6 +10178,13 @@ proxy-groups:
   - 31621_中国-737.0KB
   - 31625_美国-550.1KB
   - 31626_美国-437.9KB
+  - 31628_中国-4.66MB
+  - 31629_台湾-7.12MB
+  - 31630_台湾-8.07MB
+  - 31631_台湾-10.80MB
+  - 31633_美国-4.85MB
+  - 31634_美国-437.9KB
+  - 31637_中国-4.56MB
   type: select
 - name: Final
   proxies:
@@ -10703,6 +10794,9 @@ proxy-groups:
   - 31620_香港-1.15MB
   - 31624_中国-446.9KB
   - 31627_台湾-1.76MB
+  - 31632_法国-1.72MB
+  - 31635_台湾-1.76MB
+  - 31636_俄罗斯联邦-402.8KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -11247,6 +11341,13 @@ proxy-groups:
   - 31621_中国-737.0KB
   - 31625_美国-550.1KB
   - 31626_美国-437.9KB
+  - 31628_中国-4.66MB
+  - 31629_台湾-7.12MB
+  - 31630_台湾-8.07MB
+  - 31631_台湾-10.80MB
+  - 31633_美国-4.85MB
+  - 31634_美国-437.9KB
+  - 31637_中国-4.56MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -11846,6 +11947,9 @@ proxy-groups:
   - 31620_香港-1.15MB
   - 31624_中国-446.9KB
   - 31627_台湾-1.76MB
+  - 31632_法国-1.72MB
+  - 31635_台湾-1.76MB
+  - 31636_俄罗斯联邦-402.8KB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -12390,6 +12494,13 @@ proxy-groups:
   - 31621_中国-737.0KB
   - 31625_美国-550.1KB
   - 31626_美国-437.9KB
+  - 31628_中国-4.66MB
+  - 31629_台湾-7.12MB
+  - 31630_台湾-8.07MB
+  - 31631_台湾-10.80MB
+  - 31633_美国-4.85MB
+  - 31634_美国-437.9KB
+  - 31637_中国-4.56MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
