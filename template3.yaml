@@ -5572,6 +5572,29 @@ proxies:
   ws-headers:
     host: 330tw.fans8.xyz
   ws-path: /ray
+- alterId: 0
+  cipher: auto
+  name: 31760_美国-3.20MB
+  network: tcp
+  port: 12315
+  server: 143.110.145.33
+  tls: 0
+  type: vmess
+  uuid: 63297c39-3e69-4fd0-8632-da4c708f139f
+  ws-headers:
+    host: 143.110.145.33
+- alterId: 2
+  cipher: auto
+  name: 31762_台湾-1.36MB
+  network: ws
+  port: 443
+  server: 330tw.fans8.xyz
+  tls: 1
+  type: vmess
+  uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa
+  ws-headers:
+    host: 330tw.fans8.xyz
+  ws-path: /ray
 - name: 28916_捷克-478.5KB/s
   password: kGrwqmB1nEKUsDwE
   port: '443'
@@ -8728,6 +8751,21 @@ proxies:
   port: '443'
   server: jgwhdlb4.gaox.ml
   type: trojan
+- name: 31758_印度-340.2KB
+  password: ''
+  port: '443'
+  server: jgwhdlb4.gaox.ml
+  type: trojan
+- name: 31759_美国-2.29MB
+  password: ''
+  port: '443'
+  server: au2-3.nigirocloud.com
+  type: trojan
+- name: 31761_美国-2.69MB
+  password: ''
+  port: '443'
+  server: au2-4.nigirocloud.com
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -9376,6 +9414,8 @@ proxy-groups:
   - 31743_香港-951.2KB
   - 31749_台湾-930.6KB
   - 31756_台湾-1.64MB
+  - 31760_美国-3.20MB
+  - 31762_台湾-1.36MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -10000,6 +10040,9 @@ proxy-groups:
   - 31750_美国-5.50MB
   - 31755_美国-2.90MB
   - 31757_印度-340.2KB
+  - 31758_印度-340.2KB
+  - 31759_美国-2.29MB
+  - 31761_美国-2.69MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -10649,6 +10692,8 @@ proxy-groups:
   - 31743_香港-951.2KB
   - 31749_台湾-930.6KB
   - 31756_台湾-1.64MB
+  - 31760_美国-3.20MB
+  - 31762_台湾-1.36MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -11273,6 +11318,9 @@ proxy-groups:
   - 31750_美国-5.50MB
   - 31755_美国-2.90MB
   - 31757_印度-340.2KB
+  - 31758_印度-340.2KB
+  - 31759_美国-2.29MB
+  - 31761_美国-2.69MB
   type: select
 - name: Final
   proxies:
@@ -11931,6 +11979,8 @@ proxy-groups:
   - 31743_香港-951.2KB
   - 31749_台湾-930.6KB
   - 31756_台湾-1.64MB
+  - 31760_美国-3.20MB
+  - 31762_台湾-1.36MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -12555,6 +12605,9 @@ proxy-groups:
   - 31750_美国-5.50MB
   - 31755_美国-2.90MB
   - 31757_印度-340.2KB
+  - 31758_印度-340.2KB
+  - 31759_美国-2.29MB
+  - 31761_美国-2.69MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -13203,6 +13256,8 @@ proxy-groups:
   - 31743_香港-951.2KB
   - 31749_台湾-930.6KB
   - 31756_台湾-1.64MB
+  - 31760_美国-3.20MB
+  - 31762_台湾-1.36MB
   - 28916_捷克-478.5KB/s
   - 28927_香港-586.6KB/s
   - 28953_美国-4.36MB/s
@@ -13827,6 +13882,9 @@ proxy-groups:
   - 31750_美国-5.50MB
   - 31755_美国-2.90MB
   - 31757_印度-340.2KB
+  - 31758_印度-340.2KB
+  - 31759_美国-2.29MB
+  - 31761_美国-2.69MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
