@@ -43,25 +43,19 @@ log-level: info
 mode: Rule
 port: 7895
 proxies:
-- cipher: aes-256-cfb
-  name: 英国-2.21MB_1
-  obfs: plain
-  password: daFYagqDdBdA6VTX
-  port: '9073'
-  protocol: origin
-  server: 152.89.210.105
-  type: ssr
+- {name: _油管：全网最强白嫖 109, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
+
 proxy-groups:
 - interval: 3600
   name: 自动选择
   proxies:
-  - 英国-2.21MB_1
+  - _油管：全网最强白嫖 109
   type: url-test
   url: https://www.google.com/
 - name: PROXY
   proxies:
   - 自动选择
-  - 英国-2.21MB_1
+  - _油管：全网最强白嫖 109
   type: select
 - name: Final
   proxies:
@@ -76,12 +70,12 @@ proxy-groups:
 - name: GlobalMedia
   proxies:
   - PROXY
-  - 英国-2.21MB_1
+  - _油管：全网最强白嫖 109
   type: select
 - name: HKMTMedia
   proxies:
   - DIRECT
-  - 英国-2.21MB_1
+  - _油管：全网最强白嫖 109
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
