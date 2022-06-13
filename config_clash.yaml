@@ -43,19 +43,24 @@ log-level: info
 mode: Rule
 port: 7895
 proxies:
-- {name: _油管：全网最强白嫖 109, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
+- cipher: aes-256-cfb
+  name: 17673_新加坡-283.1KB/s
+  password: amazonskr05
+  port: '443'
+  server: 13.250.126.43
+  type: ss
 
 proxy-groups:
 - interval: 3600
   name: 自动选择
   proxies:
-  - _油管：全网最强白嫖 109
+  - 17673_新加坡-283.1KB/s
   type: url-test
   url: https://www.google.com/
 - name: PROXY
   proxies:
   - 自动选择
-  - _油管：全网最强白嫖 109
+  - 17673_新加坡-283.1KB/s
   type: select
 - name: Final
   proxies:
@@ -70,12 +75,12 @@ proxy-groups:
 - name: GlobalMedia
   proxies:
   - PROXY
-  - _油管：全网最强白嫖 109
+  - 17673_新加坡-283.1KB/s
   type: select
 - name: HKMTMedia
   proxies:
   - DIRECT
-  - _油管：全网最强白嫖 109
+  - 17673_新加坡-283.1KB/s
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
