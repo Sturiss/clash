@@ -1381,23 +1381,23 @@ proxies:
   port: '10064'
   server: 180.163.62.91
   type: ss
-- cipher: aes-256-gcm
-  name: 224_中国-2.11MB
-  password: 4b5d7ed5-e1a3-4947-b955-58a39a29cc29
-  port: '38087'
-  server: zh01lv5in04.feiguayun.xyz
-  type: ss
 - cipher: aes-128-cfb
-  name: 225_中国-405.1KB
+  name: 224_中国-405.1KB
   password: QazEdcTgb159@$*
   port: '10065'
   server: 180.163.62.91
   type: ss
 - cipher: aes-256-gcm
-  name: 226_中国-302.6KB
+  name: 225_中国-302.6KB
   password: 4b5d7ed5-e1a3-4947-b955-58a39a29cc29
   port: '35087'
   server: zh01lv5uk04.feiguayun.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: 226_中国-1.79MB
+  password: 4b5d7ed5-e1a3-4947-b955-58a39a29cc29
+  port: '38087'
+  server: zh01lv5in04.feiguayun.xyz
   type: ss
 - cipher: aes-256-gcm
   name: 227_中国-2.78MB
@@ -3466,7 +3466,7 @@ proxies:
   port: '23425'
   server: usfree1.jiantian.xyz
   type: trojan
-- name: 560_美国-4.15MB
+- name: 560_美国-3.04MB
   password: ''
   port: '12340'
   server: s3.hazz.win
@@ -3880,21 +3880,21 @@ proxies:
   server: 157.230.41.220
   type: ss
 - cipher: aes-256-gcm
-  name: 629_日本-1.59MB
-  password: RexnBgU7EV5ADxG
-  port: '7002'
-  server: 85.208.108.20
-  type: ss
-- cipher: aes-256-gcm
-  name: 630_日本-756.8KB
+  name: 629_日本-756.8KB
   password: TEzjfAYq2IjtuoS
   port: '6679'
   server: 85.208.108.20
   type: ss
 - cipher: aes-256-gcm
-  name: 631_日本-1.16MB
+  name: 630_日本-1.16MB
   password: TEzjfAYq2IjtuoS
   port: '6697'
+  server: 85.208.108.20
+  type: ss
+- cipher: aes-256-gcm
+  name: 631_日本-2.93MB
+  password: RexnBgU7EV5ADxG
+  port: '7002'
   server: 85.208.108.20
   type: ss
 - alterId: 64
@@ -5597,30 +5597,30 @@ proxies:
   port: '12340'
   server: s2.hazz.win
   type: trojan
-- name: 827_德国-1.18MB
-  password: ''
-  port: '12340'
-  server: s4.hazz.win
-  type: trojan
-- name: 828_新加坡-315.6KB
+- name: 827_新加坡-315.6KB
   password: ''
   port: '443'
   server: w12.udpgw.com
+  type: trojan
+- name: 828_新加坡-343.1KB
+  password: ''
+  port: '443'
+  server: w13.udpgw.com
   type: trojan
 - name: 829_香港-1.54MB
   password: ''
   port: '443'
   server: 103.195.4.36
   type: trojan
-- name: 830_新加坡-343.1KB
-  password: ''
-  port: '443'
-  server: w13.udpgw.com
-  type: trojan
-- name: 831_澳大利亚-1.65MB
+- name: 830_澳大利亚-1.65MB
   password: ''
   port: '443'
   server: jgwxn3.gaox.ml
+  type: trojan
+- name: 831_德国-2.21MB
+  password: ''
+  port: '12340'
+  server: s4.hazz.win
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -5849,9 +5849,9 @@ proxy-groups:
   - 221_中国-1.21MB
   - 222_中国-589.6KB
   - 223_中国-381.3KB
-  - 224_中国-2.11MB
-  - 225_中国-405.1KB
-  - 226_中国-302.6KB
+  - 224_中国-405.1KB
+  - 225_中国-302.6KB
+  - 226_中国-1.79MB
   - 227_中国-2.78MB
   - 228_中国-375.8KB
   - 229_中国-375.8KB
@@ -6185,7 +6185,7 @@ proxy-groups:
   - 557_美国-5.57MB
   - 558_美国-6.64MB
   - 559_美国-2.33MB
-  - 560_美国-4.15MB
+  - 560_美国-3.04MB
   - 561_新加坡-484.1KB/s
   - 562_新加坡-423.3KB/s
   - 563_新加坡-547.7KB/s
@@ -6254,9 +6254,9 @@ proxy-groups:
   - 626_新加坡-1.09MB
   - 627_新加坡-1.09MB
   - 628_新加坡-690.6KB
-  - 629_日本-1.59MB
-  - 630_日本-756.8KB
-  - 631_日本-1.16MB
+  - 629_日本-756.8KB
+  - 630_日本-1.16MB
+  - 631_日本-2.93MB
   - 632_法国-1.20MB
   - 633_台湾-1.27MB
   - 634_香港-1.13MB
@@ -6452,11 +6452,11 @@ proxy-groups:
   - 824_新加坡-218.3KB
   - 825_日本-1.38MB
   - 826_新加坡-1.97MB
-  - 827_德国-1.18MB
-  - 828_新加坡-315.6KB
+  - 827_新加坡-315.6KB
+  - 828_新加坡-343.1KB
   - 829_香港-1.54MB
-  - 830_新加坡-343.1KB
-  - 831_澳大利亚-1.65MB
+  - 830_澳大利亚-1.65MB
+  - 831_德国-2.21MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6685,9 +6685,9 @@ proxy-groups:
   - 221_中国-1.21MB
   - 222_中国-589.6KB
   - 223_中国-381.3KB
-  - 224_中国-2.11MB
-  - 225_中国-405.1KB
-  - 226_中国-302.6KB
+  - 224_中国-405.1KB
+  - 225_中国-302.6KB
+  - 226_中国-1.79MB
   - 227_中国-2.78MB
   - 228_中国-375.8KB
   - 229_中国-375.8KB
@@ -7021,7 +7021,7 @@ proxy-groups:
   - 557_美国-5.57MB
   - 558_美国-6.64MB
   - 559_美国-2.33MB
-  - 560_美国-4.15MB
+  - 560_美国-3.04MB
   - 561_新加坡-484.1KB/s
   - 562_新加坡-423.3KB/s
   - 563_新加坡-547.7KB/s
@@ -7090,9 +7090,9 @@ proxy-groups:
   - 626_新加坡-1.09MB
   - 627_新加坡-1.09MB
   - 628_新加坡-690.6KB
-  - 629_日本-1.59MB
-  - 630_日本-756.8KB
-  - 631_日本-1.16MB
+  - 629_日本-756.8KB
+  - 630_日本-1.16MB
+  - 631_日本-2.93MB
   - 632_法国-1.20MB
   - 633_台湾-1.27MB
   - 634_香港-1.13MB
@@ -7288,11 +7288,11 @@ proxy-groups:
   - 824_新加坡-218.3KB
   - 825_日本-1.38MB
   - 826_新加坡-1.97MB
-  - 827_德国-1.18MB
-  - 828_新加坡-315.6KB
+  - 827_新加坡-315.6KB
+  - 828_新加坡-343.1KB
   - 829_香港-1.54MB
-  - 830_新加坡-343.1KB
-  - 831_澳大利亚-1.65MB
+  - 830_澳大利亚-1.65MB
+  - 831_德国-2.21MB
   type: select
 - name: Final
   proxies:
@@ -7530,9 +7530,9 @@ proxy-groups:
   - 221_中国-1.21MB
   - 222_中国-589.6KB
   - 223_中国-381.3KB
-  - 224_中国-2.11MB
-  - 225_中国-405.1KB
-  - 226_中国-302.6KB
+  - 224_中国-405.1KB
+  - 225_中国-302.6KB
+  - 226_中国-1.79MB
   - 227_中国-2.78MB
   - 228_中国-375.8KB
   - 229_中国-375.8KB
@@ -7866,7 +7866,7 @@ proxy-groups:
   - 557_美国-5.57MB
   - 558_美国-6.64MB
   - 559_美国-2.33MB
-  - 560_美国-4.15MB
+  - 560_美国-3.04MB
   - 561_新加坡-484.1KB/s
   - 562_新加坡-423.3KB/s
   - 563_新加坡-547.7KB/s
@@ -7935,9 +7935,9 @@ proxy-groups:
   - 626_新加坡-1.09MB
   - 627_新加坡-1.09MB
   - 628_新加坡-690.6KB
-  - 629_日本-1.59MB
-  - 630_日本-756.8KB
-  - 631_日本-1.16MB
+  - 629_日本-756.8KB
+  - 630_日本-1.16MB
+  - 631_日本-2.93MB
   - 632_法国-1.20MB
   - 633_台湾-1.27MB
   - 634_香港-1.13MB
@@ -8133,11 +8133,11 @@ proxy-groups:
   - 824_新加坡-218.3KB
   - 825_日本-1.38MB
   - 826_新加坡-1.97MB
-  - 827_德国-1.18MB
-  - 828_新加坡-315.6KB
+  - 827_新加坡-315.6KB
+  - 828_新加坡-343.1KB
   - 829_香港-1.54MB
-  - 830_新加坡-343.1KB
-  - 831_澳大利亚-1.65MB
+  - 830_澳大利亚-1.65MB
+  - 831_德国-2.21MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -8365,9 +8365,9 @@ proxy-groups:
   - 221_中国-1.21MB
   - 222_中国-589.6KB
   - 223_中国-381.3KB
-  - 224_中国-2.11MB
-  - 225_中国-405.1KB
-  - 226_中国-302.6KB
+  - 224_中国-405.1KB
+  - 225_中国-302.6KB
+  - 226_中国-1.79MB
   - 227_中国-2.78MB
   - 228_中国-375.8KB
   - 229_中国-375.8KB
@@ -8701,7 +8701,7 @@ proxy-groups:
   - 557_美国-5.57MB
   - 558_美国-6.64MB
   - 559_美国-2.33MB
-  - 560_美国-4.15MB
+  - 560_美国-3.04MB
   - 561_新加坡-484.1KB/s
   - 562_新加坡-423.3KB/s
   - 563_新加坡-547.7KB/s
@@ -8770,9 +8770,9 @@ proxy-groups:
   - 626_新加坡-1.09MB
   - 627_新加坡-1.09MB
   - 628_新加坡-690.6KB
-  - 629_日本-1.59MB
-  - 630_日本-756.8KB
-  - 631_日本-1.16MB
+  - 629_日本-756.8KB
+  - 630_日本-1.16MB
+  - 631_日本-2.93MB
   - 632_法国-1.20MB
   - 633_台湾-1.27MB
   - 634_香港-1.13MB
@@ -8968,11 +8968,11 @@ proxy-groups:
   - 824_新加坡-218.3KB
   - 825_日本-1.38MB
   - 826_新加坡-1.97MB
-  - 827_德国-1.18MB
-  - 828_新加坡-315.6KB
+  - 827_新加坡-315.6KB
+  - 828_新加坡-343.1KB
   - 829_香港-1.54MB
-  - 830_新加坡-343.1KB
-  - 831_澳大利亚-1.65MB
+  - 830_澳大利亚-1.65MB
+  - 831_德国-2.21MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
