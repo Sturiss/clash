@@ -4657,25 +4657,30 @@ proxies:
   port: '443'
   server: ru1.nodegz.top
   type: trojan
-- name: 717_德国-1.86MB
-  password: ''
-  port: '28000'
-  server: 172.104.251.52
-  type: trojan
-- name: 718_德国-1.93MB
+- name: 717_德国-1.93MB
   password: ''
   port: '28000'
   server: 172.104.244.36
   type: trojan
-- name: 719_越南-3.69MB
+- name: 718_越南-3.69MB
   password: ''
   port: '28000'
   server: 103.173.155.72
   type: trojan
-- name: 720_越南-4.24MB
+- name: 719_越南-4.24MB
   password: ''
   port: '28000'
   server: 103.173.255.228
+  type: trojan
+- name: 720_德国-1.23MB
+  password: ''
+  port: '28000'
+  server: 172.104.251.52
+  type: trojan
+- name: 721_香港-1.32MB
+  password: ''
+  port: '20720'
+  server: azhj001.xiba1.xyz
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -5397,10 +5402,11 @@ proxy-groups:
   - 714_香港-557.3KB
   - 715_越南-3.98MB
   - 716_俄罗斯联邦-1.50MB
-  - 717_德国-1.86MB
-  - 718_德国-1.93MB
-  - 719_越南-3.69MB
-  - 720_越南-4.24MB
+  - 717_德国-1.93MB
+  - 718_越南-3.69MB
+  - 719_越南-4.24MB
+  - 720_德国-1.23MB
+  - 721_香港-1.32MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6122,10 +6128,11 @@ proxy-groups:
   - 714_香港-557.3KB
   - 715_越南-3.98MB
   - 716_俄罗斯联邦-1.50MB
-  - 717_德国-1.86MB
-  - 718_德国-1.93MB
-  - 719_越南-3.69MB
-  - 720_越南-4.24MB
+  - 717_德国-1.93MB
+  - 718_越南-3.69MB
+  - 719_越南-4.24MB
+  - 720_德国-1.23MB
+  - 721_香港-1.32MB
   type: select
 - name: Final
   proxies:
@@ -6856,10 +6863,11 @@ proxy-groups:
   - 714_香港-557.3KB
   - 715_越南-3.98MB
   - 716_俄罗斯联邦-1.50MB
-  - 717_德国-1.86MB
-  - 718_德国-1.93MB
-  - 719_越南-3.69MB
-  - 720_越南-4.24MB
+  - 717_德国-1.93MB
+  - 718_越南-3.69MB
+  - 719_越南-4.24MB
+  - 720_德国-1.23MB
+  - 721_香港-1.32MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -7580,10 +7588,11 @@ proxy-groups:
   - 714_香港-557.3KB
   - 715_越南-3.98MB
   - 716_俄罗斯联邦-1.50MB
-  - 717_德国-1.86MB
-  - 718_德国-1.93MB
-  - 719_越南-3.69MB
-  - 720_越南-4.24MB
+  - 717_德国-1.93MB
+  - 718_越南-3.69MB
+  - 719_越南-4.24MB
+  - 720_德国-1.23MB
+  - 721_香港-1.32MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
