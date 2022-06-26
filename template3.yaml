@@ -2608,14 +2608,14 @@ proxies:
   port: '3389'
   server: 29d78fe.nf.gladns.com
   type: trojan
-- name: 408_中国-1.64MB
-  password: ''
-  port: '30002'
-  server: cm.spacez.cloud
-  type: trojan
-- name: 409_中国-439.6KB
+- name: 408_中国-1.16MB
   password: ''
   port: '30003'
+  server: cm.spacez.cloud
+  type: trojan
+- name: 409_中国-1.64MB
+  password: ''
+  port: '30002'
   server: cm.spacez.cloud
   type: trojan
 - name: 410_中国-1.59MB
@@ -2953,11 +2953,11 @@ proxies:
   port: '2375'
   server: 38.68.134.191
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 466_美国-163.0KB
-  password: Ultr@r00t_2017
-  port: '811'
-  server: 92.38.176.81
+- cipher: aes-256-gcm
+  name: 466_美国+8
+  password: 06158686
+  port: '23456'
+  server: 45.11.3.244
   type: ss
 - cipher: chacha20-ietf-poly1305
   name: 467_美国-1.09MB
@@ -2965,11 +2965,11 @@ proxies:
   port: '811'
   server: 138.68.248.130
   type: ss
-- cipher: aes-256-gcm
-  name: 468_美国+8
-  password: 06158686
-  port: '23456'
-  server: 45.11.3.244
+- cipher: chacha20-ietf-poly1305
+  name: 468_美国-265.7KB
+  password: Ultr@r00t_2017
+  port: '811'
+  server: 92.38.176.81
   type: ss
 - alterId: 32
   cipher: auto
@@ -4410,19 +4410,7 @@ proxies:
     host: 182.160.12.239
 - alterId: 0
   cipher: auto
-  name: 666_日本-517.6KB
-  network: ws
-  port: 80
-  server: bgj.azzhuangaping.tw
-  tls: 0
-  type: vmess
-  uuid: 992730fc-b237-43ed-a35a-1c5d3f4282b6
-  ws-headers:
-    host: bgj.azzhuangaping.tw
-  ws-path: /
-- alterId: 0
-  cipher: auto
-  name: 667_日本-1.52MB
+  name: 666_日本-1.52MB
   network: tcp
   port: 31939
   server: 158.101.74.69
@@ -4433,7 +4421,7 @@ proxies:
     host: 158.101.74.69
 - alterId: 64
   cipher: auto
-  name: 668_法国-709.3KB
+  name: 667_法国-709.3KB
   network: ws
   port: 443
   server: 54.37.192.112
@@ -4443,6 +4431,18 @@ proxies:
   ws-headers:
     host: 54.37.192.112
   ws-path: /path/120208301422
+- alterId: 0
+  cipher: auto
+  name: 668_日本-1.60MB
+  network: ws
+  port: 80
+  server: bgj.azzhuangaping.tw
+  tls: 0
+  type: vmess
+  uuid: 992730fc-b237-43ed-a35a-1c5d3f4282b6
+  ws-headers:
+    host: bgj.azzhuangaping.tw
+  ws-path: /
 - name: 669_新加坡-3.10MB
   password: ''
   port: '443'
@@ -5260,8 +5260,8 @@ proxy-groups:
   - 405_中国-2.18MB
   - 406_中国-6.61MB
   - 407_中国-2.50MB
-  - 408_中国-1.64MB
-  - 409_中国-439.6KB
+  - 408_中国-1.16MB
+  - 409_中国-1.64MB
   - 410_中国-1.59MB
   - 411_美国-875.1KB
   - 412_美国-1.20MB
@@ -5318,9 +5318,9 @@ proxy-groups:
   - 463_美国-538.9KB
   - 464_美国-3.59MB
   - 465_美国-2.23MB
-  - 466_美国-163.0KB
+  - 466_美国+8
   - 467_美国-1.09MB
-  - 468_美国+8
+  - 468_美国-265.7KB
   - 469_美国-1.78MB
   - 470_美国-1.62MB
   - 471_美国-9.09MB
@@ -5518,9 +5518,9 @@ proxy-groups:
   - 663_日本-895.4KB
   - 664_德国-301.7KB
   - 665_香港-13.26MB
-  - 666_日本-517.6KB
-  - 667_日本-1.52MB
-  - 668_法国-709.3KB
+  - 666_日本-1.52MB
+  - 667_法国-709.3KB
+  - 668_日本-1.60MB
   - 669_新加坡-3.10MB
   - 670_香港-462.2KB
   - 671_越南-4.07MB
@@ -6014,8 +6014,8 @@ proxy-groups:
   - 405_中国-2.18MB
   - 406_中国-6.61MB
   - 407_中国-2.50MB
-  - 408_中国-1.64MB
-  - 409_中国-439.6KB
+  - 408_中国-1.16MB
+  - 409_中国-1.64MB
   - 410_中国-1.59MB
   - 411_美国-875.1KB
   - 412_美国-1.20MB
@@ -6072,9 +6072,9 @@ proxy-groups:
   - 463_美国-538.9KB
   - 464_美国-3.59MB
   - 465_美国-2.23MB
-  - 466_美国-163.0KB
+  - 466_美国+8
   - 467_美国-1.09MB
-  - 468_美国+8
+  - 468_美国-265.7KB
   - 469_美国-1.78MB
   - 470_美国-1.62MB
   - 471_美国-9.09MB
@@ -6272,9 +6272,9 @@ proxy-groups:
   - 663_日本-895.4KB
   - 664_德国-301.7KB
   - 665_香港-13.26MB
-  - 666_日本-517.6KB
-  - 667_日本-1.52MB
-  - 668_法国-709.3KB
+  - 666_日本-1.52MB
+  - 667_法国-709.3KB
+  - 668_日本-1.60MB
   - 669_新加坡-3.10MB
   - 670_香港-462.2KB
   - 671_越南-4.07MB
@@ -6777,8 +6777,8 @@ proxy-groups:
   - 405_中国-2.18MB
   - 406_中国-6.61MB
   - 407_中国-2.50MB
-  - 408_中国-1.64MB
-  - 409_中国-439.6KB
+  - 408_中国-1.16MB
+  - 409_中国-1.64MB
   - 410_中国-1.59MB
   - 411_美国-875.1KB
   - 412_美国-1.20MB
@@ -6835,9 +6835,9 @@ proxy-groups:
   - 463_美国-538.9KB
   - 464_美国-3.59MB
   - 465_美国-2.23MB
-  - 466_美国-163.0KB
+  - 466_美国+8
   - 467_美国-1.09MB
-  - 468_美国+8
+  - 468_美国-265.7KB
   - 469_美国-1.78MB
   - 470_美国-1.62MB
   - 471_美国-9.09MB
@@ -7035,9 +7035,9 @@ proxy-groups:
   - 663_日本-895.4KB
   - 664_德国-301.7KB
   - 665_香港-13.26MB
-  - 666_日本-517.6KB
-  - 667_日本-1.52MB
-  - 668_法国-709.3KB
+  - 666_日本-1.52MB
+  - 667_法国-709.3KB
+  - 668_日本-1.60MB
   - 669_新加坡-3.10MB
   - 670_香港-462.2KB
   - 671_越南-4.07MB
@@ -7530,8 +7530,8 @@ proxy-groups:
   - 405_中国-2.18MB
   - 406_中国-6.61MB
   - 407_中国-2.50MB
-  - 408_中国-1.64MB
-  - 409_中国-439.6KB
+  - 408_中国-1.16MB
+  - 409_中国-1.64MB
   - 410_中国-1.59MB
   - 411_美国-875.1KB
   - 412_美国-1.20MB
@@ -7588,9 +7588,9 @@ proxy-groups:
   - 463_美国-538.9KB
   - 464_美国-3.59MB
   - 465_美国-2.23MB
-  - 466_美国-163.0KB
+  - 466_美国+8
   - 467_美国-1.09MB
-  - 468_美国+8
+  - 468_美国-265.7KB
   - 469_美国-1.78MB
   - 470_美国-1.62MB
   - 471_美国-9.09MB
@@ -7788,9 +7788,9 @@ proxy-groups:
   - 663_日本-895.4KB
   - 664_德国-301.7KB
   - 665_香港-13.26MB
-  - 666_日本-517.6KB
-  - 667_日本-1.52MB
-  - 668_法国-709.3KB
+  - 666_日本-1.52MB
+  - 667_法国-709.3KB
+  - 668_日本-1.60MB
   - 669_新加坡-3.10MB
   - 670_香港-462.2KB
   - 671_越南-4.07MB
