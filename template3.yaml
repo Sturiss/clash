@@ -2562,14 +2562,14 @@ proxies:
   port: '30130'
   server: gzyd2.52147.top
   type: trojan
-- name: 376_中国-3.89MB
-  password: 4d128058-ee75-4f03-8a4a-6d090586200b
-  port: '41535'
-  server: az1.bgp.zhongzhuan1.xyz
-  type: trojan
-- name: 377_中国-649.5KB
+- name: 376_中国-649.5KB
   password: 4d128058-ee75-4f03-8a4a-6d090586200b
   port: '22818'
+  server: az1.bgp.zhongzhuan1.xyz
+  type: trojan
+- name: 377_中国-3.00MB
+  password: 4d128058-ee75-4f03-8a4a-6d090586200b
+  port: '41535'
   server: az1.bgp.zhongzhuan1.xyz
   type: trojan
 - cipher: aes-256-gcm
@@ -2909,7 +2909,7 @@ proxies:
   server: 161.8.184.62
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 434_美国-1.30MB
+  name: 434_美国-853.8KB
   password: Ultr@r00t_2017
   port: '811'
   server: 138.68.248.130
@@ -4757,21 +4757,9 @@ proxies:
   ws-headers:
     host: 185.105.191.227
   ws-path: /f1hUi8k
-- alterId: 64
-  cipher: auto
-  name: 696_法国-1.36MB
-  network: ws
-  port: 443
-  server: 54.37.192.112
-  tls: 1
-  type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  ws-headers:
-    host: 54.37.192.112
-  ws-path: /path/120208301422
 - alterId: 32
   cipher: auto
-  name: 697_英国-881.8KB
+  name: 696_英国-881.8KB
   network: ws
   port: 56830
   server: vpnu.loungers.cc
@@ -4781,6 +4769,18 @@ proxies:
   ws-headers:
     host: vpnu.loungers.cc
   ws-path: /ws/x-ui
+- alterId: 64
+  cipher: auto
+  name: 697_法国-1.11MB
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  tls: 1
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    host: 54.37.192.112
+  ws-path: /path/120208301422
 - name: 698_新加坡-507.3KB
   password: 2523fe1a-1295-4525-be2c-d78ff1465d2a
   port: '443'
@@ -5026,25 +5026,25 @@ proxies:
   port: '57447'
   server: doxjp.nbczl233.ml
   type: trojan
-- name: 747_日本-3.23MB
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: '443'
-  server: jgwdb3.gaox.ml
-  type: trojan
-- name: 748_香港-1.54MB
+- name: 747_香港-1.54MB
   password: 7497242f-3044-3c77-bf48-14bb26c92a83
   port: '20711'
   server: azgy001.xiba1.xyz
   type: trojan
-- name: 749_香港-3.08MB
+- name: 748_香港-3.08MB
   password: 7497242f-3044-3c77-bf48-14bb26c92a83
   port: '20712'
   server: azgy001.xiba1.xyz
   type: trojan
-- name: 750_香港-1.71MB
+- name: 749_香港-1.71MB
   password: 7497242f-3044-3c77-bf48-14bb26c92a83
   port: '20710'
   server: azgy001.xiba1.xyz
+  type: trojan
+- name: 750_日本-1.78MB
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  port: '443'
+  server: jgwdb3.gaox.ml
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -5425,8 +5425,8 @@ proxy-groups:
   - 373_中国-5.71MB
   - 374_中国-326.3KB
   - 375_中国-9.65MB
-  - 376_中国-3.89MB
-  - 377_中国-649.5KB
+  - 376_中国-649.5KB
+  - 377_中国-3.00MB
   - 378_美国-2.27MB
   - 379_美国-2.61MB
   - 380_美国-2.05MB
@@ -5483,7 +5483,7 @@ proxy-groups:
   - 431_美国-5.43MB
   - 432_美国-3.39MB
   - 433_美国-693.2KB
-  - 434_美国-1.30MB
+  - 434_美国-853.8KB
   - 435_美国-3.62MB
   - 436_美国-3.61MB
   - 437_美国-451.9KB
@@ -5745,8 +5745,8 @@ proxy-groups:
   - 693_日本-3.80MB
   - 694_香港-3.09MB
   - 695_英国-1.36MB
-  - 696_法国-1.36MB
-  - 697_英国-881.8KB
+  - 696_英国-881.8KB
+  - 697_法国-1.11MB
   - 698_新加坡-507.3KB
   - 699_台湾-3.06MB
   - 700_台湾-1.56MB
@@ -5796,10 +5796,10 @@ proxy-groups:
   - 744_台湾-5.53MB
   - 745_澳大利亚-1.84MB
   - 746_新加坡-1.28MB
-  - 747_日本-3.23MB
-  - 748_香港-1.54MB
-  - 749_香港-3.08MB
-  - 750_香港-1.71MB
+  - 747_香港-1.54MB
+  - 748_香港-3.08MB
+  - 749_香港-1.71MB
+  - 750_日本-1.78MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6180,8 +6180,8 @@ proxy-groups:
   - 373_中国-5.71MB
   - 374_中国-326.3KB
   - 375_中国-9.65MB
-  - 376_中国-3.89MB
-  - 377_中国-649.5KB
+  - 376_中国-649.5KB
+  - 377_中国-3.00MB
   - 378_美国-2.27MB
   - 379_美国-2.61MB
   - 380_美国-2.05MB
@@ -6238,7 +6238,7 @@ proxy-groups:
   - 431_美国-5.43MB
   - 432_美国-3.39MB
   - 433_美国-693.2KB
-  - 434_美国-1.30MB
+  - 434_美国-853.8KB
   - 435_美国-3.62MB
   - 436_美国-3.61MB
   - 437_美国-451.9KB
@@ -6500,8 +6500,8 @@ proxy-groups:
   - 693_日本-3.80MB
   - 694_香港-3.09MB
   - 695_英国-1.36MB
-  - 696_法国-1.36MB
-  - 697_英国-881.8KB
+  - 696_英国-881.8KB
+  - 697_法国-1.11MB
   - 698_新加坡-507.3KB
   - 699_台湾-3.06MB
   - 700_台湾-1.56MB
@@ -6551,10 +6551,10 @@ proxy-groups:
   - 744_台湾-5.53MB
   - 745_澳大利亚-1.84MB
   - 746_新加坡-1.28MB
-  - 747_日本-3.23MB
-  - 748_香港-1.54MB
-  - 749_香港-3.08MB
-  - 750_香港-1.71MB
+  - 747_香港-1.54MB
+  - 748_香港-3.08MB
+  - 749_香港-1.71MB
+  - 750_日本-1.78MB
   type: select
 - name: Final
   proxies:
@@ -6944,8 +6944,8 @@ proxy-groups:
   - 373_中国-5.71MB
   - 374_中国-326.3KB
   - 375_中国-9.65MB
-  - 376_中国-3.89MB
-  - 377_中国-649.5KB
+  - 376_中国-649.5KB
+  - 377_中国-3.00MB
   - 378_美国-2.27MB
   - 379_美国-2.61MB
   - 380_美国-2.05MB
@@ -7002,7 +7002,7 @@ proxy-groups:
   - 431_美国-5.43MB
   - 432_美国-3.39MB
   - 433_美国-693.2KB
-  - 434_美国-1.30MB
+  - 434_美国-853.8KB
   - 435_美国-3.62MB
   - 436_美国-3.61MB
   - 437_美国-451.9KB
@@ -7264,8 +7264,8 @@ proxy-groups:
   - 693_日本-3.80MB
   - 694_香港-3.09MB
   - 695_英国-1.36MB
-  - 696_法国-1.36MB
-  - 697_英国-881.8KB
+  - 696_英国-881.8KB
+  - 697_法国-1.11MB
   - 698_新加坡-507.3KB
   - 699_台湾-3.06MB
   - 700_台湾-1.56MB
@@ -7315,10 +7315,10 @@ proxy-groups:
   - 744_台湾-5.53MB
   - 745_澳大利亚-1.84MB
   - 746_新加坡-1.28MB
-  - 747_日本-3.23MB
-  - 748_香港-1.54MB
-  - 749_香港-3.08MB
-  - 750_香港-1.71MB
+  - 747_香港-1.54MB
+  - 748_香港-3.08MB
+  - 749_香港-1.71MB
+  - 750_日本-1.78MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -7698,8 +7698,8 @@ proxy-groups:
   - 373_中国-5.71MB
   - 374_中国-326.3KB
   - 375_中国-9.65MB
-  - 376_中国-3.89MB
-  - 377_中国-649.5KB
+  - 376_中国-649.5KB
+  - 377_中国-3.00MB
   - 378_美国-2.27MB
   - 379_美国-2.61MB
   - 380_美国-2.05MB
@@ -7756,7 +7756,7 @@ proxy-groups:
   - 431_美国-5.43MB
   - 432_美国-3.39MB
   - 433_美国-693.2KB
-  - 434_美国-1.30MB
+  - 434_美国-853.8KB
   - 435_美国-3.62MB
   - 436_美国-3.61MB
   - 437_美国-451.9KB
@@ -8018,8 +8018,8 @@ proxy-groups:
   - 693_日本-3.80MB
   - 694_香港-3.09MB
   - 695_英国-1.36MB
-  - 696_法国-1.36MB
-  - 697_英国-881.8KB
+  - 696_英国-881.8KB
+  - 697_法国-1.11MB
   - 698_新加坡-507.3KB
   - 699_台湾-3.06MB
   - 700_台湾-1.56MB
@@ -8069,10 +8069,10 @@ proxy-groups:
   - 744_台湾-5.53MB
   - 745_澳大利亚-1.84MB
   - 746_新加坡-1.28MB
-  - 747_日本-3.23MB
-  - 748_香港-1.54MB
-  - 749_香港-3.08MB
-  - 750_香港-1.71MB
+  - 747_香港-1.54MB
+  - 748_香港-3.08MB
+  - 749_香港-1.71MB
+  - 750_日本-1.78MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
