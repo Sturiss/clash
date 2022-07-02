@@ -3218,19 +3218,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 460_美国-192.3KB
-  network: ws
-  port: 153
-  server: v04.ssrsub.com
-  tls: 0
-  type: vmess
-  uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7
-  ws-headers:
-    host: v04.ssrsub.com
-  ws-path: /api/v3/download.getFile
-- alterId: 0
-  cipher: auto
-  name: 461_美国-3.01MB
+  name: 460_美国-3.01MB
   network: ws
   port: 80
   server: 159.223.54.93
@@ -3240,6 +3228,18 @@ proxies:
   ws-headers:
     host: 159.223.54.93
   ws-path: /
+- alterId: 0
+  cipher: auto
+  name: 461_美国-1.16MB
+  network: ws
+  port: 153
+  server: v04.ssrsub.com
+  tls: 0
+  type: vmess
+  uuid: 61c4c45e-d5c8-47ed-ae28-cee95f09b3b7
+  ws-headers:
+    host: v04.ssrsub.com
+  ws-path: /api/v3/download.getFile
 - name: 462_美国-505.7KB
   password: a45be70d-abf2-4069-804e-e79ef87ad610
   port: '8443'
@@ -5000,15 +5000,15 @@ proxies:
   port: '443'
   server: jgwdb3.gaox.ml
   type: trojan
-- name: 743_台湾-5.53MB
-  password: 52a98419-efab-4c34-b4cc-4e2a7bc37029
-  port: '28000'
-  server: hinet.52147.top
-  type: trojan
-- name: 744_韩国-1.50MB
+- name: 743_韩国-1.50MB
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   port: '3052'
   server: kr04.wangxd.life
+  type: trojan
+- name: 744_台湾-5.53MB
+  password: 52a98419-efab-4c34-b4cc-4e2a7bc37029
+  port: '28000'
+  server: hinet.52147.top
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -5473,8 +5473,8 @@ proxy-groups:
   - 457_美国-3.26MB
   - 458_美国-4.28MB
   - 459_美国-203.2KB
-  - 460_美国-192.3KB
-  - 461_美国-3.01MB
+  - 460_美国-3.01MB
+  - 461_美国-1.16MB
   - 462_美国-505.7KB
   - 463_美国-2.64MB
   - 464_美国-5.70MB
@@ -5756,8 +5756,8 @@ proxy-groups:
   - 740_日本-5.47MB
   - 741_澳大利亚-1.61MB
   - 742_日本-4.44MB
-  - 743_台湾-5.53MB
-  - 744_韩国-1.50MB
+  - 743_韩国-1.50MB
+  - 744_台湾-5.53MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6222,8 +6222,8 @@ proxy-groups:
   - 457_美国-3.26MB
   - 458_美国-4.28MB
   - 459_美国-203.2KB
-  - 460_美国-192.3KB
-  - 461_美国-3.01MB
+  - 460_美国-3.01MB
+  - 461_美国-1.16MB
   - 462_美国-505.7KB
   - 463_美国-2.64MB
   - 464_美国-5.70MB
@@ -6505,8 +6505,8 @@ proxy-groups:
   - 740_日本-5.47MB
   - 741_澳大利亚-1.61MB
   - 742_日本-4.44MB
-  - 743_台湾-5.53MB
-  - 744_韩国-1.50MB
+  - 743_韩国-1.50MB
+  - 744_台湾-5.53MB
   type: select
 - name: Final
   proxies:
@@ -6980,8 +6980,8 @@ proxy-groups:
   - 457_美国-3.26MB
   - 458_美国-4.28MB
   - 459_美国-203.2KB
-  - 460_美国-192.3KB
-  - 461_美国-3.01MB
+  - 460_美国-3.01MB
+  - 461_美国-1.16MB
   - 462_美国-505.7KB
   - 463_美国-2.64MB
   - 464_美国-5.70MB
@@ -7263,8 +7263,8 @@ proxy-groups:
   - 740_日本-5.47MB
   - 741_澳大利亚-1.61MB
   - 742_日本-4.44MB
-  - 743_台湾-5.53MB
-  - 744_韩国-1.50MB
+  - 743_韩国-1.50MB
+  - 744_台湾-5.53MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -7728,8 +7728,8 @@ proxy-groups:
   - 457_美国-3.26MB
   - 458_美国-4.28MB
   - 459_美国-203.2KB
-  - 460_美国-192.3KB
-  - 461_美国-3.01MB
+  - 460_美国-3.01MB
+  - 461_美国-1.16MB
   - 462_美国-505.7KB
   - 463_美国-2.64MB
   - 464_美国-5.70MB
@@ -8011,8 +8011,8 @@ proxy-groups:
   - 740_日本-5.47MB
   - 741_澳大利亚-1.61MB
   - 742_日本-4.44MB
-  - 743_台湾-5.53MB
-  - 744_韩国-1.50MB
+  - 743_韩国-1.50MB
+  - 744_台湾-5.53MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
