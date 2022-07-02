@@ -3451,12 +3451,12 @@ proxies:
   port: '443'
   server: rn.tianxie.jp.eu.org
   type: trojan
-- name: 503_美国-3.77MB
+- name: 503_美国-2.19MB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
   server: s3.hazz.win
   type: trojan
-- name: 504_美国-2.09MB
+- name: 504_美国-1.92MB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
   server: s2.hazz.win
@@ -4747,21 +4747,9 @@ proxies:
   ws-headers:
     host: 185.105.191.227
   ws-path: /f1hUi8k
-- alterId: 64
-  cipher: auto
-  name: 694_法国-1.60MB
-  network: ws
-  port: 443
-  server: 54.37.192.112
-  tls: 1
-  type: vmess
-  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
-  ws-headers:
-    host: 54.37.192.112
-  ws-path: /path/120208301422
 - alterId: 32
   cipher: auto
-  name: 695_英国-944.8KB
+  name: 694_英国-944.8KB
   network: ws
   port: 56830
   server: vpnu.loungers.cc
@@ -4771,6 +4759,18 @@ proxies:
   ws-headers:
     host: vpnu.loungers.cc
   ws-path: /ws/x-ui
+- alterId: 64
+  cipher: auto
+  name: 695_法国-1.36MB
+  network: ws
+  port: 443
+  server: 54.37.192.112
+  tls: 1
+  type: vmess
+  uuid: 9f58234c-355b-4065-ae21-d4a63099aba5
+  ws-headers:
+    host: 54.37.192.112
+  ws-path: /path/120208301422
 - name: 696_新加坡-507.3KB
   password: 2523fe1a-1295-4525-be2c-d78ff1465d2a
   port: '443'
@@ -5001,25 +5001,30 @@ proxies:
   port: '443'
   server: jgwdb1.gaox.ml
   type: trojan
-- name: 742_日本-4.44MB
-  password: 8d2d5953-d649-4034-94f2-72f2df2623da
-  port: '443'
-  server: jgwdb3.gaox.ml
-  type: trojan
-- name: 743_韩国-1.50MB
+- name: 742_韩国-1.50MB
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   port: '3052'
   server: kr04.wangxd.life
   type: trojan
-- name: 744_台湾-5.53MB
+- name: 743_台湾-5.53MB
   password: 52a98419-efab-4c34-b4cc-4e2a7bc37029
   port: '28000'
   server: hinet.52147.top
   type: trojan
-- name: 745_澳大利亚-1.84MB
+- name: 744_澳大利亚-1.84MB
   password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
   port: '443'
   server: jgwxn3.gaox.ml
+  type: trojan
+- name: 745_新加坡-1.28MB
+  password: 9431affb-7e63-4fa8-94fc-9f6ef852d4d4
+  port: '57447'
+  server: doxjp.nbczl233.ml
+  type: trojan
+- name: 746_日本-3.23MB
+  password: 8d2d5953-d649-4034-94f2-72f2df2623da
+  port: '443'
+  server: jgwdb3.gaox.ml
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -5527,8 +5532,8 @@ proxy-groups:
   - 500_美国-2.30MB
   - 501_美国-1.54MB
   - 502_美国-4.04MB
-  - 503_美国-3.77MB
-  - 504_美国-2.09MB
+  - 503_美国-2.19MB
+  - 504_美国-1.92MB
   - 505_新加坡-484.1KB/s
   - 506_新加坡-423.3KB/s
   - 507_新加坡-547.7KB/s
@@ -5718,8 +5723,8 @@ proxy-groups:
   - 691_日本-3.80MB
   - 692_香港-3.09MB
   - 693_英国-1.49MB
-  - 694_法国-1.60MB
-  - 695_英国-944.8KB
+  - 694_英国-944.8KB
+  - 695_法国-1.36MB
   - 696_新加坡-507.3KB
   - 697_台湾-3.06MB
   - 698_台湾-1.56MB
@@ -5766,10 +5771,11 @@ proxy-groups:
   - 739_新加坡-4.88MB
   - 740_澳大利亚-2.05MB
   - 741_日本-5.47MB
-  - 742_日本-4.44MB
-  - 743_韩国-1.50MB
-  - 744_台湾-5.53MB
-  - 745_澳大利亚-1.84MB
+  - 742_韩国-1.50MB
+  - 743_台湾-5.53MB
+  - 744_澳大利亚-1.84MB
+  - 745_新加坡-1.28MB
+  - 746_日本-3.23MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -6277,8 +6283,8 @@ proxy-groups:
   - 500_美国-2.30MB
   - 501_美国-1.54MB
   - 502_美国-4.04MB
-  - 503_美国-3.77MB
-  - 504_美国-2.09MB
+  - 503_美国-2.19MB
+  - 504_美国-1.92MB
   - 505_新加坡-484.1KB/s
   - 506_新加坡-423.3KB/s
   - 507_新加坡-547.7KB/s
@@ -6468,8 +6474,8 @@ proxy-groups:
   - 691_日本-3.80MB
   - 692_香港-3.09MB
   - 693_英国-1.49MB
-  - 694_法国-1.60MB
-  - 695_英国-944.8KB
+  - 694_英国-944.8KB
+  - 695_法国-1.36MB
   - 696_新加坡-507.3KB
   - 697_台湾-3.06MB
   - 698_台湾-1.56MB
@@ -6516,10 +6522,11 @@ proxy-groups:
   - 739_新加坡-4.88MB
   - 740_澳大利亚-2.05MB
   - 741_日本-5.47MB
-  - 742_日本-4.44MB
-  - 743_韩国-1.50MB
-  - 744_台湾-5.53MB
-  - 745_澳大利亚-1.84MB
+  - 742_韩国-1.50MB
+  - 743_台湾-5.53MB
+  - 744_澳大利亚-1.84MB
+  - 745_新加坡-1.28MB
+  - 746_日本-3.23MB
   type: select
 - name: Final
   proxies:
@@ -7036,8 +7043,8 @@ proxy-groups:
   - 500_美国-2.30MB
   - 501_美国-1.54MB
   - 502_美国-4.04MB
-  - 503_美国-3.77MB
-  - 504_美国-2.09MB
+  - 503_美国-2.19MB
+  - 504_美国-1.92MB
   - 505_新加坡-484.1KB/s
   - 506_新加坡-423.3KB/s
   - 507_新加坡-547.7KB/s
@@ -7227,8 +7234,8 @@ proxy-groups:
   - 691_日本-3.80MB
   - 692_香港-3.09MB
   - 693_英国-1.49MB
-  - 694_法国-1.60MB
-  - 695_英国-944.8KB
+  - 694_英国-944.8KB
+  - 695_法国-1.36MB
   - 696_新加坡-507.3KB
   - 697_台湾-3.06MB
   - 698_台湾-1.56MB
@@ -7275,10 +7282,11 @@ proxy-groups:
   - 739_新加坡-4.88MB
   - 740_澳大利亚-2.05MB
   - 741_日本-5.47MB
-  - 742_日本-4.44MB
-  - 743_韩国-1.50MB
-  - 744_台湾-5.53MB
-  - 745_澳大利亚-1.84MB
+  - 742_韩国-1.50MB
+  - 743_台湾-5.53MB
+  - 744_澳大利亚-1.84MB
+  - 745_新加坡-1.28MB
+  - 746_日本-3.23MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -7785,8 +7793,8 @@ proxy-groups:
   - 500_美国-2.30MB
   - 501_美国-1.54MB
   - 502_美国-4.04MB
-  - 503_美国-3.77MB
-  - 504_美国-2.09MB
+  - 503_美国-2.19MB
+  - 504_美国-1.92MB
   - 505_新加坡-484.1KB/s
   - 506_新加坡-423.3KB/s
   - 507_新加坡-547.7KB/s
@@ -7976,8 +7984,8 @@ proxy-groups:
   - 691_日本-3.80MB
   - 692_香港-3.09MB
   - 693_英国-1.49MB
-  - 694_法国-1.60MB
-  - 695_英国-944.8KB
+  - 694_英国-944.8KB
+  - 695_法国-1.36MB
   - 696_新加坡-507.3KB
   - 697_台湾-3.06MB
   - 698_台湾-1.56MB
@@ -8024,10 +8032,11 @@ proxy-groups:
   - 739_新加坡-4.88MB
   - 740_澳大利亚-2.05MB
   - 741_日本-5.47MB
-  - 742_日本-4.44MB
-  - 743_韩国-1.50MB
-  - 744_台湾-5.53MB
-  - 745_澳大利亚-1.84MB
+  - 742_韩国-1.50MB
+  - 743_台湾-5.53MB
+  - 744_澳大利亚-1.84MB
+  - 745_新加坡-1.28MB
+  - 746_日本-3.23MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
