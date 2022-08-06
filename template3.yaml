@@ -3615,29 +3615,29 @@ proxies:
   port: '443'
   server: 167.88.63.59
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 549_美国-862.7KB
-  password: Ultr@r00t_2017
-  port: '811'
-  server: 92.38.176.81
-  type: ss
 - cipher: aes-256-gcm
-  name: 550_美国-2.25MB
+  name: 549_美国-2.25MB
   password: TEzjfAYq2IjtuoS
   port: '6679'
   server: 167.88.61.14
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 551_美国-1.69MB
+  name: 550_美国-1.69MB
   password: Ultr@r00t_2017
   port: '811'
   server: 138.68.248.130
   type: ss
 - cipher: aes-256-gcm
-  name: 552_美国-2.10MB
+  name: 551_美国-2.10MB
   password: pKEW8JPByTVTLtM
   port: '443'
   server: 167.88.61.14
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 552_美国-506.4KB
+  password: Ultr@r00t_2017
+  port: '811'
+  server: 92.38.176.81
   type: ss
 - alterId: 0
   cipher: auto
@@ -6293,33 +6293,33 @@ proxies:
   server: 85.208.108.60
   type: ss
 - cipher: aes-256-gcm
-  name: 960_日本-177.8KB
-  password: kDWvXYZoTBcGkC4
-  port: '8881'
-  server: 85.208.108.93
-  type: ss
-- cipher: aes-256-gcm
-  name: 961_日本-3.52MB
+  name: 960_日本-3.52MB
   password: RexnBgU7EV5ADxG
   port: '7002'
   server: 85.208.108.93
   type: ss
 - cipher: aes-256-gcm
-  name: 962_日本-3.25MB
+  name: 961_日本-3.25MB
   password: cdBIDV42DCwnfIN
   port: '8119'
   server: 85.208.108.93
   type: ss
 - cipher: aes-256-gcm
-  name: 963_日本-205.8KB
+  name: 962_日本-205.8KB
   password: zDNVedRFPQexG9v
   port: '6379'
   server: 85.208.108.93
   type: ss
 - cipher: aes-256-gcm
-  name: 964_日本-318.1KB
+  name: 963_日本-318.1KB
   password: FoOiGlkAA9yPEGP
   port: '7306'
+  server: 85.208.108.93
+  type: ss
+- cipher: aes-256-gcm
+  name: 964_日本-167.7KB
+  password: kDWvXYZoTBcGkC4
+  port: '8881'
   server: 85.208.108.93
   type: ss
 - alterId: 0
@@ -6829,6 +6829,16 @@ proxies:
   password: ce433528-39fa-4711-bc0d-25a5b1579574
   port: '11050'
   server: kr-01.licom.ml
+  type: trojan
+- name: 1024_新加坡-2.58MB
+  password: 91ef9bbb-25d9-4593-9f9e-d17e713f5aad
+  port: '25689'
+  server: 727tw02.ok365.cyou
+  type: trojan
+- name: 1025_新加坡-2.81MB
+  password: 91ef9bbb-25d9-4593-9f9e-d17e713f5aad
+  port: '443'
+  server: 730tw01.ok365.cyou
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -7382,10 +7392,10 @@ proxy-groups:
   - 546_美国-999.2KB
   - 547_美国-593.0KB
   - 548_美国-1013.1KB
-  - 549_美国-862.7KB
-  - 550_美国-2.25MB
-  - 551_美国-1.69MB
-  - 552_美国-2.10MB
+  - 549_美国-2.25MB
+  - 550_美国-1.69MB
+  - 551_美国-2.10MB
+  - 552_美国-506.4KB
   - 553_美国-2.15MB
   - 554_美国-1.21MB
   - 555_美国-3.28MB
@@ -7793,11 +7803,11 @@ proxy-groups:
   - 957_日本-892.8KB
   - 958_日本-813.1KB
   - 959_日本-230.0KB
-  - 960_日本-177.8KB
-  - 961_日本-3.52MB
-  - 962_日本-3.25MB
-  - 963_日本-205.8KB
-  - 964_日本-318.1KB
+  - 960_日本-3.52MB
+  - 961_日本-3.25MB
+  - 962_日本-205.8KB
+  - 963_日本-318.1KB
+  - 964_日本-167.7KB
   - 965_日本-4.58MB
   - 966_新加坡-2.50MB
   - 967_香港-536.6KB
@@ -7857,6 +7867,8 @@ proxy-groups:
   - 1021_巴拿马-2.73MB
   - 1022_韩国-438.0KB
   - 1023_法国-613.5KB
+  - 1024_新加坡-2.58MB
+  - 1025_新加坡-2.81MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -8410,10 +8422,10 @@ proxy-groups:
   - 546_美国-999.2KB
   - 547_美国-593.0KB
   - 548_美国-1013.1KB
-  - 549_美国-862.7KB
-  - 550_美国-2.25MB
-  - 551_美国-1.69MB
-  - 552_美国-2.10MB
+  - 549_美国-2.25MB
+  - 550_美国-1.69MB
+  - 551_美国-2.10MB
+  - 552_美国-506.4KB
   - 553_美国-2.15MB
   - 554_美国-1.21MB
   - 555_美国-3.28MB
@@ -8821,11 +8833,11 @@ proxy-groups:
   - 957_日本-892.8KB
   - 958_日本-813.1KB
   - 959_日本-230.0KB
-  - 960_日本-177.8KB
-  - 961_日本-3.52MB
-  - 962_日本-3.25MB
-  - 963_日本-205.8KB
-  - 964_日本-318.1KB
+  - 960_日本-3.52MB
+  - 961_日本-3.25MB
+  - 962_日本-205.8KB
+  - 963_日本-318.1KB
+  - 964_日本-167.7KB
   - 965_日本-4.58MB
   - 966_新加坡-2.50MB
   - 967_香港-536.6KB
@@ -8885,6 +8897,8 @@ proxy-groups:
   - 1021_巴拿马-2.73MB
   - 1022_韩国-438.0KB
   - 1023_法国-613.5KB
+  - 1024_新加坡-2.58MB
+  - 1025_新加坡-2.81MB
   type: select
 - name: Final
   proxies:
@@ -9447,10 +9461,10 @@ proxy-groups:
   - 546_美国-999.2KB
   - 547_美国-593.0KB
   - 548_美国-1013.1KB
-  - 549_美国-862.7KB
-  - 550_美国-2.25MB
-  - 551_美国-1.69MB
-  - 552_美国-2.10MB
+  - 549_美国-2.25MB
+  - 550_美国-1.69MB
+  - 551_美国-2.10MB
+  - 552_美国-506.4KB
   - 553_美国-2.15MB
   - 554_美国-1.21MB
   - 555_美国-3.28MB
@@ -9858,11 +9872,11 @@ proxy-groups:
   - 957_日本-892.8KB
   - 958_日本-813.1KB
   - 959_日本-230.0KB
-  - 960_日本-177.8KB
-  - 961_日本-3.52MB
-  - 962_日本-3.25MB
-  - 963_日本-205.8KB
-  - 964_日本-318.1KB
+  - 960_日本-3.52MB
+  - 961_日本-3.25MB
+  - 962_日本-205.8KB
+  - 963_日本-318.1KB
+  - 964_日本-167.7KB
   - 965_日本-4.58MB
   - 966_新加坡-2.50MB
   - 967_香港-536.6KB
@@ -9922,6 +9936,8 @@ proxy-groups:
   - 1021_巴拿马-2.73MB
   - 1022_韩国-438.0KB
   - 1023_法国-613.5KB
+  - 1024_新加坡-2.58MB
+  - 1025_新加坡-2.81MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -10474,10 +10490,10 @@ proxy-groups:
   - 546_美国-999.2KB
   - 547_美国-593.0KB
   - 548_美国-1013.1KB
-  - 549_美国-862.7KB
-  - 550_美国-2.25MB
-  - 551_美国-1.69MB
-  - 552_美国-2.10MB
+  - 549_美国-2.25MB
+  - 550_美国-1.69MB
+  - 551_美国-2.10MB
+  - 552_美国-506.4KB
   - 553_美国-2.15MB
   - 554_美国-1.21MB
   - 555_美国-3.28MB
@@ -10885,11 +10901,11 @@ proxy-groups:
   - 957_日本-892.8KB
   - 958_日本-813.1KB
   - 959_日本-230.0KB
-  - 960_日本-177.8KB
-  - 961_日本-3.52MB
-  - 962_日本-3.25MB
-  - 963_日本-205.8KB
-  - 964_日本-318.1KB
+  - 960_日本-3.52MB
+  - 961_日本-3.25MB
+  - 962_日本-205.8KB
+  - 963_日本-318.1KB
+  - 964_日本-167.7KB
   - 965_日本-4.58MB
   - 966_新加坡-2.50MB
   - 967_香港-536.6KB
@@ -10949,6 +10965,8 @@ proxy-groups:
   - 1021_巴拿马-2.73MB
   - 1022_韩国-438.0KB
   - 1023_法国-613.5KB
+  - 1024_新加坡-2.58MB
+  - 1025_新加坡-2.81MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
