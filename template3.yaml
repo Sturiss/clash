@@ -3526,40 +3526,40 @@ proxies:
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-gcm
-  name: 536_美国-834.5KB
-  password: Y6R9pAtvxxzmGC
-  port: '3306'
-  server: 169.197.141.5
-  type: ss
-- cipher: aes-256-gcm
-  name: 537_美国-2.09MB
+  name: 536_美国-2.09MB
   password: pKEW8JPByTVTLtM
   port: '443'
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-gcm
-  name: 538_美国-1.48MB
+  name: 537_美国-1.48MB
   password: kDWvXYZoTBcGkC4
   port: '8882'
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-gcm
-  name: 539_美国-822.4KB
+  name: 538_美国-822.4KB
   password: faBAoD54k87UJG7
   port: '2375'
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-gcm
-  name: 540_美国-551.6KB
+  name: 539_美国-551.6KB
   password: g5MeD6Ft3CWlJId
   port: '5003'
   server: 167.88.63.59
   type: ss
 - cipher: aes-256-gcm
-  name: 541_美国-922.0KB
+  name: 540_美国-922.0KB
   password: PCnnH6SQSnfoS27
   port: '8090'
   server: 167.88.63.59
+  type: ss
+- cipher: aes-256-gcm
+  name: 541_美国-2.02MB
+  password: Y6R9pAtvxxzmGC
+  port: '3306'
+  server: 169.197.141.5
   type: ss
 - alterId: 0
   cipher: auto
@@ -6245,40 +6245,40 @@ proxies:
   server: 217.197.160.117
   type: ss
 - cipher: aes-256-gcm
-  name: 956_日本-1.97MB
-  password: PCnnH6SQSnfoS27
-  port: '8090'
-  server: 85.208.108.21
-  type: ss
-- cipher: aes-256-gcm
-  name: 957_日本-208.1KB
+  name: 956_日本-208.1KB
   password: KixLvKzwjekG00rm
   port: '8000'
   server: 85.208.108.21
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 958_新加坡-648.0KB
+  name: 957_新加坡-648.0KB
   password: G!yBwPWH3Vao
   port: '808'
   server: 217.197.160.117
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 959_新加坡-987.7KB
+  name: 958_新加坡-987.7KB
   password: G!yBwPWH3Vao
   port: '800'
   server: 217.197.160.117
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 960_新加坡-206.9KB
+  name: 959_新加坡-206.9KB
   password: G!yBwPWH3Vao
   port: '805'
   server: 217.197.160.117
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 961_新加坡-336.3KB
+  name: 960_新加坡-336.3KB
   password: G!yBwPWH3Vao
   port: '806'
   server: 217.197.160.117
+  type: ss
+- cipher: aes-256-gcm
+  name: 961_日本-168.4KB
+  password: PCnnH6SQSnfoS27
+  port: '8090'
+  server: 85.208.108.21
   type: ss
 - alterId: 0
   cipher: auto
@@ -6667,19 +6667,7 @@ proxies:
   ws-path: /chat
 - alterId: 0
   cipher: auto
-  name: 995_香港-930.0KB
-  network: ws
-  port: 120
-  server: hgc.sharecentre.xyz
-  tls: 1
-  type: vmess
-  uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d
-  ws-headers:
-    host: hgc.sharecentre.xyz
-  ws-path: /nj
-- alterId: 0
-  cipher: auto
-  name: 996_韩国-484.2KB
+  name: 995_韩国-484.2KB
   network: tcp
   port: 35412
   server: 152.70.235.207
@@ -6690,7 +6678,7 @@ proxies:
     host: 152.70.235.207
 - alterId: 0
   cipher: auto
-  name: 997_英国-286.8KB
+  name: 996_英国-286.8KB
   network: tcp
   port: 49097
   server: 185.167.78.44
@@ -6701,7 +6689,7 @@ proxies:
     host: 185.167.78.44
 - alterId: 0
   cipher: auto
-  name: 998_马来西亚-1.78MB
+  name: 997_马来西亚-1.78MB
   network: tcp
   port: 31372
   server: 5.181.132.235
@@ -6712,7 +6700,7 @@ proxies:
     host: 5.181.132.235
 - alterId: 0
   cipher: auto
-  name: 999_新加坡-2.08MB
+  name: 998_新加坡-2.08MB
   network: ws
   port: 43950
   server: 18.141.146.58
@@ -6724,7 +6712,7 @@ proxies:
   ws-path: /
 - alterId: 0
   cipher: auto
-  name: 1000_俄罗斯联邦-1.63MB
+  name: 999_俄罗斯联邦-1.63MB
   network: tcp
   port: 443
   server: 195.133.197.254
@@ -6733,6 +6721,18 @@ proxies:
   uuid: ba4b9133-5a39-4015-808b-bcfaaa8962a8
   ws-headers:
     host: 195.133.197.254
+- alterId: 0
+  cipher: auto
+  name: 1000_香港-2.08MB
+  network: ws
+  port: 120
+  server: hgc.sharecentre.xyz
+  tls: 1
+  type: vmess
+  uuid: be84d85b-cefa-3d44-99f8-8dab4da44f2d
+  ws-headers:
+    host: hgc.sharecentre.xyz
+  ws-path: /nj
 - name: 1001_越南-2.72MB
   password: 87f6eb37-36af-4347-95c7-8b3b0a3e9194
   port: '443'
@@ -7417,12 +7417,12 @@ proxy-groups:
   - 533_美国-2.66MB
   - 534_美国-724.4KB
   - 535_美国-368.5KB
-  - 536_美国-834.5KB
-  - 537_美国-2.09MB
-  - 538_美国-1.48MB
-  - 539_美国-822.4KB
-  - 540_美国-551.6KB
-  - 541_美国-922.0KB
+  - 536_美国-2.09MB
+  - 537_美国-1.48MB
+  - 538_美国-822.4KB
+  - 539_美国-551.6KB
+  - 540_美国-922.0KB
+  - 541_美国-2.02MB
   - 542_美国-3.28MB
   - 543_美国-707.3KB
   - 544_美国-4.00MB
@@ -7837,12 +7837,12 @@ proxy-groups:
   - 953_新加坡-348.5KB
   - 954_日本-1.60MB
   - 955_新加坡-1.02MB
-  - 956_日本-1.97MB
-  - 957_日本-208.1KB
-  - 958_新加坡-648.0KB
-  - 959_新加坡-987.7KB
-  - 960_新加坡-206.9KB
-  - 961_新加坡-336.3KB
+  - 956_日本-208.1KB
+  - 957_新加坡-648.0KB
+  - 958_新加坡-987.7KB
+  - 959_新加坡-206.9KB
+  - 960_新加坡-336.3KB
+  - 961_日本-168.4KB
   - 962_日本-4.58MB
   - 963_新加坡-2.50MB
   - 964_香港-536.6KB
@@ -7876,12 +7876,12 @@ proxy-groups:
   - 992_新加坡-1.87MB
   - 993_韩国-1.19MB
   - 994_日本-2.03MB
-  - 995_香港-930.0KB
-  - 996_韩国-484.2KB
-  - 997_英国-286.8KB
-  - 998_马来西亚-1.78MB
-  - 999_新加坡-2.08MB
-  - 1000_俄罗斯联邦-1.63MB
+  - 995_韩国-484.2KB
+  - 996_英国-286.8KB
+  - 997_马来西亚-1.78MB
+  - 998_新加坡-2.08MB
+  - 999_俄罗斯联邦-1.63MB
+  - 1000_香港-2.08MB
   - 1001_越南-2.72MB
   - 1002_德国-1.80MB
   - 1003_越南-437.9KB
@@ -8451,12 +8451,12 @@ proxy-groups:
   - 533_美国-2.66MB
   - 534_美国-724.4KB
   - 535_美国-368.5KB
-  - 536_美国-834.5KB
-  - 537_美国-2.09MB
-  - 538_美国-1.48MB
-  - 539_美国-822.4KB
-  - 540_美国-551.6KB
-  - 541_美国-922.0KB
+  - 536_美国-2.09MB
+  - 537_美国-1.48MB
+  - 538_美国-822.4KB
+  - 539_美国-551.6KB
+  - 540_美国-922.0KB
+  - 541_美国-2.02MB
   - 542_美国-3.28MB
   - 543_美国-707.3KB
   - 544_美国-4.00MB
@@ -8871,12 +8871,12 @@ proxy-groups:
   - 953_新加坡-348.5KB
   - 954_日本-1.60MB
   - 955_新加坡-1.02MB
-  - 956_日本-1.97MB
-  - 957_日本-208.1KB
-  - 958_新加坡-648.0KB
-  - 959_新加坡-987.7KB
-  - 960_新加坡-206.9KB
-  - 961_新加坡-336.3KB
+  - 956_日本-208.1KB
+  - 957_新加坡-648.0KB
+  - 958_新加坡-987.7KB
+  - 959_新加坡-206.9KB
+  - 960_新加坡-336.3KB
+  - 961_日本-168.4KB
   - 962_日本-4.58MB
   - 963_新加坡-2.50MB
   - 964_香港-536.6KB
@@ -8910,12 +8910,12 @@ proxy-groups:
   - 992_新加坡-1.87MB
   - 993_韩国-1.19MB
   - 994_日本-2.03MB
-  - 995_香港-930.0KB
-  - 996_韩国-484.2KB
-  - 997_英国-286.8KB
-  - 998_马来西亚-1.78MB
-  - 999_新加坡-2.08MB
-  - 1000_俄罗斯联邦-1.63MB
+  - 995_韩国-484.2KB
+  - 996_英国-286.8KB
+  - 997_马来西亚-1.78MB
+  - 998_新加坡-2.08MB
+  - 999_俄罗斯联邦-1.63MB
+  - 1000_香港-2.08MB
   - 1001_越南-2.72MB
   - 1002_德国-1.80MB
   - 1003_越南-437.9KB
@@ -9494,12 +9494,12 @@ proxy-groups:
   - 533_美国-2.66MB
   - 534_美国-724.4KB
   - 535_美国-368.5KB
-  - 536_美国-834.5KB
-  - 537_美国-2.09MB
-  - 538_美国-1.48MB
-  - 539_美国-822.4KB
-  - 540_美国-551.6KB
-  - 541_美国-922.0KB
+  - 536_美国-2.09MB
+  - 537_美国-1.48MB
+  - 538_美国-822.4KB
+  - 539_美国-551.6KB
+  - 540_美国-922.0KB
+  - 541_美国-2.02MB
   - 542_美国-3.28MB
   - 543_美国-707.3KB
   - 544_美国-4.00MB
@@ -9914,12 +9914,12 @@ proxy-groups:
   - 953_新加坡-348.5KB
   - 954_日本-1.60MB
   - 955_新加坡-1.02MB
-  - 956_日本-1.97MB
-  - 957_日本-208.1KB
-  - 958_新加坡-648.0KB
-  - 959_新加坡-987.7KB
-  - 960_新加坡-206.9KB
-  - 961_新加坡-336.3KB
+  - 956_日本-208.1KB
+  - 957_新加坡-648.0KB
+  - 958_新加坡-987.7KB
+  - 959_新加坡-206.9KB
+  - 960_新加坡-336.3KB
+  - 961_日本-168.4KB
   - 962_日本-4.58MB
   - 963_新加坡-2.50MB
   - 964_香港-536.6KB
@@ -9953,12 +9953,12 @@ proxy-groups:
   - 992_新加坡-1.87MB
   - 993_韩国-1.19MB
   - 994_日本-2.03MB
-  - 995_香港-930.0KB
-  - 996_韩国-484.2KB
-  - 997_英国-286.8KB
-  - 998_马来西亚-1.78MB
-  - 999_新加坡-2.08MB
-  - 1000_俄罗斯联邦-1.63MB
+  - 995_韩国-484.2KB
+  - 996_英国-286.8KB
+  - 997_马来西亚-1.78MB
+  - 998_新加坡-2.08MB
+  - 999_俄罗斯联邦-1.63MB
+  - 1000_香港-2.08MB
   - 1001_越南-2.72MB
   - 1002_德国-1.80MB
   - 1003_越南-437.9KB
@@ -10527,12 +10527,12 @@ proxy-groups:
   - 533_美国-2.66MB
   - 534_美国-724.4KB
   - 535_美国-368.5KB
-  - 536_美国-834.5KB
-  - 537_美国-2.09MB
-  - 538_美国-1.48MB
-  - 539_美国-822.4KB
-  - 540_美国-551.6KB
-  - 541_美国-922.0KB
+  - 536_美国-2.09MB
+  - 537_美国-1.48MB
+  - 538_美国-822.4KB
+  - 539_美国-551.6KB
+  - 540_美国-922.0KB
+  - 541_美国-2.02MB
   - 542_美国-3.28MB
   - 543_美国-707.3KB
   - 544_美国-4.00MB
@@ -10947,12 +10947,12 @@ proxy-groups:
   - 953_新加坡-348.5KB
   - 954_日本-1.60MB
   - 955_新加坡-1.02MB
-  - 956_日本-1.97MB
-  - 957_日本-208.1KB
-  - 958_新加坡-648.0KB
-  - 959_新加坡-987.7KB
-  - 960_新加坡-206.9KB
-  - 961_新加坡-336.3KB
+  - 956_日本-208.1KB
+  - 957_新加坡-648.0KB
+  - 958_新加坡-987.7KB
+  - 959_新加坡-206.9KB
+  - 960_新加坡-336.3KB
+  - 961_日本-168.4KB
   - 962_日本-4.58MB
   - 963_新加坡-2.50MB
   - 964_香港-536.6KB
@@ -10986,12 +10986,12 @@ proxy-groups:
   - 992_新加坡-1.87MB
   - 993_韩国-1.19MB
   - 994_日本-2.03MB
-  - 995_香港-930.0KB
-  - 996_韩国-484.2KB
-  - 997_英国-286.8KB
-  - 998_马来西亚-1.78MB
-  - 999_新加坡-2.08MB
-  - 1000_俄罗斯联邦-1.63MB
+  - 995_韩国-484.2KB
+  - 996_英国-286.8KB
+  - 997_马来西亚-1.78MB
+  - 998_新加坡-2.08MB
+  - 999_俄罗斯联邦-1.63MB
+  - 1000_香港-2.08MB
   - 1001_越南-2.72MB
   - 1002_德国-1.80MB
   - 1003_越南-437.9KB
