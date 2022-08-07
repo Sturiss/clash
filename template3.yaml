@@ -4114,18 +4114,7 @@ proxies:
     host: 20.24.65.52
 - alterId: 2
   cipher: auto
-  name: 589_美国-5.99MB
-  network: tcp
-  port: 52332
-  server: 20.222.99.132
-  tls: 0
-  type: vmess
-  uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620
-  ws-headers:
-    host: 20.222.99.132
-- alterId: 2
-  cipher: auto
-  name: 590_美国-9.40MB
+  name: 589_美国-9.40MB
   network: tcp
   port: 52295
   server: 20.24.83.48
@@ -4134,6 +4123,17 @@ proxies:
   uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620
   ws-headers:
     host: 20.24.83.48
+- alterId: 2
+  cipher: auto
+  name: 590_美国-7.06MB
+  network: tcp
+  port: 52332
+  server: 20.222.99.132
+  tls: 0
+  type: vmess
+  uuid: 0b45deb3-5a74-38a1-bf59-4e45caf2a620
+  ws-headers:
+    host: 20.222.99.132
 - name: 591_美国-1.97MB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
@@ -6977,7 +6977,17 @@ proxies:
   port: '443'
   server: 730tw01.ok365.cyou
   type: trojan
-- name: 1037_荷兰-856.8KB
+- name: 1037_新加坡-276.3KB
+  password: 9c7a49a2-ddff-4654-925b-baa7913dbc56
+  port: '443'
+  server: hk.v206.top
+  type: trojan
+- name: 1038_越南-5.83MB
+  password: 2ad895a4-90e1-460d-9291-bbfb3463190e
+  port: '28443'
+  server: 103.173.255.234
+  type: trojan
+- name: 1039_荷兰-856.8KB
   password: dbdd4673-06e7-4a53-adb7-aa4232df529e
   port: '44616'
   server: 150.230.23.0
@@ -7574,8 +7584,8 @@ proxy-groups:
   - 586_美国-8.63MB
   - 587_美国-9.30MB
   - 588_美国-6.74MB
-  - 589_美国-5.99MB
-  - 590_美国-9.40MB
+  - 589_美国-9.40MB
+  - 590_美国-7.06MB
   - 591_美国-1.97MB
   - 592_美国-1.41MB
   - 593_美国-2.71MB
@@ -8022,7 +8032,9 @@ proxy-groups:
   - 1034_法国-613.5KB
   - 1035_新加坡-2.58MB
   - 1036_新加坡-2.81MB
-  - 1037_荷兰-856.8KB
+  - 1037_新加坡-276.3KB
+  - 1038_越南-5.83MB
+  - 1039_荷兰-856.8KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -8616,8 +8628,8 @@ proxy-groups:
   - 586_美国-8.63MB
   - 587_美国-9.30MB
   - 588_美国-6.74MB
-  - 589_美国-5.99MB
-  - 590_美国-9.40MB
+  - 589_美国-9.40MB
+  - 590_美国-7.06MB
   - 591_美国-1.97MB
   - 592_美国-1.41MB
   - 593_美国-2.71MB
@@ -9064,7 +9076,9 @@ proxy-groups:
   - 1034_法国-613.5KB
   - 1035_新加坡-2.58MB
   - 1036_新加坡-2.81MB
-  - 1037_荷兰-856.8KB
+  - 1037_新加坡-276.3KB
+  - 1038_越南-5.83MB
+  - 1039_荷兰-856.8KB
   type: select
 - name: Final
   proxies:
@@ -9667,8 +9681,8 @@ proxy-groups:
   - 586_美国-8.63MB
   - 587_美国-9.30MB
   - 588_美国-6.74MB
-  - 589_美国-5.99MB
-  - 590_美国-9.40MB
+  - 589_美国-9.40MB
+  - 590_美国-7.06MB
   - 591_美国-1.97MB
   - 592_美国-1.41MB
   - 593_美国-2.71MB
@@ -10115,7 +10129,9 @@ proxy-groups:
   - 1034_法国-613.5KB
   - 1035_新加坡-2.58MB
   - 1036_新加坡-2.81MB
-  - 1037_荷兰-856.8KB
+  - 1037_新加坡-276.3KB
+  - 1038_越南-5.83MB
+  - 1039_荷兰-856.8KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -10708,8 +10724,8 @@ proxy-groups:
   - 586_美国-8.63MB
   - 587_美国-9.30MB
   - 588_美国-6.74MB
-  - 589_美国-5.99MB
-  - 590_美国-9.40MB
+  - 589_美国-9.40MB
+  - 590_美国-7.06MB
   - 591_美国-1.97MB
   - 592_美国-1.41MB
   - 593_美国-2.71MB
@@ -11156,7 +11172,9 @@ proxy-groups:
   - 1034_法国-613.5KB
   - 1035_新加坡-2.58MB
   - 1036_新加坡-2.81MB
-  - 1037_荷兰-856.8KB
+  - 1037_新加坡-276.3KB
+  - 1038_越南-5.83MB
+  - 1039_荷兰-856.8KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
