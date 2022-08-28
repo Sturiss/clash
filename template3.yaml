@@ -2329,65 +2329,65 @@ proxies:
   port: '6014'
   server: 120.233.24.162
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 382_中国-18.84MB
-  password: b725df014956e837936b4fa5dbf88f04
-  port: 8002/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D924af1d4735e.microsoft.com
-  server: debian10.domainsv3.com
-  type: ss
 - cipher: aes-128-gcm
-  name: 383_中国-3.43MB
+  name: 382_中国-3.43MB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6030'
   server: yum-y.update.mipglxi.cn
   type: ss
 - cipher: aes-128-gcm
-  name: 384_中国-594.1KB
+  name: 383_中国-594.1KB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6002'
   server: 120.233.24.162
   type: ss
 - cipher: aes-128-gcm
-  name: 385_中国-584.0KB
+  name: 384_中国-584.0KB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6029'
   server: 120.233.24.162
   type: ss
 - cipher: aes-128-gcm
-  name: 386_中国-1.12MB
+  name: 385_中国-1.12MB
   password: 9c072decffd326dfe7976480e8792404
   port: 8745/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D924af1d4735e.microsoft.com
   server: centos8.expirationv3.com
   type: ss
 - cipher: aes-128-gcm
-  name: 387_中国-777.2KB
+  name: 386_中国-777.2KB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6005'
   server: 120.233.24.162
   type: ss
 - cipher: aes-128-gcm
-  name: 388_中国-4.34MB
+  name: 387_中国-4.34MB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6001'
   server: 120.233.24.162
   type: ss
 - cipher: aes-128-gcm
-  name: 389_中国-9.87MB
+  name: 388_中国-9.87MB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6007'
   server: 120.233.24.162
   type: ss
 - cipher: aes-128-gcm
-  name: 390_中国-390.4KB
+  name: 389_中国-390.4KB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6004'
   server: yum-y.update.mipglxi.cn
   type: ss
 - cipher: aes-128-gcm
-  name: 391_中国-716.2KB
+  name: 390_中国-716.2KB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6013'
   server: 120.233.24.162
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 391_中国-8.55MB
+  password: b725df014956e837936b4fa5dbf88f04
+  port: 8002/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D924af1d4735e.microsoft.com
+  server: debian10.domainsv3.com
   type: ss
 - alterId: 4
   cipher: auto
@@ -5713,18 +5713,7 @@ proxies:
     host: 139.59.244.143
 - alterId: 0
   cipher: auto
-  name: 917_马来西亚-842.6KB
-  network: tcp
-  port: 51919
-  server: 103.159.132.100
-  tls: 0
-  type: vmess
-  uuid: 35e0c4cb-2caa-4c09-cb85-cb26c2cb06b9
-  ws-headers:
-    host: 103.159.132.100
-- alterId: 0
-  cipher: auto
-  name: 918_韩国-8.67MB
+  name: 917_韩国-8.67MB
   network: tcp
   port: 37121
   server: m4.40010010.xyz
@@ -5733,6 +5722,17 @@ proxies:
   uuid: 575e4d92-1056-44c2-8cac-75ef1c859ad5
   ws-headers:
     host: m4.40010010.xyz
+- alterId: 0
+  cipher: auto
+  name: 918_马来西亚-219.7KB
+  network: tcp
+  port: 51919
+  server: 103.159.132.100
+  tls: 0
+  type: vmess
+  uuid: 35e0c4cb-2caa-4c09-cb85-cb26c2cb06b9
+  ws-headers:
+    host: 103.159.132.100
 - name: 919_俄罗斯联邦-847.5KB
   password: f0521113-222b-3cf3-996a-d2f362b9f970
   port: '1200'
@@ -6298,16 +6298,16 @@ proxy-groups:
   - 379_中国-248.3KB
   - 380_中国-281.8KB
   - 381_中国-176.4KB
-  - 382_中国-18.84MB
-  - 383_中国-3.43MB
-  - 384_中国-594.1KB
-  - 385_中国-584.0KB
-  - 386_中国-1.12MB
-  - 387_中国-777.2KB
-  - 388_中国-4.34MB
-  - 389_中国-9.87MB
-  - 390_中国-390.4KB
-  - 391_中国-716.2KB
+  - 382_中国-3.43MB
+  - 383_中国-594.1KB
+  - 384_中国-584.0KB
+  - 385_中国-1.12MB
+  - 386_中国-777.2KB
+  - 387_中国-4.34MB
+  - 388_中国-9.87MB
+  - 389_中国-390.4KB
+  - 390_中国-716.2KB
+  - 391_中国-8.55MB
   - 392_中国-316.6KB
   - 393_中国-453.2KB
   - 394_中国-564.3KB
@@ -6833,8 +6833,8 @@ proxy-groups:
   - 914_未知国家-687.5KB
   - 915_英国-1.57MB
   - 916_新加坡-217.6KB
-  - 917_马来西亚-842.6KB
-  - 918_韩国-8.67MB
+  - 917_韩国-8.67MB
+  - 918_马来西亚-219.7KB
   - 919_俄罗斯联邦-847.5KB
   - 920_德国-2.55MB
   - 921_韩国-9.66MB
@@ -7257,16 +7257,16 @@ proxy-groups:
   - 379_中国-248.3KB
   - 380_中国-281.8KB
   - 381_中国-176.4KB
-  - 382_中国-18.84MB
-  - 383_中国-3.43MB
-  - 384_中国-594.1KB
-  - 385_中国-584.0KB
-  - 386_中国-1.12MB
-  - 387_中国-777.2KB
-  - 388_中国-4.34MB
-  - 389_中国-9.87MB
-  - 390_中国-390.4KB
-  - 391_中国-716.2KB
+  - 382_中国-3.43MB
+  - 383_中国-594.1KB
+  - 384_中国-584.0KB
+  - 385_中国-1.12MB
+  - 386_中国-777.2KB
+  - 387_中国-4.34MB
+  - 388_中国-9.87MB
+  - 389_中国-390.4KB
+  - 390_中国-716.2KB
+  - 391_中国-8.55MB
   - 392_中国-316.6KB
   - 393_中国-453.2KB
   - 394_中国-564.3KB
@@ -7792,8 +7792,8 @@ proxy-groups:
   - 914_未知国家-687.5KB
   - 915_英国-1.57MB
   - 916_新加坡-217.6KB
-  - 917_马来西亚-842.6KB
-  - 918_韩国-8.67MB
+  - 917_韩国-8.67MB
+  - 918_马来西亚-219.7KB
   - 919_俄罗斯联邦-847.5KB
   - 920_德国-2.55MB
   - 921_韩国-9.66MB
@@ -8225,16 +8225,16 @@ proxy-groups:
   - 379_中国-248.3KB
   - 380_中国-281.8KB
   - 381_中国-176.4KB
-  - 382_中国-18.84MB
-  - 383_中国-3.43MB
-  - 384_中国-594.1KB
-  - 385_中国-584.0KB
-  - 386_中国-1.12MB
-  - 387_中国-777.2KB
-  - 388_中国-4.34MB
-  - 389_中国-9.87MB
-  - 390_中国-390.4KB
-  - 391_中国-716.2KB
+  - 382_中国-3.43MB
+  - 383_中国-594.1KB
+  - 384_中国-584.0KB
+  - 385_中国-1.12MB
+  - 386_中国-777.2KB
+  - 387_中国-4.34MB
+  - 388_中国-9.87MB
+  - 389_中国-390.4KB
+  - 390_中国-716.2KB
+  - 391_中国-8.55MB
   - 392_中国-316.6KB
   - 393_中国-453.2KB
   - 394_中国-564.3KB
@@ -8760,8 +8760,8 @@ proxy-groups:
   - 914_未知国家-687.5KB
   - 915_英国-1.57MB
   - 916_新加坡-217.6KB
-  - 917_马来西亚-842.6KB
-  - 918_韩国-8.67MB
+  - 917_韩国-8.67MB
+  - 918_马来西亚-219.7KB
   - 919_俄罗斯联邦-847.5KB
   - 920_德国-2.55MB
   - 921_韩国-9.66MB
@@ -9183,16 +9183,16 @@ proxy-groups:
   - 379_中国-248.3KB
   - 380_中国-281.8KB
   - 381_中国-176.4KB
-  - 382_中国-18.84MB
-  - 383_中国-3.43MB
-  - 384_中国-594.1KB
-  - 385_中国-584.0KB
-  - 386_中国-1.12MB
-  - 387_中国-777.2KB
-  - 388_中国-4.34MB
-  - 389_中国-9.87MB
-  - 390_中国-390.4KB
-  - 391_中国-716.2KB
+  - 382_中国-3.43MB
+  - 383_中国-594.1KB
+  - 384_中国-584.0KB
+  - 385_中国-1.12MB
+  - 386_中国-777.2KB
+  - 387_中国-4.34MB
+  - 388_中国-9.87MB
+  - 389_中国-390.4KB
+  - 390_中国-716.2KB
+  - 391_中国-8.55MB
   - 392_中国-316.6KB
   - 393_中国-453.2KB
   - 394_中国-564.3KB
@@ -9718,8 +9718,8 @@ proxy-groups:
   - 914_未知国家-687.5KB
   - 915_英国-1.57MB
   - 916_新加坡-217.6KB
-  - 917_马来西亚-842.6KB
-  - 918_韩国-8.67MB
+  - 917_韩国-8.67MB
+  - 918_马来西亚-219.7KB
   - 919_俄罗斯联邦-847.5KB
   - 920_德国-2.55MB
   - 921_韩国-9.66MB
