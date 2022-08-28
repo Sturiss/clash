@@ -2299,22 +2299,22 @@ proxies:
   port: '6028'
   server: yum-y.update.mipglxi.cn
   type: ss
-- cipher: aes-128-gcm
-  name: 377_中国-3.26MB
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: '6029'
-  server: yum-y.update.mipglxi.cn
-  type: ss
 - cipher: aes-256-gcm
-  name: 378_中国-14.54MB
+  name: 377_中国-14.54MB
   password: 2bf86435908573620556efdd3a4883ad
   port: 9201/?plugin=simple-obfs%3Bobfs%3Dhttp%3Bobfs-host%3D924af1d4735e.microsoft.com
   server: linux.nameserversv3.com
   type: ss
 - cipher: aes-128-gcm
-  name: 379_中国-404.9KB
+  name: 378_中国-404.9KB
   password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
   port: '6009'
+  server: yum-y.update.mipglxi.cn
+  type: ss
+- cipher: aes-128-gcm
+  name: 379_中国-3.26MB
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: '6029'
   server: yum-y.update.mipglxi.cn
   type: ss
 - alterId: 4
@@ -2883,52 +2883,52 @@ proxies:
   server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
-  name: 460_美国-1.22MB
-  password: KixLvKzwjekG00rm
-  port: '5500'
-  server: 38.68.135.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 461_美国-730.3KB
+  name: 460_美国-730.3KB
   password: PCnnH6SQSnfoS27
   port: '8090'
   server: 38.68.135.18
   type: ss
 - cipher: aes-256-gcm
-  name: 462_美国-1.54MB
+  name: 461_美国-1.54MB
   password: e4FCWrgpkji3QY
   port: '9101'
   server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
-  name: 463_美国-335.0KB
+  name: 462_美国-335.0KB
   password: KixLvKzwjekG00rm
   port: '5500'
   server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
-  name: 464_美国-1.43MB
+  name: 463_美国-1.43MB
   password: XKFKl2rULjIp74
   port: '8009'
   server: 38.121.43.204
   type: ss
 - cipher: aes-256-gcm
-  name: 465_美国-512.4KB
-  password: Y6R9pAtvxxzmGC
-  port: '5601'
-  server: 38.68.135.18
-  type: ss
-- cipher: aes-256-gcm
-  name: 466_美国-845.6KB
+  name: 464_美国-845.6KB
   password: TEzjfAYq2IjtuoS
   port: '6697'
   server: 38.68.135.18
   type: ss
 - cipher: aes-256-gcm
-  name: 467_美国-796.8KB
+  name: 465_美国-796.8KB
   password: PCnnH6SQSnfoS27
   port: '8090'
   server: 38.75.136.34
+  type: ss
+- cipher: aes-256-gcm
+  name: 466_美国-820.4KB
+  password: KixLvKzwjekG00rm
+  port: '5500'
+  server: 38.68.135.18
+  type: ss
+- cipher: aes-256-gcm
+  name: 467_美国-1.14MB
+  password: Y6R9pAtvxxzmGC
+  port: '5601'
+  server: 38.68.135.18
   type: ss
 - alterId: 0
   cipher: auto
@@ -3111,7 +3111,7 @@ proxies:
   port: '23868'
   server: rbobosz.tk
   type: trojan
-- name: 491_美国-3.45MB
+- name: 491_美国-4.03MB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
   server: s3.hazz.win
@@ -5811,15 +5811,15 @@ proxies:
   port: '30003'
   server: cm.spacez.cloud
   type: trojan
-- name: 937_台湾-1.41MB
-  password: 21fa8a10-6d60-42db-b0eb-543e098bcade
-  port: '443'
-  server: 727tw01.ok365.cyou
-  type: trojan
-- name: 938_俄罗斯联邦-2.51MB
+- name: 937_俄罗斯联邦-2.51MB
   password: 21fa8a10-6d60-42db-b0eb-543e098bcade
   port: '443'
   server: 823tw.tfzhc.top
+  type: trojan
+- name: 938_台湾-1.41MB
+  password: 21fa8a10-6d60-42db-b0eb-543e098bcade
+  port: '443'
+  server: 727tw01.ok365.cyou
   type: trojan
 - name: 939_日本-305.1KB
   password: 47bae806-9eb9-46b2-b17e-c15f63a10f86
@@ -6211,9 +6211,9 @@ proxy-groups:
   - 374_中国-1.99MB
   - 375_中国-487.6KB
   - 376_中国-1.08MB
-  - 377_中国-3.26MB
-  - 378_中国-14.54MB
-  - 379_中国-404.9KB
+  - 377_中国-14.54MB
+  - 378_中国-404.9KB
+  - 379_中国-3.26MB
   - 380_中国-316.6KB
   - 381_中国-453.2KB
   - 382_中国-564.3KB
@@ -6294,14 +6294,14 @@ proxy-groups:
   - 457_美国-343.7KB
   - 458_美国-1.59MB
   - 459_美国-975.4KB
-  - 460_美国-1.22MB
-  - 461_美国-730.3KB
-  - 462_美国-1.54MB
-  - 463_美国-335.0KB
-  - 464_美国-1.43MB
-  - 465_美国-512.4KB
-  - 466_美国-845.6KB
-  - 467_美国-796.8KB
+  - 460_美国-730.3KB
+  - 461_美国-1.54MB
+  - 462_美国-335.0KB
+  - 463_美国-1.43MB
+  - 464_美国-845.6KB
+  - 465_美国-796.8KB
+  - 466_美国-820.4KB
+  - 467_美国-1.14MB
   - 468_美国-1.77MB
   - 469_美国-1.22MB
   - 470_美国-2.78MB
@@ -6325,7 +6325,7 @@ proxy-groups:
   - 488_美国-13.92MB
   - 489_美国-427.2KB
   - 490_美国-1.11MB
-  - 491_美国-3.45MB
+  - 491_美国-4.03MB
   - 492_新加坡-484.1KB/s
   - 493_新加坡-423.3KB/s
   - 494_新加坡-547.7KB/s
@@ -6771,8 +6771,8 @@ proxy-groups:
   - 934_台湾-2.84MB
   - 935_德国-3.65MB
   - 936_德国-3.32MB
-  - 937_台湾-1.41MB
-  - 938_俄罗斯联邦-2.51MB
+  - 937_俄罗斯联邦-2.51MB
+  - 938_台湾-1.41MB
   - 939_日本-305.1KB
   - 940_日本-2.49MB
   type: url-test
@@ -7156,9 +7156,9 @@ proxy-groups:
   - 374_中国-1.99MB
   - 375_中国-487.6KB
   - 376_中国-1.08MB
-  - 377_中国-3.26MB
-  - 378_中国-14.54MB
-  - 379_中国-404.9KB
+  - 377_中国-14.54MB
+  - 378_中国-404.9KB
+  - 379_中国-3.26MB
   - 380_中国-316.6KB
   - 381_中国-453.2KB
   - 382_中国-564.3KB
@@ -7239,14 +7239,14 @@ proxy-groups:
   - 457_美国-343.7KB
   - 458_美国-1.59MB
   - 459_美国-975.4KB
-  - 460_美国-1.22MB
-  - 461_美国-730.3KB
-  - 462_美国-1.54MB
-  - 463_美国-335.0KB
-  - 464_美国-1.43MB
-  - 465_美国-512.4KB
-  - 466_美国-845.6KB
-  - 467_美国-796.8KB
+  - 460_美国-730.3KB
+  - 461_美国-1.54MB
+  - 462_美国-335.0KB
+  - 463_美国-1.43MB
+  - 464_美国-845.6KB
+  - 465_美国-796.8KB
+  - 466_美国-820.4KB
+  - 467_美国-1.14MB
   - 468_美国-1.77MB
   - 469_美国-1.22MB
   - 470_美国-2.78MB
@@ -7270,7 +7270,7 @@ proxy-groups:
   - 488_美国-13.92MB
   - 489_美国-427.2KB
   - 490_美国-1.11MB
-  - 491_美国-3.45MB
+  - 491_美国-4.03MB
   - 492_新加坡-484.1KB/s
   - 493_新加坡-423.3KB/s
   - 494_新加坡-547.7KB/s
@@ -7716,8 +7716,8 @@ proxy-groups:
   - 934_台湾-2.84MB
   - 935_德国-3.65MB
   - 936_德国-3.32MB
-  - 937_台湾-1.41MB
-  - 938_俄罗斯联邦-2.51MB
+  - 937_俄罗斯联邦-2.51MB
+  - 938_台湾-1.41MB
   - 939_日本-305.1KB
   - 940_日本-2.49MB
   type: select
@@ -8110,9 +8110,9 @@ proxy-groups:
   - 374_中国-1.99MB
   - 375_中国-487.6KB
   - 376_中国-1.08MB
-  - 377_中国-3.26MB
-  - 378_中国-14.54MB
-  - 379_中国-404.9KB
+  - 377_中国-14.54MB
+  - 378_中国-404.9KB
+  - 379_中国-3.26MB
   - 380_中国-316.6KB
   - 381_中国-453.2KB
   - 382_中国-564.3KB
@@ -8193,14 +8193,14 @@ proxy-groups:
   - 457_美国-343.7KB
   - 458_美国-1.59MB
   - 459_美国-975.4KB
-  - 460_美国-1.22MB
-  - 461_美国-730.3KB
-  - 462_美国-1.54MB
-  - 463_美国-335.0KB
-  - 464_美国-1.43MB
-  - 465_美国-512.4KB
-  - 466_美国-845.6KB
-  - 467_美国-796.8KB
+  - 460_美国-730.3KB
+  - 461_美国-1.54MB
+  - 462_美国-335.0KB
+  - 463_美国-1.43MB
+  - 464_美国-845.6KB
+  - 465_美国-796.8KB
+  - 466_美国-820.4KB
+  - 467_美国-1.14MB
   - 468_美国-1.77MB
   - 469_美国-1.22MB
   - 470_美国-2.78MB
@@ -8224,7 +8224,7 @@ proxy-groups:
   - 488_美国-13.92MB
   - 489_美国-427.2KB
   - 490_美国-1.11MB
-  - 491_美国-3.45MB
+  - 491_美国-4.03MB
   - 492_新加坡-484.1KB/s
   - 493_新加坡-423.3KB/s
   - 494_新加坡-547.7KB/s
@@ -8670,8 +8670,8 @@ proxy-groups:
   - 934_台湾-2.84MB
   - 935_德国-3.65MB
   - 936_德国-3.32MB
-  - 937_台湾-1.41MB
-  - 938_俄罗斯联邦-2.51MB
+  - 937_俄罗斯联邦-2.51MB
+  - 938_台湾-1.41MB
   - 939_日本-305.1KB
   - 940_日本-2.49MB
   type: select
@@ -9054,9 +9054,9 @@ proxy-groups:
   - 374_中国-1.99MB
   - 375_中国-487.6KB
   - 376_中国-1.08MB
-  - 377_中国-3.26MB
-  - 378_中国-14.54MB
-  - 379_中国-404.9KB
+  - 377_中国-14.54MB
+  - 378_中国-404.9KB
+  - 379_中国-3.26MB
   - 380_中国-316.6KB
   - 381_中国-453.2KB
   - 382_中国-564.3KB
@@ -9137,14 +9137,14 @@ proxy-groups:
   - 457_美国-343.7KB
   - 458_美国-1.59MB
   - 459_美国-975.4KB
-  - 460_美国-1.22MB
-  - 461_美国-730.3KB
-  - 462_美国-1.54MB
-  - 463_美国-335.0KB
-  - 464_美国-1.43MB
-  - 465_美国-512.4KB
-  - 466_美国-845.6KB
-  - 467_美国-796.8KB
+  - 460_美国-730.3KB
+  - 461_美国-1.54MB
+  - 462_美国-335.0KB
+  - 463_美国-1.43MB
+  - 464_美国-845.6KB
+  - 465_美国-796.8KB
+  - 466_美国-820.4KB
+  - 467_美国-1.14MB
   - 468_美国-1.77MB
   - 469_美国-1.22MB
   - 470_美国-2.78MB
@@ -9168,7 +9168,7 @@ proxy-groups:
   - 488_美国-13.92MB
   - 489_美国-427.2KB
   - 490_美国-1.11MB
-  - 491_美国-3.45MB
+  - 491_美国-4.03MB
   - 492_新加坡-484.1KB/s
   - 493_新加坡-423.3KB/s
   - 494_新加坡-547.7KB/s
@@ -9614,8 +9614,8 @@ proxy-groups:
   - 934_台湾-2.84MB
   - 935_德国-3.65MB
   - 936_德国-3.32MB
-  - 937_台湾-1.41MB
-  - 938_俄罗斯联邦-2.51MB
+  - 937_俄罗斯联邦-2.51MB
+  - 938_台湾-1.41MB
   - 939_日本-305.1KB
   - 940_日本-2.49MB
   type: select
