@@ -3184,34 +3184,34 @@ proxies:
   server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
-  name: 499_美国-1.20MB
-  password: RexnBgU7EV5ADxG
-  port: '7001'
-  server: 38.91.107.37
-  type: ss
-- cipher: aes-256-gcm
-  name: 500_美国-439.7KB
+  name: 499_美国-439.7KB
   password: PCnnH6SQSnfoS27
   port: '8091'
   server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
-  name: 501_美国-609.9KB
+  name: 500_美国-609.9KB
   password: PCnnH6SQSnfoS27
   port: '8090'
   server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
-  name: 502_美国-1.85MB
+  name: 501_美国-1.85MB
   password: faBAoD54k87UJG7
   port: '2375'
   server: 38.121.43.65
   type: ss
 - cipher: aes-256-gcm
-  name: 503_美国-687.2KB
+  name: 502_美国-687.2KB
   password: KixLvKzwjekG00rm
   port: '8080'
   server: 38.75.136.34
+  type: ss
+- cipher: aes-256-gcm
+  name: 503_美国-1.08MB
+  password: RexnBgU7EV5ADxG
+  port: '7001'
+  server: 38.91.107.37
   type: ss
 - alterId: 0
   cipher: auto
@@ -6109,11 +6109,18 @@ proxies:
   ws-headers:
     host: sony.saog.buzz
   ws-path: /support
-- name: 959_俄罗斯联邦-847.5KB
-  password: f0521113-222b-3cf3-996a-d2f362b9f970
-  port: '1200'
-  server: ru1.nodegz.top
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 959_未知国家-783.3KB
+  network: ws
+  port: 888
+  server: us-nyc-ctg-04-v2.nodes.cjhh.one
+  tls: 1
+  type: vmess
+  uuid: fbc2efb0-786a-4074-81ea-8ab12ca5422c
+  ws-headers:
+    host: us-nyc-ctg-04-v2.nodes.cjhh.one
+  ws-path: /je5x3pBN1vez3NQudNkB
 - name: 960_德国-2.55MB
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   port: '443'
@@ -6826,11 +6833,11 @@ proxy-groups:
   - 496_美国-462.9KB
   - 497_美国-887.7KB
   - 498_美国-316.4KB
-  - 499_美国-1.20MB
-  - 500_美国-439.7KB
-  - 501_美国-609.9KB
-  - 502_美国-1.85MB
-  - 503_美国-687.2KB
+  - 499_美国-439.7KB
+  - 500_美国-609.9KB
+  - 501_美国-1.85MB
+  - 502_美国-687.2KB
+  - 503_美国-1.08MB
   - 504_美国-1.22MB
   - 505_美国-2.78MB
   - 506_美国-1.62MB
@@ -7286,7 +7293,7 @@ proxy-groups:
   - 956_未知国家-3.81MB
   - 957_日本-5.23MB
   - 958_新加坡-2.80MB
-  - 959_俄罗斯联邦-847.5KB
+  - 959_未知国家-783.3KB
   - 960_德国-2.55MB
   - 961_韩国-9.66MB
   - 962_台湾-2.88MB
@@ -7832,11 +7839,11 @@ proxy-groups:
   - 496_美国-462.9KB
   - 497_美国-887.7KB
   - 498_美国-316.4KB
-  - 499_美国-1.20MB
-  - 500_美国-439.7KB
-  - 501_美国-609.9KB
-  - 502_美国-1.85MB
-  - 503_美国-687.2KB
+  - 499_美国-439.7KB
+  - 500_美国-609.9KB
+  - 501_美国-1.85MB
+  - 502_美国-687.2KB
+  - 503_美国-1.08MB
   - 504_美国-1.22MB
   - 505_美国-2.78MB
   - 506_美国-1.62MB
@@ -8292,7 +8299,7 @@ proxy-groups:
   - 956_未知国家-3.81MB
   - 957_日本-5.23MB
   - 958_新加坡-2.80MB
-  - 959_俄罗斯联邦-847.5KB
+  - 959_未知国家-783.3KB
   - 960_德国-2.55MB
   - 961_韩国-9.66MB
   - 962_台湾-2.88MB
@@ -8847,11 +8854,11 @@ proxy-groups:
   - 496_美国-462.9KB
   - 497_美国-887.7KB
   - 498_美国-316.4KB
-  - 499_美国-1.20MB
-  - 500_美国-439.7KB
-  - 501_美国-609.9KB
-  - 502_美国-1.85MB
-  - 503_美国-687.2KB
+  - 499_美国-439.7KB
+  - 500_美国-609.9KB
+  - 501_美国-1.85MB
+  - 502_美国-687.2KB
+  - 503_美国-1.08MB
   - 504_美国-1.22MB
   - 505_美国-2.78MB
   - 506_美国-1.62MB
@@ -9307,7 +9314,7 @@ proxy-groups:
   - 956_未知国家-3.81MB
   - 957_日本-5.23MB
   - 958_新加坡-2.80MB
-  - 959_俄罗斯联邦-847.5KB
+  - 959_未知国家-783.3KB
   - 960_德国-2.55MB
   - 961_韩国-9.66MB
   - 962_台湾-2.88MB
@@ -9852,11 +9859,11 @@ proxy-groups:
   - 496_美国-462.9KB
   - 497_美国-887.7KB
   - 498_美国-316.4KB
-  - 499_美国-1.20MB
-  - 500_美国-439.7KB
-  - 501_美国-609.9KB
-  - 502_美国-1.85MB
-  - 503_美国-687.2KB
+  - 499_美国-439.7KB
+  - 500_美国-609.9KB
+  - 501_美国-1.85MB
+  - 502_美国-687.2KB
+  - 503_美国-1.08MB
   - 504_美国-1.22MB
   - 505_美国-2.78MB
   - 506_美国-1.62MB
@@ -10312,7 +10319,7 @@ proxy-groups:
   - 956_未知国家-3.81MB
   - 957_日本-5.23MB
   - 958_新加坡-2.80MB
-  - 959_俄罗斯联邦-847.5KB
+  - 959_未知国家-783.3KB
   - 960_德国-2.55MB
   - 961_韩国-9.66MB
   - 962_台湾-2.88MB
