@@ -2972,11 +2972,17 @@ proxies:
   ws-headers:
     host: gz-2.jdweblink.club
   ws-path: /video
-- name: 444_中国-558.8KB
-  password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
-  port: '34002'
-  server: pp1.zhengzhongfeizhu.xyz
-  type: trojan
+- alterId: 0
+  cipher: auto
+  name: 444_中国-3.47MB
+  network: tcp
+  port: 9010
+  server: aliyun.moble.vnupgcn.cn
+  tls: 0
+  type: vmess
+  uuid: 0253b574-8020-3186-a647-0267295ac9bb
+  ws-headers:
+    host: aliyun.moble.vnupgcn.cn
 - name: 445_中国-324.7KB
   password: 177501cc-f0c2-3cc3-b9a7-8c1e8e27655f
   port: '34004'
@@ -3361,7 +3367,7 @@ proxies:
   server: 38.75.136.34
   type: ss
 - cipher: aes-256-gcm
-  name: 516_美国-668.7KB
+  name: 516_美国-1.51MB
   password: e4FCWrgpkji3QY
   port: '9101'
   server: 38.75.136.34
@@ -6446,6 +6452,11 @@ proxies:
   port: '443'
   server: jgw2.gaox.ml
   type: trojan
+- name: 1010_台湾-7.25MB
+  password: d4e21056-d793-4eeb-b3b0-d7751db49d89
+  port: '30000'
+  server: tw01.henet.cyou
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -6893,7 +6904,7 @@ proxy-groups:
   - 441_中国-13.31MB
   - 442_中国-3.00MB
   - 443_中国-7.58MB
-  - 444_中国-558.8KB
+  - 444_中国-3.47MB
   - 445_中国-324.7KB
   - 446_中国-1.08MB
   - 447_中国-329.4KB
@@ -6965,7 +6976,7 @@ proxy-groups:
   - 513_美国-1.19MB
   - 514_美国-1.62MB
   - 515_美国-1.24MB
-  - 516_美国-668.7KB
+  - 516_美国-1.51MB
   - 517_美国-2.78MB
   - 518_美国-1.62MB
   - 519_美国-2.59MB
@@ -7459,6 +7470,7 @@ proxy-groups:
   - 1007_韩国-617.4KB
   - 1008_加拿大-2.38MB
   - 1009_韩国-439.7KB
+  - 1010_台湾-7.25MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7907,7 +7919,7 @@ proxy-groups:
   - 441_中国-13.31MB
   - 442_中国-3.00MB
   - 443_中国-7.58MB
-  - 444_中国-558.8KB
+  - 444_中国-3.47MB
   - 445_中国-324.7KB
   - 446_中国-1.08MB
   - 447_中国-329.4KB
@@ -7979,7 +7991,7 @@ proxy-groups:
   - 513_美国-1.19MB
   - 514_美国-1.62MB
   - 515_美国-1.24MB
-  - 516_美国-668.7KB
+  - 516_美国-1.51MB
   - 517_美国-2.78MB
   - 518_美国-1.62MB
   - 519_美国-2.59MB
@@ -8473,6 +8485,7 @@ proxy-groups:
   - 1007_韩国-617.4KB
   - 1008_加拿大-2.38MB
   - 1009_韩国-439.7KB
+  - 1010_台湾-7.25MB
   type: select
 - name: Final
   proxies:
@@ -8930,7 +8943,7 @@ proxy-groups:
   - 441_中国-13.31MB
   - 442_中国-3.00MB
   - 443_中国-7.58MB
-  - 444_中国-558.8KB
+  - 444_中国-3.47MB
   - 445_中国-324.7KB
   - 446_中国-1.08MB
   - 447_中国-329.4KB
@@ -9002,7 +9015,7 @@ proxy-groups:
   - 513_美国-1.19MB
   - 514_美国-1.62MB
   - 515_美国-1.24MB
-  - 516_美国-668.7KB
+  - 516_美国-1.51MB
   - 517_美国-2.78MB
   - 518_美国-1.62MB
   - 519_美国-2.59MB
@@ -9496,6 +9509,7 @@ proxy-groups:
   - 1007_韩国-617.4KB
   - 1008_加拿大-2.38MB
   - 1009_韩国-439.7KB
+  - 1010_台湾-7.25MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -9943,7 +9957,7 @@ proxy-groups:
   - 441_中国-13.31MB
   - 442_中国-3.00MB
   - 443_中国-7.58MB
-  - 444_中国-558.8KB
+  - 444_中国-3.47MB
   - 445_中国-324.7KB
   - 446_中国-1.08MB
   - 447_中国-329.4KB
@@ -10015,7 +10029,7 @@ proxy-groups:
   - 513_美国-1.19MB
   - 514_美国-1.62MB
   - 515_美国-1.24MB
-  - 516_美国-668.7KB
+  - 516_美国-1.51MB
   - 517_美国-2.78MB
   - 518_美国-1.62MB
   - 519_美国-2.59MB
@@ -10509,6 +10523,7 @@ proxy-groups:
   - 1007_韩国-617.4KB
   - 1008_加拿大-2.38MB
   - 1009_韩国-439.7KB
+  - 1010_台湾-7.25MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
