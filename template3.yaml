@@ -3392,15 +3392,15 @@ proxies:
   port: '443'
   server: sky998dmit3.xyz
   type: trojan
-- name: 514_美国-1.71MB
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: '12340'
-  server: s3.hazz.win
-  type: trojan
-- name: 515_美国-5.24MB
+- name: 514_美国-5.24MB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
   server: s2.hazz.win
+  type: trojan
+- name: 515_美国-6.00MB
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: '12340'
+  server: s3.hazz.win
   type: trojan
 - cipher: aes-256-gcm
   name: 516_新加坡-484.1KB/s
@@ -6249,6 +6249,26 @@ proxies:
   port: '30000'
   server: tw01.henet.cyou
   type: trojan
+- name: 978_香港-4.78MB
+  password: 006bca8c-4e1f-44e0-9399-1cd4ff480a40
+  port: '50350'
+  server: 103.103.245.125
+  type: trojan
+- name: 979_香港-501.1KB
+  password: 789d73af-b985-4778-9872-211047c28015
+  port: '50206'
+  server: 103.103.245.125
+  type: trojan
+- name: 980_香港-4.53MB
+  password: a70b39d1-62ea-4d9e-b681-9c5408352234
+  port: '50418'
+  server: 103.103.245.125
+  type: trojan
+- name: 981_罗马尼亚-1.60MB
+  password: 62b78c9b-16cb-4ee6-824b-a4f856cf18f3
+  port: '443'
+  server: transfer02.kaochangonline.online
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -6766,8 +6786,8 @@ proxy-groups:
   - 511_美国-1.97MB
   - 512_美国-1.56MB
   - 513_美国-365.7KB
-  - 514_美国-1.71MB
-  - 515_美国-5.24MB
+  - 514_美国-5.24MB
+  - 515_美国-6.00MB
   - 516_新加坡-484.1KB/s
   - 517_新加坡-423.3KB/s
   - 518_新加坡-547.7KB/s
@@ -7230,6 +7250,10 @@ proxy-groups:
   - 975_加拿大-2.38MB
   - 976_韩国-439.7KB
   - 977_台湾-7.25MB
+  - 978_香港-4.78MB
+  - 979_香港-501.1KB
+  - 980_香港-4.53MB
+  - 981_罗马尼亚-1.60MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7748,8 +7772,8 @@ proxy-groups:
   - 511_美国-1.97MB
   - 512_美国-1.56MB
   - 513_美国-365.7KB
-  - 514_美国-1.71MB
-  - 515_美国-5.24MB
+  - 514_美国-5.24MB
+  - 515_美国-6.00MB
   - 516_新加坡-484.1KB/s
   - 517_新加坡-423.3KB/s
   - 518_新加坡-547.7KB/s
@@ -8212,6 +8236,10 @@ proxy-groups:
   - 975_加拿大-2.38MB
   - 976_韩国-439.7KB
   - 977_台湾-7.25MB
+  - 978_香港-4.78MB
+  - 979_香港-501.1KB
+  - 980_香港-4.53MB
+  - 981_罗马尼亚-1.60MB
   type: select
 - name: Final
   proxies:
@@ -8739,8 +8767,8 @@ proxy-groups:
   - 511_美国-1.97MB
   - 512_美国-1.56MB
   - 513_美国-365.7KB
-  - 514_美国-1.71MB
-  - 515_美国-5.24MB
+  - 514_美国-5.24MB
+  - 515_美国-6.00MB
   - 516_新加坡-484.1KB/s
   - 517_新加坡-423.3KB/s
   - 518_新加坡-547.7KB/s
@@ -9203,6 +9231,10 @@ proxy-groups:
   - 975_加拿大-2.38MB
   - 976_韩国-439.7KB
   - 977_台湾-7.25MB
+  - 978_香港-4.78MB
+  - 979_香港-501.1KB
+  - 980_香港-4.53MB
+  - 981_罗马尼亚-1.60MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -9720,8 +9752,8 @@ proxy-groups:
   - 511_美国-1.97MB
   - 512_美国-1.56MB
   - 513_美国-365.7KB
-  - 514_美国-1.71MB
-  - 515_美国-5.24MB
+  - 514_美国-5.24MB
+  - 515_美国-6.00MB
   - 516_新加坡-484.1KB/s
   - 517_新加坡-423.3KB/s
   - 518_新加坡-547.7KB/s
@@ -10184,6 +10216,10 @@ proxy-groups:
   - 975_加拿大-2.38MB
   - 976_韩国-439.7KB
   - 977_台湾-7.25MB
+  - 978_香港-4.78MB
+  - 979_香港-501.1KB
+  - 980_香港-4.53MB
+  - 981_罗马尼亚-1.60MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
