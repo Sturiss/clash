@@ -3282,21 +3282,9 @@ proxies:
   uuid: 341a9182-c423-499c-c46e-d17838b29037
   ws-headers:
     host: 129.159.41.233
-- alterId: 4
-  cipher: auto
-  name: 491_美国-3.88MB
-  network: ws
-  port: 443
-  server: 192.96.204.250
-  tls: 1
-  type: vmess
-  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
-  ws-headers:
-    host: 192.96.204.250
-  ws-path: /ws
 - alterId: 0
   cipher: auto
-  name: 492_美国-1.04MB
+  name: 491_美国-1.04MB
   network: tcp
   port: 37558
   server: 45.10.153.188
@@ -3307,7 +3295,7 @@ proxies:
     host: 45.10.153.188
 - alterId: 0
   cipher: auto
-  name: 493_美国-201.1KB
+  name: 492_美国-201.1KB
   network: tcp
   port: 40001
   server: 38.59.224.49
@@ -3318,7 +3306,7 @@ proxies:
     host: 38.59.224.49
 - alterId: 32
   cipher: auto
-  name: 494_美国-989.4KB
+  name: 493_美国-989.4KB
   network: tcp
   port: 443
   server: 51.81.223.32
@@ -3329,7 +3317,7 @@ proxies:
     host: 51.81.223.32
 - alterId: 0
   cipher: auto
-  name: 495_美国-3.12MB
+  name: 494_美国-3.12MB
   network: tcp
   port: 34401
   server: 152.70.136.12
@@ -3340,7 +3328,7 @@ proxies:
     host: 152.70.136.12
 - alterId: 0
   cipher: auto
-  name: 496_美国-2.94MB
+  name: 495_美国-2.94MB
   network: tcp
   port: 46547
   server: 107.173.250.94
@@ -3349,6 +3337,18 @@ proxies:
   uuid: 03d88809-cedd-41ce-e107-7b1c0bf36420
   ws-headers:
     host: 107.173.250.94
+- alterId: 4
+  cipher: auto
+  name: 496_美国-2.78MB
+  network: ws
+  port: 443
+  server: 192.96.204.250
+  tls: 1
+  type: vmess
+  uuid: aba50dd4-5484-3b05-b14a-4661caf862d5
+  ws-headers:
+    host: 192.96.204.250
+  ws-path: /ws
 - name: 497_美国-634.9KB
   password: 770c9e92-f51b-3e52-b932-eba13fb56801
   port: '23802'
@@ -6358,35 +6358,35 @@ proxies:
   port: '443'
   server: 15.236.218.230
   type: trojan
-- name: 990_韩国-458.9KB
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: '443'
-  server: jgw2.gaox.ml
-  type: trojan
-- name: 991_葡萄牙-3.04MB
-  password: 9d846d39-2f5e-3fae-8ad7-239cedc56048
-  port: '45519'
-  server: hl.jiashumao.net
-  type: trojan
-- name: 992_德国-1.46MB
+- name: 990_德国-1.46MB
   password: 4V4kxVXmcg5Yn2DqF2
   port: '443'
   server: ty1-3.nigirocloud.com
   type: trojan
-- name: 993_法国-2.16MB
+- name: 991_法国-2.16MB
   password: iyinglong
   port: '443'
   server: 35.180.122.151
   type: trojan
-- name: 994_英国-3.03MB
+- name: 992_英国-3.03MB
   password: iyinglong
   port: '443'
   server: 3.10.209.85
   type: trojan
-- name: 995_台湾-2.01MB
+- name: 993_台湾-2.01MB
   password: d09d2305-24db-43c4-b309-0e1d2737329f
   port: '443'
   server: 727tw01.ok365.cyou
+  type: trojan
+- name: 994_韩国-450.8KB
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: '443'
+  server: jgw2.gaox.ml
+  type: trojan
+- name: 995_葡萄牙-791.8KB
+  password: 9d846d39-2f5e-3fae-8ad7-239cedc56048
+  port: '45519'
+  server: hl.jiashumao.net
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -6882,12 +6882,12 @@ proxy-groups:
   - 488_美国-3.13MB
   - 489_美国-3.73MB
   - 490_美国-2.39MB
-  - 491_美国-3.88MB
-  - 492_美国-1.04MB
-  - 493_美国-201.1KB
-  - 494_美国-989.4KB
-  - 495_美国-3.12MB
-  - 496_美国-2.94MB
+  - 491_美国-1.04MB
+  - 492_美国-201.1KB
+  - 493_美国-989.4KB
+  - 494_美国-3.12MB
+  - 495_美国-2.94MB
+  - 496_美国-2.78MB
   - 497_美国-634.9KB
   - 498_美国-13.92MB
   - 499_美国-1.48MB
@@ -7381,12 +7381,12 @@ proxy-groups:
   - 987_荷兰-187.1KB
   - 988_香港-3.11MB
   - 989_法国-1.54MB
-  - 990_韩国-458.9KB
-  - 991_葡萄牙-3.04MB
-  - 992_德国-1.46MB
-  - 993_法国-2.16MB
-  - 994_英国-3.03MB
-  - 995_台湾-2.01MB
+  - 990_德国-1.46MB
+  - 991_法国-2.16MB
+  - 992_英国-3.03MB
+  - 993_台湾-2.01MB
+  - 994_韩国-450.8KB
+  - 995_葡萄牙-791.8KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7882,12 +7882,12 @@ proxy-groups:
   - 488_美国-3.13MB
   - 489_美国-3.73MB
   - 490_美国-2.39MB
-  - 491_美国-3.88MB
-  - 492_美国-1.04MB
-  - 493_美国-201.1KB
-  - 494_美国-989.4KB
-  - 495_美国-3.12MB
-  - 496_美国-2.94MB
+  - 491_美国-1.04MB
+  - 492_美国-201.1KB
+  - 493_美国-989.4KB
+  - 494_美国-3.12MB
+  - 495_美国-2.94MB
+  - 496_美国-2.78MB
   - 497_美国-634.9KB
   - 498_美国-13.92MB
   - 499_美国-1.48MB
@@ -8381,12 +8381,12 @@ proxy-groups:
   - 987_荷兰-187.1KB
   - 988_香港-3.11MB
   - 989_法国-1.54MB
-  - 990_韩国-458.9KB
-  - 991_葡萄牙-3.04MB
-  - 992_德国-1.46MB
-  - 993_法国-2.16MB
-  - 994_英国-3.03MB
-  - 995_台湾-2.01MB
+  - 990_德国-1.46MB
+  - 991_法国-2.16MB
+  - 992_英国-3.03MB
+  - 993_台湾-2.01MB
+  - 994_韩国-450.8KB
+  - 995_葡萄牙-791.8KB
   type: select
 - name: Final
   proxies:
@@ -8891,12 +8891,12 @@ proxy-groups:
   - 488_美国-3.13MB
   - 489_美国-3.73MB
   - 490_美国-2.39MB
-  - 491_美国-3.88MB
-  - 492_美国-1.04MB
-  - 493_美国-201.1KB
-  - 494_美国-989.4KB
-  - 495_美国-3.12MB
-  - 496_美国-2.94MB
+  - 491_美国-1.04MB
+  - 492_美国-201.1KB
+  - 493_美国-989.4KB
+  - 494_美国-3.12MB
+  - 495_美国-2.94MB
+  - 496_美国-2.78MB
   - 497_美国-634.9KB
   - 498_美国-13.92MB
   - 499_美国-1.48MB
@@ -9390,12 +9390,12 @@ proxy-groups:
   - 987_荷兰-187.1KB
   - 988_香港-3.11MB
   - 989_法国-1.54MB
-  - 990_韩国-458.9KB
-  - 991_葡萄牙-3.04MB
-  - 992_德国-1.46MB
-  - 993_法国-2.16MB
-  - 994_英国-3.03MB
-  - 995_台湾-2.01MB
+  - 990_德国-1.46MB
+  - 991_法国-2.16MB
+  - 992_英国-3.03MB
+  - 993_台湾-2.01MB
+  - 994_韩国-450.8KB
+  - 995_葡萄牙-791.8KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -9890,12 +9890,12 @@ proxy-groups:
   - 488_美国-3.13MB
   - 489_美国-3.73MB
   - 490_美国-2.39MB
-  - 491_美国-3.88MB
-  - 492_美国-1.04MB
-  - 493_美国-201.1KB
-  - 494_美国-989.4KB
-  - 495_美国-3.12MB
-  - 496_美国-2.94MB
+  - 491_美国-1.04MB
+  - 492_美国-201.1KB
+  - 493_美国-989.4KB
+  - 494_美国-3.12MB
+  - 495_美国-2.94MB
+  - 496_美国-2.78MB
   - 497_美国-634.9KB
   - 498_美国-13.92MB
   - 499_美国-1.48MB
@@ -10389,12 +10389,12 @@ proxy-groups:
   - 987_荷兰-187.1KB
   - 988_香港-3.11MB
   - 989_法国-1.54MB
-  - 990_韩国-458.9KB
-  - 991_葡萄牙-3.04MB
-  - 992_德国-1.46MB
-  - 993_法国-2.16MB
-  - 994_英国-3.03MB
-  - 995_台湾-2.01MB
+  - 990_德国-1.46MB
+  - 991_法国-2.16MB
+  - 992_英国-3.03MB
+  - 993_台湾-2.01MB
+  - 994_韩国-450.8KB
+  - 995_葡萄牙-791.8KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
