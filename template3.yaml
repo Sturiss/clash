@@ -2474,51 +2474,51 @@ proxies:
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 406_中国-547.8KB
-  password: QazEdcTgb159@$*
-  port: '11007'
-  server: 14.29.124.174
-  type: ss
-- cipher: aes-128-cfb
-  name: 407_中国-492.3KB
+  name: 406_中国-492.3KB
   password: QazEdcTgb159@$*
   port: '11041'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 408_中国-301.3KB
+  name: 407_中国-301.3KB
   password: QazEdcTgb159@$*
   port: '11008'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 409_中国-581.2KB
+  name: 408_中国-581.2KB
   password: QazEdcTgb159@$*
   port: '11020'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 410_中国-561.2KB
+  name: 409_中国-561.2KB
   password: QazEdcTgb159@$*
   port: '11048'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 411_中国-546.7KB
+  name: 410_中国-546.7KB
   password: QazEdcTgb159@$*
   port: '11044'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 412_中国-575.8KB
+  name: 411_中国-575.8KB
   password: QazEdcTgb159@$*
   port: '11049'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 413_中国-529.6KB
+  name: 412_中国-529.6KB
   password: QazEdcTgb159@$*
   port: '11050'
+  server: 14.29.124.174
+  type: ss
+- cipher: aes-128-cfb
+  name: 413_中国-544.6KB
+  password: QazEdcTgb159@$*
+  port: '11007'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
@@ -2795,25 +2795,25 @@ proxies:
   port: '30600'
   server: ZGDX-VDS-01.PLNODE.XYZ
   type: trojan
-- name: 443_中国-2.12MB
-  password: 2b081d38-87eb-4fd5-b4c8-6b0e6b3abd47
-  port: '30603'
-  server: ZGDX-VDS-01.PLNODE.XYZ
-  type: trojan
-- name: 444_中国-12.23MB
+- name: 443_中国-12.23MB
   password: 2b081d38-87eb-4fd5-b4c8-6b0e6b3abd47
   port: '30602'
   server: ZGDX-VDS-01.PLNODE.XYZ
   type: trojan
-- name: 445_中国-10.16MB
+- name: 444_中国-10.16MB
   password: 2b081d38-87eb-4fd5-b4c8-6b0e6b3abd47
   port: '20601'
   server: QZYD-NODE-01.PL2020.XYZ
   type: trojan
-- name: 446_中国-10.70MB
+- name: 445_中国-10.70MB
   password: 2b081d38-87eb-4fd5-b4c8-6b0e6b3abd47
   port: '20600'
   server: QZYD-NODE-01.PL2020.XYZ
+  type: trojan
+- name: 446_中国-13.09MB
+  password: 2b081d38-87eb-4fd5-b4c8-6b0e6b3abd47
+  port: '30603'
+  server: ZGDX-VDS-01.PLNODE.XYZ
   type: trojan
 - cipher: aes-256-gcm
   name: 447_美国-643.9KB
@@ -2935,17 +2935,17 @@ proxies:
   port: '443'
   server: 156.146.38.163
   type: ss
-- cipher: aes-256-gcm
-  name: 467_美国-729.4KB
-  password: KixLvKzwjekG00rm
-  port: '5500'
-  server: 38.91.107.72
-  type: ss
 - cipher: aes-256-cfb
-  name: 468_美国-3.32MB
+  name: 467_美国-3.32MB
   password: bwhskrskr05
   port: '246'
   server: 172.96.192.100
+  type: ss
+- cipher: aes-256-gcm
+  name: 468_美国-1.59MB
+  password: KixLvKzwjekG00rm
+  port: '5500'
+  server: 38.91.107.72
   type: ss
 - alterId: 0
   cipher: auto
@@ -6123,6 +6123,11 @@ proxies:
   port: '443'
   server: kr1.api-aws.com
   type: trojan
+- name: 987_新加坡-360.1KB
+  password: iyinglong
+  port: '443'
+  server: 54.179.182.190
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -6532,14 +6537,14 @@ proxy-groups:
   - 403_中国-474.6KB
   - 404_中国-541.6KB
   - 405_中国-413.0KB
-  - 406_中国-547.8KB
-  - 407_中国-492.3KB
-  - 408_中国-301.3KB
-  - 409_中国-581.2KB
-  - 410_中国-561.2KB
-  - 411_中国-546.7KB
-  - 412_中国-575.8KB
-  - 413_中国-529.6KB
+  - 406_中国-492.3KB
+  - 407_中国-301.3KB
+  - 408_中国-581.2KB
+  - 409_中国-561.2KB
+  - 410_中国-546.7KB
+  - 411_中国-575.8KB
+  - 412_中国-529.6KB
+  - 413_中国-544.6KB
   - 414_中国-371.9KB
   - 415_中国-11.26MB
   - 416_中国-317.5KB
@@ -6569,10 +6574,10 @@ proxy-groups:
   - 440_中国-8.93MB
   - 441_中国-11.16MB
   - 442_中国-14.22MB
-  - 443_中国-2.12MB
-  - 444_中国-12.23MB
-  - 445_中国-10.16MB
-  - 446_中国-10.70MB
+  - 443_中国-12.23MB
+  - 444_中国-10.16MB
+  - 445_中国-10.70MB
+  - 446_中国-13.09MB
   - 447_美国-643.9KB
   - 448_美国-503.2KB
   - 449_美国-361.6KB
@@ -6593,8 +6598,8 @@ proxy-groups:
   - 464_美国-4.98MB
   - 465_美国-3.07MB
   - 466_美国-3.91MB
-  - 467_美国-729.4KB
-  - 468_美国-3.32MB
+  - 467_美国-3.32MB
+  - 468_美国-1.59MB
   - 469_美国-3.13MB
   - 470_美国-2.39MB
   - 471_美国-2.94MB
@@ -7113,6 +7118,7 @@ proxy-groups:
   - 984_香港-581.0KB
   - 985_韩国-893.7KB
   - 986_韩国-1.78MB
+  - 987_新加坡-360.1KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7523,14 +7529,14 @@ proxy-groups:
   - 403_中国-474.6KB
   - 404_中国-541.6KB
   - 405_中国-413.0KB
-  - 406_中国-547.8KB
-  - 407_中国-492.3KB
-  - 408_中国-301.3KB
-  - 409_中国-581.2KB
-  - 410_中国-561.2KB
-  - 411_中国-546.7KB
-  - 412_中国-575.8KB
-  - 413_中国-529.6KB
+  - 406_中国-492.3KB
+  - 407_中国-301.3KB
+  - 408_中国-581.2KB
+  - 409_中国-561.2KB
+  - 410_中国-546.7KB
+  - 411_中国-575.8KB
+  - 412_中国-529.6KB
+  - 413_中国-544.6KB
   - 414_中国-371.9KB
   - 415_中国-11.26MB
   - 416_中国-317.5KB
@@ -7560,10 +7566,10 @@ proxy-groups:
   - 440_中国-8.93MB
   - 441_中国-11.16MB
   - 442_中国-14.22MB
-  - 443_中国-2.12MB
-  - 444_中国-12.23MB
-  - 445_中国-10.16MB
-  - 446_中国-10.70MB
+  - 443_中国-12.23MB
+  - 444_中国-10.16MB
+  - 445_中国-10.70MB
+  - 446_中国-13.09MB
   - 447_美国-643.9KB
   - 448_美国-503.2KB
   - 449_美国-361.6KB
@@ -7584,8 +7590,8 @@ proxy-groups:
   - 464_美国-4.98MB
   - 465_美国-3.07MB
   - 466_美国-3.91MB
-  - 467_美国-729.4KB
-  - 468_美国-3.32MB
+  - 467_美国-3.32MB
+  - 468_美国-1.59MB
   - 469_美国-3.13MB
   - 470_美国-2.39MB
   - 471_美国-2.94MB
@@ -8104,6 +8110,7 @@ proxy-groups:
   - 984_香港-581.0KB
   - 985_韩国-893.7KB
   - 986_韩国-1.78MB
+  - 987_新加坡-360.1KB
   type: select
 - name: Final
   proxies:
@@ -8523,14 +8530,14 @@ proxy-groups:
   - 403_中国-474.6KB
   - 404_中国-541.6KB
   - 405_中国-413.0KB
-  - 406_中国-547.8KB
-  - 407_中国-492.3KB
-  - 408_中国-301.3KB
-  - 409_中国-581.2KB
-  - 410_中国-561.2KB
-  - 411_中国-546.7KB
-  - 412_中国-575.8KB
-  - 413_中国-529.6KB
+  - 406_中国-492.3KB
+  - 407_中国-301.3KB
+  - 408_中国-581.2KB
+  - 409_中国-561.2KB
+  - 410_中国-546.7KB
+  - 411_中国-575.8KB
+  - 412_中国-529.6KB
+  - 413_中国-544.6KB
   - 414_中国-371.9KB
   - 415_中国-11.26MB
   - 416_中国-317.5KB
@@ -8560,10 +8567,10 @@ proxy-groups:
   - 440_中国-8.93MB
   - 441_中国-11.16MB
   - 442_中国-14.22MB
-  - 443_中国-2.12MB
-  - 444_中国-12.23MB
-  - 445_中国-10.16MB
-  - 446_中国-10.70MB
+  - 443_中国-12.23MB
+  - 444_中国-10.16MB
+  - 445_中国-10.70MB
+  - 446_中国-13.09MB
   - 447_美国-643.9KB
   - 448_美国-503.2KB
   - 449_美国-361.6KB
@@ -8584,8 +8591,8 @@ proxy-groups:
   - 464_美国-4.98MB
   - 465_美国-3.07MB
   - 466_美国-3.91MB
-  - 467_美国-729.4KB
-  - 468_美国-3.32MB
+  - 467_美国-3.32MB
+  - 468_美国-1.59MB
   - 469_美国-3.13MB
   - 470_美国-2.39MB
   - 471_美国-2.94MB
@@ -9104,6 +9111,7 @@ proxy-groups:
   - 984_香港-581.0KB
   - 985_韩国-893.7KB
   - 986_韩国-1.78MB
+  - 987_新加坡-360.1KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -9513,14 +9521,14 @@ proxy-groups:
   - 403_中国-474.6KB
   - 404_中国-541.6KB
   - 405_中国-413.0KB
-  - 406_中国-547.8KB
-  - 407_中国-492.3KB
-  - 408_中国-301.3KB
-  - 409_中国-581.2KB
-  - 410_中国-561.2KB
-  - 411_中国-546.7KB
-  - 412_中国-575.8KB
-  - 413_中国-529.6KB
+  - 406_中国-492.3KB
+  - 407_中国-301.3KB
+  - 408_中国-581.2KB
+  - 409_中国-561.2KB
+  - 410_中国-546.7KB
+  - 411_中国-575.8KB
+  - 412_中国-529.6KB
+  - 413_中国-544.6KB
   - 414_中国-371.9KB
   - 415_中国-11.26MB
   - 416_中国-317.5KB
@@ -9550,10 +9558,10 @@ proxy-groups:
   - 440_中国-8.93MB
   - 441_中国-11.16MB
   - 442_中国-14.22MB
-  - 443_中国-2.12MB
-  - 444_中国-12.23MB
-  - 445_中国-10.16MB
-  - 446_中国-10.70MB
+  - 443_中国-12.23MB
+  - 444_中国-10.16MB
+  - 445_中国-10.70MB
+  - 446_中国-13.09MB
   - 447_美国-643.9KB
   - 448_美国-503.2KB
   - 449_美国-361.6KB
@@ -9574,8 +9582,8 @@ proxy-groups:
   - 464_美国-4.98MB
   - 465_美国-3.07MB
   - 466_美国-3.91MB
-  - 467_美国-729.4KB
-  - 468_美国-3.32MB
+  - 467_美国-3.32MB
+  - 468_美国-1.59MB
   - 469_美国-3.13MB
   - 470_美国-2.39MB
   - 471_美国-2.94MB
@@ -10094,6 +10102,7 @@ proxy-groups:
   - 984_香港-581.0KB
   - 985_韩国-893.7KB
   - 986_韩国-1.78MB
+  - 987_新加坡-360.1KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
