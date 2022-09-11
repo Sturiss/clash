@@ -2503,17 +2503,17 @@ proxies:
   port: '11034'
   server: 14.29.124.174
   type: ss
-- cipher: aes-128-gcm
-  name: 411_中国-1.73MB
-  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
-  port: '6628'
-  server: unicomus.mipglxi.cn
-  type: ss
 - cipher: aes-128-cfb
-  name: 412_中国-568.3KB
+  name: 411_中国-568.3KB
   password: QazEdcTgb159@$*
   port: '11018'
   server: 14.29.124.174
+  type: ss
+- cipher: aes-128-gcm
+  name: 412_中国-1.73MB
+  password: 269f71b9-c45b-43f3-8c48-eb5f986aa707
+  port: '6628'
+  server: unicomus.mipglxi.cn
   type: ss
 - cipher: aes-128-cfb
   name: 413_中国-447.0KB
@@ -6228,10 +6228,15 @@ proxies:
   port: '3389'
   server: 5.44.249.155
   type: trojan
-- name: 1005_德国-1.54MB
+- name: 1005_德国-1.02MB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
   server: s2.hass.win
+  type: trojan
+- name: 1006_韩国-590.3KB
+  password: 3753719b-eb37-4f34-ab60-ae3a70486b27
+  port: '443'
+  server: kr1.api-aws.com
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -6647,8 +6652,8 @@ proxy-groups:
   - 408_中国-249.9KB
   - 409_中国-204.3KB
   - 410_中国-196.5KB
-  - 411_中国-1.73MB
-  - 412_中国-568.3KB
+  - 411_中国-568.3KB
+  - 412_中国-1.73MB
   - 413_中国-447.0KB
   - 414_中国-340.6KB
   - 415_中国-926.4KB
@@ -7241,7 +7246,8 @@ proxy-groups:
   - 1002_新加坡-160.0KB
   - 1003_德国-403.1KB
   - 1004_新加坡-285.1KB
-  - 1005_德国-1.54MB
+  - 1005_德国-1.02MB
+  - 1006_韩国-590.3KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7657,8 +7663,8 @@ proxy-groups:
   - 408_中国-249.9KB
   - 409_中国-204.3KB
   - 410_中国-196.5KB
-  - 411_中国-1.73MB
-  - 412_中国-568.3KB
+  - 411_中国-568.3KB
+  - 412_中国-1.73MB
   - 413_中国-447.0KB
   - 414_中国-340.6KB
   - 415_中国-926.4KB
@@ -8251,7 +8257,8 @@ proxy-groups:
   - 1002_新加坡-160.0KB
   - 1003_德国-403.1KB
   - 1004_新加坡-285.1KB
-  - 1005_德国-1.54MB
+  - 1005_德国-1.02MB
+  - 1006_韩国-590.3KB
   type: select
 - name: Final
   proxies:
@@ -8676,8 +8683,8 @@ proxy-groups:
   - 408_中国-249.9KB
   - 409_中国-204.3KB
   - 410_中国-196.5KB
-  - 411_中国-1.73MB
-  - 412_中国-568.3KB
+  - 411_中国-568.3KB
+  - 412_中国-1.73MB
   - 413_中国-447.0KB
   - 414_中国-340.6KB
   - 415_中国-926.4KB
@@ -9270,7 +9277,8 @@ proxy-groups:
   - 1002_新加坡-160.0KB
   - 1003_德国-403.1KB
   - 1004_新加坡-285.1KB
-  - 1005_德国-1.54MB
+  - 1005_德国-1.02MB
+  - 1006_韩国-590.3KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -9685,8 +9693,8 @@ proxy-groups:
   - 408_中国-249.9KB
   - 409_中国-204.3KB
   - 410_中国-196.5KB
-  - 411_中国-1.73MB
-  - 412_中国-568.3KB
+  - 411_中国-568.3KB
+  - 412_中国-1.73MB
   - 413_中国-447.0KB
   - 414_中国-340.6KB
   - 415_中国-926.4KB
@@ -10279,7 +10287,8 @@ proxy-groups:
   - 1002_新加坡-160.0KB
   - 1003_德国-403.1KB
   - 1004_新加坡-285.1KB
-  - 1005_德国-1.54MB
+  - 1005_德国-1.02MB
+  - 1006_韩国-590.3KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
