@@ -3014,28 +3014,28 @@ proxies:
   server: 93.179.112.70
   type: ss
 - cipher: aes-256-gcm
-  name: 479_美国-3.42MB
-  password: g5MeD6Ft3CWlJId
-  port: '5003'
-  server: 38.91.102.74
-  type: ss
-- cipher: aes-256-gcm
-  name: 480_美国-1.87MB
+  name: 479_美国-1.87MB
   password: KixLvKzwjekG00rm
   port: '5500'
   server: 38.91.107.72
   type: ss
 - cipher: aes-128-cfb
-  name: 481_美国-2.08MB
+  name: 480_美国-2.08MB
   password: shadowsocks
   port: '443'
   server: 156.146.38.163
   type: ss
 - cipher: aes-256-gcm
-  name: 482_美国-3.35MB
+  name: 481_美国-3.35MB
   password: FoOiGlkAA9yPEGP
   port: '7307'
   server: 169.197.143.232
+  type: ss
+- cipher: aes-256-gcm
+  name: 482_美国-659.2KB
+  password: g5MeD6Ft3CWlJId
+  port: '5003'
+  server: 38.91.102.74
   type: ss
 - alterId: 0
   cipher: auto
@@ -3172,7 +3172,7 @@ proxies:
     host: 23.83.236.184
 - alterId: 4
   cipher: auto
-  name: 495_美国-175.5KB
+  name: 495_美国-3.65MB
   network: ws
   port: 443
   server: 192.96.204.250
@@ -3377,20 +3377,20 @@ proxies:
   port: '443'
   server: 54.84.14.46
   type: trojan
-- name: 535_美国-5.04MB
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: '12340'
-  server: s3.hazz.win
-  type: trojan
-- name: 536_美国-4.24MB
+- name: 535_美国-4.24MB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
   server: s1.hass.win
   type: trojan
-- name: 537_美国-2.86MB
+- name: 536_美国-4.73MB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
   server: s3.hass.win
+  type: trojan
+- name: 537_美国-2.11MB
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: '12340'
+  server: s3.hazz.win
   type: trojan
 - cipher: aes-256-gcm
   name: 538_新加坡-484.1KB/s
@@ -6564,35 +6564,35 @@ proxies:
   port: '443'
   server: 18.133.181.177
   type: trojan
-- name: 1064_韩国-408.6KB
-  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
-  port: '443'
-  server: jgw2.gaox.ml
-  type: trojan
-- name: 1065_香港-2.51MB
-  password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
-  port: '52000'
-  server: hk.vc3.hyperlinkvpn.xyz
-  type: trojan
-- name: 1066_英国-3.15MB
+- name: 1064_英国-3.15MB
   password: iyinglong
   port: '443'
   server: 3.8.216.52
   type: trojan
-- name: 1067_英国-1.24MB
+- name: 1065_英国-1.24MB
   password: iyinglong
   port: '443'
   server: 18.130.157.11
   type: trojan
-- name: 1068_法国-1.52MB
+- name: 1066_法国-1.52MB
   password: iyinglong
   port: '443'
   server: 35.180.202.38
   type: trojan
-- name: 1069_韩国-426.5KB
+- name: 1067_韩国-426.5KB
   password: 0Y9gOHSdRt
   port: '443'
   server: 150.230.249.42
+  type: trojan
+- name: 1068_香港-210.6KB
+  password: 0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8
+  port: '52000'
+  server: hk.vc3.hyperlinkvpn.xyz
+  type: trojan
+- name: 1069_韩国-376.8KB
+  password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
+  port: '443'
+  server: jgw2.gaox.ml
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -7076,10 +7076,10 @@ proxy-groups:
   - 476_美国-3.60MB
   - 477_美国-3.11MB
   - 478_美国-5.47MB
-  - 479_美国-3.42MB
-  - 480_美国-1.87MB
-  - 481_美国-2.08MB
-  - 482_美国-3.35MB
+  - 479_美国-1.87MB
+  - 480_美国-2.08MB
+  - 481_美国-3.35MB
+  - 482_美国-659.2KB
   - 483_美国-3.13MB
   - 484_美国-2.39MB
   - 485_美国-2.94MB
@@ -7092,7 +7092,7 @@ proxy-groups:
   - 492_美国-489.2KB
   - 493_美国-4.61MB
   - 494_美国-322.9KB
-  - 495_美国-175.5KB
+  - 495_美国-3.65MB
   - 496_美国-1.03MB
   - 497_美国-325.1KB
   - 498_美国-5.36MB
@@ -7132,9 +7132,9 @@ proxy-groups:
   - 532_美国-2.15MB
   - 533_美国-1.04MB
   - 534_美国-2.79MB
-  - 535_美国-5.04MB
-  - 536_美国-4.24MB
-  - 537_美国-2.86MB
+  - 535_美国-4.24MB
+  - 536_美国-4.73MB
+  - 537_美国-2.11MB
   - 538_新加坡-484.1KB/s
   - 539_新加坡-423.3KB/s
   - 540_新加坡-547.7KB/s
@@ -7661,12 +7661,12 @@ proxy-groups:
   - 1061_英国-3.76MB
   - 1062_英国-529.6KB
   - 1063_英国-3.46MB
-  - 1064_韩国-408.6KB
-  - 1065_香港-2.51MB
-  - 1066_英国-3.15MB
-  - 1067_英国-1.24MB
-  - 1068_法国-1.52MB
-  - 1069_韩国-426.5KB
+  - 1064_英国-3.15MB
+  - 1065_英国-1.24MB
+  - 1066_法国-1.52MB
+  - 1067_韩国-426.5KB
+  - 1068_香港-210.6KB
+  - 1069_韩国-376.8KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -8150,10 +8150,10 @@ proxy-groups:
   - 476_美国-3.60MB
   - 477_美国-3.11MB
   - 478_美国-5.47MB
-  - 479_美国-3.42MB
-  - 480_美国-1.87MB
-  - 481_美国-2.08MB
-  - 482_美国-3.35MB
+  - 479_美国-1.87MB
+  - 480_美国-2.08MB
+  - 481_美国-3.35MB
+  - 482_美国-659.2KB
   - 483_美国-3.13MB
   - 484_美国-2.39MB
   - 485_美国-2.94MB
@@ -8166,7 +8166,7 @@ proxy-groups:
   - 492_美国-489.2KB
   - 493_美国-4.61MB
   - 494_美国-322.9KB
-  - 495_美国-175.5KB
+  - 495_美国-3.65MB
   - 496_美国-1.03MB
   - 497_美国-325.1KB
   - 498_美国-5.36MB
@@ -8206,9 +8206,9 @@ proxy-groups:
   - 532_美国-2.15MB
   - 533_美国-1.04MB
   - 534_美国-2.79MB
-  - 535_美国-5.04MB
-  - 536_美国-4.24MB
-  - 537_美国-2.86MB
+  - 535_美国-4.24MB
+  - 536_美国-4.73MB
+  - 537_美国-2.11MB
   - 538_新加坡-484.1KB/s
   - 539_新加坡-423.3KB/s
   - 540_新加坡-547.7KB/s
@@ -8735,12 +8735,12 @@ proxy-groups:
   - 1061_英国-3.76MB
   - 1062_英国-529.6KB
   - 1063_英国-3.46MB
-  - 1064_韩国-408.6KB
-  - 1065_香港-2.51MB
-  - 1066_英国-3.15MB
-  - 1067_英国-1.24MB
-  - 1068_法国-1.52MB
-  - 1069_韩国-426.5KB
+  - 1064_英国-3.15MB
+  - 1065_英国-1.24MB
+  - 1066_法国-1.52MB
+  - 1067_韩国-426.5KB
+  - 1068_香港-210.6KB
+  - 1069_韩国-376.8KB
   type: select
 - name: Final
   proxies:
@@ -9233,10 +9233,10 @@ proxy-groups:
   - 476_美国-3.60MB
   - 477_美国-3.11MB
   - 478_美国-5.47MB
-  - 479_美国-3.42MB
-  - 480_美国-1.87MB
-  - 481_美国-2.08MB
-  - 482_美国-3.35MB
+  - 479_美国-1.87MB
+  - 480_美国-2.08MB
+  - 481_美国-3.35MB
+  - 482_美国-659.2KB
   - 483_美国-3.13MB
   - 484_美国-2.39MB
   - 485_美国-2.94MB
@@ -9249,7 +9249,7 @@ proxy-groups:
   - 492_美国-489.2KB
   - 493_美国-4.61MB
   - 494_美国-322.9KB
-  - 495_美国-175.5KB
+  - 495_美国-3.65MB
   - 496_美国-1.03MB
   - 497_美国-325.1KB
   - 498_美国-5.36MB
@@ -9289,9 +9289,9 @@ proxy-groups:
   - 532_美国-2.15MB
   - 533_美国-1.04MB
   - 534_美国-2.79MB
-  - 535_美国-5.04MB
-  - 536_美国-4.24MB
-  - 537_美国-2.86MB
+  - 535_美国-4.24MB
+  - 536_美国-4.73MB
+  - 537_美国-2.11MB
   - 538_新加坡-484.1KB/s
   - 539_新加坡-423.3KB/s
   - 540_新加坡-547.7KB/s
@@ -9818,12 +9818,12 @@ proxy-groups:
   - 1061_英国-3.76MB
   - 1062_英国-529.6KB
   - 1063_英国-3.46MB
-  - 1064_韩国-408.6KB
-  - 1065_香港-2.51MB
-  - 1066_英国-3.15MB
-  - 1067_英国-1.24MB
-  - 1068_法国-1.52MB
-  - 1069_韩国-426.5KB
+  - 1064_英国-3.15MB
+  - 1065_英国-1.24MB
+  - 1066_法国-1.52MB
+  - 1067_韩国-426.5KB
+  - 1068_香港-210.6KB
+  - 1069_韩国-376.8KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -10306,10 +10306,10 @@ proxy-groups:
   - 476_美国-3.60MB
   - 477_美国-3.11MB
   - 478_美国-5.47MB
-  - 479_美国-3.42MB
-  - 480_美国-1.87MB
-  - 481_美国-2.08MB
-  - 482_美国-3.35MB
+  - 479_美国-1.87MB
+  - 480_美国-2.08MB
+  - 481_美国-3.35MB
+  - 482_美国-659.2KB
   - 483_美国-3.13MB
   - 484_美国-2.39MB
   - 485_美国-2.94MB
@@ -10322,7 +10322,7 @@ proxy-groups:
   - 492_美国-489.2KB
   - 493_美国-4.61MB
   - 494_美国-322.9KB
-  - 495_美国-175.5KB
+  - 495_美国-3.65MB
   - 496_美国-1.03MB
   - 497_美国-325.1KB
   - 498_美国-5.36MB
@@ -10362,9 +10362,9 @@ proxy-groups:
   - 532_美国-2.15MB
   - 533_美国-1.04MB
   - 534_美国-2.79MB
-  - 535_美国-5.04MB
-  - 536_美国-4.24MB
-  - 537_美国-2.86MB
+  - 535_美国-4.24MB
+  - 536_美国-4.73MB
+  - 537_美国-2.11MB
   - 538_新加坡-484.1KB/s
   - 539_新加坡-423.3KB/s
   - 540_新加坡-547.7KB/s
@@ -10891,12 +10891,12 @@ proxy-groups:
   - 1061_英国-3.76MB
   - 1062_英国-529.6KB
   - 1063_英国-3.46MB
-  - 1064_韩国-408.6KB
-  - 1065_香港-2.51MB
-  - 1066_英国-3.15MB
-  - 1067_英国-1.24MB
-  - 1068_法国-1.52MB
-  - 1069_韩国-426.5KB
+  - 1064_英国-3.15MB
+  - 1065_英国-1.24MB
+  - 1066_法国-1.52MB
+  - 1067_韩国-426.5KB
+  - 1068_香港-210.6KB
+  - 1069_韩国-376.8KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
