@@ -3411,25 +3411,25 @@ proxies:
   port: '12340'
   server: s3.hazz.win
   type: trojan
-- name: 540_美国-3.16MB
-  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
-  port: '12340'
-  server: s1.hass.win
-  type: trojan
-- name: 541_美国-3.80MB
+- name: 540_美国-3.80MB
   password: iyinglong
   port: '443'
   server: 54.245.213.176
   type: trojan
-- name: 542_美国-2.73MB
+- name: 541_美国-2.73MB
   password: iyinglong
   port: '443'
   server: 54.188.168.172
   type: trojan
-- name: 543_美国-369.9KB
+- name: 542_美国-369.9KB
   password: dfbf0d67-f03d-4184-a224-c2d64a571f99
   port: '12340'
   server: s3.hass.win
+  type: trojan
+- name: 543_美国-3.51MB
+  password: dfbf0d67-f03d-4184-a224-c2d64a571f99
+  port: '12340'
+  server: s1.hass.win
   type: trojan
 - cipher: aes-256-gcm
   name: 544_新加坡-484.1KB/s
@@ -6679,45 +6679,45 @@ proxies:
   port: '443'
   server: 54.251.4.31
   type: trojan
-- name: 1077_新加坡-3.66MB
-  password: iyinglong
-  port: '443'
-  server: 13.213.69.245
-  type: trojan
-- name: 1078_法国-3.35MB
+- name: 1077_法国-3.35MB
   password: iyinglong
   port: '443'
   server: 13.38.55.14
   type: trojan
-- name: 1079_英国-2.73MB
+- name: 1078_英国-2.73MB
   password: iyinglong
   port: '443'
   server: 35.176.6.24
   type: trojan
-- name: 1080_澳大利亚-2.74MB
+- name: 1079_澳大利亚-2.74MB
   password: 3oquVrpxPg
   port: '41477'
   server: wangqifei.ga
   type: trojan
-- name: 1081_法国-2.28MB
+- name: 1080_法国-2.28MB
   password: iyinglong
   port: '443'
   server: 52.47.99.22
   type: trojan
-- name: 1082_英国-2.60MB
+- name: 1081_英国-2.60MB
   password: iyinglong
   port: '443'
   server: 3.9.175.102
   type: trojan
-- name: 1083_英国-325.0KB
+- name: 1082_英国-325.0KB
   password: iyinglong
   port: '443'
   server: 13.40.126.229
   type: trojan
-- name: 1084_英国-1.38MB
+- name: 1083_英国-1.38MB
   password: iyinglong
   port: '443'
   server: 18.133.181.177
+  type: trojan
+- name: 1084_新加坡-1.74MB
+  password: iyinglong
+  port: '443'
+  server: 13.213.69.245
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -7262,10 +7262,10 @@ proxy-groups:
   - 537_美国-635.8KB
   - 538_美国-929.9KB
   - 539_美国-4.72MB
-  - 540_美国-3.16MB
-  - 541_美国-3.80MB
-  - 542_美国-2.73MB
-  - 543_美国-369.9KB
+  - 540_美国-3.80MB
+  - 541_美国-2.73MB
+  - 542_美国-369.9KB
+  - 543_美国-3.51MB
   - 544_新加坡-484.1KB/s
   - 545_新加坡-423.3KB/s
   - 546_新加坡-547.7KB/s
@@ -7799,14 +7799,14 @@ proxy-groups:
   - 1074_英国-3.29MB
   - 1075_英国-2.26MB
   - 1076_新加坡-2.73MB
-  - 1077_新加坡-3.66MB
-  - 1078_法国-3.35MB
-  - 1079_英国-2.73MB
-  - 1080_澳大利亚-2.74MB
-  - 1081_法国-2.28MB
-  - 1082_英国-2.60MB
-  - 1083_英国-325.0KB
-  - 1084_英国-1.38MB
+  - 1077_法国-3.35MB
+  - 1078_英国-2.73MB
+  - 1079_澳大利亚-2.74MB
+  - 1080_法国-2.28MB
+  - 1081_英国-2.60MB
+  - 1082_英国-325.0KB
+  - 1083_英国-1.38MB
+  - 1084_新加坡-1.74MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -8351,10 +8351,10 @@ proxy-groups:
   - 537_美国-635.8KB
   - 538_美国-929.9KB
   - 539_美国-4.72MB
-  - 540_美国-3.16MB
-  - 541_美国-3.80MB
-  - 542_美国-2.73MB
-  - 543_美国-369.9KB
+  - 540_美国-3.80MB
+  - 541_美国-2.73MB
+  - 542_美国-369.9KB
+  - 543_美国-3.51MB
   - 544_新加坡-484.1KB/s
   - 545_新加坡-423.3KB/s
   - 546_新加坡-547.7KB/s
@@ -8888,14 +8888,14 @@ proxy-groups:
   - 1074_英国-3.29MB
   - 1075_英国-2.26MB
   - 1076_新加坡-2.73MB
-  - 1077_新加坡-3.66MB
-  - 1078_法国-3.35MB
-  - 1079_英国-2.73MB
-  - 1080_澳大利亚-2.74MB
-  - 1081_法国-2.28MB
-  - 1082_英国-2.60MB
-  - 1083_英国-325.0KB
-  - 1084_英国-1.38MB
+  - 1077_法国-3.35MB
+  - 1078_英国-2.73MB
+  - 1079_澳大利亚-2.74MB
+  - 1080_法国-2.28MB
+  - 1081_英国-2.60MB
+  - 1082_英国-325.0KB
+  - 1083_英国-1.38MB
+  - 1084_新加坡-1.74MB
   type: select
 - name: Final
   proxies:
@@ -9449,10 +9449,10 @@ proxy-groups:
   - 537_美国-635.8KB
   - 538_美国-929.9KB
   - 539_美国-4.72MB
-  - 540_美国-3.16MB
-  - 541_美国-3.80MB
-  - 542_美国-2.73MB
-  - 543_美国-369.9KB
+  - 540_美国-3.80MB
+  - 541_美国-2.73MB
+  - 542_美国-369.9KB
+  - 543_美国-3.51MB
   - 544_新加坡-484.1KB/s
   - 545_新加坡-423.3KB/s
   - 546_新加坡-547.7KB/s
@@ -9986,14 +9986,14 @@ proxy-groups:
   - 1074_英国-3.29MB
   - 1075_英国-2.26MB
   - 1076_新加坡-2.73MB
-  - 1077_新加坡-3.66MB
-  - 1078_法国-3.35MB
-  - 1079_英国-2.73MB
-  - 1080_澳大利亚-2.74MB
-  - 1081_法国-2.28MB
-  - 1082_英国-2.60MB
-  - 1083_英国-325.0KB
-  - 1084_英国-1.38MB
+  - 1077_法国-3.35MB
+  - 1078_英国-2.73MB
+  - 1079_澳大利亚-2.74MB
+  - 1080_法国-2.28MB
+  - 1081_英国-2.60MB
+  - 1082_英国-325.0KB
+  - 1083_英国-1.38MB
+  - 1084_新加坡-1.74MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -10537,10 +10537,10 @@ proxy-groups:
   - 537_美国-635.8KB
   - 538_美国-929.9KB
   - 539_美国-4.72MB
-  - 540_美国-3.16MB
-  - 541_美国-3.80MB
-  - 542_美国-2.73MB
-  - 543_美国-369.9KB
+  - 540_美国-3.80MB
+  - 541_美国-2.73MB
+  - 542_美国-369.9KB
+  - 543_美国-3.51MB
   - 544_新加坡-484.1KB/s
   - 545_新加坡-423.3KB/s
   - 546_新加坡-547.7KB/s
@@ -11074,14 +11074,14 @@ proxy-groups:
   - 1074_英国-3.29MB
   - 1075_英国-2.26MB
   - 1076_新加坡-2.73MB
-  - 1077_新加坡-3.66MB
-  - 1078_法国-3.35MB
-  - 1079_英国-2.73MB
-  - 1080_澳大利亚-2.74MB
-  - 1081_法国-2.28MB
-  - 1082_英国-2.60MB
-  - 1083_英国-325.0KB
-  - 1084_英国-1.38MB
+  - 1077_法国-3.35MB
+  - 1078_英国-2.73MB
+  - 1079_澳大利亚-2.74MB
+  - 1080_法国-2.28MB
+  - 1081_英国-2.60MB
+  - 1082_英国-325.0KB
+  - 1083_英国-1.38MB
+  - 1084_新加坡-1.74MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
