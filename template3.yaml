@@ -2593,29 +2593,29 @@ proxies:
   port: '11009'
   server: 14.29.124.174
   type: ss
-- cipher: aes-256-gcm
-  name: 426_中国-960.3KB
-  password: bBEXIq
-  port: '31905'
-  server: 124.225.24.135
-  type: ss
 - cipher: aes-128-cfb
-  name: 427_中国-451.7KB
+  name: 426_中国-451.7KB
   password: QazEdcTgb159@$*
   port: '11015'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 428_中国-532.1KB
+  name: 427_中国-532.1KB
   password: QazEdcTgb159@$*
   port: '11003'
   server: 14.29.124.174
   type: ss
 - cipher: aes-128-cfb
-  name: 429_中国-515.0KB
+  name: 428_中国-515.0KB
   password: QazEdcTgb159@$*
   port: '11004'
   server: 14.29.124.174
+  type: ss
+- cipher: aes-256-gcm
+  name: 429_中国-1.10MB
+  password: bBEXIq
+  port: '31905'
+  server: 124.225.24.135
   type: ss
 - cipher: aes-128-cfb
   name: 430_中国-388.6KB
@@ -3143,17 +3143,17 @@ proxies:
   port: '443'
   server: 35.92.36.222
   type: ss
-- cipher: aes-128-cfb
-  name: 502_美国-4.44MB
-  password: shadowsocks
-  port: '443'
-  server: 156.146.38.163
-  type: ss
 - cipher: aes-256-gcm
-  name: 503_美国-1.89MB
+  name: 502_美国-1.89MB
   password: FoOiGlkAA9yPEGP
   port: '7307'
   server: 169.197.143.232
+  type: ss
+- cipher: aes-128-cfb
+  name: 503_美国-2.99MB
+  password: shadowsocks
+  port: '443'
+  server: 156.146.38.163
   type: ss
 - alterId: 0
   cipher: auto
@@ -3410,9 +3410,20 @@ proxies:
   ws-headers:
     host: api.floatcloud.live
   ws-path: /game
+- alterId: 0
+  cipher: auto
+  name: 527_美国-1.21MB
+  network: tcp
+  port: 23054
+  server: 152.70.136.12
+  tls: 0
+  type: vmess
+  uuid: 199ab409-63c4-43f7-8164-7a8231be4a3c
+  ws-headers:
+    host: 152.70.136.12
 - alterId: 4
   cipher: auto
-  name: 527_美国-342.9KB
+  name: 528_美国-2.92MB
   network: ws
   port: 443
   server: 192.96.204.250
@@ -3422,17 +3433,6 @@ proxies:
   ws-headers:
     host: 192.96.204.250
   ws-path: /ws
-- alterId: 0
-  cipher: auto
-  name: 528_美国-1.21MB
-  network: tcp
-  port: 23054
-  server: 152.70.136.12
-  tls: 0
-  type: vmess
-  uuid: 199ab409-63c4-43f7-8164-7a8231be4a3c
-  ws-headers:
-    host: 152.70.136.12
 - name: 529_美国-325.1KB
   password: ad9ee6b5-4707-478a-ba5c-0fc7a4b0314c
   port: '50330'
@@ -7058,15 +7058,15 @@ proxies:
   port: '443'
   server: jgw2.gaox.ml
   type: trojan
-- name: 1132_巴西-2.67MB
-  password: xxoo
-  port: '443'
-  server: 5.252.24.137
-  type: trojan
-- name: 1133_英国-318.4KB
+- name: 1132_英国-318.4KB
   password: iyinglong
   port: '443'
   server: 3.9.175.102
+  type: trojan
+- name: 1133_巴西-2.66MB
+  password: xxoo
+  port: '443'
+  server: 5.252.24.137
   type: trojan
 - name: 1134_英国-4.28MB
   password: iyinglong
@@ -7502,10 +7502,10 @@ proxy-groups:
   - 423_中国-1.42MB
   - 424_中国-386.1KB
   - 425_中国-459.3KB
-  - 426_中国-960.3KB
-  - 427_中国-451.7KB
-  - 428_中国-532.1KB
-  - 429_中国-515.0KB
+  - 426_中国-451.7KB
+  - 427_中国-532.1KB
+  - 428_中国-515.0KB
+  - 429_中国-1.10MB
   - 430_中国-388.6KB
   - 431_中国-345.6KB
   - 432_中国-334.6KB
@@ -7578,8 +7578,8 @@ proxy-groups:
   - 499_美国-5.37MB
   - 500_美国-4.45MB
   - 501_美国-4.14MB
-  - 502_美国-4.44MB
-  - 503_美国-1.89MB
+  - 502_美国-1.89MB
+  - 503_美国-2.99MB
   - 504_美国-3.13MB
   - 505_美国-2.39MB
   - 506_美国-2.94MB
@@ -7603,8 +7603,8 @@ proxy-groups:
   - 524_美国-277.4KB
   - 525_美国-3.64MB
   - 526_美国-18.23MB
-  - 527_美国-342.9KB
-  - 528_美国-1.21MB
+  - 527_美国-1.21MB
+  - 528_美国-2.92MB
   - 529_美国-325.1KB
   - 530_美国-5.36MB
   - 531_美国-738.7KB
@@ -8208,8 +8208,8 @@ proxy-groups:
   - 1129_韩国-344.0KB
   - 1130_香港-1.27MB
   - 1131_意大利-413.0KB
-  - 1132_巴西-2.67MB
-  - 1133_英国-318.4KB
+  - 1132_英国-318.4KB
+  - 1133_巴西-2.66MB
   - 1134_英国-4.28MB
   type: url-test
   url: https://www.google.com/
@@ -8641,10 +8641,10 @@ proxy-groups:
   - 423_中国-1.42MB
   - 424_中国-386.1KB
   - 425_中国-459.3KB
-  - 426_中国-960.3KB
-  - 427_中国-451.7KB
-  - 428_中国-532.1KB
-  - 429_中国-515.0KB
+  - 426_中国-451.7KB
+  - 427_中国-532.1KB
+  - 428_中国-515.0KB
+  - 429_中国-1.10MB
   - 430_中国-388.6KB
   - 431_中国-345.6KB
   - 432_中国-334.6KB
@@ -8717,8 +8717,8 @@ proxy-groups:
   - 499_美国-5.37MB
   - 500_美国-4.45MB
   - 501_美国-4.14MB
-  - 502_美国-4.44MB
-  - 503_美国-1.89MB
+  - 502_美国-1.89MB
+  - 503_美国-2.99MB
   - 504_美国-3.13MB
   - 505_美国-2.39MB
   - 506_美国-2.94MB
@@ -8742,8 +8742,8 @@ proxy-groups:
   - 524_美国-277.4KB
   - 525_美国-3.64MB
   - 526_美国-18.23MB
-  - 527_美国-342.9KB
-  - 528_美国-1.21MB
+  - 527_美国-1.21MB
+  - 528_美国-2.92MB
   - 529_美国-325.1KB
   - 530_美国-5.36MB
   - 531_美国-738.7KB
@@ -9347,8 +9347,8 @@ proxy-groups:
   - 1129_韩国-344.0KB
   - 1130_香港-1.27MB
   - 1131_意大利-413.0KB
-  - 1132_巴西-2.67MB
-  - 1133_英国-318.4KB
+  - 1132_英国-318.4KB
+  - 1133_巴西-2.66MB
   - 1134_英国-4.28MB
   type: select
 - name: Final
@@ -9789,10 +9789,10 @@ proxy-groups:
   - 423_中国-1.42MB
   - 424_中国-386.1KB
   - 425_中国-459.3KB
-  - 426_中国-960.3KB
-  - 427_中国-451.7KB
-  - 428_中国-532.1KB
-  - 429_中国-515.0KB
+  - 426_中国-451.7KB
+  - 427_中国-532.1KB
+  - 428_中国-515.0KB
+  - 429_中国-1.10MB
   - 430_中国-388.6KB
   - 431_中国-345.6KB
   - 432_中国-334.6KB
@@ -9865,8 +9865,8 @@ proxy-groups:
   - 499_美国-5.37MB
   - 500_美国-4.45MB
   - 501_美国-4.14MB
-  - 502_美国-4.44MB
-  - 503_美国-1.89MB
+  - 502_美国-1.89MB
+  - 503_美国-2.99MB
   - 504_美国-3.13MB
   - 505_美国-2.39MB
   - 506_美国-2.94MB
@@ -9890,8 +9890,8 @@ proxy-groups:
   - 524_美国-277.4KB
   - 525_美国-3.64MB
   - 526_美国-18.23MB
-  - 527_美国-342.9KB
-  - 528_美国-1.21MB
+  - 527_美国-1.21MB
+  - 528_美国-2.92MB
   - 529_美国-325.1KB
   - 530_美国-5.36MB
   - 531_美国-738.7KB
@@ -10495,8 +10495,8 @@ proxy-groups:
   - 1129_韩国-344.0KB
   - 1130_香港-1.27MB
   - 1131_意大利-413.0KB
-  - 1132_巴西-2.67MB
-  - 1133_英国-318.4KB
+  - 1132_英国-318.4KB
+  - 1133_巴西-2.66MB
   - 1134_英国-4.28MB
   type: select
 - name: HKMTMedia
@@ -10927,10 +10927,10 @@ proxy-groups:
   - 423_中国-1.42MB
   - 424_中国-386.1KB
   - 425_中国-459.3KB
-  - 426_中国-960.3KB
-  - 427_中国-451.7KB
-  - 428_中国-532.1KB
-  - 429_中国-515.0KB
+  - 426_中国-451.7KB
+  - 427_中国-532.1KB
+  - 428_中国-515.0KB
+  - 429_中国-1.10MB
   - 430_中国-388.6KB
   - 431_中国-345.6KB
   - 432_中国-334.6KB
@@ -11003,8 +11003,8 @@ proxy-groups:
   - 499_美国-5.37MB
   - 500_美国-4.45MB
   - 501_美国-4.14MB
-  - 502_美国-4.44MB
-  - 503_美国-1.89MB
+  - 502_美国-1.89MB
+  - 503_美国-2.99MB
   - 504_美国-3.13MB
   - 505_美国-2.39MB
   - 506_美国-2.94MB
@@ -11028,8 +11028,8 @@ proxy-groups:
   - 524_美国-277.4KB
   - 525_美国-3.64MB
   - 526_美国-18.23MB
-  - 527_美国-342.9KB
-  - 528_美国-1.21MB
+  - 527_美国-1.21MB
+  - 528_美国-2.92MB
   - 529_美国-325.1KB
   - 530_美国-5.36MB
   - 531_美国-738.7KB
@@ -11633,8 +11633,8 @@ proxy-groups:
   - 1129_韩国-344.0KB
   - 1130_香港-1.27MB
   - 1131_意大利-413.0KB
-  - 1132_巴西-2.67MB
-  - 1133_英国-318.4KB
+  - 1132_英国-318.4KB
+  - 1133_巴西-2.66MB
   - 1134_英国-4.28MB
   type: select
 rules:
