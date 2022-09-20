@@ -7261,19 +7261,7 @@ proxies:
     host: 155.138.140.189
 - alterId: 0
   cipher: auto
-  name: 1147_加拿大-3.60MB
-  network: ws
-  port: 8080
-  server: 138.197.165.31
-  tls: 0
-  type: vmess
-  uuid: 0c7caa09-5c69-42dc-8048-8e8b0d7efd4a
-  ws-headers:
-    host: '%7B%22Host%22:%22138.197.165.31%22%7D'
-  ws-path: /cctv13/hd.m3u8
-- alterId: 0
-  cipher: auto
-  name: 1148_日本-667.0KB
+  name: 1147_日本-667.0KB
   network: ws
   port: 8080
   server: 172.104.70.195
@@ -7282,6 +7270,18 @@ proxies:
   uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436
   ws-headers:
     host: '%7B%22Host%22:%22172.104.70.195%22%7D'
+  ws-path: /cctv13/hd.m3u8
+- alterId: 0
+  cipher: auto
+  name: 1148_加拿大-3.53MB
+  network: ws
+  port: 8080
+  server: 138.197.165.31
+  tls: 0
+  type: vmess
+  uuid: bcaf6b8f-0acb-4ffd-86ad-8f13e7dfe436
+  ws-headers:
+    host: '%7B%22Host%22:%22138.197.165.31%22%7D'
   ws-path: /cctv13/hd.m3u8
 - name: 1149_韩国-215.2KB
   password: 4af0d477-0852-4872-a0bc-e333c119b84e
@@ -7933,20 +7933,20 @@ proxies:
   port: '443'
   server: 3.8.216.52
   type: trojan
-- name: 1279_英国-3.77MB
-  password: iyinglong
-  port: '443'
-  server: 35.176.6.24
-  type: trojan
-- name: 1280_台湾-1.16MB
+- name: 1279_台湾-1.16MB
   password: 1fde66c7-c2ac-46e9-9c32-a7128d04c0ee
   port: '44318'
   server: 913tw.tfzhc.top
   type: trojan
-- name: 1281_爱尔兰-3.26MB
+- name: 1280_爱尔兰-3.26MB
   password: xxoo
   port: '443'
   server: 34.248.69.233
+  type: trojan
+- name: 1281_英国-3.78MB
+  password: iyinglong
+  port: '443'
+  server: 35.176.6.24
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -9098,8 +9098,8 @@ proxy-groups:
   - 1144_罗马尼亚-1.94MB
   - 1145_印度-549.1KB
   - 1146_加拿大-173.9KB
-  - 1147_加拿大-3.60MB
-  - 1148_日本-667.0KB
+  - 1147_日本-667.0KB
+  - 1148_加拿大-3.53MB
   - 1149_韩国-215.2KB
   - 1150_澳大利亚-6.43MB
   - 1151_韩国-6.23MB
@@ -9230,9 +9230,9 @@ proxy-groups:
   - 1276_加拿大-981.2KB
   - 1277_英国-4.10MB
   - 1278_英国-3.02MB
-  - 1279_英国-3.77MB
-  - 1280_台湾-1.16MB
-  - 1281_爱尔兰-3.26MB
+  - 1279_台湾-1.16MB
+  - 1280_爱尔兰-3.26MB
+  - 1281_英国-3.78MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -10384,8 +10384,8 @@ proxy-groups:
   - 1144_罗马尼亚-1.94MB
   - 1145_印度-549.1KB
   - 1146_加拿大-173.9KB
-  - 1147_加拿大-3.60MB
-  - 1148_日本-667.0KB
+  - 1147_日本-667.0KB
+  - 1148_加拿大-3.53MB
   - 1149_韩国-215.2KB
   - 1150_澳大利亚-6.43MB
   - 1151_韩国-6.23MB
@@ -10516,9 +10516,9 @@ proxy-groups:
   - 1276_加拿大-981.2KB
   - 1277_英国-4.10MB
   - 1278_英国-3.02MB
-  - 1279_英国-3.77MB
-  - 1280_台湾-1.16MB
-  - 1281_爱尔兰-3.26MB
+  - 1279_台湾-1.16MB
+  - 1280_爱尔兰-3.26MB
+  - 1281_英国-3.78MB
   type: select
 - name: Final
   proxies:
@@ -11679,8 +11679,8 @@ proxy-groups:
   - 1144_罗马尼亚-1.94MB
   - 1145_印度-549.1KB
   - 1146_加拿大-173.9KB
-  - 1147_加拿大-3.60MB
-  - 1148_日本-667.0KB
+  - 1147_日本-667.0KB
+  - 1148_加拿大-3.53MB
   - 1149_韩国-215.2KB
   - 1150_澳大利亚-6.43MB
   - 1151_韩国-6.23MB
@@ -11811,9 +11811,9 @@ proxy-groups:
   - 1276_加拿大-981.2KB
   - 1277_英国-4.10MB
   - 1278_英国-3.02MB
-  - 1279_英国-3.77MB
-  - 1280_台湾-1.16MB
-  - 1281_爱尔兰-3.26MB
+  - 1279_台湾-1.16MB
+  - 1280_爱尔兰-3.26MB
+  - 1281_英国-3.78MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -12964,8 +12964,8 @@ proxy-groups:
   - 1144_罗马尼亚-1.94MB
   - 1145_印度-549.1KB
   - 1146_加拿大-173.9KB
-  - 1147_加拿大-3.60MB
-  - 1148_日本-667.0KB
+  - 1147_日本-667.0KB
+  - 1148_加拿大-3.53MB
   - 1149_韩国-215.2KB
   - 1150_澳大利亚-6.43MB
   - 1151_韩国-6.23MB
@@ -13096,9 +13096,9 @@ proxy-groups:
   - 1276_加拿大-981.2KB
   - 1277_英国-4.10MB
   - 1278_英国-3.02MB
-  - 1279_英国-3.77MB
-  - 1280_台湾-1.16MB
-  - 1281_爱尔兰-3.26MB
+  - 1279_台湾-1.16MB
+  - 1280_爱尔兰-3.26MB
+  - 1281_英国-3.78MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
