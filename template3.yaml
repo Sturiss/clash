@@ -7191,7 +7191,7 @@ proxies:
   ws-path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 912_美国-5.06MB
+  name: 912_美国-345.1KB
   network: tcp
   port: 11003
   server: 154.31.48.98
@@ -10430,17 +10430,17 @@ proxies:
   port: '8881'
   server: 85.208.108.60
   type: ss
-- cipher: chacha20-ietf-poly1305
-  name: 1455_台湾-904.9KB
-  password: 8812c0e4e2b0
-  port: 443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dfn600mliness017.fnline.xyz%3Bpath%3D%2F%3Bmux%3Dmux%3D4%3B%3B
-  server: 103.137.23.194
-  type: ss
 - cipher: aes-256-cfb
-  name: 1456_日本-1.60MB
+  name: 1455_日本-1.60MB
   password: amazonskr05
   port: '443'
   server: 54.238.232.202
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: 1456_台湾-1.58MB
+  password: 8812c0e4e2b0
+  port: 443/?plugin=v2ray-plugin%3Bmode%3Dwebsocket%3Btls%3Bmux%3D4%3Bhost%3Dfn600mliness017.fnline.xyz%3Bpath%3D%2F%3Bmux%3Dmux%3D4%3B%3B
+  server: 103.137.23.194
   type: ss
 - alterId: 64
   cipher: auto
@@ -11774,31 +11774,7 @@ proxies:
   ws-path: /dongtaiwang.com
 - alterId: 0
   cipher: auto
-  name: 1570_未知国家-6.24MB
-  network: ws
-  port: 443
-  server: 141.101.114.20
-  tls: 1
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  ws-headers:
-    host: clash1.trump2023.net
-  ws-path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 1571_未知国家-6.95MB
-  network: ws
-  port: 443
-  server: 141.101.115.20
-  tls: 1
-  type: vmess
-  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
-  ws-headers:
-    host: clash1.trump2023.net
-  ws-path: /dongtaiwang.com
-- alterId: 0
-  cipher: auto
-  name: 1572_新加坡-486.6KB
+  name: 1570_新加坡-486.6KB
   network: ws
   port: 14358
   server: sg153.hkaa0.tk
@@ -11810,7 +11786,19 @@ proxies:
   ws-path: /hkaa0
 - alterId: 0
   cipher: auto
-  name: 1573_未知国家-5.52MB
+  name: 1571_未知国家-4.36MB
+  network: ws
+  port: 443
+  server: 141.101.114.20
+  tls: 1
+  type: vmess
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  ws-headers:
+    host: clash1.trump2023.net
+  ws-path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 1572_未知国家-3.22MB
   network: ws
   port: 443
   server: 141.101.114.120
@@ -11819,6 +11807,18 @@ proxies:
   uuid: 33aa57df-1c93-4318-9fce-e850437ee781
   ws-headers:
     host: lg1.cfcdn3.xyz
+  ws-path: /dongtaiwang.com
+- alterId: 0
+  cipher: auto
+  name: 1573_未知国家-5.91MB
+  network: ws
+  port: 443
+  server: 141.101.115.20
+  tls: 1
+  type: vmess
+  uuid: 176b598f-445b-41ac-9d2a-430c5c4df26a
+  ws-headers:
+    host: clash1.trump2023.net
   ws-path: /dongtaiwang.com
 - name: 1574_荷兰-1.43MB
   password: d4e41ff772c7fd45
@@ -12235,35 +12235,35 @@ proxies:
   port: '3389'
   server: 5.44.249.155
   type: trojan
-- name: 1657_香港-22.31MB
-  password: 5aa6dbec-a344-4d05-b13f-7d62b6353d60
-  port: '443'
-  server: 20.247.127.120
-  type: trojan
-- name: 1658_法国-2.55MB
+- name: 1657_法国-2.55MB
   password: origin
   port: '443'
   server: content-provider26.cdn-delivery.akamaicd.com
   type: trojan
-- name: 1659_香港-20.28MB
+- name: 1658_香港-20.28MB
   password: 5aa6dbec-a344-4d05-b13f-7d62b6353d60
   port: '443'
   server: 20.247.117.15
   type: trojan
-- name: 1660_法国-2.71MB
-  password: origin
-  port: '443'
-  server: content-provider12.cdn-delivery.akamaicd.com
-  type: trojan
-- name: 1661_香港-23.33MB
+- name: 1659_香港-16.76MB
   password: 5aa6dbec-a344-4d05-b13f-7d62b6353d60
   port: '443'
   server: 20.247.127.94
   type: trojan
-- name: 1662_香港-21.27MB
+- name: 1660_香港-16.80MB
   password: 5aa6dbec-a344-4d05-b13f-7d62b6353d60
   port: '443'
   server: 20.247.116.238
+  type: trojan
+- name: 1661_法国-2.91MB
+  password: origin
+  port: '443'
+  server: content-provider12.cdn-delivery.akamaicd.com
+  type: trojan
+- name: 1662_香港-1.38MB
+  password: 5aa6dbec-a344-4d05-b13f-7d62b6353d60
+  port: '443'
+  server: 20.247.127.120
   type: trojan
 proxy-groups:
 - interval: 3600
@@ -13180,7 +13180,7 @@ proxy-groups:
   - 909_美国-2.17MB
   - 910_美国-5.87MB
   - 911_美国-5.20MB
-  - 912_美国-5.06MB
+  - 912_美国-345.1KB
   - 913_美国-1.83MB
   - 914_美国-307.8KB
   - 915_美国-4.89MB
@@ -13723,8 +13723,8 @@ proxy-groups:
   - 1452_台湾-1.79MB
   - 1453_(已存活1天)台湾-694.6KB
   - 1454_日本-2.78MB
-  - 1455_台湾-904.9KB
-  - 1456_日本-1.60MB
+  - 1455_日本-1.60MB
+  - 1456_台湾-1.58MB
   - 1457_芬兰-1.47MB
   - 1458_爱尔兰-2.89MB
   - 1459_芬兰-1.41MB
@@ -13838,10 +13838,10 @@ proxy-groups:
   - 1567_未知国家-4.81MB
   - 1568_新加坡-3.82MB
   - 1569_未知国家-3.86MB
-  - 1570_未知国家-6.24MB
-  - 1571_未知国家-6.95MB
-  - 1572_新加坡-486.6KB
-  - 1573_未知国家-5.52MB
+  - 1570_新加坡-486.6KB
+  - 1571_未知国家-4.36MB
+  - 1572_未知国家-3.22MB
+  - 1573_未知国家-5.91MB
   - 1574_荷兰-1.43MB
   - 1575_韩国-986.7KB
   - 1576_印度-3.13MB
@@ -13925,12 +13925,12 @@ proxy-groups:
   - 1654_法国-2.78MB
   - 1655_新加坡-3.43MB
   - 1656_新加坡-2.29MB
-  - 1657_香港-22.31MB
-  - 1658_法国-2.55MB
-  - 1659_香港-20.28MB
-  - 1660_法国-2.71MB
-  - 1661_香港-23.33MB
-  - 1662_香港-21.27MB
+  - 1657_法国-2.55MB
+  - 1658_香港-20.28MB
+  - 1659_香港-16.76MB
+  - 1660_香港-16.80MB
+  - 1661_法国-2.91MB
+  - 1662_香港-1.38MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -14847,7 +14847,7 @@ proxy-groups:
   - 909_美国-2.17MB
   - 910_美国-5.87MB
   - 911_美国-5.20MB
-  - 912_美国-5.06MB
+  - 912_美国-345.1KB
   - 913_美国-1.83MB
   - 914_美国-307.8KB
   - 915_美国-4.89MB
@@ -15390,8 +15390,8 @@ proxy-groups:
   - 1452_台湾-1.79MB
   - 1453_(已存活1天)台湾-694.6KB
   - 1454_日本-2.78MB
-  - 1455_台湾-904.9KB
-  - 1456_日本-1.60MB
+  - 1455_日本-1.60MB
+  - 1456_台湾-1.58MB
   - 1457_芬兰-1.47MB
   - 1458_爱尔兰-2.89MB
   - 1459_芬兰-1.41MB
@@ -15505,10 +15505,10 @@ proxy-groups:
   - 1567_未知国家-4.81MB
   - 1568_新加坡-3.82MB
   - 1569_未知国家-3.86MB
-  - 1570_未知国家-6.24MB
-  - 1571_未知国家-6.95MB
-  - 1572_新加坡-486.6KB
-  - 1573_未知国家-5.52MB
+  - 1570_新加坡-486.6KB
+  - 1571_未知国家-4.36MB
+  - 1572_未知国家-3.22MB
+  - 1573_未知国家-5.91MB
   - 1574_荷兰-1.43MB
   - 1575_韩国-986.7KB
   - 1576_印度-3.13MB
@@ -15592,12 +15592,12 @@ proxy-groups:
   - 1654_法国-2.78MB
   - 1655_新加坡-3.43MB
   - 1656_新加坡-2.29MB
-  - 1657_香港-22.31MB
-  - 1658_法国-2.55MB
-  - 1659_香港-20.28MB
-  - 1660_法国-2.71MB
-  - 1661_香港-23.33MB
-  - 1662_香港-21.27MB
+  - 1657_法国-2.55MB
+  - 1658_香港-20.28MB
+  - 1659_香港-16.76MB
+  - 1660_香港-16.80MB
+  - 1661_法国-2.91MB
+  - 1662_香港-1.38MB
   type: select
 - name: Final
   proxies:
@@ -16523,7 +16523,7 @@ proxy-groups:
   - 909_美国-2.17MB
   - 910_美国-5.87MB
   - 911_美国-5.20MB
-  - 912_美国-5.06MB
+  - 912_美国-345.1KB
   - 913_美国-1.83MB
   - 914_美国-307.8KB
   - 915_美国-4.89MB
@@ -17066,8 +17066,8 @@ proxy-groups:
   - 1452_台湾-1.79MB
   - 1453_(已存活1天)台湾-694.6KB
   - 1454_日本-2.78MB
-  - 1455_台湾-904.9KB
-  - 1456_日本-1.60MB
+  - 1455_日本-1.60MB
+  - 1456_台湾-1.58MB
   - 1457_芬兰-1.47MB
   - 1458_爱尔兰-2.89MB
   - 1459_芬兰-1.41MB
@@ -17181,10 +17181,10 @@ proxy-groups:
   - 1567_未知国家-4.81MB
   - 1568_新加坡-3.82MB
   - 1569_未知国家-3.86MB
-  - 1570_未知国家-6.24MB
-  - 1571_未知国家-6.95MB
-  - 1572_新加坡-486.6KB
-  - 1573_未知国家-5.52MB
+  - 1570_新加坡-486.6KB
+  - 1571_未知国家-4.36MB
+  - 1572_未知国家-3.22MB
+  - 1573_未知国家-5.91MB
   - 1574_荷兰-1.43MB
   - 1575_韩国-986.7KB
   - 1576_印度-3.13MB
@@ -17268,12 +17268,12 @@ proxy-groups:
   - 1654_法国-2.78MB
   - 1655_新加坡-3.43MB
   - 1656_新加坡-2.29MB
-  - 1657_香港-22.31MB
-  - 1658_法国-2.55MB
-  - 1659_香港-20.28MB
-  - 1660_法国-2.71MB
-  - 1661_香港-23.33MB
-  - 1662_香港-21.27MB
+  - 1657_法国-2.55MB
+  - 1658_香港-20.28MB
+  - 1659_香港-16.76MB
+  - 1660_香港-16.80MB
+  - 1661_法国-2.91MB
+  - 1662_香港-1.38MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -18189,7 +18189,7 @@ proxy-groups:
   - 909_美国-2.17MB
   - 910_美国-5.87MB
   - 911_美国-5.20MB
-  - 912_美国-5.06MB
+  - 912_美国-345.1KB
   - 913_美国-1.83MB
   - 914_美国-307.8KB
   - 915_美国-4.89MB
@@ -18732,8 +18732,8 @@ proxy-groups:
   - 1452_台湾-1.79MB
   - 1453_(已存活1天)台湾-694.6KB
   - 1454_日本-2.78MB
-  - 1455_台湾-904.9KB
-  - 1456_日本-1.60MB
+  - 1455_日本-1.60MB
+  - 1456_台湾-1.58MB
   - 1457_芬兰-1.47MB
   - 1458_爱尔兰-2.89MB
   - 1459_芬兰-1.41MB
@@ -18847,10 +18847,10 @@ proxy-groups:
   - 1567_未知国家-4.81MB
   - 1568_新加坡-3.82MB
   - 1569_未知国家-3.86MB
-  - 1570_未知国家-6.24MB
-  - 1571_未知国家-6.95MB
-  - 1572_新加坡-486.6KB
-  - 1573_未知国家-5.52MB
+  - 1570_新加坡-486.6KB
+  - 1571_未知国家-4.36MB
+  - 1572_未知国家-3.22MB
+  - 1573_未知国家-5.91MB
   - 1574_荷兰-1.43MB
   - 1575_韩国-986.7KB
   - 1576_印度-3.13MB
@@ -18934,12 +18934,12 @@ proxy-groups:
   - 1654_法国-2.78MB
   - 1655_新加坡-3.43MB
   - 1656_新加坡-2.29MB
-  - 1657_香港-22.31MB
-  - 1658_法国-2.55MB
-  - 1659_香港-20.28MB
-  - 1660_法国-2.71MB
-  - 1661_香港-23.33MB
-  - 1662_香港-21.27MB
+  - 1657_法国-2.55MB
+  - 1658_香港-20.28MB
+  - 1659_香港-16.76MB
+  - 1660_香港-16.80MB
+  - 1661_法国-2.91MB
+  - 1662_香港-1.38MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
