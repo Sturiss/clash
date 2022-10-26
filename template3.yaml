@@ -14972,6 +14972,11 @@ proxies:
   port: '3389'
   server: 5.44.249.43
   type: trojan
+- name: 2045_新加坡-1.92MB
+  password: 01e80e00-2f18-47ea-8c2f-7dbc5b57b71f
+  port: '80'
+  server: 1024sg99.tfzhc.top
+  type: trojan
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -17020,6 +17025,7 @@ proxy-groups:
   - 2042_新加坡-1.40MB
   - 2043_新加坡-1.31MB
   - 2044_新加坡-1.47MB
+  - 2045_新加坡-1.92MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -19069,6 +19075,7 @@ proxy-groups:
   - 2042_新加坡-1.40MB
   - 2043_新加坡-1.31MB
   - 2044_新加坡-1.47MB
+  - 2045_新加坡-1.92MB
   type: select
 - name: Final
   proxies:
@@ -21127,6 +21134,7 @@ proxy-groups:
   - 2042_新加坡-1.40MB
   - 2043_新加坡-1.31MB
   - 2044_新加坡-1.47MB
+  - 2045_新加坡-1.92MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -23175,6 +23183,7 @@ proxy-groups:
   - 2042_新加坡-1.40MB
   - 2043_新加坡-1.31MB
   - 2044_新加坡-1.47MB
+  - 2045_新加坡-1.92MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
