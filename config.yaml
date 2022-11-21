@@ -8,8 +8,8 @@
 # (HTTP and SOCKS5 in one port)
 mixed-port: 7890
 # RESTful API for clash
-external-controller: 127.0.0.1:60835
-allow-lan: false
+external-controller: 127.0.0.1:54234
+allow-lan: true
 mode: rule
 log-level: warning
 
@@ -24,3 +24,4 @@ rules:
   - DOMAIN-SUFFIX,ad.com,REJECT
   - GEOIP,CN,DIRECT
   - MATCH,DIRECT
+ipv6: true
