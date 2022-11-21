@@ -3,10 +3,10 @@ hideAfterStartup: false
 randomControllerPort: true
 runTimeFormat: "hh : mm : ss"
 trayOrders:
-  - - icon
   - - status
+    - icon
     - traffic
-    - text
+  - - text
 hideTrayIcon: false
 editor: 0
 theme: 1
@@ -16,6 +16,10 @@ connShowProcess: true
 showTrayProxyDelayIndicator: true
 randomMixedPort: true
 latencyUrl: https://www.google.com
-latencyTimeout: 3000
+latencyTimeout: 5000
 connProxy: 0
 connChainType: 0
+showProxyFilter: true
+hideUnselectableGroup: true
+useSystemEmoji: false
+shortcutShowHideDashboard: ""
