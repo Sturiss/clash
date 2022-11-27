@@ -6585,6 +6585,18 @@ proxies:
   ws-headers:
     host: ''
   ws-path: /
+- alterId: '0'
+  cipher: auto
+  name: 668_韩国-3.93MB
+  network: ws
+  port: '443'
+  server: kr1.sanfen001.pics
+  tls: 1
+  type: vmess
+  uuid: b7d2a97b-ab6e-438d-922d-b541b5ff0722
+  ws-headers:
+    host: www.microsoft.com
+  ws-path: /zh-cn
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -7256,6 +7268,7 @@ proxy-groups:
   - 665_香港-4.63MB
   - 666_香港-1.95MB
   - 667_印度-3.28MB
+  - 668_韩国-3.93MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -7928,6 +7941,7 @@ proxy-groups:
   - 665_香港-4.63MB
   - 666_香港-1.95MB
   - 667_印度-3.28MB
+  - 668_韩国-3.93MB
   type: select
 - name: Final
   proxies:
@@ -8609,6 +8623,7 @@ proxy-groups:
   - 665_香港-4.63MB
   - 666_香港-1.95MB
   - 667_印度-3.28MB
+  - 668_韩国-3.93MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -9280,6 +9295,7 @@ proxy-groups:
   - 665_香港-4.63MB
   - 666_香港-1.95MB
   - 667_印度-3.28MB
+  - 668_韩国-3.93MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
