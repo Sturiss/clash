@@ -1150,14 +1150,8 @@ proxies:
   port: '65009'
   server: iepl01.xjh001.top
   type: ss
-- cipher: aes-128-gcm
-  name: 173_中国-1.44MB
-  password: 37b23942-ebfe-4e4b-8b41-5286fff8a10f
-  port: '65005'
-  server: iepl01.xjh001.top
-  type: ss
 - cipher: rc4-md5
-  name: 174_中国-13.20MB
+  name: 173_中国-13.20MB
   password: Paofu
   plugin-opts:
     host: 37f7e180722.microsoft.com
@@ -1166,21 +1160,27 @@ proxies:
   server: yd-06.paofunlink.com
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 175_中国-2.76MB
+  name: 174_中国-2.76MB
   password: 37b23942-ebfe-4e4b-8b41-5286fff8a10f
   port: '65000'
   server: t1.xjh001.top
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: 176_中国-671.0KB
+  name: 175_中国-671.0KB
   password: a501c82c72d790b8
   port: '8474'
   server: 47.103.109.204
   type: ss
 - cipher: aes-128-gcm
-  name: 177_中国-3.32MB
+  name: 176_中国-3.32MB
   password: 37b23942-ebfe-4e4b-8b41-5286fff8a10f
   port: '65006'
+  server: iepl01.xjh001.top
+  type: ss
+- cipher: aes-128-gcm
+  name: 177_中国-3.80MB
+  password: 37b23942-ebfe-4e4b-8b41-5286fff8a10f
+  port: '65005'
   server: iepl01.xjh001.top
   type: ss
 - alterId: '0'
@@ -7704,7 +7704,7 @@ proxies:
   ws-path: /tandung288.click
 - alterId: '0'
   cipher: auto
-  name: 737_越南-2.23MB
+  name: 737_越南-1.13MB
   network: ws
   port: '80'
   server: 103.75.186.153
@@ -7716,7 +7716,7 @@ proxies:
   ws-path: /tandung288.click
 - alterId: '0'
   cipher: auto
-  name: 738_越南-3.49MB
+  name: 738_越南-3.61MB
   network: ws
   port: '80'
   server: 103.166.183.226
@@ -7902,11 +7902,11 @@ proxy-groups:
   - 170_中国-2.03MB
   - 171_(已存活3天)中国-2.01MB
   - 172_中国-2.08MB
-  - 173_中国-1.44MB
-  - 174_中国-13.20MB
-  - 175_中国-2.76MB
-  - 176_中国-671.0KB
-  - 177_中国-3.32MB
+  - 173_中国-13.20MB
+  - 174_中国-2.76MB
+  - 175_中国-671.0KB
+  - 176_中国-3.32MB
+  - 177_中国-3.80MB
   - 178_中国-5.32MB
   - 179_中国-1.12MB
   - 180_中国-1.46MB
@@ -8466,8 +8466,8 @@ proxy-groups:
   - 734_香港-3.06MB
   - 735_新加坡-915.1KB
   - 736_越南-3.38MB
-  - 737_越南-2.23MB
-  - 738_越南-3.49MB
+  - 737_越南-1.13MB
+  - 738_越南-3.61MB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -8645,11 +8645,11 @@ proxy-groups:
   - 170_中国-2.03MB
   - 171_(已存活3天)中国-2.01MB
   - 172_中国-2.08MB
-  - 173_中国-1.44MB
-  - 174_中国-13.20MB
-  - 175_中国-2.76MB
-  - 176_中国-671.0KB
-  - 177_中国-3.32MB
+  - 173_中国-13.20MB
+  - 174_中国-2.76MB
+  - 175_中国-671.0KB
+  - 176_中国-3.32MB
+  - 177_中国-3.80MB
   - 178_中国-5.32MB
   - 179_中国-1.12MB
   - 180_中国-1.46MB
@@ -9209,8 +9209,8 @@ proxy-groups:
   - 734_香港-3.06MB
   - 735_新加坡-915.1KB
   - 736_越南-3.38MB
-  - 737_越南-2.23MB
-  - 738_越南-3.49MB
+  - 737_越南-1.13MB
+  - 738_越南-3.61MB
   type: select
 - name: Final
   proxies:
@@ -9397,11 +9397,11 @@ proxy-groups:
   - 170_中国-2.03MB
   - 171_(已存活3天)中国-2.01MB
   - 172_中国-2.08MB
-  - 173_中国-1.44MB
-  - 174_中国-13.20MB
-  - 175_中国-2.76MB
-  - 176_中国-671.0KB
-  - 177_中国-3.32MB
+  - 173_中国-13.20MB
+  - 174_中国-2.76MB
+  - 175_中国-671.0KB
+  - 176_中国-3.32MB
+  - 177_中国-3.80MB
   - 178_中国-5.32MB
   - 179_中国-1.12MB
   - 180_中国-1.46MB
@@ -9961,8 +9961,8 @@ proxy-groups:
   - 734_香港-3.06MB
   - 735_新加坡-915.1KB
   - 736_越南-3.38MB
-  - 737_越南-2.23MB
-  - 738_越南-3.49MB
+  - 737_越南-1.13MB
+  - 738_越南-3.61MB
   type: select
 - name: HKMTMedia
   proxies:
@@ -10139,11 +10139,11 @@ proxy-groups:
   - 170_中国-2.03MB
   - 171_(已存活3天)中国-2.01MB
   - 172_中国-2.08MB
-  - 173_中国-1.44MB
-  - 174_中国-13.20MB
-  - 175_中国-2.76MB
-  - 176_中国-671.0KB
-  - 177_中国-3.32MB
+  - 173_中国-13.20MB
+  - 174_中国-2.76MB
+  - 175_中国-671.0KB
+  - 176_中国-3.32MB
+  - 177_中国-3.80MB
   - 178_中国-5.32MB
   - 179_中国-1.12MB
   - 180_中国-1.46MB
@@ -10703,8 +10703,8 @@ proxy-groups:
   - 734_香港-3.06MB
   - 735_新加坡-915.1KB
   - 736_越南-3.38MB
-  - 737_越南-2.23MB
-  - 738_越南-3.49MB
+  - 737_越南-1.13MB
+  - 738_越南-3.61MB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
