@@ -23,11 +23,12 @@ dns:
     - tls://dns.google:853
     
 proxies:
-- { name: "GetAFreeNode-LosAngeles", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: LosAngeles.v2ray.online } } }
 - { name: "GetAFreeNode-Vienna", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Vienna.v2ray.online } } }
 - { name: "GetAFreeNode-Frankfurt", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Frankfurt.v2ray.online } } }
-- { name: "GetAFreeNode-Phoenix", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Phoenix.v2ray.online } } }
+- { name: "GetAFreeNode-LosAngeles", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: LosAngeles.v2ray.online } } }
+- { name: "GetAFreeNode-Seattle", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Seattle.v2ray.online } } }
 - { name: "GetAFreeNode-Amsterdam", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Amsterdam.v2ray.online } } }
+- { name: "GetAFreeNode-Phoenix", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Phoenix.v2ray.online } } }
 
 
 proxy-groups:
@@ -36,11 +37,12 @@ proxy-groups:
     type: select
     proxies:
       - Auto Choose
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
 
 
   - name: "AD Block"
@@ -55,11 +57,12 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
 
       - Directly
 
@@ -68,11 +71,12 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
 
       - Directly
 
@@ -81,11 +85,12 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
 
       - Directly
       
@@ -95,21 +100,23 @@ proxy-groups:
       - Directly
       - Main Node
       - Auto Choose
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
 
 
   - name: "Auto Choose"
     type: fallback
     proxies:
-      - GetAFreeNode-LosAngeles
       - GetAFreeNode-Vienna
       - GetAFreeNode-Frankfurt
-      - GetAFreeNode-Phoenix
+      - GetAFreeNode-LosAngeles
+      - GetAFreeNode-Seattle
       - GetAFreeNode-Amsterdam
+      - GetAFreeNode-Phoenix
 
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
