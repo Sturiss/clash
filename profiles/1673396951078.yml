@@ -25,10 +25,11 @@ proxies:
     - { name: 「SCP」LU-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, udp: true, tls: true, servername: lu.sharecentre.online, network: ws, ws-opts: { path: /shirker, headers: { Host: lu.sharecentre.online } }, ws-path: /shirker, ws-headers: { Host: lu.sharecentre.online } }
     - { name: 「SCP」KR-CF, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, udp: true, tls: true, servername: kr.sharecentre.online, network: ws, ws-opts: { path: /shirker, headers: { Host: kr.sharecentre.online } }, ws-path: /shirker, ws-headers: { Host: kr.sharecentre.online } }
     - { name: 「SCP」US-DP, type: vmess, server: cf-lt.sharecentre.online, port: 443, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, udp: true, tls: true, servername: us-dp.sharecentre.online, network: ws, ws-opts: { path: /shirker, headers: { Host: us-dp.sharecentre.online } }, ws-path: /shirker, ws-headers: { Host: us-dp.sharecentre.online } }
+    - { name: 「SCP」US-BuyVM2, type: vmess, server: mncc.cf, port: 443, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, udp: true, tls: true, servername: mncc.cf, network: ws, ws-opts: { path: /shirker, headers: { Host: mncc.cf } }, ws-path: /shirker, ws-headers: { Host: mncc.cf } }
 proxy-groups:
-    - { name: SCP, type: select, proxies: [自动选择, 故障转移, 「SCP」US-CF1, 「SCP」JP-蛋糕并不是谎言, 「SCP」SG-Gcore, 「SCP」US-BuyVM, 「SCP」US-DP2, 「SCP」US-CF2, 「SCP」HK-CF-Gcore, 「SCP」LU-CF, 「SCP」KR-CF, 「SCP」US-DP] }
-    - { name: 自动选择, type: url-test, proxies: [「SCP」US-CF1, 「SCP」JP-蛋糕并不是谎言, 「SCP」SG-Gcore, 「SCP」US-BuyVM, 「SCP」US-DP2, 「SCP」US-CF2, 「SCP」HK-CF-Gcore, 「SCP」LU-CF, 「SCP」KR-CF, 「SCP」US-DP], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
-    - { name: 故障转移, type: fallback, proxies: [「SCP」US-CF1, 「SCP」JP-蛋糕并不是谎言, 「SCP」SG-Gcore, 「SCP」US-BuyVM, 「SCP」US-DP2, 「SCP」US-CF2, 「SCP」HK-CF-Gcore, 「SCP」LU-CF, 「SCP」KR-CF, 「SCP」US-DP], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
+    - { name: SCP, type: select, proxies: [自动选择, 故障转移, 「SCP」US-CF1, 「SCP」JP-蛋糕并不是谎言, 「SCP」SG-Gcore, 「SCP」US-BuyVM, 「SCP」US-DP2, 「SCP」US-CF2, 「SCP」HK-CF-Gcore, 「SCP」LU-CF, 「SCP」KR-CF, 「SCP」US-DP, 「SCP」US-BuyVM2] }
+    - { name: 自动选择, type: url-test, proxies: [「SCP」US-CF1, 「SCP」JP-蛋糕并不是谎言, 「SCP」SG-Gcore, 「SCP」US-BuyVM, 「SCP」US-DP2, 「SCP」US-CF2, 「SCP」HK-CF-Gcore, 「SCP」LU-CF, 「SCP」KR-CF, 「SCP」US-DP, 「SCP」US-BuyVM2], url: 'http://www.gstatic.com/generate_204', interval: 86400 }
+    - { name: 故障转移, type: fallback, proxies: [「SCP」US-CF1, 「SCP」JP-蛋糕并不是谎言, 「SCP」SG-Gcore, 「SCP」US-BuyVM, 「SCP」US-DP2, 「SCP」US-CF2, 「SCP」HK-CF-Gcore, 「SCP」LU-CF, 「SCP」KR-CF, 「SCP」US-DP, 「SCP」US-BuyVM2], url: 'http://www.gstatic.com/generate_204', interval: 7200 }
 rules:
     - 'DOMAIN,panel.sharecentre.online,DIRECT'
     - 'DOMAIN-SUFFIX,services.googleapis.cn,SCP'
