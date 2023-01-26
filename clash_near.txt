@@ -330,7 +330,7 @@ proxies:
   ws-path: /aries
 - alterId: '1'
   cipher: auto
-  name: 28_中国-7.79MB
+  name: 28_中国-5.83MB
   network: tcp
   port: '10004'
   server: 103.45.78.197
@@ -931,19 +931,7 @@ proxies:
   ws-path: /AUIKN8AU
 - alterId: '0'
   cipher: auto
-  name: 79_美国-2.19MB
-  network: ws
-  port: '443'
-  server: 66.235.200.21
-  tls: 1
-  type: vmess
-  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
-  ws-headers:
-    host: oplg1.zhujicn2.com
-  ws-path: /5QNROSRV
-- alterId: '0'
-  cipher: auto
-  name: 80_美国-824.8KB
+  name: 79_美国-4.16MB
   network: ws
   port: '443'
   server: 66.235.200.22
@@ -953,6 +941,18 @@ proxies:
   ws-headers:
     host: lg10.cfcdn1.xyz
   ws-path: /A2DJOPFT
+- alterId: '0'
+  cipher: auto
+  name: 80_美国-983.6KB
+  network: ws
+  port: '443'
+  server: 66.235.200.21
+  tls: 1
+  type: vmess
+  uuid: 56a2188b-2ab7-402c-b9b8-34847fdf0958
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
 - cipher: chacha20-ietf-poly1305
   name: 81_日本-3.21MB
   password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
@@ -2506,19 +2506,7 @@ proxies:
   ws-path: /5QNROSRV
 - alterId: '0'
   cipher: auto
-  name: 212_新加坡-424.8KB
-  network: tcp
-  port: '10013'
-  server: iplc-sg.19991314.xyz
-  tls: 0
-  type: vmess
-  uuid: d89ccf42-e9e9-4a0d-8230-8bee621f970e
-  ws-headers:
-    host: lg10.cfcdn1.xyz
-  ws-path: /A2DJOPFT
-- alterId: '0'
-  cipher: auto
-  name: 213_伯利兹-5.83MB
+  name: 212_伯利兹-5.83MB
   network: ws
   port: '443'
   server: 203.30.189.189
@@ -2530,7 +2518,7 @@ proxies:
   ws-path: /ECTCJ0DF
 - alterId: '0'
   cipher: auto
-  name: 214_伯利兹-5.89MB
+  name: 213_伯利兹-5.89MB
   network: ws
   port: '443'
   server: 203.30.190.190
@@ -2542,7 +2530,7 @@ proxies:
   ws-path: /ECTCJ0DF
 - alterId: '0'
   cipher: auto
-  name: 215_加拿大-1.33MB
+  name: 214_加拿大-1.95MB
   network: ws
   port: '443'
   server: 23.227.38.39
@@ -2552,6 +2540,18 @@ proxies:
   ws-headers:
     host: opfr1.v2rayfree1.xyz
   ws-path: /IYKLD53M
+- alterId: '0'
+  cipher: auto
+  name: 215_新加坡-454.1KB
+  network: tcp
+  port: '10013'
+  server: iplc-sg.19991314.xyz
+  tls: 0
+  type: vmess
+  uuid: d89ccf42-e9e9-4a0d-8230-8bee621f970e
+  ws-headers:
+    host: oplg1.zhujicn2.com
+  ws-path: /5QNROSRV
 proxy-groups:
 - interval: 3600
   name: 自动选择
@@ -2583,7 +2583,7 @@ proxy-groups:
   - 25_中国-4.99MB
   - 26_中国-2.93MB
   - 27_中国-8.86MB
-  - 28_中国-7.79MB
+  - 28_中国-5.83MB
   - 29_中国-9.84MB
   - 30_中国-2.41MB
   - 31_美国-3.21MB
@@ -2634,8 +2634,8 @@ proxy-groups:
   - 76_美国-4.76MB
   - 77_美国-2.99MB
   - 78_美国-4.65MB
-  - 79_美国-2.19MB
-  - 80_美国-824.8KB
+  - 79_美国-4.16MB
+  - 80_美国-983.6KB
   - 81_日本-3.21MB
   - 82_日本-2.40MB
   - 83_日本-3.05MB
@@ -2767,10 +2767,10 @@ proxy-groups:
   - 209_未知国家-4.00MB
   - 210_未知国家-803.8KB
   - 211_塞浦路斯-4.32MB
-  - 212_新加坡-424.8KB
-  - 213_伯利兹-5.83MB
-  - 214_伯利兹-5.89MB
-  - 215_加拿大-1.33MB
+  - 212_伯利兹-5.83MB
+  - 213_伯利兹-5.89MB
+  - 214_加拿大-1.95MB
+  - 215_新加坡-454.1KB
   type: url-test
   url: https://www.google.com/
 - name: PROXY
@@ -2803,7 +2803,7 @@ proxy-groups:
   - 25_中国-4.99MB
   - 26_中国-2.93MB
   - 27_中国-8.86MB
-  - 28_中国-7.79MB
+  - 28_中国-5.83MB
   - 29_中国-9.84MB
   - 30_中国-2.41MB
   - 31_美国-3.21MB
@@ -2854,8 +2854,8 @@ proxy-groups:
   - 76_美国-4.76MB
   - 77_美国-2.99MB
   - 78_美国-4.65MB
-  - 79_美国-2.19MB
-  - 80_美国-824.8KB
+  - 79_美国-4.16MB
+  - 80_美国-983.6KB
   - 81_日本-3.21MB
   - 82_日本-2.40MB
   - 83_日本-3.05MB
@@ -2987,10 +2987,10 @@ proxy-groups:
   - 209_未知国家-4.00MB
   - 210_未知国家-803.8KB
   - 211_塞浦路斯-4.32MB
-  - 212_新加坡-424.8KB
-  - 213_伯利兹-5.83MB
-  - 214_伯利兹-5.89MB
-  - 215_加拿大-1.33MB
+  - 212_伯利兹-5.83MB
+  - 213_伯利兹-5.89MB
+  - 214_加拿大-1.95MB
+  - 215_新加坡-454.1KB
   type: select
 - name: Final
   proxies:
@@ -3032,7 +3032,7 @@ proxy-groups:
   - 25_中国-4.99MB
   - 26_中国-2.93MB
   - 27_中国-8.86MB
-  - 28_中国-7.79MB
+  - 28_中国-5.83MB
   - 29_中国-9.84MB
   - 30_中国-2.41MB
   - 31_美国-3.21MB
@@ -3083,8 +3083,8 @@ proxy-groups:
   - 76_美国-4.76MB
   - 77_美国-2.99MB
   - 78_美国-4.65MB
-  - 79_美国-2.19MB
-  - 80_美国-824.8KB
+  - 79_美国-4.16MB
+  - 80_美国-983.6KB
   - 81_日本-3.21MB
   - 82_日本-2.40MB
   - 83_日本-3.05MB
@@ -3216,10 +3216,10 @@ proxy-groups:
   - 209_未知国家-4.00MB
   - 210_未知国家-803.8KB
   - 211_塞浦路斯-4.32MB
-  - 212_新加坡-424.8KB
-  - 213_伯利兹-5.83MB
-  - 214_伯利兹-5.89MB
-  - 215_加拿大-1.33MB
+  - 212_伯利兹-5.83MB
+  - 213_伯利兹-5.89MB
+  - 214_加拿大-1.95MB
+  - 215_新加坡-454.1KB
   type: select
 - name: HKMTMedia
   proxies:
@@ -3251,7 +3251,7 @@ proxy-groups:
   - 25_中国-4.99MB
   - 26_中国-2.93MB
   - 27_中国-8.86MB
-  - 28_中国-7.79MB
+  - 28_中国-5.83MB
   - 29_中国-9.84MB
   - 30_中国-2.41MB
   - 31_美国-3.21MB
@@ -3302,8 +3302,8 @@ proxy-groups:
   - 76_美国-4.76MB
   - 77_美国-2.99MB
   - 78_美国-4.65MB
-  - 79_美国-2.19MB
-  - 80_美国-824.8KB
+  - 79_美国-4.16MB
+  - 80_美国-983.6KB
   - 81_日本-3.21MB
   - 82_日本-2.40MB
   - 83_日本-3.05MB
@@ -3435,10 +3435,10 @@ proxy-groups:
   - 209_未知国家-4.00MB
   - 210_未知国家-803.8KB
   - 211_塞浦路斯-4.32MB
-  - 212_新加坡-424.8KB
-  - 213_伯利兹-5.83MB
-  - 214_伯利兹-5.89MB
-  - 215_加拿大-1.33MB
+  - 212_伯利兹-5.83MB
+  - 213_伯利兹-5.89MB
+  - 214_加拿大-1.95MB
+  - 215_新加坡-454.1KB
   type: select
 rules:
 - DOMAIN-SUFFIX,googletraveladservices.com,DIRECT
