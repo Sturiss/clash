@@ -23,13 +23,13 @@ dns:
     - tls://dns.google:853
     
 proxies:
-- { name: "GetAFreeNode.com-Vienna", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Vienna.v2ray.online } } }
-- { name: "GetAFreeNode.com-Social-Media", type: vmess, server: 176.97.71.84, port: 38465, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Tokyo.v2ray.online } } }
-- { name: "GetAFreeNode.com-LosAngeles", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: LosAngeles.v2ray.online } } }
-- { name: "GetAFreeNode.com-Phoenix", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Phoenix.v2ray.online } } }
 - { name: "GetAFreeNode.com-Seattle", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Seattle.v2ray.online } } }
+- { name: "GetAFreeNode.com-Vienna", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Vienna.v2ray.online } } }
 - { name: "GetAFreeNode.com-Amsterdam", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Amsterdam.v2ray.online } } }
+- { name: "GetAFreeNode.com-Social-Media", type: vmess, server: 176.97.71.84, port: 38406, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Tokyo.v2ray.online } } }
+- { name: "GetAFreeNode.com-LosAngeles", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: LosAngeles.v2ray.online } } }
 - { name: "GetAFreeNode.com-Helsinki", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Helsinki.v2ray.online } } }
+- { name: "GetAFreeNode.com-Phoenix", type: vmess, server: v2ray.online, port: 443, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, network: ws, ws-opts: { path: /speedtest, headers: { host: Phoenix.v2ray.online } } }
 
 
 proxy-groups:
@@ -38,13 +38,13 @@ proxy-groups:
     type: select
     proxies:
       - Auto Choose
+      - GetAFreeNode.com-Seattle
       - GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
       - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-Phoenix
 
 
   - name: "AD Block"
@@ -59,13 +59,13 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
+      - GetAFreeNode.com-Seattle
       - GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
       - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-Phoenix
 
       - Directly
 
@@ -74,13 +74,13 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
+      - GetAFreeNode.com-Seattle
       - GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
       - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-Phoenix
 
       - Directly
 
@@ -89,13 +89,13 @@ proxy-groups:
     proxies:
       - Main Node
       - Auto Choose
+      - GetAFreeNode.com-Seattle
       - GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
       - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-Phoenix
 
       - Directly
       
@@ -105,25 +105,25 @@ proxy-groups:
       - Directly
       - Main Node
       - Auto Choose
+      - GetAFreeNode.com-Seattle
       - GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
       - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-Phoenix
 
 
   - name: "Auto Choose"
     type: fallback
     proxies:
+      - GetAFreeNode.com-Seattle
       - GetAFreeNode.com-Vienna
+      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Social-Media
       - GetAFreeNode.com-LosAngeles
-      - GetAFreeNode.com-Phoenix
-      - GetAFreeNode.com-Seattle
-      - GetAFreeNode.com-Amsterdam
       - GetAFreeNode.com-Helsinki
+      - GetAFreeNode.com-Phoenix
 
     url: 'http://www.gstatic.com/generate_204'
     interval: 300
